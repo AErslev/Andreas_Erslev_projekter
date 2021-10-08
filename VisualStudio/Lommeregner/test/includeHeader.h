@@ -1,0 +1,16 @@
+#include "intro.h"
+#include <math.h>
+#include <time.h> 
+#include "plus.h"
+#include "minus.h"
+#include "gange.h"
+#include "dividere.h"
+#include "tabel.h"
+#include "sortering.h"
+#include "modstand.h"
+#include "potens.h"
+#include "kvadratrod.h"
+#include "kubikrod.h"
+#include "fakultet.h"
+#include "firkant.h"
+#include "juletrae.h"

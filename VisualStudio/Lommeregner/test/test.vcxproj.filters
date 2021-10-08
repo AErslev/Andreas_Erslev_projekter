@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dividere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modstand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sortering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kvadratrod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kubikrod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="juletrae.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lommeregner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="firkant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fakultet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="afslutning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="slet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lommeregner funktioner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
