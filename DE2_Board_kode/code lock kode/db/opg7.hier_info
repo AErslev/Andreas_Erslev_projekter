@@ -1,0 +1,34 @@
+|code_lock
+clk => present_state~1.DATAIN
+reset => present_state~3.DATAIN
+enter => code_lock_next_state.IN1
+enter => code_lock_next_state.IN1
+enter => code_lock_next_state.IN1
+enter => code_lock_next_state.IN1
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => Selector2.IN5
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => next_state.OUTPUTSELECT
+enter => Selector3.IN1
+pin[0] => Equal0.IN3
+pin[0] => Equal1.IN2
+pin[1] => Equal0.IN2
+pin[1] => Equal1.IN3
+pin[2] => Equal0.IN0
+pin[2] => Equal1.IN1
+pin[3] => Equal0.IN1
+pin[3] => Equal1.IN0
+lock <= pc_state.DB_MAX_OUTPUT_PORT_TYPE
+
+
