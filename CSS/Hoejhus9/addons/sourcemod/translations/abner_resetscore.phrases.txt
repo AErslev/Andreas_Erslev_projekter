@@ -1,0 +1,87 @@
+"Phrases"
+{
+	"Command RS"
+	{
+		"en"			"Usage: sm_resetplayer <name or #userid>"
+	}
+
+	"Command SetScore"
+	{
+		"en"			"Usage: sm_setscore <name or #userid> <Kills> <Deaths>"
+	}
+	"Command SetAssists"
+	{
+		"en"			"Usage: sm_setassists <name or #userid> <assists>"
+	}
+	"Command SetStars"
+	{
+		"en"			"Usage: sm_setstars <name or #userid> <stars>"
+	}
+	"Reset Score of"
+	{
+		"#format"		"{1:s}"
+		"en"			"reseset score of {1}."
+	}
+	"Set Score of"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"en"			"set score of {1} to {2}/{3}."
+	}
+
+	"Set Stars of"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"set stars of {1} to {2}."
+	}
+
+	"Set Assists of"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"set assists of {1} to {2}."
+	}
+
+	"Set Score Console"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"en"			"Console set score of {1} to {2}/{3}."
+	}
+
+	"Plugin Disabled"
+	{
+		"en"			"The plugin is disabled."
+	}
+
+	"Server Reset"
+	{
+		"en"			"Serveren kan ikke nulstille hans score."
+	}
+
+	"Score 0"
+	{
+		"en"			"Din score er allerede 0."
+	}
+
+	"Player Reset Red"
+	{
+		"#format"		"{1:s}"
+		"en"			"Spiller {red}{1} {default}har lige nulstillet sin score."
+	}
+
+	"Player Reset Blue"
+	{
+		"#format"		"{1:s}"
+		"en"			"Spiller {blue}{1} {default}har lige nulstillet sin score."
+	}
+
+	"Player Reset Normal"
+	{
+		"#format"		"{1:s}"
+		"en"			"Spiller {lightgreen}{1} {default}har lige nulstillet sin score."
+	}
+
+	"You Reset"
+	{
+		"en"			"Du har nulstillet din score !."
+	}
+
+}
