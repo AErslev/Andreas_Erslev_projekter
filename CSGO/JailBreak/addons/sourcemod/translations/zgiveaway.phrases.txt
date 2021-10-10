@@ -1,0 +1,16 @@
+"Phrases"
+{
+	"GiveAway Result"
+	{
+		"#format"	"{1:s},{2:N},{3:d}"
+		"en"		"{green}{1}{purple} The selected player was: {green}{2}, {purple} he won {green}{3} {purple}credits!"
+		"pt"		"{green}{1}{purple} O jogador escolhido foi: {green}{2}, {purple}e ele ganhou {green}{3} {purple}créditos!"
+	}
+	
+	"Minimum Players"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"{green}{1}{purple} To do a giveaway the server must contain at least {green}{2} {purple}players"
+		"pt"		"{green}{1}{purple} Para fazer um sorteio o servidor deve conter pelo menos {green}{2} {purple}jogadores"
+	}
+}

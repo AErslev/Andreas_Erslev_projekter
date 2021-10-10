@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/ffxiii/lightning/Light_eye_d"
+	$bumpmap "models/player/ffxiii/lightning/Light_eye_n"
+	$nodecal 1
+
+	"$phong" "1"
+	"$phongBoost" "2"
+	"$phongExponent" "50"  
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$PhongAlbedoTint" "1"
+}

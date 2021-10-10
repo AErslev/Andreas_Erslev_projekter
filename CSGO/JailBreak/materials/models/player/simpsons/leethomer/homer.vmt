@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\simpsons\leethomer\homer"
+	"$halflambert" 1
+	"$bumpmap" "models\player\simpsons\leethomer\homer_normal"
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

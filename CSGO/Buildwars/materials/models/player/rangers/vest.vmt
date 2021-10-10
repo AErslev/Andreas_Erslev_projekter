@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\rangers\vest"
+	"$bumpmap" "models\player\rangers\vest_NORM"
+}

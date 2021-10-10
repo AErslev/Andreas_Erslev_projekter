@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\natalya\hs\head"
+	"$halflambert" 1
+$bumpmap "models\player\natalya\hs\head_normal"
+$phong 0.75
+$phongexponent 6
+$ambientocclusion 1
+$diffuseexp "1.0"
+$lightwarptexture "models\player\natalya\hs\head_wrp"
+"$rimlight" "1"
+"$rimlightexponent" "1"
+"$rimlightboost" "1"
+}

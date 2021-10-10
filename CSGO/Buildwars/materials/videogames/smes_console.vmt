@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture" "videogames/smes_console"
+	"$surfaceprop" "Computer"
+}

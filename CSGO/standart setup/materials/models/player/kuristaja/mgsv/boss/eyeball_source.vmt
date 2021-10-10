@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/eyeball_source"
+	"$bumpmap"    "models/player/kuristaja/mgsv/boss/eyeball_normal"
+
+	"$phong" 			"1"
+	"$phongboost"			"20"
+	"$phongexponent"			"15"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+}
+
+

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "hangover\hats\jesterhat\jesterhat_red"
+	"$selfillum" 1
+}

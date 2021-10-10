@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/venom_snake_face_d"
+	"$bumpmap"    "models/player/kuristaja/mgsv/boss/venom_snake_face_normal"
+	
+	"$phong"	"1"
+	"$phongexponent"	"9"
+	"$phongalbedotint"	"0"
+	"$phongboost"	"0.035"
+	"$phongfresnelranges"	"[5 7 8]"
+   	 "$lightwarptexture" 	"models/player/kuristaja/mgsv/boss/clothes_wrp"
+	"$phongexponenttexture" "models/player/kuristaja/mgsv/boss/green"
+}
+
+

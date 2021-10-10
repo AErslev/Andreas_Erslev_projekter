@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/luigi_gxy/slow_eye"
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	".22"
+	"$phongfresnelranges"	"[1 1 1]"
+}

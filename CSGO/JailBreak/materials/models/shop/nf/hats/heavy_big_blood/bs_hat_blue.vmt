@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\shop\nf\hats\heavy_big_blood/bs_hat_blue.vtf"
+	"$bumpmap" "models\shop\nf\hats\heavy_big_blood/bs_hat_bump.vtf" 
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".5"
+	"$phongfresnelranges"	"[.25 .5 4]"
+	"$basemapalphaphongmask" "1"
+
+}

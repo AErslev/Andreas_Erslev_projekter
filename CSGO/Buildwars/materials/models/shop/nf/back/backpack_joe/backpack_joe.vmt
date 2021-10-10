@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\shop\nf\back\backpack_joe/backpack_joe_color"
+	"$bumpmap"		"models\shop\nf\back\backpack_joe/backpack_joe_normal"
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.05 0.1 .7]"
+
+}

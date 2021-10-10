@@ -1,0 +1,47 @@
+// usage: "trigger" "Define Windows size" http://www.site.com
+// tags: {NAME} {STEAM_ID} {USER_ID} {IP} {SERVER_IP} {SERVER_PORT}
+//
+// Use "full" instead of the windows size for adjust the windows size to the client resolution
+//
+// If you dont want to show a windows, only a hidden motd, put "none" instead of the windows size
+// Also you can use "about:blank" for stop the motd
+//
+////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//
+//	Basis
+//
+"!website" 	"full" gaming.vecturehosting.com
+"!g" 		"full" http://www.google.com/
+"!google" 		"full" http://www.google.com/
+"!server" 	"height=720,width=1024" http://www.gametracker.com/server_info/{SERVER_IP}:{SERVER_PORT}/
+//
+//
+//	Reklame
+"!fb" 			"full" https://www.facebook.com/VectureHosting/
+"!steam" 		"full" http://steamcommunity.com/groups/VectureGaming
+"!host" 		"full" http://steamcommunity.com/groups/vecturehosting
+"!vecture" 		"full" http://steamcommunity.com/groups/vecturehosting
+"!vt-host"		"full" http://steamcommunity.com/groups/vecturehosting
+"!vecturehosting"	"full" http://steamcommunity.com/groups/vecturehosting
+"!vecturegaming"	"full" http://steamcommunity.com/groups/VectureGaming
+"!vectureg"		"full" http://steamcommunity.com/groups/VectureGaming
+//
+//
+//	Tools
+//
+//
+//
+//	Selvfed
+"!owner"	"full" http://steamcommunity.com/id/mester-skunk/
+"!mapmaker"	"full" http://steamcommunity.com/id/StregKoden/
+"!workshop"	"full" http://steamcommunity.com/id/StregKoden-v2/myworkshopfiles/
+"!mapbug"	"full" http://steamcommunity.com/workshop/filedetails/discussion/759116106/350543389010042196/
+//
+//
+//
+"!buy" 			"full" https://gaming.vecturehosting.com/shop.php
+"!buyadmin" 		"full" http://steamcommunity.com/id/mester-skunk/groups/
+"!buyvip" 		"full" http://steamcommunity.com/id/mester-skunk/groups/	
+"!buysuperadmin" 	"full" http://steamcommunity.com/id/mester-skunk/groups/
+//	

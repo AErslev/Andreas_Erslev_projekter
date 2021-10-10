@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "hangover\hats\snow_hat\snow_hat_blue"
+	"$bumpmap"     "hangover\hats\snow_hat\snow_hat_normal" 
+}

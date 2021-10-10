@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\natalya\hs\jacket"
+	"$bumpmap" "models\player\natalya\hs\jacket_n"
+	$phong 0.2
+	$phongboost 0.2
+	$phongexponent 0.5
+	$halflambert 0
+	$phongfresnelranges "[.4 .8 30]"
+	$ambientocclusion 1
+	"$rimlight" "0.3"
+	"$rimlightexponent" "0.2"
+	"$rimlightboost" "0.1"	
+}

@@ -1,0 +1,7 @@
+"Graphics"
+{
+    "1"
+    {
+        "file"        "banner.jpg"
+    }
+}

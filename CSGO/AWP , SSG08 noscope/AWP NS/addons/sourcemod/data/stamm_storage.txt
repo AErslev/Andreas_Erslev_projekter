@@ -1,0 +1,3 @@
+"stamm_storage"
+{
+}

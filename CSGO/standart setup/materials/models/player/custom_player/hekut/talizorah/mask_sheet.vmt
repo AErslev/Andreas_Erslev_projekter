@@ -1,0 +1,21 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models\player\custom_player\hekut\talizorah\mask_sheet"
+
+	"$translucent" 1
+
+	"$envmaptint" "[ .7 .3 .7 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 0.5
+	"$phong" "1"
+	"$phongexponent" 25
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	
+	"$surfaceprop" "glass"
+
+	"$envmap" "env_cubemap"
+
+	"$model" 1
+	"$halflambert" 1
+}

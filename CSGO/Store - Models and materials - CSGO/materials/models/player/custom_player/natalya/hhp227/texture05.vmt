@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\custom_player\natalya\hhp227\texture05"
+	"$alphatest" 1
+	"$halflambert" 1
+	"$nocull" 1 
+}

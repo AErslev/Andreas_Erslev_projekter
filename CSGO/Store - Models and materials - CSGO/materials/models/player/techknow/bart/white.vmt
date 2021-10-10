@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+
+
+{
+	"$baseTexture" "models\player\techknow\bart\white"
+        "$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.3
+	"$envmapsaturation" 0.7
+	"$envmaptint" "[ 0.36 0.36 0.36 ]"
+	"$selfillum" "1"
+        "$model" 1
+}
+

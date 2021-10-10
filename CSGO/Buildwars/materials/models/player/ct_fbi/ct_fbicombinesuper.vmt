@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/player/ct_fbi/ct_fbicombinesuper"
+"$bumpmap" "models/player/ct_fbi/ct_fbicombinesuper_normal"
+"$phong" "1"
+"$phongboost" "5"
+"$phongexponenttexture" "models/player/ct_fbi/ct_fbicombinesuper_phong"
+"$phongalbedotint" "1"										
+"$phongfresnelranges" "[.1 .5  1]"
+}

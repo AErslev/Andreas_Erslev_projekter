@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\mirage2\I_headshot_you"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+}

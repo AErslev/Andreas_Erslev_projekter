@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "decals\mirage2\akcat_i1f000_ani"
+   "$decal" 1
+   "$decalscale" 0.5
+   	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "5"
+		}
+	}
+}

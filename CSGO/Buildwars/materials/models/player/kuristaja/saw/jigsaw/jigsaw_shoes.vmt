@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\saw\jigsaw\jigsaw_shoes_red" 	// Red shoes
+	//"$baseTexture" "models\player\kuristaja\saw\jigsaw\jigsaw_shoes_grey"	// Grey shoes
+	"$bumpmap"     	"models\player\kuristaja\saw\jigsaw\jigsaw_shoes_normal"
+}

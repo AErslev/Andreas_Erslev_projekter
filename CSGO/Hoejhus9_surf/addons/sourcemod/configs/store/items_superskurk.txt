@@ -1,0 +1,1860 @@
+"Store"
+{
+	"Lazer skud"
+	{
+		"Blaa"
+		{
+			"color" "0 0 125"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Blaa Violet"
+		{
+			"color" "138 43 226"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Cyan"
+		{
+			"color" "0 1205 125"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Murstens roed"
+		{
+			"color" "178 34 34"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Graa"
+		{
+			"color" "240 240 240"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Groen"
+		{
+			"color" "0 125 0"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Skov Groen"
+		{
+			"color" "35 142 35"
+			"price" "180"
+			"type" "tracer"
+		}
+		"Oliven Brun"
+		{
+			"color" "128 125 165"
+			"price" "180"
+			"type" "tracer"
+		}
+		
+		"Orange"
+		{
+			"color" "125 77 0"
+			"price" "180"
+			"type" "tracer"
+		}
+	}
+	
+	"Hatte og briller"
+	{
+		"Hatte"
+		{
+			"Pokemon Hoved"
+			{
+				"model" "models/mudhatk/mudhatk.mdl"
+				"position" "0.0 -2.2 -69.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Bil Hjul"
+			{
+				"model" "models/props_vehicles/tire001c_car.mdl"
+				"position" "0.0 -10.0 0.0"
+				"angles" "90.0 0.0 0.0"
+				"price" "1800"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Vandmelon"
+			{
+				"model" "models/props_junk/watermelon01.mdl"
+				"position" "0.0 0.0 5.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "1800"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Trafikkegle"
+			{
+				"model" "models/props_junk/trafficcone001a.mdl"
+				"position" "0.0 -1.0 20.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Metal Spand"
+			{
+				"model" "models/props_junk/metalbucket01a.mdl"
+				"position" "0.0 0.0 -8.0"
+				"angles" "180.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Urtepotte"
+			{
+				"model"	"models/props_junk/terracotta01.mdl"
+				"position" "0.0 3.0 -10.0"
+				"angles" "180.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Baseball Kasket"
+			{
+				"model" "models/props/cs_office/snowman_hat.mdl"
+				"position" "0.0 0.0 7.0"
+				"angles" "0.0 -90.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Kaffekop"
+			{
+				"model" "models/props/cs_office/coffee_mug.mdl"
+				"position" "0.0 0.0 9.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "1800"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Jeg <3 Skildpadder Kasket"
+			{
+				"model"	"models/props/de_tides/vending_hat.mdl"
+				"position" "1.8 0.0 4.0"
+				"angles" "0.0 -90.0 0.0"
+				"price" "1800"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Minecraft Hoved"
+			{
+	
+				"model"	"models/natalya/hats/creeper_hat.mdl"
+				"position" "-1.0 0.0 5.0"
+				"angles" "0.0 90.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Pedobear Hoved"
+			{
+				"model"	"models/pedobear/pedobearf.mdl"
+				"position" "0.0 -1.0 -68.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Kongekrone"
+			{
+				"model"		"models/player/items/ballbot/ballbot_crown.mdl"
+				"position"	"0.0 -1.5 -50.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"KFC Spand"
+			{
+				"model"		"models/gmod_tower/kfcbucket.mdl"
+				"position"	"0.0 -1.0 3.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Sikkerhedshjelm"
+			{
+				"model"		"models/sentry_hat/sentryha.mdl"
+				"position"	"0.0 -1.8 -69.1"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Nissehue"
+			{
+				"model"		"models/santahat/santahat.mdl"
+				"position"	"0.0 -1.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Smoelfe Hat"
+			{
+				"model"		"models/smurffff/smurffff.mdl"
+				"position"	"0.0 -1.8 -66.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Mexicansk Hat"
+			{
+				"model"		"models/gmod_tower/sombrero.mdl"
+				"position"	"0.0 -1.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"V for Vandetta Maske"
+			{
+				"model"		"models/v/mask.mdl"
+				"position"	"0.0 -5.0 -65.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "1"
+			}
+			
+			"Afro"
+			{
+				"model"		"models/gmod_tower/afro.mdl"
+				"position"	"0.0 -3.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Deadmau5"
+			{
+				"model"		"models/deadmau5/deadmau5.mdl"
+				"position"	"0.0 2.0 0.0"
+				"angles"	"0.0 180.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Fest hat"
+			{
+				"model"		"models/gmod_tower/partyhat.mdl"
+				"position"	"1.0 -1.0 7.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Hoej Hat"
+			{
+				"model"		"models/gmod_tower/seusshat.mdl"
+				"position"	"0.0 -1.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Gevir"
+			{
+				"model"	"models/sam/antlers.mdl"
+				"position" "0.0 0.0 2.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Astronaut Hjelm"
+			{
+				"model"	"models/astronauthelmet/astronauthelmet.mdl"
+				"position" "0.0 0.0 -5.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "5400"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Sort Hat"
+			{
+				"model"	"models/gmod_tower/fedorahat.mdl"
+				"position"	"0.0 -1.5 8.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Kage Hat"
+			{
+				"model"		"models/cakehat/cakehat.mdl"
+				"position"	"0.0 -1.0 3.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Tumpe Hat"
+			{
+				"model"		"models/duncehat/duncehat.mdl"
+				"position"	"0.0 -1.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Katte Oere"
+			{
+				"model"		"models/gmod_tower/catears.mdl"
+				"position"	"0.0 -3.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Troll Hoved"
+			{
+				"model"		"models/gmod_tower/androssmask.mdl"
+				"position"	"0.0 2.0 0.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Drikke Hat"
+			{
+				"model"		"models/gmod_tower/drinkcap.mdl"
+				"position"	"0.0 -1.0 7.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Krabbe Hat"
+			{
+				"model"		"models/gmod_tower/headcrabhat.mdl"
+				"position"	"0.0 -3.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Majoras Mask"
+			{
+				"model"		"models/gmod_tower/majorasmask.mdl"
+				"position"	"0.0 0.5 0.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Katte Hue"
+			{
+				"model"		"models/gmod_tower/toromask.mdl"
+				"position"	"0.0 -1.0 4.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Hoej Hat v2"
+			{
+				"model"		"models/gmod_tower/tophat.mdl"
+				"position"	"0.0 -1.7 4.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Hekse Hat"
+			{
+				"model"		"models/gmod_tower/witchhat.mdl"
+				"position"	"0.0 0.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Toeto Hat"
+			{
+				"model"		"models/gmod_tower/toetohat.mdl"
+				"position"	"0.0 -1.0 6.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Gnom Hat"
+			{
+				"model"		"models/gmod_tower/linkhat.mdl"
+				"position"	"0.0 -5.0 4.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Midna Hat"
+			{
+				"model"		"models/gmod_tower/midnahat.mdl"
+				"position"	"0.0 0.0 0.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			"Vikingehjelm"
+			{
+				"model"		"models/vikinghelmet/vikinghelmet.mdl"
+				"position"	"0.0 -1.0 7.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "0"
+			}
+			
+			
+		}
+
+		"Briller"
+		{
+			"3D Briller"
+			{
+				"model"	"models/gmod_tower/3dglasses.mdl"
+				"position" "0.0 0.5 2.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "1"
+			}
+			
+			"Lyseroede Stjerne Briller"
+			{
+				"model"	"models/gmod_tower/starglasses.mdl"
+				"position" "0.0 0.5 2.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "1800"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "1"
+			}
+			
+			"Aviators Briller"
+			{
+				"model"		"models/gmod_tower/aviators.mdl"
+				"position"	"0.0 0.5 2.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "1"
+			}
+			
+			"Professor briller"
+			{
+				"model"		"models/gmod_tower/klienerglasses.mdl"
+				"position"	"0.0 0.5 2.0"
+				"angles"	"0.0 0.0 0.0"
+				"price" "3600"
+				"type" "hat"
+				"games" "cstrike"
+				"slot" "1"
+			}
+		}
+	}
+	
+	"Skins"
+	{
+		"Terrorists"
+		{	
+		
+			"Super Villains"
+			{
+				"The Joker"
+				{
+					"model" "models/player/slow/jamis/mkvsdcu/joker/slow_pub.mdl"
+					"team" "2"
+					"price" "6700"
+					"type" "playerskin"
+				}
+				
+				"Harley Quinn"
+				{
+					"model" "models/player/slow/arkham_asylum/harley_quinn/slow.mdl"
+					"team" "2"
+					"price" "5000"
+					"type" "playerskin"
+				}			
+			}
+
+			"Spy T"
+			{
+				"model" "models/player/techknow/tf2/spy/spy_red.mdl"
+				"team" "2"
+				"price" "300"
+				"type" "playerskin"
+			}
+			
+			"Pirat T"
+			{
+				"model" "models/player/techknow/sparow_v2/sparow_v2.mdl"
+				"team" "2"
+				"price" "120"
+				"type" "playerskin"
+			}
+			
+			"Bodybag"
+			{
+				"model" "models/player/slow/body_bag/slow.mdl"
+				"team" "2"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Pink Panda"
+			{
+				"model" "models/player/techknow/p_panther/panther.mdl"
+				"team" "2"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"V For Vandetta"
+			{
+				"model" "models/player/masiosare/v/anonymous.mdl"
+				"team" "2"
+				"price" "9000"
+				"type" "playerskin"
+			}
+			
+			"Alien fra fallout 3"
+			{
+				"model" "models/player/slow/fallout_3/alien/slow.mdl"
+				"team" "2"
+				"price" "5200"
+				"type" "playerskin"
+			}
+			
+			"Halloween King"
+			{
+				"model" "models/player/techknow/thorn/thorn.mdl"
+				"team" "2"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Bender"
+			{
+				"model" "models/player/vad36bender/bender.mdl"
+				"team" "2"
+				"price" "720"
+				"type" "playerskin"
+			}
+			
+			"50 Cent"
+			{
+				"model" "models/player/slow/50cent/slow.mdl"
+				"team" "2"
+				"price" "8000"
+				"type" "playerskin"
+			}
+
+			"Penismanden"
+			{
+				"model" "models/player/slow/penis_man/slow.mdl"
+				"team" "2"
+				"price" "8000"
+				"type" "playerskin"
+			}
+		}
+		
+		"Counter-Terrorists"
+		{
+		
+
+			"Super Heros"
+			{
+				"Batman"
+				{
+					"model" "models/player/slow/jamis/mkvsdcu/batman/slow_pub_v2.mdl"
+					"team" "3"
+					"price" "6700"
+					"type" "playerskin"
+				}
+				
+				"The Flash"
+				{
+					"model" "models/player/slow/jamis/mkvsdcu/flash/slow_pub.mdl"
+					"team" "3"
+					"price" "5000"
+					"type" "playerskin"
+				}			
+			}
+
+			"Spy CT"
+			{
+				"model" "models/player/techknow/tf2/spy/spy_blue.mdl"
+				"team" "3"
+				"price" "300"
+				"type" "playerskin"
+			}
+				
+			"Pirat CT"
+			{
+				"model" "models/player/techknow/pirate-cap/cap.mdl"
+				"team" "3"
+				"price" "120"
+				"type" "playerskin"
+			}
+			
+			"Banan"
+			{
+				"model" "models/player/slow/banana_joe/slow.mdl"
+				"team" "3"
+				"price" "5500"
+				"type" "playerskin"
+			}
+			
+			"Bugs Bunny"
+			{
+				"model" "models/player/techknow/bugs_v2/bugs.mdl"
+				"team" "3"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Tinkywinky"
+			{
+				"model" "models/player/tinkywinky_css/tinkywinky_css.mdl"
+				"team" "3"
+				"price" "8500"
+				"type" "playerskin"
+			}
+			
+			"Squak"
+			{
+				"model" "models/player/techknow/squak/squak.mdl"
+				"team" "3"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Slenderman"
+			{
+				"model" "models/player/knifelemon/slenderman.mdl"
+				"team" "3"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Pedobear"
+			{
+				"model" "models/player/kuristaja/pbear/pbear.mdl"
+				"team" "3"
+				"price" "7200"
+				"type" "playerskin"
+			}
+			
+			"Gay Zombie"
+			{
+				"model" "models/player/slow/l4d/hot_ass_zombie_gay_edition/slow.mdl"
+				"team" "3"
+				"price" "8000"
+				"type" "playerskin"
+			}
+
+			"Harry Potter"
+			{
+				"model" "models/player/hhp227/harry/harry_fixed.mdl"
+				"team" "3"
+				"price" "8000"
+				"type" "playerskin"
+			}
+		}
+	}
+	
+	"Haler"
+	{
+		"Pingvin flag"
+		{
+			"material" "materials/sprites/trails/skullnbones.vmt"
+			"price" "10"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Tynd"
+		{
+			"material" "materials/sprites/combineball_trail_black_1.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Medium"
+		{
+			"material" "materials/sprites/orangelight1.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Stor"
+		{
+			"material" "materials/sprites/spotlight.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Roeg"
+		{
+			"material" "materials/sprites/XBeam2.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Kroellede"
+		{
+			"material" "materials/sprites/hydragutbeam.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Lyn"
+		{
+			"material" "materials/sprites/trails/colorbolt.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Potespor"
+		{
+			"material" "materials/sprites/trails/pawprint.vmt"
+			"price" "90"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Graes"
+		{
+			"material" "materials/sprites/trails/leaves1.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Ild"
+		{
+			"material" "materials/sprites/trails/fire1.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Is"
+		{
+			"material" "materials/sprites/trails/ice1.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Graes2"
+		{
+			"material" "materials/sprites/trails/leaves21.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Metal"
+		{
+			"material" "materials/sprites/trails/metallic1.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Peace"
+		{
+			"material" "materials/sprites/trails/peace.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Blaa Lyn"
+		{
+			"material" "materials/sprites/trails/bluelightning.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Jorden"
+		{
+			"material" "materials/sprites/trails/earth.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Smiley"
+		{
+			"material" "materials/sprites/trails/awesome.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Stjerne"
+		{
+			"material" "materials/sprites/trails/star.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pile"
+		{
+			"material" "materials/sprites/trails/arrows.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Vinger"
+		{
+			"material" "materials/sprites/trails/wings.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"DNA"
+		{
+			"material" "materials/sprites/trails/dna2.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Kriger"
+		{
+			"material" "materials/sprites/trails/warrior.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Hjerte"
+		{
+			"material" "materials/sprites/trails/heart.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Mario"
+		{
+			"material" "materials/sprites/trails/mario.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Svampe"
+		{
+			"material" "materials/sprites/trails/mushroom.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Kongekrone"
+		{
+			"material" "materials/sprites/trails/crown.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Regnbue"
+		{
+			"material" "materials/sprites/trails/paintsplatter.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Dobble Regnbue"
+		{
+			"material" "materials/sprites/trails/doublerainbow.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pengesedler"
+		{
+			"material" "materials/sprites/trails/banknote.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Atomkraft logo"
+		{
+			"material" "materials/sprites/trails/biohazard.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Bombe"
+		{
+			"material" "materials/sprites/trails/bombomb.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Spoegelse"
+		{
+			"material" "materials/sprites/trails/boo.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Hypnose"
+		{
+			"material" "materials/sprites/trails/hypnotic.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pengepose"
+		{
+			"material" "materials/sprites/trails/moneybag.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Stjerne Svamp"
+		{
+			"material" "materials/sprites/trails/mushroom2.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pile Regnbue"
+		{
+			"material" "materials/sprites/trails/arrowrainbow.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Spiralkugle"
+		{
+			"material" "materials/sprites/trails/psychball.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Fodspor"
+		{
+			"material" "materials/sprites/trails/footprint.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Energy bold"
+		{
+			"material" "materials/sprites/trails/energyball.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Granat"
+		{
+			"material" "materials/sprites/trails/grenade.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Vingummibamser"
+		{
+			"material" "materials/sprites/trails/gummybears.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Skelethoved"
+		{
+			"material" "materials/sprites/trails/skull.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pistol"
+		{
+			"material" "materials/sprites/trails/handgun.vmt"
+			"price" "600"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Poker Kort"
+		{
+			"material" "materials/sprites/trails/poker.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Hello Kitty"
+		{
+			"material" "materials/sprites/trails/hellokitty.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Hamp"
+		{
+			"material" "materials/sprites/trails/potleaf.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pretzel"
+		{
+			"material" "materials/sprites/trails/pretzel.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"En Cool Regnbue"
+		{
+			"material" "materials/sprites/trails/seprainbow.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Taco"
+		{
+			"material" "materials/sprites/trails/taco.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Apple"
+		{
+			"material" "materials/sprites/trails/apple.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Beer Glas"
+		{
+			"material" "materials/sprites/trails/beermug.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Kanokugle"
+		{
+			"material" "materials/sprites/trails/bulletbill.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Coca-Cola"
+		{
+			"material" "materials/sprites/trails/cocacola.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Smaakager"
+		{
+			"material" "materials/sprites/trails/cookies.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Ild"
+		{
+			"material" "materials/sprites/trails/mat_fire2.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Donuts"
+		{
+			"material" "materials/sprites/trails/donuts.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Blod"
+		{
+			"material" "materials/sprites/trails/mat_blood.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Goomba"
+		{
+			"material" "materials/sprites/trails/goomba.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"BAM!"
+		{
+			"material" "materials/sprites/trails/words.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"PacMan"
+		{
+			"material" "materials/sprites/trails/pacman.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Atom"
+		{
+			"material" "materials/sprites/trails/mat_atom.vmt"
+			"price" "800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pokeball"
+		{
+			"material" "materials/sprites/trails/pokeball.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"LOL!!"
+		{
+			"material" "materials/sprites/trails/lol.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Pfffft!!"
+		{
+			"material" "materials/sprites/trails/vg_pfffft.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Umbrellacorp"
+		{
+			"material" "materials/sprites/trails/vg_umbrellacorp.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Windows"
+		{
+			"material" "materials/sprites/trails/vg_windows.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Dash"
+		{
+			"material" "materials/sprites/trails/vg_rainbow-dash.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Spiderman"
+		{
+			"material" "materials/sprites/trails/vg_spiderman.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Deatmau5"
+		{
+			"material" "materials/sprites/trails/vg_deadmau54.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Svampebob"
+		{
+			"material" "materials/sprites/trails/mat_spongebob.vmt"
+			"price" "1000"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"MineCraft"
+		{
+			"material" "materials/sprites/trails/mat_creeper.vmt"
+			"price" "1200"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Playboy"
+		{
+			"material" "materials/sprites/trails/vg_playboy.vmt"
+			"price" "1200"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		"Nyan Cat"
+		{
+			"material" "materials/sprites/trails/mat_nyan.vmt"
+			"price" "1800"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+	}
+	
+	"Granat haler"
+	{
+		"Tynd straale"
+		{
+			"material" "materials/sprites/combineball_trail_black_1.vmt"
+			"price" "120"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Medium straale"
+		{
+			"material" "materials/sprites/orangelight1.vmt"
+			"price" "120"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Bred straale"
+		{
+			"material" "materials/sprites/spotlight.vmt"
+			"price" "120"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Roed"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "120"
+			"type" "grenadetrail"
+			"color" "255 0 0 255"
+			"unique_id" "grenadetrail_laserbeam_red"
+		}
+		
+		"Blaa"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "120"
+			"type" "grenadetrail"
+			"color" "0 0 255 255"
+			"unique_id" "grenadetrail_laserbeam_blue"
+		}
+	}
+	
+	"Granat skins"
+	{
+		"HE Grenade"
+		{
+			"Appelsin"
+			{
+				"model" "models/props/cs_italy/orange.mdl"
+				"grenade" "hegrenade"
+				"price" "720"
+				"type" "grenadeskin"
+			}
+
+			"Skildpadde"
+			{
+				"model" "models/props/de_tides/vending_turtle.mdl"
+				"grenade" "hegrenade"
+				"price" "720"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Flashbang"
+		{	
+			"Banan"
+			{
+				"model" "models/props/cs_italy/bananna.mdl"
+				"grenade" "flashbang"
+				"price" "720"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Smokegrenade"
+		{
+			"Vandmelon"
+			{
+				"model" "models/props_junk/watermelon01.mdl"
+				"grenade" "smokegrenade"
+				"price" "720"
+				"type" "grenadeskin"
+			}
+		}
+	}
+
+	"Vaaben farver"
+	{
+		"Alice Blaa"
+		{
+			"color" "240 248 1205 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Blaa"
+		{
+			"color" "0 0 1205 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Blaa Violet"
+		{
+			"color" "138 43 226 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Majs silke"
+		{
+			"color" "1205 248 220 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Aqua Blaa"
+		{
+			"color" "0 1205 1205 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Base"
+		{
+			"color" "189 183 607 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Dim Graa"
+		{
+			"color" "605 605 605 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Ild Sten"
+		{
+			"color" "178 34 34 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Fuschia"
+		{
+			"color" "1205 0 1205 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Graa"
+		{
+			"color" "240 240 240 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Groen"
+		{
+			"color" "0 1205 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Jager Groen"
+		{
+			"color" "35 142 35 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Graes Groen"
+		{
+			"color" "124 1205 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Hvid"
+		{
+			"color" "1205 222 173 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Oliven"
+		{
+			"color" "128 128 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Oliven Brun"
+		{
+			"color" "128 1205 165 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Oliven Drab"
+		{
+			"color" "607 142 35 255"  
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Orange"
+		{
+			"color" "1205 77 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Orchid"
+		{
+			"color" "218 112 214 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Pale Turquoise"
+		{
+			"color" "175 238 238 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Lilla"
+		{
+			"color" "128 0 128 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Pink"
+		{
+			"color" "1205 603 603 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Plum"
+		{
+			"color" "221 160 221 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Roed"
+		{
+			"color" "1205 0 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Hav Blaa"
+		{
+			"color" "43 176 205 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Sand Brun"
+		{
+			"color" "244 164 96 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Sienna"
+		{
+			"color" "180 82 45 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Soelv"
+		{
+			"color" "192 192 192 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Scarlet"
+		{
+			"color" "140 23 23 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Staal groen"
+		{
+			"color" "128 1205 165 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Staal Blaa"
+		{
+			"color" "35 607 142 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Blaa groend"
+		{
+			"color" "0 128 128 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Turquoise"
+		{
+			"color" "64 224 208 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Violet"
+		{
+			"color" "148 0 211 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		"Gul"
+		{
+			"color" "1205 1205 0 255"
+			"price" "60"
+			"type" "weaponcolor"
+		}
+		
+	}
+
+	"Chat udstyr"
+	{
+		"Navne tags"
+		{
+			"[Anomynous] (oliven groen)"
+			{
+				"tag" "{olive}[Anomynous]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			
+			"[JEG HAR MANGE POINTS] (gul)"
+			{
+				"tag" "{yellow}[JEG HAR MANGE POINTS]{orange}"
+				"price" "10000"
+				"type" "nametag"
+			}
+			"[OMG] (pink)"
+			{
+				"tag" "{pink}[OMG]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[Girl Power] (pink)"
+			{
+				"tag" "{pink}[Girl Power]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[KAGE] (violet)"
+			{
+				"tag" "{violet}[KAGE]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[PRO] (roed)"
+			{
+				"tag" "{red}[PRO]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[Owned] (roed)"
+			{
+				"tag" "{red}[Owned]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[I Like Trains] (lys blaa)"
+			{
+				"tag" "{lightblue}[I Like Trains]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[LOOL] (cyan)"
+			{
+				"tag" "{cyan}[LOOL]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[MafiaGirl] (pink)"
+			{
+				"tag" "{pink}[MafiaGirl]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[Bitch Please] (lime groen)"
+			{
+				"tag" "{lime}[Bitch Please]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[LikeABaws] (gul)"
+			{
+				"tag" "{yellow}[LikeABaws]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[1337] (lime groen)"
+			{
+				"tag" "{lime}[1337]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+			"[Din Mor] (hvid)"
+			{
+				"tag" "{white}[Din Mor]{orange}"
+				"price" "3600"
+				"type" "nametag"
+			}
+		}
+		
+		"Navne farver"
+		{
+			"Hvid"
+			{
+				"color" "{white}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Roed"
+			{
+				"color" "{red}"
+				"price" "600"
+				"type" "namecolor"
+			}			
+			"Groen"
+			{
+				"color" "{green}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Blaa"
+			{
+				"color" "{blue}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Gul"
+			{
+				"color" "{yellow}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Cyan"
+			{
+				"color" "{cyan}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Orange"
+			{
+				"color" "{orange}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Pink"
+			{
+				"color" "{pink}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Oliven groen"
+			{
+				"color" "{olive}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Lime groen"
+			{
+				"color" "{lime}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Violet"
+			{
+				"color" "{violet}"
+				"price" "600"
+				"type" "namecolor"
+			}
+			"Lys blaa"
+			{
+				"color" "{lightblue}"
+				"price" "600"
+				"type" "namecolor"
+			}
+		}
+		
+		"Besked farver"
+		{
+			"Hvid"
+			{
+				"color" "{white}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Roed"
+			{
+				"color" "{red}"
+				"price" "600"
+				"type" "msgcolor"
+			}			
+			"Groen"
+			{
+				"color" "{green}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Blaa"
+			{
+				"color" "{blue}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Gul"
+			{
+				"color" "{yellow}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Cyan"
+			{
+				"color" "{cyan}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Orange"
+			{
+				"color" "{orange}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Pink"
+			{
+				"color" "{pink}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Oliven groen"
+			{
+				"color" "{olive}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Lime groen"
+			{
+				"color" "{lime}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Violet"
+			{
+				"color" "{violet}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+			"Lys blaa"
+			{
+				"color" "{lightblue}"
+				"price" "600"
+				"type" "msgcolor"
+			}
+		}
+	}
+
+	"Diverse"
+	{
+		"Watergun"
+		{
+			"price" "5000"
+			"type" "watergun"
+		}	
+
+		"Paintball"
+		{
+			"price" "5000"
+			"type" "paintball"
+			"Decals"
+			{
+				"cyan"
+				{
+					"material"   "paintball/pb_cyan.vmt"
+				}
+				"green"
+				{
+					"material"   "paintball/pb_green.vmt"
+				}
+				"pink"
+				{
+					"material"   "paintball/pb_pink.vmt"
+				}
+				"orange"
+				{
+					"material"   "paintball/pb_orange.vmt"
+				}
+				"yellow"
+				{
+					"material"   "paintball/pb_yellow.vmt"
+				}
+			}
+		}
+	}
+}

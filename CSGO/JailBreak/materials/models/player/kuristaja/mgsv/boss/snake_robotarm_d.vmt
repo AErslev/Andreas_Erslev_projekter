@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/snake_robotarm_d"
+	"$bumpmap"    "models/player/kuristaja/mgsv/boss/snake_robotarm_normal"
+	
+	"$phong"	"1"
+	"$phongexponent"	"24"
+	"$phongalbedotint"	"1"
+	"$phongboost"	".7"
+	"$phongfresnelranges"	"[5 7 8]"
+   	 "$lightwarptexture" 	"models/player/kuristaja/mgsv/boss/clothes_wrp"
+	"$phongexponenttexture" 	"models/player/kuristaja/mgsv/boss/white3"
+}
+
+

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\vad36soldier_morphs\soldier_blue"
+        "$bumpmap" "models\player\vad36soldier_morphs\soldier_normal"
+}

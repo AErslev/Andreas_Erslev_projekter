@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" 	"models/player/techknow/kratos/kratos_sheet"
+	"$bumpmap"	"models/player/techknow/kratos/kratos_sheet_n"
+
+ 	"$phong" "1"
+	"$phongexponenttexture" "models/player/techknow/kratos/kratos_sheet_n"
+	"$phongboost"	".65"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+}

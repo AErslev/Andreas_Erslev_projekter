@@ -1,0 +1,10 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models\player\vad36jack_sparrow\jack_d/material001"
+	"$bumpmap" "models\player\vad36jack_sparrow\jack_d/material001_n"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" 0.3
+	"$envmapsaturation" 0.7
+	"$envmaptint" "[ 0.36 0.36 0.36 ]"
+"$alphatest" 1
+}

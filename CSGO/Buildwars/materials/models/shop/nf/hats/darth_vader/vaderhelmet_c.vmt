@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\shop\nf\hats\darth_vader/vaderhelmet_c"
+	"$bumpmap" "models\shop\nf\hats\darth_vader/vaderhelmet_n"
+$phongexponent "40"
+$phongfresnelranges	"[1 8 13]"
+$nocull 1
+$phong 1
+$phongboost 0.5
+$nodecal 1
+$ambientocclusion 1
+
+}

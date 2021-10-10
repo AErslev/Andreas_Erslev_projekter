@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"decals\mirage2\Get_of_my_nuts"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.25"
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\shop\nf\hats\capones_capper\heavy_afro"
+	"$bumpmap" "models\shop\nf\hats\capones_capper\flat_normal" 
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"
+	"$phongfresnelranges"	"[.25 1 4]"
+}
+
+

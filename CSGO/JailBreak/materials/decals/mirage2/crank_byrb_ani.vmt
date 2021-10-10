@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "decals\mirage2\Crank_byRB_ani"
+   "$decal" 1
+   "$decalscale" 0.5
+   "Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "5"
+		}
+	}
+}

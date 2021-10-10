@@ -1,0 +1,7 @@
+RULESHERE
+
+<font color='#727272'>Map reworked or created by:</font><font color='#9F0000'>
+StregKoden
+STEAM_0:0:1715380
+
+</font>

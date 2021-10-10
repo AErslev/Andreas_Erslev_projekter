@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/tm_payday/suitd"
+	"$bumpmap"	"models/player/tm_payday/suit_n"
+
+	//"$phong" "1"
+	//"$phongexponent" "20"
+	//"$phongboost" "4"	
+	//"$phongfresnelranges"	"[.03 0 1]"
+
+	//"$phongtint"	"[0 0 0]"
+
+
+$phong 1
+$phongBoost "0.5"
+
+
+$phongFresnelRanges "[.1 .1 1]"
+$phongdisablehalflambert 1
+$rimlight 1
+$rimlightexponent 16
+$rimlightboost "0.2"
+}

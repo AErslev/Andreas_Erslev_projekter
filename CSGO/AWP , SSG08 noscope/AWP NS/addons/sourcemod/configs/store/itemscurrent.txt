@@ -1,0 +1,1210 @@
+"Store"
+{	
+	"Tracers"
+	{
+		"Blue"
+		{
+			"color" "0 0 125"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Blue Violet"
+		{
+			"color" "138 43 226"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Cyan"
+		{
+			"color" "0 255 125"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Fire Brick"
+		{
+			"color" "178 34 34"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Fuschia"
+		{
+			"color" "125 0 125"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Gray"
+		{
+			"color" "240 240 240"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Green"
+		{
+			"color" "0 125 0"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Hunter Green"
+		{
+			"color" "35 142 35"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Lawn Green"
+		{
+			"color" "124 122 0"
+			"price" "400"
+			"type" "tracer"
+		}
+		"Olive Brown"
+		{
+			"color" "128 125 165"
+			"price" "400"
+			"type" "tracer"
+		}
+		
+		"Orange"
+		{
+			"color" "125 77 0"
+			"price" "400"
+			"type" "tracer"
+		}	
+	}
+	
+
+	"Effects"
+	{
+	"Spawn effects"
+		{
+			"Explosion"
+			{
+				"Particle" "c4_train_ground_effect"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Yellow confetti"
+			{
+				"Particle" "firework_crate_explosion_01"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Blue-Green confetti"
+			{
+				"Particle" "confetti_A_omni"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Violet confetti"
+			{
+				"Particle" "confetti_B_omni"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Multicolored confetti"
+			{
+				"Particle" "confetti_C_omni"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Balloons"
+			{
+				"Particle" "confetti_balloons"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Feathers"
+			{
+				"Particle" "chicken_gone"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Green feathers"
+			{
+				"Particle" "chicken_gone_zombie"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Storm"
+			{
+				"Particle" "1123"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Magic aura"
+			{
+				"Particle" "2"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+			"Weapon confetti"
+			{
+				"Particle" "weapon_confetti_omni"	
+				"price" "1000"
+				"type" "spawn_effect"
+				"Duration" "1.5"
+			}
+		}
+
+		"Kill effects"
+		{
+			"Doctor"
+			{
+				"Particle" "doctor_scream_v2"	
+				"price" "1000"
+				"type" "kill_effect"
+				"Duration" "1.5"
+			}
+			"Flash explode"
+			{
+				"Particle" "flash_explode_v2"	
+				"price" "1000"
+				"type" "kill_effect"
+				"Duration" "1.5"
+			}
+			"He explode"
+			{
+				"Particle" "he_explode_v2"	
+				"price" "1000"
+				"type" "kill_effect"
+				"Duration" "1.5"
+			}
+			"Heal"
+			{
+				"Particle" "2_heal_d"	
+				"price" "1000"
+				"type" "kill_effect"
+				"Duration" "1.5"
+			}
+		}
+	}
+	
+	"Player Skins"
+	{
+		"T"
+		{
+			"Clonetrooper"
+			{
+				"model" "models/player/starwars/clonetrooper/clonetrooper_fix.mdl"
+				"team" "2"
+				"price" "4000"
+				"type" "playerskin"
+			}
+			"Barry Burton"
+			{
+				"model" "models/player/custom_player/kuristaja/barry/barryv3.mdl"
+				"team" "2"
+				"price" "6000"
+				"type" "playerskin"
+			}
+			"Mila"
+			{
+				"model" "models/player/custom_player/kuristaja/cso2/mila/mila.mdl"
+				"team" "2"
+				"price" "8000"
+				"type" "playerskin"
+			}
+			"Arctic"
+			{
+				"model" "models/player/custom_player/kuristaja/cso2/arctic/arctic.mdl"
+				"team" "2"
+				"price" "9000"
+				"type" "playerskin"
+			}
+			"Leet"
+			{
+				"model" "models/player/custom_player/kuristaja/cso2/leet/leet.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+			}
+			"TOMB RAIDER"
+			{
+				"model" "models/player/custom_player/voikanaa/tru/lara.mdl"
+				"team" "2"
+				"price" "11000"
+				"type" "playerskin"
+			}
+			"Reinakousaka (Red)"
+			{
+				"model" "models/player/custom_player/caleon1/reinakousaka/reina_red.mdl"
+				"team" "2"
+				"price" "12000"
+				"type" "playerskin"
+			}
+		}
+		
+		"CT"
+		{
+			"Venom Snake"
+			{
+				"model" "models/player/custom_player/kuristaja/mgsv/boss/sneaking_suit.mdl"
+				"team" "3"
+				"price" "4000"
+				"type" "playerskin"
+			}
+			"Shadow Company"
+			{
+				"model" "models/player/custom_player/voikanaa/mw2/shadowcompany.mdl"
+				"team" "3"
+				"price" "6000"
+				"type" "playerskin"
+			}
+			"Lisa"
+			{
+				"model" "models/player/custom_player/kuristaja/cso2/lisa/lisa.mdl"
+				"team" "3"
+				"price" "8000"
+				"type" "playerskin"
+			}
+			"NKpolice"
+			{
+				"model" "models/player/custom_player/caleon1/nkpolice/nkpolice.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+			}
+			"JILL"
+			{
+				"model" "models/player/custom_player/voikanaa/rehd/jill.mdl"
+				"team" "3"
+				"price" "11000"
+				"type" "playerskin"
+			}
+			"Reinakousaka (Blue)"
+			{
+				"model" "models/player/custom_player/caleon1/reinakousaka/reina_blue.mdl"
+				"team" "3"
+				"price" "12000"
+				"type" "playerskin"
+			}
+		}
+	}	
+
+	"Trails"
+	{
+		"8Bit Mushroom"
+		{
+			"material" "materials/sprites/store/trails/8bitmushroom.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"8Bit Pow"
+		{
+			"material" "materials/sprites/store/trails/8bitpow.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Airforce"
+		{
+			"material" "materials/sprites/store/trails/airforce.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Airforce 2"
+		{
+			"material" "materials/sprites/store/trails/airforce2.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Apple"
+		{
+			"material" "materials/sprites/store/trails/apple.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Arrow Rainbow"
+		{
+			"material" "materials/sprites/store/trails/arrowrainbow.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Arrows"
+		{
+			"material" "materials/sprites/store/trails/arrows.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Assasin"
+		{
+			"material" "materials/sprites/store/trails/assasin.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+		
+		"Awesome"
+		{
+			"material" "materials/sprites/store/trails/awesome.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Awesome Sad"
+		{
+			"material" "materials/sprites/store/trails/awesome_sad.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Awesome Face"
+		{
+			"material" "materials/sprites/store/trails/awesomeface.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Babyand"
+		{
+			"material" "materials/sprites/store/trails/babyand.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Banknote"
+		{
+			"material" "materials/sprites/store/trails/banknote.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Barcalona"
+		{
+			"material" "materials/sprites/store/trails/barcalona.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Batman"
+		{
+			"material" "materials/sprites/store/trails/batman.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Battlefield"
+		{
+			"material" "materials/sprites/store/trails/battlefield.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Beer Mug"
+		{
+			"material" "materials/sprites/store/trails/beermug.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Biohazard"
+		{
+			"material" "materials/sprites/store/trails/biohazard.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Blade"
+		{
+			"material" "materials/sprites/store/trails/blade.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Blue Lightning"
+		{
+			"material" "materials/sprites/store/trails/bluelightning.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"BMW Logo"
+		{
+			"material" "materials/sprites/store/trails/bmwlogo.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Bom Bomb"
+		{
+			"material" "materials/sprites/store/trails/bombomb.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Boo"
+		{
+			"material" "materials/sprites/store/trails/boo.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Bullet Bill"
+		{
+			"material" "materials/sprites/store/trails/bulletbill.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Bullets"
+		{
+			"material" "materials/sprites/store/trails/bullets.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Canada Flag"
+		{
+			"material" "materials/sprites/store/trails/canadaflag.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Candies"
+		{
+			"material" "materials/sprites/store/trails/candies.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+
+		"Ccole"
+		{
+			"material" "materials/sprites/store/trails/ccole.vmt"
+			"price" "300"
+			"color" "255 255 255 255"
+			"type" "trail"
+		}
+	}
+	
+	"Grenade Trails"
+	{
+		"Thin Beam"
+		{
+			"material" "materials/sprites/combineball_trail_black_1.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Medium Beam"
+		{
+			"material" "materials/sprites/orangelight1.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Large Beam"
+		{
+			"material" "materials/sprites/spotlight.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		
+		"Red Laserbeam"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 0 255"
+			"unique_id" "grenadetrail_laserbeam_red"
+		}
+		
+		"Blue Laserbeam"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "0 0 255 255"
+			"unique_id" "grenadetrail_laserbeam_blue"
+		}
+		"Crystal beam"
+		{
+			"material" "materials/sprites/crystal_beam1.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		"Halo"
+		{
+			"material" "materials/sprites/halo01.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		"Blue laser"
+		{
+			"material" "materials/sprites/bluelaser1.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "0 0 255 255"
+		}
+		"Laser"
+		{
+			"material" "materials/sprites/laser.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+		"Physbeam"
+		{
+			"material" "materials/sprites/physbeam.vmt"
+			"price" "200"
+			"type" "grenadetrail"
+			"color" "255 0 255 255"
+		}
+	}
+	
+	"Grenade Skins"
+	{
+		"HE Grenade"
+		{
+			"Orange"
+			{
+				"model" "models/props/cs_italy/orange.mdl"
+				"grenade" "hegrenade"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+			"Elephant"
+			{
+				"model" "models/props_fairgrounds/elephant.mdl"
+				"grenade" "hegrenade"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Flashbang"
+		{	
+			"Banana"
+			{
+				"model" "models/props/cs_italy/bananna.mdl"
+				"grenade" "flashbang"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+			"Water bottle"
+			{
+				"model" "models/props/cs_office/water_bottle.mdl"
+				"grenade" "flashbang"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Smokegrenade"
+		{
+			"Watermelon"
+			{
+				"model" "models/props_junk/watermelon01.mdl"
+				"grenade" "smokegrenade"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+			"Bananna"
+			{
+				"model" "models/props/cs_italy/bananna.mdl"
+				"grenade" "smokegrenade"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Decoygrenade"
+		{
+			"Giraffe"
+			{
+				"model" "models/props_fairgrounds/giraffe.mdl"
+				"grenade" "decoy"
+				"price" "220"
+				"type" "grenadeskin"
+			}
+		}
+	}
+
+	"Chat stuff"
+	{
+				"Name Tags"
+		{
+			"Noob"
+			{
+				"tag" "{darkred}[{white}Noob{darkred}] {teamcolor} "
+				"price" "500"
+				"type" "nametag"
+			}
+			"Bhopper"
+			{
+				"tag" "{darkred}[{lightred}Bhopper{darkred}] {teamcolor} "
+				"price" "1000"
+				"type" "nametag"
+			}
+			"MG-King"
+			{
+				"tag" "{white}[{blue}MG-King{white}] {teamcolor} "
+				"price" "1500"
+				"type" "nametag"
+			}
+			"Surfer"
+			{
+				"tag" "{darkred}[{lime}Surfer{darkred}] {teamcolor} "
+				"price" "2000"
+				"type" "nametag"
+			}
+			"The Camper"
+			{
+				"tag" "{darkred}[{blue}The Camper{white}] {teamcolor} "
+				"price" "2500"
+				"type" "nametag"
+			}
+			"Hacker"
+			{
+				"tag" "{white}[{olive}Hacker{white}] {teamcolor} "
+				"price" "3000"
+				"type" "nametag"
+			}
+			"Cheater"
+			{
+				"tag" "{white}[{darkred}Cheater{white}] {teamcolor} "
+				"price" "3500"
+				"type" "nametag"
+			}
+			"Veteran"
+			{
+				"tag" "{blue}[{white}Veteran{blue}] {teamcolor} "
+				"price" "4000"
+				"type" "nametag"
+			}
+			"Legendary"
+			{
+				"tag" "{blue}[{orange}Legendary{blue}] {teamcolor} "
+				"price" "4500"
+				"type" "nametag"
+			}
+			"Master"
+			{
+				"tag" "{white}[{darkred}Master{white}] {teamcolor} "
+				"price" "5000"
+				"type" "nametag"
+			}
+			"Challenger"
+			{
+				"tag" "{orange}[{blue}Challenger{orange}] {teamcolor} "
+				"price" "5500"
+				"type" "nametag"
+			}
+			"Star"
+			{
+				"tag" "{orange}[{yellow}Star{orange}] {teamcolor} "
+				"price" "6000"
+				"type" "nametag"
+			}
+			"Anonymous"
+			{
+				"tag" "{darkred}[{white}Anonymous{darkred}] {teamcolor} "
+				"price" "6500"
+				"type" "nametag"
+			}
+			"Elite"
+			{
+				"tag" "{darkred}[{gray}Elite{darkred}] {teamcolor} "
+				"price" "7000"
+				"type" "nametag"
+			}
+			"Richkid"
+			{
+				"tag" "{lime}[{green}Rich{olive}kid{lime}] {teamcolor} "
+				"price" "7500"
+				"type" "nametag"
+			}
+			"Best"
+			{
+				"tag" "{white}[{purple}Best{white}] {teamcolor} "
+				"price" "8000"
+				"type" "nametag"
+			}
+			"Masterchief"
+			{
+				"tag" "{orange}[{darkred}Masterchief{blue}] {teamcolor} "
+				"price" "8500"
+				"type" "nametag"
+			}
+			"Unreal"
+			{
+				"tag" "{blue}[{white}Unreal{lime}] {teamcolor} "
+				"price" "9000"
+				"type" "nametag"
+			}
+			"Master survivor"
+			{
+				"tag" "{orange}[{blue}master survivor{yellow}] {teamcolor} "
+				"price" "9500"
+				"type" "nametag"
+			}
+			"Twisted master"
+			{
+				"tag" "{yellow}[{gray}Twisted master{darkred}] {teamcolor} "
+				"price" "10000"
+				"type" "nametag"
+			}
+		}
+		
+		"Name Colors"
+		{
+			"Gray"
+			{
+				"color" "{gray}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Green"
+			{
+				"color" "{green}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Light Red"
+			{
+				"color" "{lightred}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Lime"
+			{
+				"color" "{lime}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Olive Green"
+			{
+				"color" "{olive}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Orange"
+			{
+				"color" "{orange}"
+				"price" "100"
+				"type" "namecolor"
+			}
+			
+			"White"
+			{
+				"color" "{white}"
+				"price" "100"
+				"type" "namecolor"
+			}
+
+			"Yellow"
+			{
+				"color" "{yellow}"
+				"price" "100"
+				"type" "namecolor"
+			}
+			
+			"Blue"
+			{
+				"color" "{blue}"
+				"price" "200"
+				"type" "namecolor"
+			}
+
+			"Dark Red"
+			{
+				"color" "{darkred}"
+				"price" "200"
+				"type" "namecolor"
+			}
+
+			"Purple"
+			{
+				"color" "{purple}"
+				"price" "200"
+				"type" "namecolor"
+			}
+
+		}
+		
+		"Message Colors"
+		{
+			"Gray"
+			{
+				"color" "{gray}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Green"
+			{
+				"color" "{green}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Light Red"
+			{
+				"color" "{lightred}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Lime"
+			{
+				"color" "{lime}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Olive Green"
+			{
+				"color" "{olive}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Orange"
+			{
+				"color" "{orange}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"White"
+			{
+				"color" "{white}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+
+			"Yellow"
+			{
+				"color" "{yellow}"
+				"price" "120"
+				"type" "msgcolor"
+			}
+			"Blue"
+			{
+				"color" "{blue}"
+				"price" "240"
+				"type" "msgcolor"
+			}
+
+			"Dark Red"
+			{
+				"color" "{darkred}"
+				"price" "240"
+				"type" "msgcolor"
+			}
+			
+			"Purple"
+			{
+				"color" "{purple}"
+				"price" "240"
+				"type" "msgcolor"
+			}
+		}
+
+		"Admin Nametags"
+		{
+			"Admin Blue/Red"
+			{
+				"tag" "{red}[{blue}Admin{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin Red/purple"
+			{
+				"tag" "{purple}[{darkred}Admin{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin White/Red"
+			{
+				"tag" "{red}[{white}Admin{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin Green/Blue"
+			{
+				"tag" "{blue}[{lime}Admin{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin Purple/White"
+			{
+				"tag" "{white}[{purple}Admin{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin White/Purple"
+			{
+				"tag" "{purple}[{white}Admin{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin Blue/White"
+			{
+				"tag" "{blue}[{white}Admin{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+			"Admin White/Blue"
+			{
+				"tag" "{white}[{blue}Admin{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "b"
+			}
+		}
+
+		"Owner/Head-Admin Nametags"
+		{
+			"Owner Blue/Red"
+			{
+				"tag" "{red}[{blue}Owner{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner Red/purple"
+			{
+				"tag" "{purple}[{darkred}Owner{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner White/Red"
+			{
+				"tag" "{red}[{white}Owner{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner Green/Blue"
+			{
+				"tag" "{blue}[{lime}Owner{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner Purple/White"
+			{
+				"tag" "{white}[{purple}Owner{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner White/Purple"
+			{
+				"tag" "{purple}[{white}Owner{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner Blue/White"
+			{
+				"tag" "{blue}[{white}Owner{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Owner White/Blue"
+			{
+				"tag" "{white}[{blue}Owner{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin Blue/Red"
+			{
+				"tag" "{red}[{blue}Head-Admin{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin Red/purple"
+			{
+				"tag" "{purple}[{darkred}Head-Admin{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin White/Red"
+			{
+				"tag" "{red}[{white}Head-Admin{red}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin Green/Blue"
+			{
+				"tag" "{blue}[{lime}Head-Admin{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin Purple/White"
+			{
+				"tag" "{white}[{purple}Head-Admin{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin White/Purple"
+			{
+				"tag" "{purple}[{white}Head-Admin{purple}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin Blue/White"
+			{
+				"tag" "{blue}[{white}Head-Admin{blue}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+			"Head-Admin White/Blue"
+			{
+				"tag" "{white}[{blue}Head-Admin{white}]{teamcolor} "
+				"price" "0"
+				"type" "nametag"
+				"flag" "z"
+			}
+		}
+	}
+
+	"Miscellaneous"
+	{
+		"Paintball"
+		{
+			"price" "1600"
+			"type" "paintball"
+			"Decals"
+			{
+				"cyan"
+				{
+					"material"   "paintball/pb_cyan.vmt"
+				}
+				"green"
+				{
+					"material"   "paintball/pb_green.vmt"
+				}
+				"pink"
+				{
+					"material"   "paintball/pb_pink.vmt"
+				}
+				"orange"
+				{
+					"material"   "paintball/pb_orange.vmt"
+				}
+				"yellow"
+				{
+					"material"   "paintball/pb_yellow.vmt"
+				}
+				"babyblue2"
+				{
+					"material"   "paintball/pb_babyblue2.vmt"
+				}
+				"black"
+				{
+					"material"   "paintball/pb_black.vmt"
+				}
+				"blue2"
+				{
+					"material"   "paintball/pb_blue2.vmt"
+				}
+				"brown"
+				{
+					"material"   "paintball/pb_brown.vmt"
+				}
+				"darkgreen"
+				{
+					"material"   "paintball/pb_dark_green.vmt"
+				}
+				"goldenrod"
+				{
+					"material"   "paintball/pb_goldenrod.vmt"
+				}
+				"medslateblue"
+				{
+					"material"   "paintball/pb_medslateblue.vmt"
+				}
+				"olive"
+				{
+					"material"   "paintball/pb_olive.vmt"
+				}
+				"red2"
+				{
+					"material"   "paintball/pb_red2.vmt"
+				}
+				"redorange"
+				{
+					"material"   "paintball/pb_red_orange.vmt"
+				}
+				"violet"
+				{
+					"material"   "paintball/pb_violet.vmt"
+				}
+				"white2"
+				{
+					"material"   "paintball/pb_white2.vmt"
+				}
+			}
+		}
+	}
+}

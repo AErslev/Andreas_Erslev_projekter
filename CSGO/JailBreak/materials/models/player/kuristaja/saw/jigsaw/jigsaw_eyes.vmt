@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\saw\jigsaw\jigsaw_eyes"
+       	"$selfillum" "0" // <- Change "0" --> "1" to make the eyes glow.
+}

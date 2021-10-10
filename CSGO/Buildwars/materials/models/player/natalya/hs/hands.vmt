@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\natalya\hs\hands"
+	"$bumpmap" "models\player\natalya\hs\hands_normal"
+}

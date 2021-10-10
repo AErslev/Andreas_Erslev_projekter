@@ -1,0 +1,21 @@
+﻿"Phrases"
+{
+	"SelectServer"
+	{
+		"en"		"Select a server to to get IP info ..."
+	}
+	"AboutToJoinServer"
+	{
+		"en"		"IP info about server ..."
+	}
+	"HopNotification"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} Has requested IP info for server: {2} !"
+	}
+	"Advert"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} [type {2} to join]"
+	}
+}

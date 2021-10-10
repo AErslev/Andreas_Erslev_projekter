@@ -1,0 +1,70 @@
+﻿"Phrases"
+{
+	"Player count must be bigger than or equal to 0 (0 for everyone)."
+	{
+		"en"		"Player count must be bigger than or equal to 0 (0 for everyone)."
+	}
+
+	"sm_cfmrandomize <player count|optional>"
+	{
+		"en"		"sm_cfmrandomize <player count|optional>"
+	}
+
+	"sm_cfmrandomize to use the value at sm_chooseforme.cfg."
+	{
+		"en"		"sm_cfmrandomize to use the value at sm_chooseforme.cfg."
+	}
+
+	"Choosen player count is bigger then online player count."
+	{
+		"en"		"Choosen player count is bigger then online player count."
+	}
+
+	"Distributing everybody to teams."
+	{
+		"en"		"Distributing everybody to teams."
+	}
+
+	"Teams are selected. GG, GL, HF."
+	{
+		"en"		"Teams are selected. GG, GL, HF."
+	}
+
+	"Usage: sm_cfmswap <name>."
+	{
+		"en"		"Usage: sm_cfmswap <name>."
+	}
+
+	"Can't swap a spec."
+	{
+		"en"		"Can't swap a spec."
+	}
+
+	"has swapped to CT."
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} has swapped to CT."
+	}
+
+	"has swapped to T."
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} has swapped to T."
+	}
+
+	"Usage: sm_cfmspec <name>."
+	{
+		"en"		"Usage: sm_cfmspec <name>."
+	}
+
+	"has swapped to Spec."
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} has swapped to Spec."
+	}
+
+	"Select Player:"
+	{
+		"en"		"Select Player:"
+	}
+}

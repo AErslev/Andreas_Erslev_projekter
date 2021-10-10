@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\vaas\t1027"
+"$bumpmap" 		"models\player\stenli\vaas\t1027_n"
+	"$nocull" 1
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[ .1 3 5 ]"
+}
+
+
+
+

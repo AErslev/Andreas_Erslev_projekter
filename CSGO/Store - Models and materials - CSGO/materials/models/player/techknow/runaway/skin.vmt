@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/runaway/runaway"
+	"$bumpmap"	"models/player/techknow/runaway/runaway_n"
+	"$nocull" 1
+	"$surfaceprop" "flesh" 
+ 	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	".1"
+	"$phongfresnelranges"	"[1 1 1]"
+}

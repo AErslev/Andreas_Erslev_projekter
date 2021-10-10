@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+  "$basetexture" "bfmod/medal/sniper"
+  "$translucent" 1
+}

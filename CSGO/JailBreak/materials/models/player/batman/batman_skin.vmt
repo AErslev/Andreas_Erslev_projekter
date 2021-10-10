@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/batman/batman"
+	"$bumpmap" "models/player/batman/batman_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[.15 .45 1]"
+}

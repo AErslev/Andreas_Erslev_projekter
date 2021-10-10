@@ -1,0 +1,2478 @@
+	"Premium"
+	{
+		"Premium Menu"
+			{
+			"Premium Backpacks"
+			{
+			"Kukla soap"
+			{
+				"model"	"models/player/attach_nf/cso2/back/miladoll.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Monkey"
+			{
+				"model"	"models/player/attach_nf/cso2/back/monkey.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"radio"
+			{
+				"model"	"models/player/attach_nf/cso2/back/p77.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Rake"
+			{
+				"model"	"models/player/attach_nf/cso2/back/pigback.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Piggy pig"
+			{
+				"model"	"models/player/attach_nf/cso2/back/pigbag.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Shark"
+			{
+				"model"	"models/player/attach_nf/cso2/back/shark.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Shoolbag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/shoolbag.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Santa's sleigh"
+			{
+				"model"	"models/player/attach_nf/cso2/back/sleigh.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Snakeyear"
+			{
+				"model"	"models/player/attach_nf/cso2/back/snakeyear.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Tesla"
+			{
+				"model"	"models/player/attach_nf/cso2/back/tesla.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Turtlebag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/turtlebag.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Turtleshell"
+			{
+				"model"	"models/player/attach_nf/cso2/back/turtleshell.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Fire circle"
+			{
+				"model"	"models/player/attach_nf/cso2/back/twback.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Crane Valve"
+			{
+				"model"	"models/player/attach_nf/cso2/back/valve.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Watercanon"
+			{
+				"model"	"models/player/attach_nf/cso2/back/watercanon.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"White wings"
+			{
+				"model"	"models/player/attach_nf/cso2/back/wing.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Golden wings"
+			{
+				"model"	"models/player/attach_nf/cso2/back/wing_gold.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"witch's Broom"
+			{
+				"model"	"models/player/attach_nf/cso2/back/witchbroom.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Santa's bag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/xmas.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"What a crap green"
+			{
+				"model"	"models/player/attach_nf/cso2/back/zccanon.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			"Backpack Joe"
+			{
+				"model"	"models/shop/nf/back/backpack_joe.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+
+			"Fido The Fire Dog"
+			{
+				"model"	"models/shop/nf/back/fido_the_fire_dog.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+						
+			"Sparky pup"
+			{
+				"model"	"models/shop/nf/back/sparky_pup.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+			
+			"Teddy"
+			{
+				"model"	"models/shop/nf/back/teddy_spine.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "1"
+			}
+		}
+		
+		"Premium Pro Gloves"
+		{
+			"CLOUD9 T gloves"
+			{
+				"model"		"models/weapons/soclan/7/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"HELLRAISERS T gloves"
+			{
+				"model"		"models/weapons/soclan/8/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"LUMINOSITY T Gloves"
+			{
+				"model"		"models/weapons/soclan/9/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"MOUSESPORTS T gloves"
+			{
+				"model"		"models/weapons/soclan/10/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"NAVI T gloves"
+			{
+				"model"	"models/weapons/soclan/1/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"EnVyUS T Gloves"
+			{
+				"model"		"models/weapons/soclan/2/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"VIRTUS.PRO T Gloves"
+			{
+				"model"		"models/weapons/soclan/3/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"FLIPSIDE T Gloves"
+			{
+				"model"		"models/weapons/soclan/4/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"FNATIC T Gloves"
+			{
+				"model"		"models/weapons/soclan/5/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"NIP T Gloves"
+			{
+				"model"		"models/weapons/soclan/6/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"CLOUD9 CT Gloves"
+			{
+				"model"		"models/weapons/soclan/7/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"HELLRAISERS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/8/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"LUMINOSITY CT Gloves"
+			{
+				"model"		"models/weapons/soclan/9/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"MOUSESPORTS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/10/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"NAVI CT Gloves"
+			{
+				"model"		"models/weapons/soclan/1/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"EnVyUS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/2/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"VIRTUS.PRO CT Gloves"
+			{
+				"model"		"models/weapons/soclan/3/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"FLIPSIDE CT Gloves"
+			{
+				"model"		"models/weapons/soclan/4/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"FNATIC CT Gloves"
+			{
+				"model"		"models/weapons/soclan/5/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+			"NIP CT Gloves"
+			{
+				"model"		"models/weapons/soclan/6/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "p"
+				"price"		"500"
+			}
+		}		
+		
+		"Premium Tailings"
+		{
+			"The tail fox"
+			{
+				"model"	"models/player/attach_nf/cso2/back/foxtail.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "2"
+			}
+
+			"Raccoon tail"
+			{
+				"model"	"models/player/attach_nf/cso2/back/racoon.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "2"
+			}
+
+			"Horse Ass"
+			{
+				"model"	"models/player/attach_nf/cso2/back/horseyear.mdl"
+				"price" "2000"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "2"
+			}
+		}
+		
+		"Premium Caps"
+		{
+			"Ingrown"
+			{
+				"model"	"models/shop/nf/hats/ingrown.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Lake Monster"
+			{
+				"model"	"models/shop/nf/hats/lake_monster.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"One Eyed"
+			{
+				"model"	"models/shop/nf/hats/one_eyed.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Rodeo Star"
+			{
+				"model"	"models/shop/nf/hats/rodeo_star.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Scout Helmet"
+			{
+				"model"	"models/shop/nf/hats/scout_helmet.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Shredder"
+			{
+				"model"	"models/shop/nf/hats/shredder.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Skull Horns"
+			{
+				"model"	"models/shop/nf/hats/skull_horns.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Skull Horns Blue"
+			{
+				"model"	"models/shop/nf/hats/skull_horns_blue.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Stormtrooper"
+			{
+				"model"	"models/shop/nf/hats/stormtrooper.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"The Ox"
+			{
+				"model"	"models/shop/nf/hats/the_ox.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Vader Helmet"
+			{
+				"model"	"models/shop/nf/hats/vaderhelmet.mdl"
+				"price" "500"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+			
+			"Panda"
+			{
+				"model"	"models/hangover/hats/panda/panda.mdl"
+				"position" "1.0 -1.0 7.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Steel head"
+			{
+				"model"	"models/hangover/hats/ironhead/ironhead.mdl"
+				"position"	"-1.5 0.0 2.5"
+				"angles"	"0.0 -90.0 -15.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Jester Hat (Blue)"
+			{
+				"model"	"models/hangover/hats/jesterhat/jesterhat_blu.mdl"
+				"position"	"0.0 -1.0 6.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Jester Hat (Red)"
+			{
+				"model"	"models/hangover/hats/jesterhat/jesterhat_red.mdl"
+				"position"	"0.0 -1.0 6.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Helmet Rocchetta"
+			{
+				"model"	"models/hangover/hats/rocket/rocket.mdl"
+				"position" "1.0 -1.0 7.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Sam's Hat"
+			{
+				"model"	"models/hangover/hats/samhat/samhat.mdl"
+				"position"	"0.0 0.0 6.5"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Winter hat (Red)"
+			{
+				"model"	"models/hangover/hats/snow_hat/snow_hat.mdl"
+				"position"	"1.5 0.0 6.2"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Winter hat (Blue)"
+			{
+				"model"	"models/hangover/hats/snow_hat/snow_hat_blue.mdl"
+				"position"	"1.5 0.0 6.2"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Lego head"
+			{
+				"model"	"models/hangover/hats/spy/spy_hat.mdl"
+				"position"	"1.7 0.0 2.0"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Rosso squid"
+			{
+				"model"	"models/hangover/hats/squidred/squidred.mdl"
+				"position"	"0.0 0.0 7.0"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		
+			"Zombies cap"
+			{
+				"model"	"models/hangover/hats/zombiehead/zombiehead.mdl"
+				"position"	"0.0 0.0 4.0"
+				"angles"	"0.0 -90.0 -8.0"
+				"price" "500"
+				"type" "hat"
+				"flag" "p"
+				"slot" "0"
+			}
+		}
+		
+		"Premium Skins"
+			{
+			"T"
+				{
+					"Duke Nukem"
+					{
+						"model" "models/player/custom_player/kuristaja/duke/dukev3.mdl"
+						"team" "2"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"STREET FIGHTER POISON"
+					{
+						"model" "models/player/custom_player/voikanaa/streetfighter/poison.mdl"
+						"team" "2"
+						"price" "3000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"Zoey"
+					{
+						"model" "models/player/natalya/zoeys/zoey_red.mdl"
+						"team" "2"
+						"price" "4000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+							
+					"Emma"
+					{
+						"model" "models/player/custom_player/kuristaja/cso2/emma/emma.mdl"
+						"team" "2"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+									
+					"Sweet Tooth" 
+					{
+						"model" "models/player/custom_player/kuristaja/sweet_tooth/sweet_tooth.mdl"
+						"team" "2"
+						"price" "6000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"Lara Croft Bikini" 
+					{
+						"model" "models/player/lara/lara.mdl"
+						"team" "2"
+						"price" "8000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"GASAI YONO" 
+					{
+						"model" "models/player/custom_player/voikanaa/mirainikki/gasaiyono.mdl"
+						"team" "2"
+						"price" "10000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					"Prisoner"
+					{
+						"model" "models/player/prisoner/prisoner.mdl"
+						"team" "2"
+						"price" "500"
+						"type" "playerskin"
+						"flag" "p"
+			}
+			"Deathstroke"
+			{
+				"model" "models/player/deathstroke/deathstroke2.mdl"
+				"team" "2"
+				"price" "2000"
+				"type" "playerskin"
+				"flag" "p"
+			}				
+		    "Pink Panther"
+			{
+				"model" "models/player/pink_panther_t/pink_panther_t.mdl"
+				"team" "2"
+				"price" "4000"
+				"type" "playerskin"
+				"flag" "p"
+			}				
+			"Homer devil - Simpsons"
+			{
+				"model" "models/player/homer_t/homer_t.mdl"
+				"team" "2"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Ada"
+			{
+				"model" "models/player/kuristaja/re6/ada/adav2.mdl"
+				"team" "2"
+				"price" "8000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Manden med leen"
+			{
+				"model" "models/player/monster/grim/grim.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Octodad!"
+			{
+				"model" "models/player/kuristaja/octodad/octodad_tuxedo.mdl"
+				"team" "2"
+				"price" "20000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rei"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/rei/rei-plug.mdl"
+				"team" "2"
+				"price" "30000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Asuka"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/asuka/asuka-plug.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Santa"
+			{
+				"model" "models/player/custom_player/legacy/santa/santa.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Sneaking suit!"
+			{
+				"model" "models/player/kuristaja/mgsv/boss/sneaking_suit.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rocket Racoon Green"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_green.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rocket Racoon Red"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_red.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Bunny Girl"
+			{
+				"model" "models/player/custom_player/natalya/hhp227/bunny-girl.mdl"
+				"team" "2"
+				"price" "20000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"L4D2 Ellis"
+			{
+				"model" "models/player/custom_player/kuristaja/l4d2/ellis/ellisv2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Asuka Dressed"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/asuka/asuka-dress-3a.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"L4D2 Rochelle"
+			{
+				"model" "models/player/kuristaja/l4d2/rochelle/rochellev2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"L4D2 Nick"
+			{
+				"model" "models/player/custom_player/kuristaja/l4d2/nick/nickv2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Heavy Red"
+			{
+				"model" "models/player/kuristaja/tf2/heavy/heavy_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Scout Red"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/scout/scout_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Medic Red"
+			{
+				"model" "models/player/kuristaja/tf2/medic_red.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Spy Red"
+			{
+				"model" "models/player/kuristaja/tf2/spy/spy_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Fatty"
+			{
+				"model" "models/player/kuristaja/zombies/fatty/fatty.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB GoZombie"
+			{
+				"model" "models/player/kuristaja/zombies/gozombie/gozombie.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Police"
+			{
+				"model" "models/player/kuristaja/zombies/police/police.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Skinny"
+			{
+				"model" "models/player/kuristaja/zombies/skinny/skinny.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+					"ZB Zpz"
+					{
+						"model" "models/player/kuristaja/zombies/zpz/zpz.mdl"
+						"team" "2"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+				}
+			"CT"
+				{
+
+					"Big Boss"
+					{
+						"model" "models/player/custom_player/kuristaja/big_boss/big_bossv3.mdl"
+						"team" "3"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"CORTANA"
+					{
+						"model" "models/player/custom_player/voikanaa/halo4/cortana.mdl"
+						"team" "3"
+						"price" "3000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"Talizorah"
+					{
+						"model" "models/player/custom_player/hekut/talizorah/talizorah.mdl"
+						"team" "3"
+						"price" "4000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"Choi"
+					{
+						"model" "models/player/custom_player/kuristaja/cso2/choi/choi.mdl"
+						"team" "3"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"Kz2 rifleman"
+					{
+						"model" "models/player/killzone2/kz2_rifleman.mdl"
+						"team" "3"
+						"price" "6000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					
+					"shinji plugsuit"
+					{
+						"model" "models/player/custom_player/natalya/evangelion/shinji/shinji-plug.mdl"
+						"team" "3"
+						"price" "8000"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					"Police"
+					{
+						"model" "models/player/mapeadores/kaem/police/police.mdl"
+						"team" "3"
+						"price" "500"
+						"type" "playerskin"
+						"flag" "p"
+					}
+					"Big Boss"
+					{
+						"model" "models/player/kuristaja/big_boss/big_boss.mdl"
+						"team" "3"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "p"
+					}		
+			"Blue Panther"
+			{
+				"model" "models/player/pink_panther_ct/pink_panther_ct.mdl"
+				"team" "3"
+				"price" "4000"
+				"type" "playerskin"
+				"flag" "p"
+			}			
+			"Homer - Simpsons"
+			{
+				"model" "models/player/homer_ct/homer_ct.mdl"
+				"team" "3"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "p"				
+			}			
+			"Natalya"
+			{
+				"model" "models/player/natalya/sailor_moon/sailor_moon.mdl"
+				"team" "3"
+				"price" "8000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Spiderman"
+			{
+				"model" "models/player/spiderman/spiderman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Batman"
+			{
+				"model" "models/player/batman/batman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Nanosuit"
+			{
+				"model" "models/player/kuristaja/nanosuit/nanosuit.mdl"
+				"team" "3"
+				"price" "12000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rocket Racoon Blue"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_blue.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rocket Racoon Yellow"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_yellow.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Heavy Blue"
+			{
+				"model" "models/player/kuristaja/tf2/heavy/heavy_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Scout Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/scout/scout_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Medic Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/medic_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Spy Blue"
+			{
+				"model" "models/player/kuristaja/tf2/spy/spy_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"TF2 Medic Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/medic_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Samus"
+			{
+				"model" "models/player/samus/samus.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Lightning ffxiii"
+			{
+				"model" "models/player/ffxiii/lightning.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"GTA-V Trevor"
+			{
+				"model" "models/player/gtav/trevor.mdl"
+				"team" "3"
+				"price" "7000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Solidsnake"
+			{
+				"model" "models/player/solidsnake/solidsnake.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Rifleman"
+			{
+				"model" "models/player/killzone2/kz2_rifleman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Lara Bikini"
+			{
+				"model" "models/player/lara/lara.mdl"
+				"team" "3"
+				"price" "30000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Ekko"
+			{
+				"model" "models/player/custom/ekko/ekko.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Primetime Draven"
+			{
+				"model" "models/player/custom/draven/draven.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Bman"
+			{
+				"model" "models/player/kuristaja/zombies/bman/bman.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Charple"
+			{
+				"model" "models/player/kuristaja/zombies/charple/charple.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Classic"
+			{
+				"model" "models/player/kuristaja/zombies/classic/classic.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"ZB Corpse"
+			{
+				"model" "models/player/kuristaja/zombies/corpse/corpse.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Zoey Christmas"
+			{
+				"model" "models/player/natalya/zoeys/zoey_christmas.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Neptune"
+			{
+				"model" "models/player/ubneptune/neptune_zise/ubneptune.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Ada Wong"
+			{
+				"model" "models/player/custom_player/kuristaja/re6/ada/adav5.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Duke"
+			{
+				"model" "models/player/custom_player/kuristaja/duke/dukev3.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "p"
+			}
+			"Trager"
+			{
+				"model" "models/player/custom_player/kuristaja/trager/tragerv2.mdl"
+				"team" "3"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "p"
+			}	
+//				"Renegade Girl"
+//				{
+//						"model" "models/player/natalya/roleplay/renegade-girl-csgo.mdl"
+//						"team" "3"
+//						"price" "10000"
+//						"type" "playerskin"
+//						"flag" "p"
+//					}
+//				}
+//			}
+		"Premium Nametags"
+			{
+				"Premium Blue/Red"
+				{
+					"tag" "{red}[{blue}Premium{red}]{teamcolor} "
+					"price" "0"
+					"type" "nametag"
+					"flag" "p"
+				}
+				"Premium Red/Purple"
+				{
+					"tag" "{purple}[{darkred}Premium{purple}]{teamcolor} "
+					"price" "0"
+					"type" "nametag"
+					"flag" "p"
+				}
+				"Premium Green/Blue"
+				{
+					"tag" "{blue}[{lime}Premium{blue}]{teamcolor} "
+					"price" "0"
+					"type" "nametag"
+					"flag" "p"
+				}
+				"Premium Purple/White"
+				{
+					"tag" "{white}[{purple}Premium{white}]{teamcolor} "
+					"price" "0"
+					"type" "nametag"
+					"flag" "p"
+				}
+				"Premium Blue/White"
+				{
+					"tag" "{darkred}[{purple}Premium{purple}]{teamcolor} "
+					"price" "0"
+					"type" "nametag"
+					"flag" "p"
+				}
+			}
+		"Premium Auras"
+			{
+				"Stewie (Color)"
+				{
+					"Name" "test"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Blubble"
+				{
+					"Name" "puziri2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Energy (blue)"
+				{
+					"Name" "puzyr"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Energy (color)"
+				{
+					"Name" "puzyr2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"StarShoot"
+				{
+					"Name" "Aura10_1"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Green Hole"
+				{
+					"Name" "Aura11"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Heavenly"
+				{
+					"Name" "auratt"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Gamma Grey"
+				{
+					"Name" "gamma_gray"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Gamma Blue"
+				{
+					"Name" "gamma_blue"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Gamma Green"
+				{
+					"Name" "gamma"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Blood"
+				{
+					"Name" "blood"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Donuts"
+				{
+					"Name" "donats"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Dynamic Smoke (random)"
+				{
+					"Name" "dynamic_smoke2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Dynamic Smoke (Coca-Cola)"
+				{
+					"Name" "dynamic_smoke3"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Dynamic Smoke (Red-Green)"
+				{
+					"Name" "dynamic_smoke4"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Dynamic Smoke (Light-Blue)"
+				{
+					"Name" "dynamic_smoke5"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Equalizer (pink)"
+				{
+					"Name" "ekvalaizer"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Equalizer (green)"
+				{
+					"Name" "ekvalaizer_black_blue"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Equalizer (white)"
+				{
+					"Name" "ekvalaizer_flgod"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}				
+				"Equalizer (diamond)"
+				{
+					"Name" "ekvalaizer_gray"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Eucalyptus (standart)"
+				{
+					"Name" "evcalipt"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Eucalyptus (life)"
+				{
+					"Name" "evcalipt_life"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Letters"
+				{
+					"Name" "flgod_2_final"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Bicycle cards (standart)"
+				{
+					"Name" "joker_dos1"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Bicycle cards (color)"
+				{
+					"Name" "joker_dos2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Bicycle cards (head)"
+				{
+					"Name" "joker_face1"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoking"
+				{
+					"Name" "smoking"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Sphere (Color)"
+				{
+					"Name" "sphere"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoke (White)"
+				{
+					"Name" "static_smoke"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoke (Blue)"
+				{
+					"Name" "static_smoke2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoke (Black)"
+				{
+					"Name" "static_smoke3"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoke (Green)"
+				{
+					"Name" "static_smoke4"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Smoke (Color)"
+				{
+					"Name" "static_smoke5"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Yellow Rain"
+				{
+					"Name" "static_smoke6"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Fire Barrier"
+				{
+					"Name" "Aura1"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Impulse"
+				{
+					"Name" "Aura2"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Equalizer"
+				{
+					"Name" "Aura3"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Toxic Dog"
+				{
+					"Name" "Aura4"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Slow-Universe"
+				{
+					"Name" "Aura5"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Universe"
+				{
+					"Name" "Aura6"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Red Hole"
+				{
+					"Name" "Aura7"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Blue hole"
+				{
+					"Name" "Aura8"					
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Starsucker"
+				{
+					"Name" "Aura9"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+				"Starblow"
+				{
+					"Name" "Aura10"
+					"price" "600"
+					"type" "Aura"
+					"flag" "p"
+				}
+			}	
+		"Premium Trails"
+			{
+				"Kind Magic"
+				{
+					"Name" "Trail"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Evil Magic"
+				{
+					"Name" "Trail5"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Confetti"
+				{
+					"Name" "Trail2"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Splashes"
+				{
+					"Name" "Trail3"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Green Spirit"
+				{
+					"Name" "Trail4"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Emerald Follower"
+				{
+					"Name" "Trail7"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Ice Breathing"
+				{
+					"Name" "Trail8"	
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Pink Chaser"
+				{
+					"Name" "Trail9"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"BlackHole"
+				{
+					"Name" "Trail10"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+				"Sparkle"
+				{
+					"Name" "Trail11"
+					"price" "200"
+					"type" "Particles"
+					"flag" "p"
+				}
+			}	
+		"Premium Wings"
+			{
+				"Premium Nightelf Wings"
+				{
+					"model" "models/shop/perfectworld_wings01_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+       				}
+				"Premium Bloodelf Wings"
+				{
+					"model" "models/shop/perfectworld_wings02_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Fire'n'Ice Wings"
+				{
+					"model" "models/shop/perfectworld_wings03_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Magic Wings"
+				{
+					"model" "models/shop/perfectworld_wings04_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Eagle Wings"
+				{
+					"model" "models/shop/perfectworld_wings05_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Chief Wings"
+				{
+					"model" "models/shop/perfectworld_wings06_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Fairy Wings"
+				{
+					"model" "models/shop/perfectworld_wings07_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Skid Wings"
+				{
+					"model" "models/shop/perfectworld_wings08_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Feather Wings"
+				{
+					"model" "models/shop/perfectworld_wings09_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "p"
+					"type" "hat"
+					"slot" "1"
+				}
+			}
+		"Premium sprays"
+			{
+				"Super Saiyajin 1"
+				{
+					"material"	"materials/decals/un_com/super_saiyajin1.vmt"
+					"price"		"75"
+					"flag" "p"
+					"type"		"spray"
+					}
+		"Super Saiyajin 2"
+		{
+			"material"	"materials/decals/un_com/super_saiyajin2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Super Saiyajin 3"
+		{
+			"material"	"materials/decals/un_com/super_saiyajin3.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"DBZ Fusion"
+		{
+			"material"	"materials/decals/un_com/fusion.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Rapido"
+		{
+			"material"	"materials/decals/un_com/rapido.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Asuna"
+		{
+			"material"	"materials/decals/un_com/asuna.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Kirito"
+		{
+			"material"	"materials/decals/un_com/kirito.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Ayy Lmao"
+		{
+			"material"	"materials/decals/un_com/ayy_lmaofix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Bob Marley"
+		{
+			"material"	"materials/decals/un_com/bob_marley.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"HTTP"
+		{
+			"material"	"materials/decals/un_com/http.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Legalize"
+		{
+			"material"	"materials/decals/un_com/legalizefix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Nicolas Cage GIF"
+		{
+			"material"	"materials/decals/un_com/nicolascagefix2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Pepe Matrix"
+		{
+			"material"	"materials/decals/un_com/pepe_matrixfix2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Scarface"
+		{
+			"material"	"materials/decals/un_com/scarface.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"This Game gave me Cancer"
+		{
+			"material"	"materials/decals/un_com/this_game_gave_me_cancer.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Cloud9"
+		{
+			"material"	"materials/decals/un_com/cloud9fix2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"EnvyUs"
+		{
+			"material"	"materials/decals/un_com/envyus.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Fnatic"
+		{
+			"material"	"materials/decals/un_com/fnaticfix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Mousesports"
+		{
+			"material"	"materials/decals/un_com/mouz.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Ninjas in Pyjamas"
+		{
+			"material"	"materials/decals/un_com/nip.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Penta"
+		{
+			"material"	"materials/decals/un_com/penta.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"TSM"
+		{
+			"material"	"materials/decals/un_com/tsm.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Virtus.Pro"
+		{
+			"material"	"materials/decals/un_com/virtusprofix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Fluttershy 1"
+		{
+			"material"	"materials/decals/mirage2/fluttershy.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Fluttershy 2"
+		{
+			"material"	"materials/decals/mirage2/Flutters.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Rainbow Dash"
+		{
+			"material"	"materials/decals/un_com/rainbowdashfix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Clown"
+		{
+			"material"	"materials/decals/un_com/clown.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Game of Thrones"
+		{
+			"material"	"materials/decals/un_com/got.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Kagetane Hiruko"
+		{
+			"material"	"materials/decals/un_com/kagetanefix.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"King EaZy"
+		{
+			"material"	"materials/decals/un_com/kingeazy.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Money Boy"
+		{
+			"material"	"materials/decals/un_com/moneyboy.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Keyboard"
+		{
+			"material"	"materials/decals/un_com/keyboard.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"AK-Cat"
+		{
+			"material"	"materials/decals/mirage2/akcat_i1f000_ani.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Colored Pedo Bear"
+		{
+			"material"	"materials/decals/mirage2/ColorPedoBear2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Burning Middlefinger"
+		{
+			"material"	"materials/decals/mirage2/Crank_byRB_ani.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Trollface"
+		{
+			"material"	"materials/decals/mirage2/spray_trollface.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Smiley"
+		{
+			"material"	"materials/decals/mirage2/Smile.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Chuck Norris Pokemon Card"
+		{
+			"material"	"materials/decals/mirage2/Chuck_Pokemon_Card.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Gaben Money"
+		{
+			"material"	"materials/decals/mirage2/gabenmoney2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Heart with Wings"
+		{
+			"material"	"materials/decals/mirage2/tribal_heart_shadow.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Ace of Hearts"
+		{
+			"material"	"materials/decals/mirage2/ace_of_hearts.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Awesome Smiley"
+		{
+			"material"	"materials/decals/mirage2/AwesomeSmily22.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Have a Seat"
+		{
+			"material"	"materials/decals/mirage2/Bench2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Blowjob"
+		{
+			"material"	"materials/decals/mirage2/blow_job.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}	
+		"Dark Halo Cat"
+		{
+			"material"	"materials/decals/mirage2/darkhalo-catdevart.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Eric Cartman"
+		{
+			"material"	"materials/decals/mirage2/Eric_Cartman2.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Get of my Nuts"
+		{
+			"material"	"materials/decals/mirage2/Get_of_my_nuts.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Beware of Headshot"
+		{
+			"material"	"materials/decals/mirage2/headshooot.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Headshot Area"
+		{
+			"material"	"materials/decals/mirage2/HeadshotArea.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Homer"
+		{
+			"material"	"materials/decals/mirage2/Homer.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Homer Facepalm"
+		{
+			"material"	"materials/decals/mirage2/homerofacepalm.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"I Headshot You"
+		{
+			"material"	"materials/decals/mirage2/I_headshot_you.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Middlefinger"
+		{
+			"material"	"materials/decals/mirage2/Middlefinger.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"No AWP"
+		{
+			"material"	"materials/decals/mirage2/noawp.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"No Bullshit"
+		{
+			"material"	"materials/decals/mirage2/nobullshit.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Noobs"
+		{
+			"material"	"materials/decals/mirage2/noobs.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"David Pedo Hasselhoff"
+		{
+			"material"	"materials/decals/mirage2/david.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"GIGN"
+		{
+			"material"	"materials/decals/mirage2/gign.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Headshot"
+		{
+			"material"	"materials/decals/mirage2/Headshot.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"T Arctic"
+		{
+			"material"	"materials/decals/mirage2/T_arctic.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Creeper"
+		{
+			"material"	"materials/decals/mirage2/creeperinside.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Noobs everywhere"
+		{
+			"material"	"materials/decals/mirage2/Noobsew.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Awesome Stash"
+		{
+			"material"	"materials/decals/mirage2/Awesome_Stash.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Chuck Norris"
+		{
+			"material"	"materials/decals/mirage2/chucknorrisspray.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Colombo"
+		{
+			"material"	"materials/decals/mirage2/colombo.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Die Noobs"
+		{
+			"material"	"materials/decals/mirage2/die_noobs.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Fuck You"
+		{
+			"material"	"materials/decals/mirage2/fu.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Gay Base"
+		{
+			"material"	"materials/decals/mirage2/gay_base.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Nicolas Cage"
+		{
+			"material"	"materials/decals/mirage2/NIC.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Old Spice"
+		{
+			"material"	"materials/decals/mirage2/oldspice.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Patrick"
+		{
+			"material"	"materials/decals/mirage2/patrick.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Rotweiler"
+		{
+			"material"	"materials/decals/mirage2/rotweiler.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Scarface Cat"
+		{
+			"material"	"materials/decals/mirage2/Scarface_cat.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Shrek"
+		{
+			"material"	"materials/decals/mirage2/shrekspray.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Spongebob"
+		{
+			"material"	"materials/decals/mirage2/Spongebob.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"LOL face"
+		{
+			"material"	"materials/decals/mirage2/lol.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Bible"
+		{
+			"material"	"materials/decals/mirage2/bible.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}	
+		"Mario Smash"
+		{
+			"material"	"materials/decals/mirage2/MarioSmash.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Krusty"
+		{
+			"material"	"materials/decals/mirage2/Krusty_Spray.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Condoms"
+		{
+			"material"	"materials/decals/mirage2/Kondom.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Homer LOL"
+		{
+			"material"	"materials/decals/mirage2/homerolol.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Stick Figure Dancing"
+		{
+			"material"	"materials/decals/mirage2/Hangen.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Electric Shot"
+		{
+			"material"	"materials/decals/mirage2/Electricshot.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Devil"
+		{
+			"material"	"materials/decals/mirage2/Devil.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Cool Banana"
+		{
+			"material"	"materials/decals/mirage2/CoolBanana.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Pepperoni Cat"
+		{
+			"material"	"materials/decals/mirage2/CatPepperoni.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Boo"
+		{
+			"material"	"materials/decals/mirage2/Boo.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Animated Bear"
+		{
+			"material"	"materials/decals/mirage2/animatedbear.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Pikachu"
+		{
+			"material"	"materials/decals/mirage2/Pikachu_Spray.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Powerpuff Girls"
+		{
+			"material"	"materials/decals/mirage2/ppgspray.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Roxy"
+		{
+			"material"	"materials/decals/mirage2/Roxy.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Slasher"
+		{
+			"material"	"materials/decals/mirage2/Slasher.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+		"Smashed"
+		{
+			"material"	"materials/decals/mirage2/Smashed.vmt"
+			"price"		"75"
+					"flag" "p"
+			"type"		"spray"
+		}
+//		"This is Art"
+//		{
+//			"material"	"materials/decals/mirage2/This_Is_Art.vmt"
+//			"price"		"75"
+//					"flag" "p"
+//			"type"		"spray"
+//			}
+//		}
+	}	
+}

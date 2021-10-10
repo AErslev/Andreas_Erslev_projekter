@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/sna2_face0_pach_bsm"
+    	"$bumpmap"    "models/player/kuristaja/mgsv/boss/sna2_face0_pach_normal"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/kuristaja/mgsv/boss/white2"
+	"$phongexponent" 8
+	"$phongboost" "0.35"
+	"$phongfresnelranges"	"[5 6 8]"
+	"$PhongAlbedoTint" "1"
+   	 "$lightwarptexture"	"models/player/kuristaja/mgsv/boss/clothes_wrp"
+}
+
+

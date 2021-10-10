@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\techknow\blades\blade"
+	"$bumpmap"	"models\player\techknow\blades\blade_n"
+
+
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

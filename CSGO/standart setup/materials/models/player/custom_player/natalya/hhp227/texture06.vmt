@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$baseTexture" "models\player\custom_player\natalya\hhp227\texture06"
+//        "$bumpmap" "models\player\custom_player\natalya\hhp227\normal_texture06"
+	"$envmap" "models\player\custom_player\natalya\hhp227\soria-env"
+	"$envmapcontrast" 1.1
+	"$envmapsaturation" 0
+}

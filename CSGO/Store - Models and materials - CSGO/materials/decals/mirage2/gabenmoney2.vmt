@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"decals\mirage2\gabenmoney2"
+	"$translucent" "1"
+	"$decalscale" 0.125
+}

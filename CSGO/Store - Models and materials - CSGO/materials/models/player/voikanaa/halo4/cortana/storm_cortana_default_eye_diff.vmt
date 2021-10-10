@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/voikanaa/halo4/cortana/storm_cortana_default_eye_diff"
+	"$bumpmap" "models/player/voikanaa/halo4/cortana/storm_cortana_default_eye_n"
+
+	$nodecal 1
+	$selfillum 1
+	
+	"$phong" "1"
+	"$phongBoost" "200"
+	"$phongExponent" "10"  
+	"$phongFresnelRanges" "[0 0.5 1]"
+	"$PhongAlbedoTint" "1"
+
+	$phongtint "[.1 .4 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+
+}

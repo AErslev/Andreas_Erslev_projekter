@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/voikanaa/tru/lara/hair_diffuse"
+	"$bumpmap" "models/player/voikanaa/tru/lara/hair_bump"
+
+	$alphatest 1
+	$alphatestreference .3
+	$nocull 1
+	
+	"$phong" "1"
+	"$phongBoost" "1"
+	"$phongExponent" "20"  
+	"$phongFresnelRanges" "[0 0.5 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+}

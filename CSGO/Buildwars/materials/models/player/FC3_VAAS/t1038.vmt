@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\FC3_VAAS\t1038"
+"$bumpmap" 		"models\player\FC3_VAAS\t1038_n"
+	"$nocull" 1
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[ .1 3 5 ]"
+}
+
+
+
+

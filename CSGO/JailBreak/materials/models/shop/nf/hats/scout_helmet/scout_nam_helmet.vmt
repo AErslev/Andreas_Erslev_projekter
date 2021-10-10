@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\shop\nf\hats\scout_helmet/scout_nam_helmet_color"
+	"$bumpmap"		"models\shop\nf\hats\scout_helmet/scout_nam_helmet_normal"
+	"$lightwarptexture"		"models\shop\nf\hats\scout_helmet/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"10.000000"
+	"$phongboost"		"5.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$color2"		"{ 255 255 255 }"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+
+}

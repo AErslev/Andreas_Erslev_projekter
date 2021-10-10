@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\slow\penis_man/slow_balls"
+	"$bumpmap" "models\player\slow\penis_man/slow_balls_bump"
+
+ 	"$phong" 			"1"
+	"$phongexponent"		"30"
+	"$phongboost"		"5"
+	"$phongtint"		"[1 1 1]"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+}

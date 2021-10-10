@@ -1,0 +1,39 @@
+ 
+ "VertexLitGeneric"
+{
+// 베이스 텍스쳐 (알비도) 그리고 노말맵
+	"$baseTexture" "models\player\attach_nf\cso2\back\att_b_sleigh"	
+	"$bumpmap" "models\player\attach_nf\cso2\back\att_b_sleigh_normal"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[ 1.000000 1.000000 1.000000 ]"
+	"$envmapcontrast"	0.250000
+	"$envmapsaturation"	0.100000
+	"$envmapboost"		0.60000
+	"$phongexponent"	6.000000
+	"$phongboost"		1.00000
+	"$phong"		1
+	"$bumpscale"		1.000000
+
+	"$rimlight"		1
+	"$rimlightexponent"	5.000000
+	"$rimlightboost"	35.000000
+	"$rimlightcolorblend"	1.0
+	"$rimmask"		0
+
+	"$normalmapalphaenvmapmask" 1
+	"$specularmask" "255"
+        "$diffusecontrast"  0.25
+
+	 //$translucent  1
+	 //$nocull 1
+	 //$alphatest 1
+	 //$ALPHATESTREFERENCE	0.1
+
+//========================================반사 환경맵 관련===================================
+//	"$envmaptint" "[ 0.08 0.08 0.08 ]"
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phongtint" "[1 1 1]"	           // 퐁효과에 더해질 (R,G,B)값
+//	"$phongfresnelranges"	"[0.36 0.36 0.36]"
+
+
+}

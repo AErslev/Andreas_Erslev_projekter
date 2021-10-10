@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGlogo\SGlogohat"
+	"$bumpmap"     "models\SGlogo\SGlogohat_n"
+	"$model" 1
+	"$phong" "1"
+	"$lightwarptexture" "models\SGlogo\lightwarp2"
+	"$halflambert" 1
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/sic/hitman/hm47"
+	"$bumpmap" "models/player/sic/hitman/hm47_bump"
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	".2"
+	"$phongfresnelranges"	"[0.1 0.1 0.1]"
+}

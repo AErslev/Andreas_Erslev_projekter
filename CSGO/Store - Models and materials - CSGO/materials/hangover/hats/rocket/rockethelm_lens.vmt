@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$baseTexture "hangover\hats\rocket\rockethelm_lens"
+	"$envmap" "env_cubemap"
+    "$translucent" 1
+}

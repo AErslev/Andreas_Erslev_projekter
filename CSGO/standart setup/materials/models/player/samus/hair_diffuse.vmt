@@ -1,0 +1,20 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/samus/hair_diffuse"
+	$bumpmap "models/player/samus/hair_bump"
+	$nocull 1
+	$alphatest 1
+	$alphatestreference .4
+
+	"$phong" "1"
+	"$phongBoost" "5"
+	"$phongExponent" "10"  
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$PhongAlbedoTint" "1"
+
+	$phongtint "[1 .8 .1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+}

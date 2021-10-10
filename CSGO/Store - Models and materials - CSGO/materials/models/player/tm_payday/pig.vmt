@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/tm_payday/pig"
+	"$bumpmap"	"models/player/tm_payday/pig_n"
+
+$phong 1
+$phongBoost "10"
+$nocull 1
+
+
+$phongFresnelRanges "[.1 .1 1]"
+$phongdisablehalflambert 1
+$rimlight 1
+$rimlightexponent 12
+$rimlightboost "0.6"
+//R G B
+}

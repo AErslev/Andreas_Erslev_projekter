@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\shop\nf\back\sparky_pup/mr_sparky_color"
+	"$bumpmap"		"models\shop\nf\back\sparky_pup/mr_sparky_normal"
+
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"2.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$rimmask"		"0"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1.000000"
+	"$colortint_base"		"{ 184 56 59 }"
+	"$color2"		"{ 184 56 59 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+}

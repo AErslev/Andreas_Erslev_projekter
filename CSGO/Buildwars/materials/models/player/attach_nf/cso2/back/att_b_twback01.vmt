@@ -1,0 +1,45 @@
+ 
+ "VertexLitGeneric"
+{
+// 베이스 텍스쳐 (알비도) 그리고 노말맵
+	"$baseTexture" "models\player\attach_nf\cso2\back\att_b_twback01"	
+	"$bumpmap" "models\player\attach_nf\cso2\back\att_b_twback01_normal"
+	"$envmap"		"environment maps\cs_militia"
+"$normalmapalphaenvmapmask" 1
+	"$envmaptint"		"[ 1 0.500000 0.100000 ]"
+        "$envmapboost"		7.5000
+
+	"$rimlight"		1         //사용 1, 안사용 0
+	"$rimlightexponent"	1.8000000  
+	"$rimlightboost"	60.000000
+	"$rimlightcolorblend"	0.250000
+	"$rimlightcolor" "[ 1 0.56 0.07 ]"
+	"$rimmask"	1
+
+
+        "$surfaceprop" metal
+
+        "$phong" 		 1   // [빛에 의한 실시간 빛 반사]
+        "$phongexponent" 	50   // [퐁의 양?]
+	"$phongboost"           200    // [명도효과]
+	"$phongFresnelboost"	1.000000     //시선에 따른 광택
+	"$phongFresnelexponent"	3.000000     //범위 
+	"$phongtint" "[ 0.8 0.5 0.1 ]"  //  [1(빨강).1(녹색).1(파랑)] 퐁의 반사색조를 조절한다.
+
+        "$diffusecontrast"  0.25
+         $UseModelLight   1
+	
+
+	 //$translucent  1
+	 //$nocull 1
+	 //$alphatest 1
+	 //$ALPHATESTREFERENCE	0.1
+
+//========================================반사 환경맵 관련===================================
+//	"$envmaptint" "[ 0.08 0.08 0.08 ]"
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phongtint" "[1 1 1]"	           // 퐁효과에 더해질 (R,G,B)값
+//	"$phongfresnelranges"	"[0.36 0.36 0.36]"
+
+
+}

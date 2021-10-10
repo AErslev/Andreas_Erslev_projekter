@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{	
+	"$baseTexture"	"models/player/techknow/hellboy2/hellboy2"
+	"$bumpmap" "models/player/techknow/hellboy2/hellboy2_n"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+	"$phongexponent" "20"
+	"$phongboost"	".3"
+ 	"$surfaceprop" 	"flesh"
+	"$model" "1"
+}

@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"announceWinner"
+	{
+		"#format"	"{1:s}{2:s},{3:i}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}]{darkred} {2} {lightblue}won {darkred}{3}{lightblue} credits from the giveaway!"
+		"de"		"{darkblue}[{lime}{1}{darkblue}]{darkred} {2} {lightblue}hat {darkred}{3}{lightblue} Credits vom Giveaway gewonnen!"
+	}
+    
+    "announceWinnerByPlayer"
+    {
+		"#format"	"{1:s},{2:s},{3:s},{4:i}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}]{darkred} {2} {lightblue}won {darkred}{4}{lightblue} credits from {darkred}{3}s{lightblue} giveaway!"
+		"de"		"{darkblue}[{lime}{1}{darkblue}]{darkred} {2} {lightblue}hat {darkred}{4}{lightblue} Credits vom {darkred}{3}s{lightblue} Giveaway gewonnen!"
+    }
+    
+    "announceSelfWinner"
+    {
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}]{darkred} You won {lightblue}{3}{darkred} credits from {lightblue}{2}s{darkred} giveaway!"
+		"de"		"{darkblue}[{lime}{1}{darkblue}]{darkred} Du hast {lightblue}{3}{darkred} credits von {lightblue}{2}s{darkred} Giveaway gewonnen!"
+    }
+}

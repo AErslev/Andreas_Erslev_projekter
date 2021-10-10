@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\mirage2\Devil"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "5"
+		}
+	}
+}

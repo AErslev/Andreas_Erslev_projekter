@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/mario_gxy/slow_cap"
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	".22"
+	"$phongfresnelranges"	"[1 1 1]"
+}

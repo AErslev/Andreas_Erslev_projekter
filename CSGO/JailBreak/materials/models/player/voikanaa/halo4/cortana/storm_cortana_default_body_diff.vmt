@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/voikanaa/halo4/cortana/storm_cortana_default_body_diff"
+	"$bumpmap" "models/player/voikanaa/halo4/cortana/storm_cortana_default_body_normal"
+
+	$selfillum 1
+	
+	"$phong" "1"
+	"$phongBoost" "200"
+	"$phongExponent" "10"  
+	"$phongFresnelRanges" "[0 0.5 1]"
+	"$PhongAlbedoTint" "1"
+
+	$phongtint "[.1 .4 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+
+	"$detail" "models/player/voikanaa/halo4/cortana/holoscanlines"
+	"$detailscale" "5"
+	"$detailblendfactor" ".1"
+	"$detailblendmode" "2"
+
+        "Proxies"
+        {
+            "TextureScroll"
+            {
+                "textureScrollVar" "$detailtexturetransform"
+                "textureScrollRate" 0.01
+                "textureScrollAngle" -90
+            }
+        }
+
+}

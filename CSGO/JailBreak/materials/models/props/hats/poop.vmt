@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\props\hats\poop"
+$bumpmap "models\props\hats\poop_bump"
+$ssbump 1
+}

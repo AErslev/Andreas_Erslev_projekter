@@ -1,0 +1,20 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/ffxiii/lightning/Light_hair_d"
+	$bumpmap "models/player/ffxiii/lightning/Light_hair_n"
+	$nocull 1
+	$alphatest 1
+	$alphatestreference .4
+
+	"$phong" "1"
+	"$phongBoost" "10"
+	"$phongExponent" "10"  
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$PhongAlbedoTint" "1"
+
+	$phongtint "[1 .4 .4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+}

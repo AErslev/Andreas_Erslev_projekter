@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\shop\nf\back\flammable_favor/flammable_favor_blue_color"
+	"$bumpmap"		"models\shop\nf\back\flammable_favor/flammable_favor_normal"
+	"$lightwarptexture"		"models\shop\nf\back\flammable_favor/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"20.000000"
+	"$phongboost"		"3.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+}

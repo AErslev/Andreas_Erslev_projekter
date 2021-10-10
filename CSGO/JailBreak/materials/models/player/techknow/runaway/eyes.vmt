@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/runaway/runaway"
+	//"$bumpmap"	"models/player/techknow/runaway/runaway_n"
+	"$surfaceprop" "flesh"
+	"$halflambert" 1
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap" 
+	"$envmaptint" "[5 5 5]" 
+	"$envmapcontrast" 1 
+	"$envmapsaturation" 0.1 
+
+}

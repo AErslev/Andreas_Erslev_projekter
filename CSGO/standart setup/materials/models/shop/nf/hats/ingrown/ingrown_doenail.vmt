@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\shop\nf\hats\ingrown/ingrown_doenail_color"
+	"$bumpmap"		"models\shop\nf\hats\ingrown/ingrown_doenail_normal"
+	"$lightwarptexture"		"models\shop\nf\hats\ingrown/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"5.000000"
+	"$phongboost"		"1.650000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.120000"
+	"$colortint_base"		"{ 245 188 151 }"
+	"$color2"		"{ 245 188 151 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+
+}

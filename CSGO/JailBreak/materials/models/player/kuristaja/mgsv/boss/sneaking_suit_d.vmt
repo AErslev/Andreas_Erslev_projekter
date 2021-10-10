@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/sneaking_suit_d"
+	"$bumpmap"    "models/player/kuristaja/mgsv/boss/sneaking_suit_normal"
+	
+	"$phong"	"1"
+	"$phongexponent"	"15"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"0.5"
+	"$phongfresnelranges"	"[5 7 8]"
+   	 "$lightwarptexture" 	"models/player/kuristaja/mgsv/boss/clothes_wrp"
+	"$phongexponenttexture" "models/player/kuristaja/mgsv/boss/green"
+}
+
+

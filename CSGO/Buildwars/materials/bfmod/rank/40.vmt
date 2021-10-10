@@ -1,0 +1,5 @@
+            "UnlitGeneric"
+            {
+            	"$basetexture" "bfmod/rank/40"
+            	"$translucent" 1
+            }        

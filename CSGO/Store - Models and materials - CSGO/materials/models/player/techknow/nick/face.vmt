@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\techknow\nick\face"
+	"$bumpmap" "models\player\techknow\nick\face_n"
+	"$surfaceprop" "flesh" 
+        "$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.3
+	"$envmapsaturation" 0.7
+	"$envmaptint" "[ 0.36 0.36 0.36 ]"
+}

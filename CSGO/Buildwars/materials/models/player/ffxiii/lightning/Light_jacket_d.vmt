@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/ffxiii/lightning/Light_jacket_d"
+	$bumpmap "models/player/ffxiii/lightning/Light_jacket_n"
+
+	"$phong" "1"
+	"$phongBoost" "2"
+	"$phongExponent" "20"  
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+}

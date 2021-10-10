@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/mgsv/boss/diamond_dog_emblem_d"
+                "$bumpmap"    "models/player/kuristaja/mgsv/boss/diamond_dog_emblem_normal"
+
+	"$phong" "1"
+	//"$phongexponent" "4"
+	"$phongalbedotint" "1"
+	"$phongboost" ".06"
+	"$phongfresnelranges"	"[3 5 7]"
+        	"$lightwarptexture" 	"models/player/kuristaja/mgsv/boss/clothes_wrp"
+	"$phongexponenttexture" "models/player/kuristaja/mgsv/boss/diamond_dog_emblem_exp"
+	$alphatest 1
+}
+
+

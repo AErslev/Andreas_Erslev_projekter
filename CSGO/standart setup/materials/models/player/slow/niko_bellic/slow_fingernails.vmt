@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/niko_bellic/slow_hands"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]" 
+	"$envmapcontrast" .8
+	"$envmapsaturation" 0.8
+}

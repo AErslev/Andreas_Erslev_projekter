@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/mgsv/boss/venom_snake_hair"
+	"$bumpmap" "models/player/kuristaja/mgsv/boss/sna2_hair0_def_normal"
+
+	"$translucent" 1
+	
+	"$lightwarptexture" "models/player/kuristaja/mgsv/boss/hairwarp_gray"
+
+	"$phong" "1"
+	"$phongboost"   "0.08"
+	"$phongexponent"  "7"
+	"$phongexponenttexture" "models/player/kuristaja/mgsv/boss/white3"
+	"$phongfresnelranges"	"[0 0 1]"
+	"$phongwarptexture"  "models/player/kuristaja/mgsv/boss/phongwarp_gray"
+}
