@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\slow\homer_v2\homer"
+	"$halflambert" 1
+	"$bumpmap" "models\player\slow\homer_v2\homer_slow"
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

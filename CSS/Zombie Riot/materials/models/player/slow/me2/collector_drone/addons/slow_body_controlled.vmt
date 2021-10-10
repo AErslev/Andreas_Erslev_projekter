@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/me2/collector_drone/slow_body"
+	"$bumpmap"		"models/player/slow/me2/collector_drone/addons/slow_body_controlled_bump"
+
+	"$phong" 				"1"
+	"$phongexponenttexture"		"models/player/slow/me2/collector_drone/slow_body_exp"
+	"$phongboost"			"2.5"
+ 	"$phongfresnelranges"   	"[.3 .6 .9]"
+	"$phongwarptexture"		"models/player/slow/me2/collector_drone/addons/slow_body_warp"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+ 	"$basetexture" "models/player/techknow/puss/accesorys"
+        "$nocull" 1
+        "$translucent" "1"
+}

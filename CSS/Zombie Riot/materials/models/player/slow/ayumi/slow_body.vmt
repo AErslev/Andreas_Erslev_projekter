@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/ayumi/slow_body"
+
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	".2"
+	"$phongfresnelranges"	"[1 1 1]"
+}

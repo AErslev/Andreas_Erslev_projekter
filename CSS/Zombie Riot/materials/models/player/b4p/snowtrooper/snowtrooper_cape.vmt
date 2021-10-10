@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/b4p/snowtrooper/snowtrooper_cape"
+    "$model" 1 
+    "$nocull" 1 
+}

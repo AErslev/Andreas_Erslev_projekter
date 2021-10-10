@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/b4p/leia/eyelashes"
+	"$translucent" 1
+}

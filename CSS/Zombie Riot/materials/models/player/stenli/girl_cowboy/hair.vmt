@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\girl_cowboy\hair"
+
+	
+"$nocull"	1
+"$translucent" 1
+"$alphatest" 0
+
+}
+
+
+
+

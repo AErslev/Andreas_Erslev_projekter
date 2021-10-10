@@ -1,0 +1,285 @@
+// ====================
+//     Zombie Riot
+//   File. days.txt
+//   Author. Greyscale
+// ====================
+//
+// Here you can pre-define each day and its difficulty
+// Format.
+//
+// "display" - This is what the day will be referred to
+//	"count" - How many zombies that need to be killed before moving onto the next day
+//	"healthboost" - The amount of extra HP each zombie will get in addition to that zombie's initial health
+//	"respawn" - If enabled, all zombies will be immediately respawn after death, when the day kill limit is
+//	          - reached, the remaining zombies dig into the ground and the next day will begin
+//                - Respawn is typically 0 for bosses
+//	"deaths_before_zombie" - How many deaths as human before being switched to the Zombie force (0. Disable)
+//	"fademin" - Distance, in game units, at which zombies start fading away ("" to disable)
+//	"fademax" - Distance, in game units, at which the zombie is fully invisible ("" to disable)
+//	"zombieoverride" - OPTIONAL. If specified only listed zombies will be spawned during this day, separate with "," (look in zombies.txt)
+//	"storyline" - OPTIONAL. If specified, the text will be printed on round_start for the day, used to illustrate some kind of story line
+
+
+"days"
+{
+	"1. The Reawakening"
+	{
+		"count"			"100"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"zombie1,zombie2,zombie3"
+	}
+	"2. Zombie Panic"
+	{
+		"count"			"120"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"zombie1,zombie2,zombie3,zombie4"
+	}
+	"3. Evening of the Dead"
+	{
+		"count"			"150"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"zombie1,zombie2,zombie3,zombie4,zombie5"
+	}
+	"4. Zombies Ate My Neighbors"
+	{
+		"count"			"170"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"zombie1,zombie2,zombie3,zombie4,zombie5,zombie6,zombie7"
+	}
+	"5. El Gigante"
+	{
+		"count"			"1"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		""
+		"zombieoverride"	"giant"
+	}
+	"6. Monkey Madness"
+	{
+		"count"			"150"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fast"
+	}
+	"7. Snorking it up"
+	{
+		"count"			"170"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"snork,fast"
+	}
+	"8. Ravenous Rabies"
+	{
+		"count"			"190"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"snork,fast,zombiedog"
+	}
+	"9. Blood Bank"
+	{
+		"count"			"1"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"bloodsucker"
+	}
+	"10. Methane Madness"
+	{
+		"count"			"190"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fatty"
+	}
+	"11. Zombie House Party!"
+	{
+		"count"			"210"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fatty,zombie1,zombie2,zombie7"
+	}
+	"12. Devil Spawns"
+	{
+		"count"			"230"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fatty,fast,snork,zombie7"
+	}
+	"13. Send Em Straight Back!"
+	{
+		"count"			"230"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fatty,fast,snork,zombiedog"
+	}
+	"14. Charles Lee Ray"
+	{
+		"count"			"250"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"fatty,fast,snork,zombiedog"
+	}
+	"15. Head Humpers"
+	{
+		"count"			"150"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"crab"
+	}
+	"16. Send Em Straight Back!"
+	{
+		"count"			"250"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"crab,fast,snork,zombie1,zombie3"
+	}
+	"17. Monster Island"
+	{
+		"count"			"270"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"crab,fast,zombiedog,snork"
+	}
+	"18. Big Momma"
+	{
+		"count"			"1"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"mothercrab"
+	}
+	"19. Chainsaw Massacre"
+	{
+		"count"			"280"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"chainsaw"
+	}
+	"20. Blood Bath"
+	{
+		"count"			"290"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"chainsaw,fatty"
+	}
+	"21. Crazy Critters"
+	{
+		"count"			"300"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"chainsaw,fatty,crab,snork,fast,zombiedog"
+	}
+	"22. Hell Spawns"
+	{
+		"count"			"320"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"demon"
+	}
+	"23. Slime On!"
+	{
+		"count"			"1"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"slimer"
+	}
+	"24. The Duet"
+	{
+		"count"			"2"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"beserk,krall"
+	}
+	"25. Getting Hot In Here"
+	{
+		"count"			"1"
+		"healthboost"		"0"
+		"respawn"		"0"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"ifrat"
+	}
+	"26. The End"
+	{
+		"count"			"255"
+		"healthboost"		"0"
+		"respawn"		"1"
+		"deaths_before_zombie"	"0"
+		"fademin"		""
+		"fademax"		"" 
+		"zombieoverride"	"ifrat,giant,bloodsucker,beserk,demon,slimer"
+	}
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/b4p/vader/dcape"
+    "$model" 1
+    "$nocull" 1
+}

@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/techknow/neo_v2/neocoat"
+        "$model" 1
+        
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

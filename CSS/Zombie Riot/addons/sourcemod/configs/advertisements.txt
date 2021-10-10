@@ -1,0 +1,71 @@
+﻿// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{BLUE} Do you like this server? {CYAN}Get your own, at {RED}VectureHosting.com"
+	}
+	"2"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{OLIVE} Would you like your own server? You can now! {BLUE}Visit {RED}VectureHosting.com {BLUE}for more Info. {OLIVE}We even offer professional setup, so you can just kick back, and play"
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN} This server belongs to {RED}VectureHosting.com {CYAN}Contact us, if any problems accur"
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{BLUE} There needs to be room for everyone. {OLIVE}Place be kind to one and another"
+	}
+	"5"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{OLIVE} If there are people, from different nationalties, please speak english so everyone can play. {BLUE}If you wanna speak in you own language, why not get a {OLIVE}Voice Server? {BLUE}Visit {RED}VectureHosting.com {BLUE}for more info"
+	}
+	"6"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{PURPLE} Wanna become admin? We might just need one! {OLIVE}Write an email telling us why, we should choose you, at {RED}VectureHosting.com{PURPLE}, and we might just choose you"
+	}
+	"7"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{PURPLE} Don't get the gameplay? {OLIVE}This is an ordinary GunGame server, but where you kill zombies instead other people. {BLUE}Kill enough zombies, to active knife level, kill a zombie with knife and you win!"
+	}
+	"8"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{OLIVE} It's important to know, that this server is running {PURPLE}RPG{OLIVE}! This you can use, to upgrade your charecter! Write {PURPLE}rpg {OLIVE}in chat, and get going! You get XP, from killing zombies"
+	}
+
+	"9"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{PURPLE}Admin abuse? {BLUE}Bad behavior? Contact{RED} VectureHosting.com{PURPLE} and we will see to it!"
+	}
+}

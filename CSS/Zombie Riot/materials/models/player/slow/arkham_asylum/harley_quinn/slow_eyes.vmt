@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/arkham_asylum/harley_quinn/slow_body"
+	"$bumpmap" "models/player/slow/arkham_asylum/harley_quinn/slow_body_bump"
+
+
+
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "{53 62 70}"
+	"$envmapcontrast" .4
+	"$envmapsaturation" 1
+}

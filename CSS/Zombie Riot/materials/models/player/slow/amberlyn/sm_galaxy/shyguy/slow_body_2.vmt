@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/sm_galaxy/shyguy/slow_body_2"
+
+ 	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost"	"0.25"
+	"$phongfresnelranges"	"[1 .5 .5]"
+}

@@ -1,0 +1,1 @@
+"Wario Ware Sound" "enter_sounds/sample.mp3"

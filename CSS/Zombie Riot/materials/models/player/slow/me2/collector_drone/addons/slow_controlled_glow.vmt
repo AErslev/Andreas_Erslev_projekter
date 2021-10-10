@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/slow/me2/collector_drone/addons/slow_controlled_glow"
+
+	"$additive" 	1
+	"$model" 		1
+	"$nocull" 		1
+	"$nodecal"		1
+
+   	"$slow_var" 0
+
+   "Proxies"
+   {
+      "LinearRamp" 
+      {
+         "rate"      		3
+         "resultVar"   		"$slow_var"
+      }
+      "TextureTransform"
+      {
+         "rotateVar"      	"$slow_var"
+         "resultvar"   		"$basetexturetransform"
+      }
+   }
+}

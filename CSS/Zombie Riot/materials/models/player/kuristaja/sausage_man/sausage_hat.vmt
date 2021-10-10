@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\sausage_man\sausage_misc"
+	"$bumpmap" "models\player\kuristaja\sausage_man\sausage_misc_normal"
+	"$no_draw" "1" // Change "1" --> "0" to enable the hat.
+}

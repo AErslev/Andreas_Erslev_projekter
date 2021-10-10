@@ -1,0 +1,38 @@
+"Phrases"
+{
+	"[RO]: You must agree the rules."
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}You must agree the {red}r{tomato}u{orange}l{yellow}e{green}s{blue}."
+		"ru"		"{blue}[{green}RO{blue}]: {default}Вы должны согласиться с  {red}п{tomato}р{orange}а{yellow}в{green}и{blue}л{indigo}а{violet}м{deepskyblue}и{darkgrey}!"
+	}
+	
+	"[RO]: Thank you for agreement."
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}Thank you for agreement."
+		"ru"		"{blue}[{green}RO{blue}]: {default}Спасибо за согласие."
+	}
+	
+	"[RO]: sm_ro reset, force all clients disagree the rules."
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}sm_ro {blue}reset{default}, force all clients in database disagree the {red}r{tomato}u{orange}l{yellow}e{green}s{blue}."
+		"ru"		"{blue}[{green}RO{blue}]: {default}sm_ro {blue}reset{default}, заставляет всех игроков в базе данных не согласиться с  {red}п{tomato}р{orange}а{yellow}в{green}и{blue}л{indigo}а{violet}м{deepskyblue}и{darkgrey}!"
+	}
+
+	"[RO]: The Rules Table has been reset! All clients must agree the rules again!"
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}The Rules Table has been {blue}reset{default}! All client must agree the rules again!"
+		"ru"		"{blue}[{green}RO{blue}]: {default}Данные об игроках были {blue}сброшены{default}. Теперь все должны согласиться с правилами по новой."
+	}
+	
+	"[RO]: The Rules Table has been dropped! All clients are new from this moment!"
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}The Rules Table has been {blue}dropped{default}! All clients are new from this moment!"
+		"ru"		"{blue}[{green}RO{blue}]: {default}Данные об игроках были {blue}уничтожены{default}. Теперь все игроки новые для сервера с этого момента."
+	}
+	
+	"[RO]: sm_ro drop, Makes all clients disagreed(drops table)."
+	{
+		"en"		"{blue}[{green}RO{blue}]: {default}sm_ro {blue}drop{default}, removes all players (drops rulesoverlays table)."
+		"ru"		"{blue}[{green}RO{blue}]: {default}sm_ro {blue}drop{default}, уничтожает информацию о всех игроках."
+	}
+}

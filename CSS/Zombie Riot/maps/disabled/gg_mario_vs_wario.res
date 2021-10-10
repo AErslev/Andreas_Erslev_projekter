@@ -1,0 +1,1 @@
+"res"{"maps/gg_mario_vs_wario.res" "file""maps/gg_mario_vs_wario.nav" "file""maps/gg_mario_vs_wario.bsp" "file"}

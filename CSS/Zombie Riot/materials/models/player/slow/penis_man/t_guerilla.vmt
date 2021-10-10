@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\t_guerilla\t_guerilla"
+	"$bumpmap" "models\player\t_guerilla\t_guerilla_normal"
+
+	"$surfaceprop" "flesh"
+
+ 	"$phong" 			"1"
+	"$phongexponent"		"5"
+	"$phongboost"		"1"
+	"$phongtint"		"[1 1 1]"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+}

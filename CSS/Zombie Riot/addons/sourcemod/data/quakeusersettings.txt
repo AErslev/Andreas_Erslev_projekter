@@ -1,0 +1,399 @@
+"QuakeUserSettings"
+{
+	"STEAM_0:1:81031687"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503318650"
+	}
+	"STEAM_0:1:17310351"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503316358"
+	}
+	"STEAM_0:1:52682349"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503315802"
+	}
+	"STEAM_0:1:4434334"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503160203"
+	}
+	"STEAM_0:0:13744447"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503171121"
+	}
+	"STEAM_0:1:96264494"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503057749"
+	}
+	"STEAM_0:0:39032365"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503316286"
+	}
+	"STEAM_0:0:44787739"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503057088"
+	}
+	"STEAM_ID_STOP_IGNOR"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503217434"
+	}
+	"STEAM_0:1:77334612"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503061861"
+	}
+	"STEAM_0:1:101177931"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503064521"
+	}
+	"STEAM_0:1:167292520"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503255244"
+	}
+	"STEAM_0:1:70375082"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503084289"
+	}
+	"STEAM_0:0:145992622"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503229865"
+	}
+	"STEAM_0:1:43976148"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503084397"
+	}
+	"STEAM_0:1:44900902"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503086097"
+	}
+	"STEAM_0:1:13549503"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503091120"
+	}
+	"STEAM_0:0:35168786"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503307070"
+	}
+	"STEAM_0:0:183785434"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503113537"
+	}
+	"STEAM_0:1:53191794"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503135208"
+	}
+	"STEAM_0:1:15455768"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503290066"
+	}
+	"STEAM_0:0:76369908"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503229798"
+	}
+	"STEAM_0:1:122594065"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503139470"
+	}
+	"STEAM_0:1:198020228"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503151266"
+	}
+	"STEAM_0:0:35670642"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503244407"
+	}
+	"STEAM_0:1:4223116"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503154147"
+	}
+	"STEAM_0:1:55789092"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503164938"
+	}
+	"STEAM_0:0:189268124"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503168278"
+	}
+	"STEAM_0:1:31119314"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503167530"
+	}
+	"STEAM_0:1:121100101"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503241607"
+	}
+	"STEAM_0:0:27442196"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503173307"
+	}
+	"STEAM_0:0:196746404"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503222423"
+	}
+	"STEAM_0:1:299258177"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503301138"
+	}
+	"STEAM_0:0:27330279"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503213374"
+	}
+	"STEAM_0:0:29236665"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503243705"
+	}
+	"STEAM_0:1:129043918"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503228921"
+	}
+	"STEAM_0:0:16467028"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503217531"
+	}
+	"STEAM_0:0:14039292"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503221600"
+	}
+	"STEAM_0:1:35663166"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503222988"
+	}
+	"STEAM_0:0:86379022"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503225731"
+	}
+	"STEAM_0:0:18138760"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503225788"
+	}
+	"STEAM_0:0:80428489"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503225534"
+	}
+	"STEAM_0:0:64257733"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503250736"
+	}
+	"STEAM_0:1:101160345"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503310081"
+	}
+	"STEAM_0:0:332962"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503229579"
+	}
+	"STEAM_0:1:55323049"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503241328"
+	}
+	"STEAM_0:1:152123832"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503240376"
+	}
+	"STEAM_0:1:48605666"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503240403"
+	}
+	"STEAM_0:1:43581383"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503244454"
+	}
+	"STEAM_0:0:53619457"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503254847"
+	}
+	"STEAM_0:0:26346357"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503242747"
+	}
+	"STEAM_0:0:13443842"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503243906"
+	}
+	"STEAM_0:1:9249770"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503247282"
+	}
+	"STEAM_0:1:11193523"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503252315"
+	}
+	"STEAM_0:1:155989631"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503253621"
+	}
+	"STEAM_0:1:4198704"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503256173"
+	}
+	"STEAM_0:0:20543910"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503255758"
+	}
+	"STEAM_0:0:44462627"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503255768"
+	}
+	"STEAM_0:0:158762619"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503260635"
+	}
+	"STEAM_0:0:57111631"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503260630"
+	}
+	"STEAM_0:1:48502713"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503260048"
+	}
+	"STEAM_0:0:201995571"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503260023"
+	}
+	"STEAM_0:0:220042462"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503273093"
+	}
+	"STEAM_0:1:40455594"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503276296"
+	}
+	"STEAM_0:0:120830478"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503301348"
+	}
+	"STEAM_0:0:34536857"
+	{
+		"sound preference"		"1"
+		"text preference"		"1"
+		"timestamp"		"1503315948"
+	}
+}

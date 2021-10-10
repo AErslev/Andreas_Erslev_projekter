@@ -1,0 +1,290 @@
+// ====================
+//     Zombie Riot
+//   File: zombies.txt
+//   Author: Greyscale
+// ====================
+//
+// Here you can pre-define the different zombies and their abilities
+// Format:
+//
+// "strong" - Any word(s) to help keep track of the different zombies
+//	"type" - "override_required" will spawn the zombie randomly in the day (unless the day has a zombieoverride)
+//	       - "override_required" this zombie can only be spawned via an override defined in days.txt
+//	"model"	- Path to the model this zombie will use (NO .mdl extension)
+//	"health" - Spawn HP of this zombie
+//	"speed" - Speed of the zombie (Default: 300)
+//	"gravity" - Gravity of the zombie (0.5: Half, 1.0: Default, 2.0: Double)
+//	"jump" - Extra jump power that the zombie will receive (recommended you lower the gravity as you raise this)
+//	"fov" - Field of vision (Default: 90)
+//	"zvision" - Overlay to display on the zombies' screen (Omit line or "" to disable)
+
+
+"zombies"
+{
+
+	"zombie1"
+	{
+		"type"		"override_required"
+		"model"		"models/player/elis/uz1/uz1.mdl"
+		"health"	"130"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie2"
+	{
+		"type"		"override_required"
+		"model"		"models/player/elis/uz5/uz5.mdl"
+		"health"	"145"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie3"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/zombie_package/slow_1.mdl"
+		"health"	"145"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie4"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/zombie_package/slow_2.mdl"
+		"health"	"135"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie5"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/zombie_package/slow_3.mdl"
+		"health"	"125"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie6"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/zombie_package/slow_4.mdl"
+		"health"	"135"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"zombie7"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/zombie_package/slow_5.mdl"
+		"health"	"130"
+		"speed"		"350"
+		"gravity"	"1"
+		"jump"		"10.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"snork"
+	{
+		"type"		"override_required"
+		"model"		"models/player/techknow/snork/snork_fast.mdl"
+		"health"	"300"
+		"speed"		"520"
+		"gravity"	"0.9"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"fast"
+	{
+		"type"		"override_required"
+		"model"		"models/player/pil/fast_v5/pil_fast_v5.mdl"
+		"health"	"130"
+		"speed"		"550"
+		"gravity"	"0.6"
+		"jump"		"35.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"zombiedog"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/amberlyn/re5/dog/slow.mdl"
+		"health"	"130"
+		"speed"		"620"
+		"gravity"	"0.6"
+		"jump"		"35.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"fatty"
+	{
+		"type"		"override_required"
+		"model"		"models/player/lextalionis/fatty/t_phoenix.mdl"
+		"health"	"325"
+		"speed"		"290"
+		"gravity"	"0.9"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"crab"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/babycrab_v2/slow_babycrab.mdl"
+		"health"	"60"
+		"speed"		"400"
+		"gravity"	"0.9"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"chainsaw"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/chainsaw/chainsaw.mdl"
+		"health"	"500"
+		"speed"		"400"
+		"gravity"	"0.9"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"demon"
+	{
+		"type"		"override_required"
+		"model"		"models/player/techknow/demon/demon.mdl"
+		"health"	"600"
+		"speed"		"475"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"giant"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/el_g_fix2/slow_gigante.mdl"
+		"health"	"15000"
+		"speed"		"450"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"bloodsucker"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/bloodsucker_pack/slow_chernobyl.mdl"
+		"health"	"13000"
+		"speed"		"650"
+		"gravity"	"0.6"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+
+	"chucky"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/chucky_v3/slow.mdl"
+		"health"	"1000"
+		"speed"		"550"
+		"gravity"	"0.6"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"mothercrab"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/mothercrab/slow_mothercrab.mdl"
+		"health"	"15000"
+		"speed"		"550"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+		
+	"slimer"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/slimer/slow.mdl"
+		"health"	"17000"
+		"speed"		"450"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	
+	"beserk"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/berserkerin/slow_big.mdl"
+		"health"	"14000"
+		"speed"		"500"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"krall"
+	{
+		"type"		"override_required"
+		"model"		"models/player/slow/krall/slow.mdl"
+		"health"	"16000"
+		"speed"		"650"
+		"gravity"	"0.4"
+		"jump"		"35.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+	"ifrat"
+	{
+		"type"		"override_required"
+		"model"		"models/player/techknow/ferno/ferno.mdl"
+		"health"	"25000"
+		"speed"		"700"
+		"gravity"	"0.7"
+		"jump"		"17.0"
+		"fov"		"110"
+		"zvision"	"overlays/zr/zvision"
+	}
+	
+}

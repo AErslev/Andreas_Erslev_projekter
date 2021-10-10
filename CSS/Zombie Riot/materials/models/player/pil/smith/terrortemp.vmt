@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+      "$baseTexture" "models/player/pil/smith/terrortemp"
+      "$bumpmap" "models/player/pil/smith/terrortemp_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 	
+      "$nodecal" 0
+
+}

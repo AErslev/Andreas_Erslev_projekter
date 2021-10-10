@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/arkham_asylum/harley_quinn/slow_lashes"
+
+	"$translucent" 1
+	"$nocull" 1
+}

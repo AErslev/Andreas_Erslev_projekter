@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/arkham_asylum/harley_quinn/slow_limb"
+	"$bumpmap" "models/player/slow/arkham_asylum/harley_quinn/slow_limb_bump"
+
+ 	"$phong" "1"
+//	"$phongexponent" "4"
+	"$phongexponenttexture" "models/player/slow/arkham_asylum/harley_quinn/slow_limb_exp"
+	"$phongboost"	"2.3"
+	"$phongfresnelranges"	"[.05 .25 1]"
+}

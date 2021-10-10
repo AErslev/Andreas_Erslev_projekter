@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/wesker/slow_hair_2_fix"
+
+	"$alphatest" 1
+	"$nocull" 1
+}

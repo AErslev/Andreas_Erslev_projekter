@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/jamis/wolverine/slow_blades"
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 0
+	"$envmapsaturation" 0.1
+}
+

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/player/techknow/snork/snork"
+	"$bumpmap" 		"models/player/techknow/snork/snork_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.7 .8 1]"
+	"$envmapcontrast" .3
+	"$envmapsaturation" 1
+}

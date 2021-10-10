@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\natalya\police\chp_female_face"
+        "$bumpmap" "models\player\natalya\police\chp_female_face_n"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+	"$surfaceprop" "flesh"
+}

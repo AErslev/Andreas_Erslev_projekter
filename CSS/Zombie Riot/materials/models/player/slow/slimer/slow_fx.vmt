@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models/player/slow/slimer/slow_fx"
+	"$bumpmap" 				"models/player/slow/slimer/slow_slimer_fx_bump"
+
+	"$translucent" 1
+
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$basetexturetransform"
+			"texturescrollrate" 	"-.02"
+			"texturescrollangle" 	"45"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$bumptransform"
+			"texturescrollrate" 	"-.02"
+			"texturescrollangle" 	"45"
+		}
+	}
+}
+
+

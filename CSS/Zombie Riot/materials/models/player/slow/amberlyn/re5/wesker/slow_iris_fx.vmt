@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/wesker/slow_eyes"	
+
+//	"$additive" 1
+	"$model" 1
+	"$translucent" 1
+}

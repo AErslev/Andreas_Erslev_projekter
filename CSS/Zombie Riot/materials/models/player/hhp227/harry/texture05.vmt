@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\hhp227\harry/texture05"
+        "$bumpmap" "models\player\hhp227\harry/normal_texture05"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+}

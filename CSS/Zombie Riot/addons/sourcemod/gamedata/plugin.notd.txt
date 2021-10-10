@@ -1,0 +1,40 @@
+"Games"
+{
+	/* Original Engine */
+	"#default"
+	{
+		"#supported"
+		{
+			"engine"	"original"
+		}
+
+		"Signatures"
+		{
+			"UTIL_Remove"
+			{
+				"library"	"server"
+				"linux"		"@_Z11UTIL_RemoveP11CBaseEntity"
+				"windows"	"\x8B\x44\x24\x04\x85\xC0\x74\x0E\x05\x48\x01\x00\x00\x89\x44\x24"
+			}
+		}
+	}
+
+	/* Orangebox Engine */
+	"#default"
+	{
+		"#supported"
+		{
+			"engine"	"orangebox_valve"
+		}
+
+		"Signatures"
+		{
+			"UTIL_Remove"
+			{
+				"library"	"server"
+				"linux"		"@_Z11UTIL_RemoveP11CBaseEntity"
+				"windows"	"\x8B\x44\x24\x04\x85\xC0\x74\x0C\x83\xC0\x0C\x89\x44\x24\x04\xE9"
+			}
+		}
+	}
+}

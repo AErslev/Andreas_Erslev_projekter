@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/bloodsucker/slow_free"
+	"$translucent" 1
+	"$model" 1
+	"$nocull" 1 
+}

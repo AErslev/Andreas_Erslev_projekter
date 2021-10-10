@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/masiosare/v/hair"
+	"$bumpmap" "models/player/masiosare/v/mask_Normal"
+}

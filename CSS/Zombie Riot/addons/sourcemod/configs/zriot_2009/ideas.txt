@@ -1,0 +1,35 @@
+zombies:
+	generic:
+		zombie1, zombie2, zombie3, zombie4, zombie5, zombie6, zombie7
+	other:
+		fatty, crab, chainsaw, werewolf, fast, chucky, snork, zombiedog
+	boss:
+		giant, krall, bloodsucker, beserk, mothercrab
+	downloads:
+		buttmunch, demon, ifrat(ferno), fridge, slimer
+		
+Day [1]   GENERIC (zombie1-3)
+	[2]   GENERIC (zombie1-4)
+	[3]   GENERIC (zombie1-5)
+	[4]   GENERIC (zombie1-7)
+	[5]	  BOSS 	  (giant)
+	[6]   Other	  (fast, zombie1, zombie3, zombie 5)
+	[7]   Other	  (snork, fast)
+	[8]	  Other   (snork, fast, zombiedog)
+	[9]   BOSS    (bloodsucker)
+	[10]  Other   (fatty, zombie1, zombie2, zombie7)
+	[11]  Other   (fatty, fast, zombie2, zombie7)
+	[12]  Other   (fatty, fast, snork, zombie7)
+	[13]  Other   (fatty, fast, snork, zombiedog)
+	[14]  BOSS    (chucky x 20)
+	[15]  Other   (crab)
+	[16]  Other   (crab, fast, snork, zombie1, zombie3)
+	[17]  Other   (crab, fast, zombiedog, zombie2, zombie4, zombie6)
+	[18]  BOSS    (mothercrab)
+	[19]  Other   (chainsaw)
+	[20]  Other   (chainsaw, fatty)
+	[21]  Other   (chainsaw, fatty, crab)
+	[22]  Other   (demon, chainsaw, fatty)
+	[23]  BOSS 	  (slimer)
+	[24]  BOSS	  (beserk, krall)
+	[25]  ALL	  (ifrat)

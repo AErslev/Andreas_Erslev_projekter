@@ -1,0 +1,129 @@
+﻿block load
+{
+    // Steamid des VIP
+    es_xset vip_bonus_id ""
+    // point d'armur à donner
+    es_xset vip_bonus_ar ""
+    // nombre de HE à donner
+    es_xset vip_bonus_he ""
+    // nombre de SG à donner
+    es_xset vip_bonus_sg ""
+    
+    es_xset vip_vie ""
+    es_xset vip_cash ""
+    es_xset vip_speed ""
+    es_xset vip_red ""
+    es_xset vip_green ""
+    es_xset vip_blue ""
+    es_xset vip_alpha ""
+    es_xset vip_awp ""
+    es_xmexec ../addons/eventscripts/vip/vip.cfg
+
+
+    // variables pour les commandes du scripts
+    es_xset vip_bonus_exists 0
+    es_xset vip_bonus_count 0
+
+    // groupe de clefs contenant les VIP et leurs nombre de HE/SG utilisées
+    es_xkeygroupcreate vip_bonus
+}
+
+block unload
+{
+    // suppression du groupe de clefs
+    es_xkeygroupdelete vip_bonus
+}
+
+event player_disconnect
+{
+    // le joueur se déconnecte, supprimer sa clef
+    es_keydelete vip_bonus event_var(userid)
+}
+
+
+event player_spawn
+{
+    if (event_var(es_userteam) greaterthan "1") do
+    {
+        // si le joueur est un VIP
+        if (event_var(es_steamid) in server_var(vip_bonus_id)) do
+        {
+            es playerset health event_var(userid) server_var(vip_vie)
+            es playerset cash event_var(userid) server_var(vip_cash)
+            es playerset speed event_var(userid) server_var(vip_speed)
+            es playerset color event_var(userid) server_var(vip_red) server_var(vip_green) server_var(vip_blue) server_var(vip_alpha)
+            if (server_var(vip_awp) = 1) do
+                {
+                    es_give event_var(userid) weapon_awp
+                }
+            // vérifier que le joueur possède sa clef
+            es_exists vip_bonus_exists key vip_bonus event_var(userid)
+            ifx false(vip_bonus_exists) do
+                {
+                    // créer la clef (userid du VIP) le cas échéant
+                    es_keycreate vip_bonus event_var(userid)
+                }
+    
+            // créer les sous-clefs he/sg qui décomptera le nombre de grenade en possession
+            es_keysetvalue vip_bonus event_var(userid) he 0
+            es_keysetvalue vip_bonus event_var(userid) sg 0
+    
+            // définir la quantité de point d'armur
+            es playerset armor event_var(userid) server_var(vip_bonus_ar)
+            // donner les grenades si besoin
+               es_xdoblock vip/give_hegrenade
+            es_xdoblock vip/give_smokegrenade
+        }
+    }
+}
+
+event hegrenade_detonate
+{
+    // si le joueur est un VIP, donner une HeGrenade si besoin
+    if (event_var(es_steamid) in server_var(vip_bonus_id)) then es_xdoblock vip/give_hegrenade
+}
+
+event smokegrenade_detonate
+{
+    // si le joueur est un VIP, donner une HeGrenade si besoin
+    if (event_var(es_steamid) in server_var(vip_bonus_id)) then es_xdoblock vip/give_smokegrenade
+}
+
+
+block give_hegrenade
+{
+    // obtenir le nombre de HeGrenade que le joueur a eu en sa possession
+    es_keygetvalue vip_bonus_count vip_bonus event_var(userid) he
+    // si ce nombre est inférieur au maximum autorisé
+    ifx parse("vip_bonus_count < vip_bonus_he") do
+    {
+        // vérifier que le joueur ne possède pas de HeGrenade
+        es playerget he vip_bonus_exists event_var(userid)
+        // si ce n'est pas le cas, lui fournir en fournir une
+        ifx false(vip_bonus_exists) do
+        {
+            es_give event_var(userid) weapon_hegrenade
+        }
+        // dans tout les cas, incrémenter le compteur de 1
+        es keymath vip_bonus event_var(userid) he + 1
+    }
+}
+
+block give_smokegrenade
+{
+    // obtenir le nombre de SmokeGrenade que le joueur a eu en sa possession
+    es_keygetvalue vip_bonus_count vip_bonus event_var(userid) sg
+    // si ce nombre est inférieur au maximum autorisé
+    ifx parse("vip_bonus_count < vip_bonus_sg") do
+    {
+        // vérifier que le joueur ne possède pas de SmokeGrenade
+        es playerget sg vip_bonus_exists event_var(userid)
+        // si ce n'est pas le cas, lui fournir en fournir une
+        ifx false(vip_bonus_exists) do
+        {
+            es_give event_var(userid) weapon_smokegrenade
+        }
+        // dans tout les cas, incrémenter le compteur de 1
+        es keymath vip_bonus event_var(userid) sg + 1
+    }
+}

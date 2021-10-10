@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/arkham_asylum/harley_quinn/slow_body"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]" 
+	"$envmapcontrast" .65
+	"$envmapsaturation" .65
+}

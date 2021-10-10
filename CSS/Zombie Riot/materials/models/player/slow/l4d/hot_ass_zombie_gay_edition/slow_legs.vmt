@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/l4d/hot_ass_zombie_gay_edition/slow_legs"
+	"$bumpmap"	"models/player/slow/l4d/hot_ass_zombie/slow_legs_bump"
+
+$phong 1
+$phongboost .45
+$phongexponent 9
+$phongtint "[.4 .8 1]"
+$phongfresnelranges "[1 0 .05]"
+}

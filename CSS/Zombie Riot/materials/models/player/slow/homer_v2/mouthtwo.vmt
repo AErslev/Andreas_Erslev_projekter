@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+
+
+{
+	"$baseTexture" "models\player\slow\homer_v2\mouthtwo"
+	"$translucent" 1
+	"$alphatest" 1
+	"$halflambert" 1
+ }
+

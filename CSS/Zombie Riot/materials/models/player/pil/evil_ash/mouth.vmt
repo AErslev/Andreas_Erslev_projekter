@@ -1,0 +1,7 @@
+"Teeth"
+{
+	"$basetexture" "models/player/pil/evil_ash/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

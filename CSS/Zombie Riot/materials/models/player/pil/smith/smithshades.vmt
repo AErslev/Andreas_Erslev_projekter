@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$basetexture" "models/player/pil/smith/soria-env"
+	//"$nodecal" "1"
+	"$envmap" "models/player/pil/smith/soria-env"
+	//"$envmapcontrast" 1.1
+	//"$envmapsaturation" 0
+
+	
+}

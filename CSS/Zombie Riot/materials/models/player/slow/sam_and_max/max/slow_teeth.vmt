@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/sam_and_max/max/slow_teeth"
+
+ 	"$phong" 			"1"
+	"$phongexponent" 		"2.5"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+	"$basemapalphaphongmask" "1"
+}

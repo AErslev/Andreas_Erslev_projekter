@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/ayumi/slow_eye"
+
+	"$selfillum" 1
+
+
+ 	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	".8"
+	"$phongfresnelranges"	"[1 1 1]"
+}

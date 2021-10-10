@@ -1,0 +1,33 @@
+// ====================
+//     Zombie Riot
+//   File: models.txt
+//   Author: Greyscale
+// ====================
+//
+// Add paths to models here
+// They will automatically be downloaded to the client
+//
+// ** DEFAULTS
+
+models/player/lextalionis/fatty
+models/player/elis/uz1/uz1
+models/player/elis/uz5/uz5
+models/player/pil/fast_v5
+models/player/slow/el_g_fix2
+models/player/slow/bloodsucker_pack/slow_chernobyl
+models/player/slow/krall/slow
+models/player/slow/hl2/alyx/slow
+models/player/slow/berserkerin/slow_big
+models/player/slow/zombie_package/slow_1
+models/player/slow/zombie_package/slow_2
+models/player/slow/zombie_package/slow_3
+models/player/slow/zombie_package/slow_4
+models/player/slow/zombie_package/slow_5
+models/player/slow/chainsaw/chainsaw
+models/player/slow/babycrab_v2/slow_babycrab
+models/player/slow/amberlyn/re5/dog/slow.mdl
+models/player/techknow/demon/demon.mdl
+models/player/slow/berserkerin/slow_big.mdl
+models/player/slow/slimer/slow.mdl
+
+// ** END DEFAULTS **

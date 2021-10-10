@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\girl_cowboy\eyelash1"
+
+	
+"$nocull"	1
+"$translucent" 1
+
+
+}
+
+
+
+

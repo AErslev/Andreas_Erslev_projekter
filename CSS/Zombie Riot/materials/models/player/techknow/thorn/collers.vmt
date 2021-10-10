@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{	
+	"$baseTexture" "models\player\techknow\thorn\head"
+        "$bumpmap" "models\player\techknow\thorn\head_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .36 .36 .30 ]"
+	"$envmapconstrast" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+        "$nocull" 1
+    	"$translucent" 1
+ 	"$surfaceprop" 	"flesh"
+}

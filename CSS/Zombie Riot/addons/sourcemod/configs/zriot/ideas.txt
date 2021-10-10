@@ -1,0 +1,147 @@
+zombies:
+	generic:
+		zombie1, zombie2, zombie3, zombie4, zombie5, zombie6, zombie7
+	other:
+		fatty, crab, chainsaw, werewolf, fast, chucky, snork, zombiedog
+	boss:
+		giant, krall, bloodsucker, beserk, mothercrab, demon, ifrat(ferno), slimer
+	downloads:
+		
+		
+zombieid: 
+	0 Zombie1
+	1 Zombie2
+	2 Zombie3
+	3 Zombie4
+	4 Zombie5
+	5 Zombie6
+	6 Zombie7
+	7 Snork
+	8 fast
+	9 zombiedog
+	10 fatty
+	11 crab
+	12 chainsaw
+	13 demon
+	14 giant
+	15 bloodsucker
+	16 chucky
+	17 mothercrab
+	18 slimer
+	19 beserk
+	20 krall
+	21 ifrat
+	
+
+
+
+Day [1]   GENERIC (zombie1-3)
+	[2]   GENERIC (zombie1-4)
+	[3]   GENERIC (zombie1-5)
+	[4]   GENERIC (zombie1-7)
+	[5]	  BOSS 	  (giant)
+	[6]   Other	  (fast, zombie1, zombie3, zombie 5)
+	[7]   Other	  (snork, fast)
+	[8]	  Other   (snork, fast, zombiedog)
+	[9]   BOSS    (bloodsucker)
+	[10]  Other   (fatty, zombie1, zombie2, zombie7)
+	[11]  Other   (fatty, fast, zombie2, zombie7)
+	[12]  Other   (fatty, fast, snork, zombie7)
+	[13]  Other   (fatty, fast, snork, zombiedog)
+	[14]  BOSS    (chucky x 20)
+	[15]  Other   (crab)
+	[16]  Other   (crab, fast, snork, zombie1, zombie3)
+	[17]  Other   (crab, fast, zombiedog, zombie2, zombie4, zombie6)
+	[18]  BOSS    (mothercrab)
+	[19]  Other   (chainsaw)
+	[20]  Other   (chainsaw, fatty)
+	[21]  Other   (chainsaw, fatty, crab)
+	[22]  Other   (demon, chainsaw, fatty)
+	[23]  BOSS 	  (slimer)
+	[24]  BOSS	  (beserk, krall)
+	[25]  BOSS	  (ifrat)
+	[26]  ALL	  (ifrat, giant, bloodsucker, beserk, demon, slimer)
+	
+Special Abilities
+	Giant		(Shakes ground and pushes player)
+	
+	//Push
+	public Action:Command_pushplayer(Client,Args)
+	{
+		decl Ent;
+		Ent = GetClientAimTarget(Client, false);
+	  
+		if(Ent < 33 && Ent > 0 && !IsCuffed[Client])
+		{
+			decl Float:ClientOrigin[3], Float:EntOrigin[3], Float:Dist;
+
+			//Initialize:
+			GetClientAbsOrigin(Client, ClientOrigin);
+			GetClientAbsOrigin(Ent, EntOrigin);
+			Dist = GetVectorDistance(ClientOrigin, EntOrigin);
+			
+			if(Dist <= 100)
+			{
+				decl Float:Push[3];
+				decl Float:EyeAngles[3];
+				GetClientEyeAngles(Client, EyeAngles);
+					Push[0] = (500.0 * Cosine(DegToRad(EyeAngles[1])));
+					Push[1] = (500.0 * Sine(DegToRad(EyeAngles[1])));
+					Push[2] = (-50.0 * Sine(DegToRad(EyeAngles[0])));
+					TeleportEntity(Ent, NULL_VECTOR, NULL_VECTOR, Push);	
+			}
+		}
+		return Plugin_Handled;
+	}
+	
+	//Shake
+	stock env_shake(client, Float:Amplitude, Float:Radius, Float:Duration, Float:Frequency)
+	{
+		decl Ent;
+		decl Float:ClientOrigin[3];
+
+		//Initialize:
+		Ent = CreateEntityByName("env_shake");
+			
+		//Spawn:
+		if(DispatchSpawn(Ent))
+		{
+			//Properties:
+			DispatchKeyValueFloat(Ent, "amplitude", Amplitude);
+			DispatchKeyValueFloat(Ent, "radius", Radius);
+			DispatchKeyValueFloat(Ent, "duration", Duration);
+			DispatchKeyValueFloat(Ent, "frequency", Frequency);
+
+			SetVariantString("spawnflags 8");
+			AcceptEntityInput(Ent,"AddOutput");
+
+			//Input:
+			AcceptEntityInput(Ent, "StartShake", client);
+		
+			//Origin:
+			GetClientAbsOrigin(client, ClientOrigin);
+			
+			//Send:
+			TeleportEntity(Ent, ClientOrigin, NULL_VECTOR, NULL_VECTOR);
+
+			//Delete:
+			CreateTimer(30.0, KillEnt, Ent);
+		}
+	}
+	
+	env_shake(client, 10.0, 10000.0, 10.0, 150.0);
+	//End Giant
+	
+	Bloodsucker (Pulls you in, Invisibility)
+	Timer that creates a random number between 15-30 for a duration of 5 seconds.
+	SetEntityRenderColor(Client, 255, 255, 255, 0)
+	SetEntityRenderColor(Client, 255, 255, 255, 255)
+	
+	Fatty
+	Go to alliedmods and check out pyro explosion
+	
+	Ifrat
+	Shake ground, explode world, damage all players - 20 health, freeze boss beacon 200 radius and any players inside get killed
+	
+	
+	

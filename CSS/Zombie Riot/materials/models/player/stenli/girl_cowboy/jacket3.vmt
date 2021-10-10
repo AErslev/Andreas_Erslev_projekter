@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\girl_cowboy\jacket3"
+
+"$bumpmap" 		"models\player\stenli\girl_cowboy\jacket3_n"
+	
+
+
+
+	
+"$phong" "1"
+        
+	"$phongexponent" "4"	
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.1 .2 .25]"
+
+
+	
+}
+
+
+
+

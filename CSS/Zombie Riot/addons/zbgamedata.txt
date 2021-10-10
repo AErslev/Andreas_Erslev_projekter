@@ -1,0 +1,43 @@
+"zblock"
+{
+	"version"		"472"
+	
+	"offsets"
+	{
+		"GetDataDescMap"
+		{
+			"windows"		"11"
+			"linux"			"12"
+		}
+
+		"Weapon_GetSlot"
+		{
+			"windows"		"267"
+			"linux"			"268"
+		}
+
+		"MyCombatCharacterPointer"
+		{	
+			"windows"		"71"
+			"linux"			"72"
+		}
+
+		"FindUseEntity"
+		{
+			"windows"		"406"
+			"linux"			"407"
+		}
+
+		"EyePosition"
+		{
+			"windows"		"130"
+			"linux"			"131"
+		}
+
+		"EyeAngles"
+		{
+			"windows"		"131"
+			"linux"			"132"
+		}
+	}
+}

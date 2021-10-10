@@ -1,0 +1,1924 @@
+#include <sourcemod>
+#include <sdktools>
+
+#define PLUGIN_AUTHOR	"tuty"
+#define PLUGIN_VERSION	"1.1"
+#pragma semicolon 1
+#pragma tabsize 0
+
+#define MAX_FILE_LEN 256
+#define MODELS_PER_TEAM 24
+
+#undef REQUIRE_PLUGIN
+#include <updater>
+
+#define PLUGIN_VERSION				"2.0.2"
+#define SENDER_WORLD			0
+#define MAXLENGTH_INPUT			128 	// Inclues \0 and is the size of the chat input box.
+#define MAXLENGTH_NAME			64		// This is backwords math to get compability.  Sourcemod has it set at 32, but there is room for more.
+#define MAXLENGTH_MESSAGE		256		// This is based upon the SDK and the length of the entire message, including tags, name, : etc.
+
+#define CHATFLAGS_INVALID		0
+#define CHATFLAGS_ALL			(1 << 0)
+#define CHATFLAGS_TEAM			(1 << 1)
+#define CHATFLAGS_SPEC			(1 << 2)
+#define CHATFLAGS_DEAD			(1 << 3)
+
+#define ADDSTRING(%1) SetTrieValue(g_hChatFormats, %1, 1)
+
+#define UPDATE_URL "http://dl.dropboxusercontent.com/u/83581539/ChatProcessor/updater.txt"
+
+
+#define SM_SKINCHOOSER_VERSION		"2.7"
+
+
+new Handle:g_version=INVALID_HANDLE;
+new Handle:g_enabled=INVALID_HANDLE;
+new Handle:g_autodisplay=INVALID_HANDLE;
+new Handle:g_displaytimer=INVALID_HANDLE;
+new Handle:mainmenu = INVALID_HANDLE;
+new Handle:g_AdminGroup = INVALID_HANDLE;
+new Handle:g_AdminOnly = INVALID_HANDLE;
+new Handle:g_PlayerSpawnTimer = INVALID_HANDLE;
+new Handle:kv;
+new Handle:g_menustarttime;
+new Handle:g_CloseMenuTimer;
+
+new Handle:playermodelskv;
+new String:authid[MAXPLAYERS+1][35];
+new String:map[256];
+new String:mediatype[256];
+new downloadtype;
+
+
+new String:g_ModelsAdminTeam2[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsAdminTeam3[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsAdmin_Count_Team2;
+new String:g_ModelsAdmin_Count_Team3;
+new String:g_ModelsPlayerTeam2[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsPlayerTeam3[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsPlayer_Count_Team2;
+new String:g_ModelsPlayer_Count_Team3;
+new String:g_ModelsBotsTeam2[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsBotsTeam3[MODELS_PER_TEAM][MAX_FILE_LEN];
+new String:g_ModelsBots_Count_Team2;
+new String:g_ModelsBots_Count_Team3;
+new Handle:g_SkinBots=INVALID_HANDLE;
+new Handle:g_SkinAdmin=INVALID_HANDLE;
+new Handle:g_ForcePlayerSkin = INVALID_HANDLE;
+new Handle:gPluginEnabled=INVALID_HANDLE;
+
+enum eMods
+{
+	GameType_Unknown,
+	GameType_AOC,
+	GameType_CSGO,
+	GameType_CSS,
+	GameType_DOD,
+	GameType_FF,
+	GameType_HIDDEN,
+	GameType_HL2DM,
+	GameType_INS,
+	GameType_L4D,
+	GameType_L4D2,
+	GameType_NEO,
+	GameType_SGTLS,
+	GameType_TF,
+	GameType_DM,
+	GameType_ZPS,
+};
+
+new Handle:g_hDPArray = INVALID_HANDLE;
+
+new eMods:g_CurrentMod;
+new String:g_sGameName[eMods][32] = 
+{		
+	"Unknown",
+	"Age of Chivalry",
+	"Counter-Strike: GO",
+	"Counter Strike",
+	"Day Of Defeat",
+	"Fortress Forever",
+	"Hidden: Source",
+	"Half Life 2: Deathmatch",
+	"Insurgency",
+	"Left 4 Dead",
+	"Left 4 Dead 2",
+	"Neotokyo",
+	"Stargate TLS",
+	"Team Fortress 2",
+	"Dark Messiah",
+	"Zombie Panic: Source"
+};
+
+new g_CmdCount[MAXPLAYERS+1];
+new Handle:g_CommandCounts;
+new Handle:g_CommandCountsEnabled;
+new String:Game[64];
+
+new Handle:g_hChatFormats = INVALID_HANDLE;
+new Handle:g_fwdOnChatMessage;
+
+new bool:g_bSayText2;
+new	bool:g_bAutoUpdate;
+
+new g_CurrentChatType = CHATFLAGS_INVALID;
+
+
+public Plugin:myinfo =
+{
+	name = "VIP",
+	author = "Mester Skunk",
+	description = "This is a full on VIP plugin",
+	version = "PLUGIN VERSION",
+	url = "superskurkene.tk"
+};
+
+public OnPluginStart()
+{
+	g_version = CreateConVar("sm_skinchooser_version",SM_SKINCHOOSER_VERSION,"SM SKINCHOOSER VERSION",FCVAR_NOTIFY);
+	SetConVarString(g_version,SM_SKINCHOOSER_VERSION);
+	g_enabled = CreateConVar("sm_skinchooser_enabled","1");
+	g_autodisplay = CreateConVar("sm_skinchooser_autodisplay","1");
+	g_displaytimer = CreateConVar("sm_skinchooser_displaytimer","0");
+	g_menustarttime = CreateConVar("sm_skinchooser_menustarttime" , "5.0");
+	g_SkinBots = CreateConVar("sm_skinchooser_skinbots","0");
+	g_SkinAdmin = CreateConVar("sm_skinchooser_skinadmin","0");	
+	g_AdminGroup = CreateConVar("sm_skinchooser_admingroup","1");
+	g_AdminOnly = CreateConVar("sm_skinchooser_adminonly","0");
+	g_PlayerSpawnTimer = CreateConVar("sm_skinchooser_playerspawntimer","0");
+	g_ForcePlayerSkin = CreateConVar("sm_skinchooser_forceplayerskin" , "0");
+	g_CommandCountsEnabled = CreateConVar("sm_skinchooser_commandcountsenabled", "0", "Enables the CommandCounter.");	
+	g_CommandCounts = CreateConVar("sm_skinchooser_commandcounts", "1", "How many times users should be able to use the !models command.");
+	g_CloseMenuTimer = CreateConVar("sm_skinchooser_closemenutimer" , "30");	
+	
+	
+	AutoExecConfig(true, "sm_skinchooser");
+	
+	// Create the model menu command
+	RegConsoleCmd("sm_models", Command_Model);
+	
+	GetGameFolderName(Game, sizeof(Game));
+	
+	// Hook the spawn event
+	HookEvent("player_spawn", Event_PlayerSpawn, EventHookMode_Post);
+	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
+	
+	if (StrEqual(Game, "dod"))	
+	{
+		HookEvent("dod_round_start", Event_RoundStart, EventHookMode_Post);
+	}
+	else
+	{
+		HookEvent("round_start", Event_RoundStart, EventHookMode_Post);
+	}
+	
+	// Load the player's model settings
+	new String:file[256];
+	BuildPath(Path_SM, file, 255, "data/skinchooser_playermodels.ini");
+	playermodelskv = CreateKeyValues("Models");
+	FileToKeyValues(playermodelskv, file);
+	
+		RegConsoleCmd( "say", CommandSay );
+	RegConsoleCmd( "say_team", CommandSay );
+	
+	gPluginEnabled = CreateConVar( "sm_resetscore", "1" );
+	CreateConVar( "resetscore_version", PLUGIN_VERSION, "Reset Score", FCVAR_PLUGIN | FCVAR_SPONLY | FCVAR_REPLICATED | FCVAR_NOTIFY 
+
+{
+	new Handle:conVar = CreateConVar("sm_scp_autoupdate", "1", "Is auto-update enabled?");
+	g_bAutoUpdate = GetConVarBool(conVar);
+	HookConVarChange(conVar, OnAutoUpdateChange);
+
+	g_CurrentMod = GetCurrentMod();
+	g_hChatFormats = CreateTrie();
+	LogMessage("[SCP] Recognized mod [%s].", g_sGameName[g_CurrentMod]);
+	
+	/**
+	Hook the usermessage or error out if the mod doesn't support saytext2
+	*/
+	new UserMsg:umSayText2 = GetUserMessageId("SayText2");
+	if (umSayText2 != INVALID_MESSAGE_ID)
+	{
+		g_bSayText2 = true;
+		HookUserMessage(umSayText2, OnSayText2, true);
+	}
+	else
+	{
+		new UserMsg:umSayText = GetUserMessageId("SayText");
+		if (umSayText != INVALID_MESSAGE_ID)
+		{
+			if (g_CurrentMod != GameType_DOD)
+			{
+				SetFailState("Unsupported game");
+			}
+			g_bSayText2 = false;
+			HookUserMessage(umSayText, OnSayText, true);
+		}
+		else
+		{
+			LogError("[SCP] This mod appears not to support SayText2 or SayText.  Plugin disabled.");
+			SetFailState("Error hooking usermessage saytext2 and saytext");	
+		}
+	}
+	
+	/**
+	Get mod type and load the correct translation file
+	*/
+	if(g_bSayText2)
+	{
+		decl String:sGameDir[32];
+		decl String:sTranslationFile[PLATFORM_MAX_PATH];
+		decl String:sTranslationLocation[PLATFORM_MAX_PATH];
+		GetGameFolderName(sGameDir, sizeof(sGameDir));
+		Format(sTranslationFile, sizeof(sTranslationFile), "scp.%s.phrases", sGameDir);
+		BuildPath(Path_SM, sTranslationLocation, sizeof(sTranslationLocation), "translations/%s.txt", sTranslationFile);
+		if (FileExists(sTranslationLocation))
+		{
+			LogMessage("[SCP] Loading translation file [%s].", sTranslationFile);
+			LoadTranslations(sTranslationFile);
+			if (!GetChatFormats(sTranslationLocation))
+			{
+				LogError("[SCP] Could not parse the translation file");
+				SetFailState("Could not parse the translation file");
+			}
+		}
+		else
+		{
+			LogError("[SCP] Translation file is not present");
+			SetFailState("Translation file is not present");
+		}
+	}
+
+	/**
+	Create the global forward for other plugins
+	*/
+	g_fwdOnChatMessage = CreateGlobalForward("OnChatMessage", ET_Hook, Param_CellByRef, Param_Cell, Param_String, Param_String);
+
+	g_hDPArray = CreateArray();
+}
+
+public OnAutoUpdateChange(Handle:conVar, const String:oldVal[], const String:newVal[])
+{
+	g_bAutoUpdate = bool:StringToInt(newVal);
+}
+
+/**
+ *
+ * Updater Stuff
+ * By Dr. McKay
+ * Edited by Mini
+ *
+ */
+public OnAllPluginsLoaded() 
+{
+	new Handle:convar;
+	if (LibraryExists("updater")) 
+	{
+		Updater_AddPlugin(UPDATE_URL);
+		decl String:newVersion[10];
+		FormatEx(newVersion, sizeof(newVersion), "%sA", PLUGIN_VERSION);
+		convar = CreateConVar("scp_version", newVersion, "Plugin Version", FCVAR_DONTRECORD|FCVAR_NOTIFY|FCVAR_CHEAT);
+	}
+	else 
+	{
+		convar = CreateConVar("scp_version", PLUGIN_VERSION, "Plugin Version", FCVAR_DONTRECORD|FCVAR_NOTIFY|FCVAR_CHEAT);	
+	}
+	HookConVarChange(convar, Callback_VersionConVarChanged);
+}
+
+public OnPluginEnd()
+{
+	CloseHandle(g_version);
+	CloseHandle(g_enabled);
+	
+	// Write the the player's model settings
+	new String:file[256];
+	BuildPath(Path_SM, file, 255, "data/skinchooser_playermodels.ini");
+	KeyValuesToFile(playermodelskv, file);
+	CloseHandle(playermodelskv);
+}
+
+public OnMapStart()
+{	
+	if(GetConVarInt(g_enabled) == 1)	
+	{	
+		g_ModelsPlayer_Count_Team2 = 0;
+		g_ModelsPlayer_Count_Team3 = 0;
+		g_ModelsPlayer_Count_Team2 = LoadModels(g_ModelsPlayerTeam2, "configs/sm_skinchooser/forceskinsplayer_team2.ini");
+		g_ModelsPlayer_Count_Team3  = LoadModels(g_ModelsPlayerTeam3,  "configs/sm_skinchooser/forceskinsplayer_team3.ini");	
+	
+		g_ModelsBots_Count_Team2 = 0;
+		g_ModelsBots_Count_Team3 = 0;
+		g_ModelsBots_Count_Team2 = LoadModels(g_ModelsBotsTeam2, "configs/sm_skinchooser/forceskinsbots_team2.ini");
+		g_ModelsBots_Count_Team3  = LoadModels(g_ModelsBotsTeam3,  "configs/sm_skinchooser/forceskinsbots_team3.ini");
+		
+		g_ModelsAdmin_Count_Team2 = 0;
+		g_ModelsAdmin_Count_Team3 = 0;
+		g_ModelsAdmin_Count_Team2 = LoadModels(g_ModelsAdminTeam2, "configs/sm_skinchooser/forceskinsadmin_team2.ini");
+		g_ModelsAdmin_Count_Team3  = LoadModels(g_ModelsAdminTeam3,  "configs/sm_skinchooser/forceskinsadmin_team3.ini");		
+	
+		new String:file[256];
+		decl String:path[100];
+
+		kv = CreateKeyValues("Commands");
+		BuildPath(Path_SM, file, 255, "configs/sm_skinchooser/skins.ini");
+		FileToKeyValues(kv, file);
+	
+		if (!KvGotoFirstSubKey(kv))
+		{
+			return;
+		}
+		do
+		{
+			KvJumpToKey(kv, "Team1");
+			KvGotoFirstSubKey(kv);
+			do
+			{
+				KvGetString(kv, "path", path, sizeof(path),"");
+				if (FileExists(path , true))
+					PrecacheModel(path,true);
+			} 
+			while (KvGotoNextKey(kv));
+		
+			KvGoBack(kv);
+			KvGoBack(kv);
+			KvJumpToKey(kv, "Team2");
+			KvGotoFirstSubKey(kv);
+			do
+			{
+				KvGetString(kv, "path", path, sizeof(path),"");
+				if (FileExists(path , true))
+					PrecacheModel(path,true);
+			}
+			while (KvGotoNextKey(kv));
+			
+			KvGoBack(kv);
+			KvGoBack(kv);
+			
+		} 
+		while (KvGotoNextKey(kv));	
+		
+		KvRewind(kv);
+		
+		ReadDownloads();
+	}
+}
+
+public OnMapEnd()
+{
+	CloseHandle(kv);
+}
+
+Handle:BuildMainMenu(client)
+{
+	/* Create the menu Handle */
+	new Handle:menu = CreateMenu(Menu_Group);
+	
+	if (!KvGotoFirstSubKey(kv))
+	{
+		return INVALID_HANDLE;
+	}
+	
+	decl String:buffer[30];
+	decl String:accessFlag[5];
+	new AdminId:admin = GetUserAdmin(client);
+
+	{
+		do
+		{
+			if(GetConVarInt(g_AdminGroup) == 1)
+			{
+				// check if they have access
+				new String:group[30];
+				new String:temp[2];
+				KvGetString(kv,"Admin",group,sizeof(group));
+				new AdminId:AdmId = GetUserAdmin(client);
+				new count = GetAdminGroupCount(AdmId);
+				for (new i =0; i<count; i++) 
+				{
+					if (FindAdmGroup(group) == GetAdminGroup(AdmId, i, temp, sizeof(temp)))
+					{
+						// Get the model group name and add it to the menu
+						KvGetSectionName(kv, buffer, sizeof(buffer));		
+						AddMenuItem(menu,buffer,buffer);
+					}
+				}
+			}
+
+			//Get accesFlag and see if the Admin is in it
+			KvGetString(kv, "admin", accessFlag, sizeof(accessFlag));
+			
+			if(StrEqual(accessFlag,""))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"a") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Reservation, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}			
+			
+			if(StrEqual(accessFlag,"b") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Generic, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"c") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Kick, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"d") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Ban, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"e") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Unban, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"f") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Slay, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}			
+			
+			if(StrEqual(accessFlag,"g") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Changemap, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"h") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Convars, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"i") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Config, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"j") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Chat, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"k") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Vote, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"l") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Password, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"m") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_RCON, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"n") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Cheats, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"o") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom1, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"p") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom2, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"q") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom3, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"r") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom4, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"s") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom5, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}			
+				
+			if(StrEqual(accessFlag,"t") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Custom6, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+			if(StrEqual(accessFlag,"z") && admin != INVALID_ADMIN_ID && GetAdminFlag(admin, Admin_Root, Access_Effective))
+			{
+			KvGetSectionName(kv, buffer, sizeof(buffer));
+			AddMenuItem(menu,buffer,buffer);
+			}
+			
+		} while (KvGotoNextKey(kv));	
+	}
+	KvRewind(kv);
+
+	AddMenuItem(menu,"none","None");
+	SetMenuTitle(menu, "Skins");
+ 
+	return menu;
+}
+
+public ReadFileFolder(String:path[])
+{
+	new Handle:dirh = INVALID_HANDLE;
+	new String:buffer[256];
+	new String:tmp_path[256];
+	new FileType:type = FileType_Unknown;
+	new len;
+	
+	len = strlen(path);
+	if (path[len-1] == '\n')
+		path[--len] = '\0';
+
+	TrimString(path);
+	
+	if(DirExists(path))
+	{
+		dirh = OpenDirectory(path);
+		while(ReadDirEntry(dirh,buffer,sizeof(buffer),type))
+		{
+			len = strlen(buffer);
+			if (buffer[len-1] == '\n')
+				buffer[--len] = '\0';
+
+			TrimString(buffer);
+
+			if (!StrEqual(buffer,"",false) && !StrEqual(buffer,".",false) && !StrEqual(buffer,"..",false))
+			{
+				strcopy(tmp_path,255,path);
+				StrCat(tmp_path,255,"/");
+				StrCat(tmp_path,255,buffer);
+				if(type == FileType_File)
+				{
+					if(downloadtype == 1)
+					{
+						ReadItem(tmp_path);
+					}
+					
+				
+				}
+			}
+		}
+	}
+	else{
+		if(downloadtype == 1)
+		{
+			ReadItem(path);
+		}
+		
+	}
+	if(dirh != INVALID_HANDLE)
+	{
+		CloseHandle(dirh);
+	}
+}
+
+public ReadDownloads()
+{
+	new String:file[256];
+	BuildPath(Path_SM, file, 255, "configs/sm_skinchooser/skinchooserdownloads.ini");
+	new Handle:fileh = OpenFile(file, "r");
+	new String:buffer[256];
+	downloadtype = 1;
+	new len;
+	
+	GetCurrentMap(map,255);
+	
+	if(fileh == INVALID_HANDLE) return;
+	while (ReadFileLine(fileh, buffer, sizeof(buffer)))
+	{	
+		len = strlen(buffer);
+		if (buffer[len-1] == '\n')
+			buffer[--len] = '\0';
+
+		TrimString(buffer);
+
+		if(!StrEqual(buffer,"",false))
+		{
+			ReadFileFolder(buffer);
+		}
+		
+		if (IsEndOfFile(fileh))
+			break;
+	}
+	if(fileh != INVALID_HANDLE)
+	{
+		CloseHandle(fileh);
+	}
+}
+
+public ReadItem(String:buffer[])
+{
+	new len = strlen(buffer);
+	if (buffer[len-1] == '\n')
+		buffer[--len] = '\0';
+	
+	TrimString(buffer);
+	
+	if(len >= 2 && buffer[0] == '/' && buffer[1] == '/')
+	{
+		if(StrContains(buffer,"//") >= 0)
+		{
+			ReplaceString(buffer,255,"//","");
+		}
+	}
+	else if (!StrEqual(buffer,"",false) && FileExists(buffer))
+	{
+		if(StrContains(mediatype,"Model",true) >= 0)
+		{
+			PrecacheModel(buffer,true);
+		}
+		AddFileToDownloadsTable(buffer);
+		}
+	}
+
+public Menu_Group(Handle:menu, MenuAction:action, param1, param2)
+{
+	// User has selected a model group
+	if (action == MenuAction_Select)
+	{
+		new String:info[30];
+		
+		// Get the group they selected
+		new bool:found = GetMenuItem(menu, param2, info, sizeof(info));
+		
+		if (!found)
+			return;
+			
+		//tigeox
+		// Check to see if the user has decided they don't want a model
+		// (e.g. go to a stock model)%%
+		if(StrEqual(info,"none"))
+		{
+			// Get the player's authid
+			KvJumpToKey(playermodelskv,authid[param1],true);
+		
+			// Clear their saved model so that the next time
+			// they spawn, they are able to use a stock model
+			if (GetClientTeam(param1) == 2)
+			{
+				KvSetString(playermodelskv, "Team1", "");
+				KvSetString(playermodelskv, "Team1Group", "");
+			}
+			else if (GetClientTeam(param1) == 3)
+			{
+				KvSetString(playermodelskv, "Team2", "");
+				KvSetString(playermodelskv, "Team2Group", "");				
+			}
+			
+			// Rewind the KVs
+			KvRewind(playermodelskv);
+			
+			if(!IsFakeClient(param1) && GetConVarInt(g_ForcePlayerSkin) == 1  && GetConVarInt(g_PlayerSpawnTimer) == 1)
+			{
+				skin_players(param1);
+			}
+			
+			// We don't need to go any further, return
+			return;
+		}
+			
+		// User selected a group
+		// advance kv to this group
+		KvJumpToKey(kv, info);
+		
+		
+		// Check users team		
+		if (GetClientTeam(param1) == 2)
+		{
+			// Show team 1 models
+			KvJumpToKey(kv, "Team1");
+		}
+		else if (GetClientTeam(param1) == 3)
+		{
+			// Show team 2 models
+			KvJumpToKey(kv, "Team2");
+		}
+		else
+		
+			// They must be spectator, return
+			return;
+			
+		
+		// Get the first model		
+		KvGotoFirstSubKey(kv);
+		
+		// Create the menu
+		new Handle:tempmenu = CreateMenu(Menu_Model);
+
+		// Add the models to the menu
+		decl String:buffer[30];
+		decl String:path[256];
+		do
+		{
+			// Add the model to the menu
+			KvGetSectionName(kv, buffer, sizeof(buffer));			
+			KvGetString(kv, "path", path, sizeof(path),"");			
+			AddMenuItem(tempmenu,path,buffer);
+	
+		} 
+		while (KvGotoNextKey(kv));
+		
+		
+		// Set the menu title to the model group name
+		SetMenuTitle(tempmenu, info);
+		
+		// Rewind the KVs
+		KvRewind(kv);
+		
+		// Display the menu
+		DisplayMenu(tempmenu, param1, MENU_TIME_FOREVER);
+	}
+		else if (action == MenuAction_End)
+	{
+		CloseHandle(menu);
+	}
+}
+
+public Menu_Model(Handle:menu, MenuAction:action, param1, param2)
+{
+	// User choose a model	
+	if (action == MenuAction_Select)
+	{
+		new String:info[256];
+		new String:group[30];
+
+		// Get the model's menu item
+		new bool:found = GetMenuItem(menu, param2, info, sizeof(info));
+
+		
+		if (!found)
+			return;
+			
+		// Set the user's model
+		if (!StrEqual(info,"") && IsModelPrecached(info) && IsClientConnected(param1))
+		{
+			// Set the model
+			LogMessage("Setting Model for client %i: %s",param1,info);
+			SetEntityModel(param1, info);
+			SetEntityRenderColor(param1, 255, 255, 255, 255);
+		}
+		
+		// Get the player's steam
+		KvJumpToKey(playermodelskv,authid[param1], true);		
+		
+		// Save the user's choice so it is automatically applied
+		// each time they spawn
+		if (GetClientTeam(param1) == 2)
+		{
+			KvSetString(playermodelskv, "Team1", info);
+			KvSetString(playermodelskv, "Team1Group", group);
+		}
+		else if (GetClientTeam(param1) == 3)
+		{
+			KvSetString(playermodelskv, "Team2", info);
+			KvSetString(playermodelskv, "Team2Group", group);
+		}
+		
+		// Rewind the KVs
+		KvRewind(playermodelskv);
+	}
+	
+	// If they picked exit, close the menu handle
+	if (action == MenuAction_End)
+	{
+		CloseHandle(menu);
+	}
+}
+
+public OnClientPostAdminCheck(client)
+{
+	// Save the client auth string (steam)
+	GetClientAuthString(client, authid[client], sizeof(authid[]));
+	
+	if(GetConVarInt(g_CommandCountsEnabled) == 1)	
+	{	
+		g_CmdCount[client] = 0;
+	}
+}
+
+public Action:Timer_Menu(Handle:timer, any:client)
+{
+	if(GetClientTeam(client) == 2 || GetClientTeam(client) == 3 && IsValidClient(client))
+	{
+		Command_Model(client, 0);
+	}
+	
+	mainmenu = BuildMainMenu(client);
+	
+	if (mainmenu == INVALID_HANDLE)
+	{ 
+		// We don't, send an error message and return
+		PrintToConsole(client, "There was an error generating the menu. Check your skins.ini file.");
+		return Plugin_Handled;
+	}
+	
+	DisplayMenu(mainmenu, client, GetConVarInt(g_CloseMenuTimer));
+	PrintToChat(client, "Skinmenu is open , choose your Model!!!");
+	return Plugin_Handled;
+}
+
+public Action:Command_Model(client,args)
+{
+	if(GetConVarInt(g_enabled) == 1 && !IsFakeClient(client))	
+	{
+		if(GetConVarInt(g_CommandCountsEnabled) == 1)	
+		{
+			g_CmdCount[client]++;	
+			new curCount = g_CmdCount[client];
+		
+			if(curCount <= GetConVarInt(g_CommandCounts))
+			{
+				//Create the main menu
+				mainmenu = BuildMainMenu(client);
+	
+				// Do we have a valid model menu
+				if (mainmenu == INVALID_HANDLE)
+				{ 
+					// We don't, send an error message and return
+					PrintToConsole(client, "There was an error generating the menu. Check your skins.ini file.");
+					return Plugin_Handled;
+				}
+	
+				new AdminId:admin = GetUserAdmin(client);
+	
+				if (GetConVarInt(g_AdminOnly) == 1 && admin != INVALID_ADMIN_ID)
+				{
+					// We have a valid menu, display it and return
+					DisplayMenu(mainmenu, client, GetConVarInt(g_CloseMenuTimer));
+				}
+				else if(GetConVarInt(g_AdminOnly) == 0)
+				{
+					DisplayMenu(mainmenu, client, GetConVarInt(g_CloseMenuTimer));
+				}
+			}
+		}
+		else if(GetConVarInt(g_CommandCountsEnabled) == 0)
+		{
+			//Create the main menu
+			mainmenu = BuildMainMenu(client);
+	
+			// Do we have a valid model menu
+			if (mainmenu == INVALID_HANDLE)
+			{ 
+				// We don't, send an error message and return
+				PrintToConsole(client, "There was an error generating the menu. Check your skins.ini file.");
+				return Plugin_Handled;
+			}
+	
+			new AdminId:admin = GetUserAdmin(client);
+	
+			if (GetConVarInt(g_AdminOnly) == 1 && admin != INVALID_ADMIN_ID)
+			{
+				// We have a valid menu, display it and return
+				DisplayMenu(mainmenu, client, GetConVarInt(g_CloseMenuTimer));
+			}
+			else if(GetConVarInt(g_AdminOnly) == 0)
+			{
+				DisplayMenu(mainmenu, client, GetConVarInt(g_CloseMenuTimer));
+			}
+		}
+	}
+	return Plugin_Handled;	
+}
+
+public Event_RoundStart(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	for(new i = 1; i <= MaxClients; i++)
+	{	
+		g_CmdCount[i] = 0;
+	}
+}
+
+public Event_PlayerTeam(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	if(GetConVarInt(g_enabled) == 1)	
+	{	
+		if( GetConVarBool(g_autodisplay) )
+		{
+			new client = GetClientOfUserId(GetEventInt(event, "userid"));
+			new team = GetEventInt(event, "team");
+			if( GetConVarBool(g_displaytimer))
+			{
+				if((team == 2 || team == 3) && IsValidClient(client) && !IsFakeClient(client))
+				{
+					CreateTimer(GetConVarFloat(g_menustarttime), Timer_Menu, client);
+				}
+			}
+		
+			else if((team == 2 || team == 3) && IsValidClient(client) && !IsFakeClient(client))
+			{
+				Command_Model(client, 0);
+			}
+			return;
+		}
+	}
+}
+
+public Event_PlayerSpawn(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	if(GetConVarInt(g_enabled) == 1)	
+	{	
+		// Get the userid and client
+		new client = GetClientOfUserId(GetEventInt(event, "userid"));	
+	
+		if( GetConVarInt(g_PlayerSpawnTimer) == 1)
+		{
+			if(!IsFakeClient(client) && IsValidClient(client))
+			{
+				CreateTimer(1.0, Timer_Spawn, client);
+			}
+		}
+	
+		else if( GetConVarInt(g_PlayerSpawnTimer) == 0)
+		{
+			// Get the user's authid
+			KvJumpToKey(playermodelskv,authid[client],true);
+	
+			new String:model[256];
+			new String:group[30];	
+	
+			// Get the user's model pref
+			if (!IsFakeClient(client) && IsValidClient(client) && GetClientTeam(client) == 2)
+			{
+				KvGetString(playermodelskv, "Team1", model, sizeof(model), "");
+				KvGetString(playermodelskv, "Team1Group", group, sizeof(group), "");
+			}
+			else if (!IsFakeClient(client) && IsValidClient(client) && GetClientTeam(client) == 3)
+			{
+				KvGetString(playermodelskv, "Team2", model, sizeof(model), "");
+				KvGetString(playermodelskv, "Team2Group", group, sizeof(group), "");
+			}		
+	
+			// Make sure that they have a valid model pref
+			if (!StrEqual(model,"", false) && IsModelPrecached(model))
+			{
+				// Set the model
+				SetEntityModel(client, model);
+				SetEntityRenderColor(client, 255, 255, 255, 255);
+			}
+			if (!StrEqual(model,"") && IsModelPrecached(model))
+			{
+				SetEntityModel(client, model);
+				SetEntityRenderColor(client, 255, 255, 255, 255);
+			}
+	
+			// Rewind the KVs
+			KvRewind(playermodelskv);
+		}
+	
+		if(IsFakeClient(client) && GetConVarInt(g_SkinBots) == 1)
+		{
+			skin_bots(client);
+		}
+
+		new AdminId:admin = GetUserAdmin(client);
+	
+		if (!IsFakeClient(client) && GetConVarInt(g_SkinAdmin) == 1 && admin != INVALID_ADMIN_ID && GetConVarInt(g_PlayerSpawnTimer) == 1)
+		{
+			skin_admin(client);
+		}
+		if(!IsFakeClient(client) && GetConVarInt(g_ForcePlayerSkin) == 1  && admin == INVALID_ADMIN_ID && GetConVarInt(g_PlayerSpawnTimer) == 1)
+		{
+			skin_players(client);
+		}		
+	}
+}
+
+public Action:Timer_Spawn(Handle:timer, any:client)
+{
+	// Get the user's authid
+	KvJumpToKey(playermodelskv,authid[client],true);
+	
+	new String:model[256];
+	new String:group[30];	
+	
+	// Get the user's model pref
+	if (!IsFakeClient(client) && IsValidClient(client) && GetClientTeam(client) == 2)
+	{
+		KvGetString(playermodelskv, "Team1", model, sizeof(model), "");
+		KvGetString(playermodelskv, "Team1Group", group, sizeof(group), "");
+	}
+	else if (!IsFakeClient(client) && IsValidClient(client) && GetClientTeam(client) == 3)
+	{
+		KvGetString(playermodelskv, "Team2", model, sizeof(model), "");
+		KvGetString(playermodelskv, "Team2Group", group, sizeof(group), "");
+	}		
+	
+	// Make sure that they have a valid model pref
+	if (!StrEqual(model,"", false) && IsModelPrecached(model))
+	{
+		// Set the model
+		SetEntityModel(client, model);
+		SetEntityRenderColor(client, 255, 255, 255, 255);
+	}
+	if (!StrEqual(model,"") && IsModelPrecached(model))
+	{
+		SetEntityModel(client, model);
+		SetEntityRenderColor(client, 255, 255, 255, 255);
+	}
+	
+	// Rewind the KVs
+	KvRewind(playermodelskv);
+}	
+
+stock LoadModels(String:models[][], String:ini_file[])
+{
+	decl String:buffer[MAX_FILE_LEN];
+	decl String:file[MAX_FILE_LEN];
+	new models_count;
+
+	BuildPath(Path_SM, file, MAX_FILE_LEN, ini_file);
+
+	//open precache file and add everything to download table
+	new Handle:fileh = OpenFile(file, "r");
+	while (ReadFileLine(fileh, buffer, MAX_FILE_LEN))
+	{
+		// Strip leading and trailing whitespace
+		TrimString(buffer);
+
+		// Skip non existing files (and Comments)
+		if (FileExists(buffer , true))
+		{
+			// Tell Clients to download files
+			AddFileToDownloadsTable(buffer);
+			// Tell Clients to cache model
+			if (StrEqual(buffer[strlen(buffer)-4], ".mdl", false) && (models_count<MODELS_PER_TEAM))
+			{
+				strcopy(models[models_count++], strlen(buffer)+1, buffer);
+				PrecacheModel(buffer, true);
+			}
+		}
+	}
+	return models_count;
+}
+
+stock skin_bots(client)
+{
+	new team = GetClientTeam(client);
+	if (team==2)
+	{
+		SetEntityModel(client,g_ModelsBotsTeam2[GetRandomInt(0, g_ModelsBots_Count_Team2-1)]);
+	}
+	else if (team==3)
+	{
+		SetEntityModel(client,g_ModelsBotsTeam3[GetRandomInt(0, g_ModelsBots_Count_Team3-1)]);
+	}
+}
+
+stock skin_players(client)
+{
+	new team = GetClientTeam(client);
+	if (team==2)
+	{
+		SetEntityModel(client,g_ModelsPlayerTeam2[GetRandomInt(0, g_ModelsPlayer_Count_Team2-1)]);
+	}
+	else if (team==3)
+	{
+		SetEntityModel(client,g_ModelsPlayerTeam3[GetRandomInt(0, g_ModelsPlayer_Count_Team3-1)]);
+	}
+}
+
+stock skin_admin(client)
+{
+	new team = GetClientTeam(client);
+	if (team==2)
+	{
+		SetEntityModel(client,g_ModelsAdminTeam2[GetRandomInt(0, g_ModelsAdmin_Count_Team2-1)]);
+	}
+	else if (team==3)
+	{
+		SetEntityModel(client,g_ModelsAdminTeam3[GetRandomInt(0, g_ModelsAdmin_Count_Team3-1)]);
+	}
+}
+
+stock bool:IsValidClient(client)
+{
+	if (client <= 0) return false;
+	if (client > MaxClients) return false;
+	if (!IsClientConnected(client)) return false;
+	return IsClientInGame(client);
+}
+
+public Action:CommandSay( id, args )
+{
+	decl String:Said[ 128 ];
+	GetCmdArgString( Said, sizeof( Said ) - 1 );
+	StripQuotes( Said );
+	TrimString( Said );
+	
+	if( StrEqual( Said, "!resetscore" ) || StrEqual( Said, "!rs" ) || StrEqual( Said, "/rs" ) || StrEqual( Said, "/resetscore" ) )
+	{
+		if( GetConVarInt( gPluginEnabled ) == 0 )
+		{
+			PrintToChat( id, "\x03[Superskurkene ResetScore] The plugin is disabled." );
+			PrintToConsole( id, "[Superskurkene ResetScore] You can't use this command when plugin is disabled!" );
+		
+			return Plugin_Continue;
+		}
+
+		if( GetClientDeaths( id ) == 0 && GetClientFrags( id ) == 0 )
+		{
+			PrintToChat( id, "\x03[Superskurkene ResetScore] Your score is already 0!" );
+			PrintToConsole( id, "[Superskurkene ResetScore] You can't reset your score right now." );
+			
+			return Plugin_Continue;
+		}
+				
+		SetClientFrags( id, 0 );
+		SetClientDeaths( id, 0 );
+	
+		decl String:Name[ 32 ];
+		GetClientName( id, Name, sizeof( Name ) - 1 );
+	
+		PrintToChat( id, "\x03[Superskurkene ResetScore] You have successfully reseted your score!" );
+		PrintToChatAll( "\x03[Superskurkene ResetScore] %s has just reseted his score.", Name );
+		PrintToConsole( id, "[Superskurkene ResetScore] You have successfully reseted your score." );
+	}
+	
+	return Plugin_Continue;
+}	 
+stock SetClientFrags( index, frags )
+{
+	SetEntProp( index, Prop_Data, "m_iFrags", frags );
+	return 1;
+}
+stock SetClientDeaths( index, deaths )
+{
+	SetEntProp( index, Prop_Data, "m_iDeaths", deaths );
+	return 1;
+}
+};
+
+public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
+{
+	MarkNativeAsOptional("GetUserMessageType");
+	CreateNative("GetMessageFlags", Native_GetMessageFlags);
+	RegPluginLibrary("scp");
+	return APLRes_Success;
+}
+
+public OnPluginStart()
+{
+	new Handle:conVar = CreateConVar("sm_scp_autoupdate", "1", "Is auto-update enabled?");
+	g_bAutoUpdate = GetConVarBool(conVar);
+	HookConVarChange(conVar, OnAutoUpdateChange);
+
+	g_CurrentMod = GetCurrentMod();
+	g_hChatFormats = CreateTrie();
+	LogMessage("[SCP] Recognized mod [%s].", g_sGameName[g_CurrentMod]);
+	
+	/**
+	Hook the usermessage or error out if the mod doesn't support saytext2
+	*/
+	new UserMsg:umSayText2 = GetUserMessageId("SayText2");
+	if (umSayText2 != INVALID_MESSAGE_ID)
+	{
+		g_bSayText2 = true;
+		HookUserMessage(umSayText2, OnSayText2, true);
+	}
+	else
+	{
+		new UserMsg:umSayText = GetUserMessageId("SayText");
+		if (umSayText != INVALID_MESSAGE_ID)
+		{
+			if (g_CurrentMod != GameType_DOD)
+			{
+				SetFailState("Unsupported game");
+			}
+			g_bSayText2 = false;
+			HookUserMessage(umSayText, OnSayText, true);
+		}
+		else
+		{
+			LogError("[SCP] This mod appears not to support SayText2 or SayText.  Plugin disabled.");
+			SetFailState("Error hooking usermessage saytext2 and saytext");	
+		}
+	}
+	
+	/**
+	Get mod type and load the correct translation file
+	*/
+	if(g_bSayText2)
+	{
+		decl String:sGameDir[32];
+		decl String:sTranslationFile[PLATFORM_MAX_PATH];
+		decl String:sTranslationLocation[PLATFORM_MAX_PATH];
+		GetGameFolderName(sGameDir, sizeof(sGameDir));
+		Format(sTranslationFile, sizeof(sTranslationFile), "scp.%s.phrases", sGameDir);
+		BuildPath(Path_SM, sTranslationLocation, sizeof(sTranslationLocation), "translations/%s.txt", sTranslationFile);
+		if (FileExists(sTranslationLocation))
+		{
+			LogMessage("[SCP] Loading translation file [%s].", sTranslationFile);
+			LoadTranslations(sTranslationFile);
+			if (!GetChatFormats(sTranslationLocation))
+			{
+				LogError("[SCP] Could not parse the translation file");
+				SetFailState("Could not parse the translation file");
+			}
+		}
+		else
+		{
+			LogError("[SCP] Translation file is not present");
+			SetFailState("Translation file is not present");
+		}
+	}
+
+	/**
+	Create the global forward for other plugins
+	*/
+	g_fwdOnChatMessage = CreateGlobalForward("OnChatMessage", ET_Hook, Param_CellByRef, Param_Cell, Param_String, Param_String);
+
+	g_hDPArray = CreateArray();
+}
+
+public OnAutoUpdateChange(Handle:conVar, const String:oldVal[], const String:newVal[])
+{
+	g_bAutoUpdate = bool:StringToInt(newVal);
+}
+
+/**
+ *
+ * Updater Stuff
+ * By Dr. McKay
+ * Edited by Mini
+ *
+ */
+public OnAllPluginsLoaded() 
+{
+	new Handle:convar;
+	if (LibraryExists("updater")) 
+	{
+		Updater_AddPlugin(UPDATE_URL);
+		decl String:newVersion[10];
+		FormatEx(newVersion, sizeof(newVersion), "%sA", PLUGIN_VERSION);
+		convar = CreateConVar("scp_version", newVersion, "Plugin Version", FCVAR_DONTRECORD|FCVAR_NOTIFY|FCVAR_CHEAT);
+	}
+	else 
+	{
+		convar = CreateConVar("scp_version", PLUGIN_VERSION, "Plugin Version", FCVAR_DONTRECORD|FCVAR_NOTIFY|FCVAR_CHEAT);	
+	}
+	HookConVarChange(convar, Callback_VersionConVarChanged);
+}
+
+public Callback_VersionConVarChanged(Handle:convar, const String:oldValue[], const String:newValue[]) 
+{
+	ResetConVar(convar);
+}
+
+public OnLibraryAdded(const String:name[])
+{
+	if (!strcmp(name, "updater"))
+	{
+		Updater_AddPlugin(UPDATE_URL);
+	}
+}
+
+public Action:Updater_OnPluginDownloading()
+{
+	if (!g_bAutoUpdate)
+	{
+		return Plugin_Handled;
+	}
+	return Plugin_Continue;
+}
+
+public Updater_OnPluginUpdated() 
+{
+	ReloadPlugin();
+}
+
+public Action:OnSayText2(UserMsg:msg_id, Handle:bf, const clients[], numClients, bool:reliable, bool:init)
+{
+	/**
+	Get the sender of the usermessage and bug out if it is not a player
+	*/
+	new bool:bProtobuf = (CanTestFeatures() && GetFeatureStatus(FeatureType_Native, "GetUserMessageType") == FeatureStatus_Available && GetUserMessageType() == UM_Protobuf);
+	new cpSender;
+	if (bProtobuf)
+	{
+		cpSender = PbReadInt(bf, "ent_idx");
+	}
+	else
+	{
+		cpSender = BfReadByte(bf);
+	}
+
+	if (cpSender == SENDER_WORLD)
+	{
+		return Plugin_Continue;
+	}
+	
+	/**
+	Get the chat bool.  This determines if sent to console as well as chat
+	*/
+	new bool:bChat;
+	if (bProtobuf)
+	{
+		bChat = PbReadBool(bf, "chat");
+	}
+	else
+	{
+		bChat = (BfReadByte(bf) ? true : false);
+	}
+	
+	/**
+	Make sure we have a default translation string for the message
+	This also determines the message type...
+	*/
+	decl String:cpTranslationName[32];
+	new buffer;
+	if (bProtobuf)
+	{
+		PbReadString(bf, "msg_name", cpTranslationName, sizeof(cpTranslationName));
+	}
+	else
+	{
+		BfReadString(bf, cpTranslationName, sizeof(cpTranslationName));
+	}
+
+	if (!GetTrieValue(g_hChatFormats, cpTranslationName, buffer))
+	{
+		return Plugin_Continue;
+	}
+	else
+	{
+		if (StrContains(cpTranslationName, "all", false) != -1)
+		{
+			g_CurrentChatType = g_CurrentChatType | CHATFLAGS_ALL;
+		}
+		if (StrContains(cpTranslationName, "team", false) != -1
+		|| 	StrContains(cpTranslationName, "survivor", false) != -1 
+		||	StrContains(cpTranslationName, "infected", false) != -1
+		||	StrContains(cpTranslationName, "Cstrike_Chat_CT", false) != -1 
+		||	StrContains(cpTranslationName, "Cstrike_Chat_T", false) != -1)
+		{
+			g_CurrentChatType = g_CurrentChatType | CHATFLAGS_TEAM;
+		}
+		if (StrContains(cpTranslationName, "spec", false) != -1)
+		{
+			g_CurrentChatType = g_CurrentChatType | CHATFLAGS_SPEC;
+		}
+		if (StrContains(cpTranslationName, "dead", false) != -1)
+		{
+			g_CurrentChatType = g_CurrentChatType | CHATFLAGS_DEAD;
+		}
+	}
+	
+	/**
+	Get the senders name
+	*/
+	decl String:cpSender_Name[MAXLENGTH_NAME];
+	if (bProtobuf)
+	{
+		PbReadString(bf, "params", cpSender_Name, sizeof(cpSender_Name), 0);
+	}
+	else if (BfGetNumBytesLeft(bf))
+	{
+		BfReadString(bf, cpSender_Name, sizeof(cpSender_Name));
+	}
+	
+	/**
+	Get the message
+	*/
+	decl String:cpMessage[MAXLENGTH_INPUT];
+	if (bProtobuf)
+	{
+		PbReadString(bf, "params", cpMessage, sizeof(cpMessage));
+	}
+	else if (BfGetNumBytesLeft(bf))
+	{
+		BfReadString(bf, cpMessage, sizeof(cpMessage));
+	}
+	
+	/**
+	Store the clients in an array so the call can manipulate it.
+	*/
+	new Handle:cpRecipients = CreateArray();
+	for (new i = 0; i < numClients; i++)
+	{
+		PushArrayCell(cpRecipients, clients[i]);
+	}
+	
+	/**
+	Because the message could be changed but not the name
+	we need to compare the original name to the returned name.
+	We do this because we may have to add the team color code to the name,
+	where as the message doesn't get a color code by default.
+	*/
+	decl String:sOriginalName[MAXLENGTH_NAME];
+	strcopy(sOriginalName, sizeof(sOriginalName), cpSender_Name);
+	
+	/**
+	Start the forward for other plugins
+	*/
+	new Action:fResult;
+	Call_StartForward(g_fwdOnChatMessage);
+	Call_PushCellRef(cpSender);
+	Call_PushCell(cpRecipients);
+	Call_PushStringEx(cpSender_Name, sizeof(cpSender_Name), SM_PARAM_STRING_UTF8|SM_PARAM_STRING_COPY, SM_PARAM_COPYBACK);
+	Call_PushStringEx(cpMessage, sizeof(cpMessage), SM_PARAM_STRING_UTF8|SM_PARAM_STRING_COPY, SM_PARAM_COPYBACK);
+	new fError = Call_Finish(fResult);
+	
+	g_CurrentChatType = CHATFLAGS_INVALID;
+	
+	if (fError != SP_ERROR_NONE)
+	{
+		ThrowNativeError(fError, "Forward failed");
+		CloseHandle(cpRecipients);
+		return Plugin_Continue;
+	}
+	else if (fResult == Plugin_Continue)
+	{
+		CloseHandle(cpRecipients);
+		return Plugin_Continue;
+	}
+	else if (fResult == Plugin_Stop)
+	{
+		CloseHandle(cpRecipients);
+		return Plugin_Handled;
+	}
+	
+	/**
+	This is the check for a name change.  If it has not changed we add the team color code
+	*/
+	if (StrEqual(sOriginalName, cpSender_Name))
+	{
+		Format(cpSender_Name, sizeof(cpSender_Name), "\x03%s", cpSender_Name);
+	}
+	
+	/**
+	Create a timer to print the message on the next gameframe
+	*/
+	new Handle:cpPack = CreateDataPack();
+
+	new numRecipients = GetArraySize(cpRecipients);
+	
+	WritePackCell(cpPack, cpSender);
+
+	for (new i = 0; i < numRecipients; i++)
+	{
+		new x = GetArrayCell(cpRecipients, i);
+		if (!IsValidClient(x))
+		{
+			numRecipients--;
+			RemoveFromArray(cpRecipients, i);
+		}
+	}
+	
+	WritePackCell(cpPack, numRecipients);
+	
+	for (new i = 0; i < numRecipients; i++)
+	{
+		new x = GetArrayCell(cpRecipients, i);
+		WritePackCell(cpPack, x);
+	}
+	
+	WritePackCell(cpPack, bChat);
+	WritePackString(cpPack, cpTranslationName);
+	WritePackString(cpPack, cpSender_Name);
+	WritePackString(cpPack, cpMessage);
+	PushArrayCell(g_hDPArray, cpPack);
+	WritePackCell(cpPack, bProtobuf);
+
+	CloseHandle(cpRecipients);
+	
+	/**
+	Stop the original message
+	*/
+	return Plugin_Handled;
+}
+
+public Action:OnSayText(UserMsg:msg_id, Handle:bf, const clients[], numClients, bool:reliable, bool:init)
+{
+	/**
+	Get the sender of the usermessage and bug out if it is not a player
+	*/
+	new bool:bProtobuf = (CanTestFeatures() && GetFeatureStatus(FeatureType_Native, "GetUserMessageType") == FeatureStatus_Available && GetUserMessageType() == UM_Protobuf);
+	new cpSender;
+	if (bProtobuf)
+	{
+		cpSender = PbReadInt(bf, "ent_idx");
+	}
+	else
+	{
+		cpSender = BfReadByte(bf);
+	}
+
+	if (cpSender == SENDER_WORLD)
+	{
+		return Plugin_Continue;
+	}
+	
+	/**
+	Get the chat message
+	*/
+	decl String:message[MAXLENGTH_INPUT];
+	if (bProtobuf)
+	{
+		PbReadString(bf, "text", message, sizeof(message));
+	}
+	else
+	{
+		BfReadString(bf, message, sizeof(message));
+	}
+	
+	/**
+	Get the chat bool.  This determines if sent to console as well as chat
+	*/
+	if (!bProtobuf)
+	{
+		BfReadBool(bf);
+	}
+	
+	/**
+	Store the clients in an array so the call can manipulate it.
+	*/
+	new Handle:cpRecipients = CreateArray();
+	for (new i = 0; i < numClients; i++)
+	{
+		PushArrayCell(cpRecipients, clients[i]);
+	}
+	
+	decl String:prefix[64], String:senderName[MAX_NAME_LENGTH], String:textMessage[MAXLENGTH_MESSAGE], String:buffer[MAXLENGTH_INPUT];
+	GetClientName(cpSender, senderName, sizeof(senderName));
+	Format(buffer, sizeof(buffer), "%s:", senderName);
+	new pos = StrContains(message, buffer);
+	
+	if (pos == 0)
+	{
+		prefix[0] = '\0';
+	}
+	else
+	{
+		Format(prefix, pos + 1, "%s ", message);
+	}
+	
+	g_CurrentChatType = CHATFLAGS_INVALID;
+	
+	if (StrContains(prefix, "(Team)") != -1)
+	{
+		g_CurrentChatType |= CHATFLAGS_TEAM;
+	}
+	if (GetClientTeam(cpSender) <= 1)
+	{
+		g_CurrentChatType |= CHATFLAGS_SPEC;
+	}
+	if (StrContains(prefix, "(Dead)") != -1)
+	{
+		g_CurrentChatType |= CHATFLAGS_DEAD;
+	}
+	
+	if (g_CurrentChatType == CHATFLAGS_INVALID)
+	{
+		g_CurrentChatType = CHATFLAGS_ALL;
+	}
+	
+	ReplaceString(message, sizeof(message), "\n", "");
+	strcopy(textMessage, sizeof(textMessage), message[pos + strlen(senderName) + 2]);
+	
+	/**
+	Start the forward for other plugins
+	*/
+	new Action:fResult;
+	Call_StartForward(g_fwdOnChatMessage);
+	Call_PushCellRef(cpSender);
+	Call_PushCell(cpRecipients);
+	Call_PushStringEx(senderName, sizeof(senderName), SM_PARAM_STRING_UTF8|SM_PARAM_STRING_COPY, SM_PARAM_COPYBACK);
+	Call_PushStringEx(textMessage, sizeof(textMessage), SM_PARAM_STRING_UTF8|SM_PARAM_STRING_COPY, SM_PARAM_COPYBACK);
+	new fError = Call_Finish(fResult);
+	
+	g_CurrentChatType = CHATFLAGS_INVALID;
+	
+	if (fError != SP_ERROR_NONE)
+	{
+		ThrowNativeError(fError, "Forward failed");
+		CloseHandle(cpRecipients);
+		return Plugin_Continue;
+	}
+	else if (fResult == Plugin_Continue)
+	{
+		CloseHandle(cpRecipients);
+		return Plugin_Continue;
+	}
+	else if (fResult >= Plugin_Handled)
+	{
+		CloseHandle(cpRecipients);
+		return Plugin_Handled;
+	}
+	
+	GetClientName(cpSender, buffer, sizeof(buffer));
+	if (StrEqual(senderName, buffer))
+	{
+		Format(senderName, sizeof(senderName), "\x03%s", senderName);
+	}
+	
+	/**
+	Create a timer to print the message on the next gameframe
+	*/
+	new Handle:cpPack = CreateDataPack();
+
+	new numRecipients = GetArraySize(cpRecipients);
+	
+	WritePackCell(cpPack, cpSender);
+
+	for (new i = 0; i < numRecipients; i++)
+	{
+		new x = GetArrayCell(cpRecipients, i);
+		if (!IsValidClient(x))
+		{
+			numRecipients--;
+			RemoveFromArray(cpRecipients, i);
+		}
+	}
+	
+	WritePackCell(cpPack, numRecipients);
+	
+	for (new i = 0; i < numRecipients; i++)
+	{
+		new x = GetArrayCell(cpRecipients, i);
+		WritePackCell(cpPack, x);
+	}
+	
+	WritePackString(cpPack, prefix);
+	WritePackString(cpPack, senderName);
+	WritePackString(cpPack, textMessage);
+	PushArrayCell(g_hDPArray, cpPack);
+	WritePackCell(cpPack, bProtobuf);
+
+	CloseHandle(cpRecipients);
+	
+	/**
+	Stop the original message
+	*/
+	return Plugin_Handled;
+}
+
+public OnGameFrame()
+{
+	for (new i = 0; i < GetArraySize(g_hDPArray); i++)
+	{
+		new Handle:pack = GetArrayCell(g_hDPArray, i);
+		ResetPack(pack);
+		if (g_bSayText2)
+		{
+			new client = ReadPackCell(pack);
+			new numClientsStart = ReadPackCell(pack);
+			new numClientsFinish;
+			new clients[numClientsStart];
+
+			for (new x = 0; x < numClientsStart; x++)
+			{
+				new buffer = ReadPackCell(pack);
+				if (IsValidClient(buffer))
+				{
+					clients[numClientsFinish++] = buffer;
+				}
+			}
+			
+			new bool:bChat = bool:ReadPackCell(pack);
+			decl String:sChatType[32];
+			decl String:sSenderName[MAXLENGTH_NAME];
+			decl String:sMessage[MAXLENGTH_INPUT];
+			ReadPackString(pack, sChatType, sizeof(sChatType));
+			ReadPackString(pack, sSenderName, sizeof(sSenderName));
+			ReadPackString(pack, sMessage, sizeof(sMessage));
+			
+			decl String:sTranslation[MAXLENGTH_MESSAGE];
+			Format(sTranslation, sizeof(sTranslation), "%t", sChatType, sSenderName, sMessage);
+			
+			new Handle:bf = StartMessage("SayText2", clients, numClientsFinish, USERMSG_RELIABLE | USERMSG_BLOCKHOOKS);
+			
+			if (ReadPackCell(pack))
+			{
+				PbSetInt(bf, "ent_idx", client);
+				PbSetBool(bf, "chat", bChat);
+
+				PbSetString(bf, "msg_name", sTranslation);
+				PbAddString(bf, "params", "");
+				PbAddString(bf, "params", "");
+				PbAddString(bf, "params", "");
+				PbAddString(bf, "params", "");
+			}
+			else
+			{
+				BfWriteByte(bf, client);
+				BfWriteByte(bf, bChat);
+				BfWriteString(bf, sTranslation);
+			}
+			EndMessage();
+		}
+		else
+		{
+			new client = ReadPackCell(pack);
+			new numClientsStart = ReadPackCell(pack);
+			new numClientsFinish;
+			new clients[numClientsStart];
+
+			for (new x = 0; x < numClientsStart; x++)
+			{
+				new buffer = ReadPackCell(pack);
+				if (IsValidClient(buffer))
+				{
+					clients[numClientsFinish++] = buffer;
+				}
+			}
+			
+			decl String:sPrefix[MAXLENGTH_NAME];
+			decl String:sSenderName[MAXLENGTH_NAME];
+			decl String:sMessage[MAXLENGTH_INPUT];
+			ReadPackString(pack, sPrefix, sizeof(sPrefix));
+			ReadPackString(pack, sSenderName, sizeof(sSenderName));
+			ReadPackString(pack, sMessage, sizeof(sMessage));
+			
+			decl String:message[MAXLENGTH_MESSAGE];
+			
+			new teamColor;
+			switch (GetClientTeam(client))
+			{
+				case 0, 1: teamColor = 0xCCCCCC;
+				case 2: teamColor = 0x4D7942;
+				case 3: teamColor = 0xFF4040;
+			}
+			
+			decl String:buffer[32];
+			Format(buffer, sizeof(buffer), "\x07%06X", teamColor);
+			ReplaceString(sSenderName, sizeof(sSenderName), "\x03", buffer);
+			ReplaceString(sMessage, sizeof(sMessage), "\x03", buffer);
+			
+			Format(message, sizeof(message), "\x01%s%s\x01: %s", sPrefix, sSenderName, sMessage);
+			PrintToServer(message);
+			
+			for (new j = 0; j < numClientsFinish; j++)
+			{
+				PrintToChat(clients[j], "%s", message);
+			}
+		}
+		
+		CloseHandle(pack);
+
+		RemoveFromArray(g_hDPArray, i);
+	}
+}
+
+public Native_GetMessageFlags(Handle:plugin, numParams)
+{
+	return g_CurrentChatType;
+}
+
+stock bool:IsValidClient(client, bool:nobots = true) 
+{  
+	if (client <= 0 || client > MaxClients || !IsClientConnected(client) || (nobots && IsFakeClient(client))) 
+	{  
+			return false;  
+	}  
+	return IsClientInGame(client);  
+}
+
+stock bool:GetChatFormats(const String:file[])
+{
+	new Handle:hParser = SMC_CreateParser();
+	new String:error[128];
+	new line = 0;
+	new col = 0;
+
+	SMC_SetReaders(hParser, Config_NewSection, Config_KeyValue, Config_EndSection);
+	SMC_SetParseEnd(hParser, Config_End);
+	new SMCError:result = SMC_ParseFile(hParser, file, line, col);
+	CloseHandle(hParser);
+
+	if (result != SMCError_Okay) 
+	{
+		SMC_GetErrorString(result, error, sizeof(error));
+		LogError("%s on line %d, col %d of %s", error, line, col, file);
+	}
+	
+	return (result == SMCError_Okay);
+}
+
+public SMCResult:Config_NewSection(Handle:parser, const String:section[], bool:quotes) 
+{
+	if (StrEqual(section, "Phrases"))
+	{
+		return SMCParse_Continue;
+	}
+	ADDSTRING(section);
+	return SMCParse_Continue;
+}
+
+public SMCResult:Config_KeyValue(Handle:parser, const String:key[], const String:value[], bool:key_quotes, bool:value_quotes)
+{
+	return SMCParse_Continue;
+}
+
+public SMCResult:Config_EndSection(Handle:parser) 
+{
+	return SMCParse_Continue;
+}
+
+public Config_End(Handle:parser, bool:halted, bool:failed) 
+{
+	//nothing
+}
+
+stock eMods:GetCurrentMod()
+{
+	decl String:sGameType[64];
+	GetGameFolderName(sGameType, sizeof(sGameType));
+	
+	if (StrEqual(sGameType, "aoc", false))
+	{
+		return GameType_AOC;
+	}
+	if (StrEqual(sGameType, "csgo", false))
+	{
+		return GameType_CSGO;
+	}
+	if (StrEqual(sGameType, "cstrike", false))
+	{
+		return GameType_CSS;
+	}
+	if (StrEqual(sGameType, "dod", false))
+	{
+		return GameType_DOD;
+	}
+	if (StrEqual(sGameType, "ff", false))
+	{
+		return GameType_FF;
+	}
+	if (StrEqual(sGameType, "hidden", false))
+	{
+		return GameType_HIDDEN;
+	}
+	if (StrEqual(sGameType, "hl2mp", false))
+	{
+		return GameType_HL2DM;
+	}
+	if (StrEqual(sGameType, "insurgency", false) || StrEqual(sGameType, "ins", false))
+	{
+		return GameType_INS;
+	}
+	if (StrEqual(sGameType, "left4dead", false) || StrEqual(sGameType, "l4d", false))
+	{
+		return GameType_L4D;
+	}
+	if (StrEqual(sGameType, "left4dead2", false) || StrEqual(sGameType, "l4d2", false))
+	{
+		return GameType_L4D2;
+	}
+	if (StrEqual(sGameType, "nts", false))
+	{
+		return GameType_NEO;
+	}
+	if (StrEqual(sGameType, "sgtls", false))
+	{
+		return GameType_SGTLS;
+	}
+	if (StrEqual(sGameType, "tf", false))
+	{
+		return GameType_TF;
+	}
+	if (StrEqual(sGameType, "zps", false))
+	{
+		return GameType_ZPS;
+	}
+	if (StrEqual(sGameType, "mmdarkmessiah", false))
+	{
+		return GameType_DM;
+	}
+	LogMessage("Unknown Game Folder: %s", sGameType);
+	return GameType_Unknown;
+}

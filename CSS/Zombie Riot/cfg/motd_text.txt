@@ -1,0 +1,3 @@
+Hvis du kan se dette skal du gå ind i indstillinger på CS:S > Mutliplayer > Avanceret > Scroll lidt ned & fjerne krysset ved "Slå HTML-MOTD'er(Message of the day) fra"
+
+Nu lukker du så MOTD & åbner det igen & wupti, nu kan du se reglerne!

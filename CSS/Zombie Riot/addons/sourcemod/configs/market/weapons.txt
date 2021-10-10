@@ -1,0 +1,215 @@
+// ====================
+//        Market
+//   File: weapons.txt
+//   Author: Greyscale
+// ====================
+//
+// Players of either team will be able to purchase any weapon listed below
+// NOTE: Primary/Secondary weapons are the only weapon types supported
+//
+// Format:
+// "ID" - Must be a unique integer
+// 	"display" - Text shown in the gun menu
+//	"weapon"- Weapon's entity name
+//	"price" - Dollar amount cost of weapon
+//	"ammo" - Ammo entity given when weapon selected is already owned (leave blank for no ammo)
+//	"ammoprice" - Price of ammo for this weapon
+
+
+"weapons"
+{
+	"1"
+	{
+		"display"	"Glock"
+		"weapon"	"weapon_glock"
+		"price"		"400"
+		"ammo"		"ammo_9mm"
+		"ammoprice"	"100"
+	}
+	
+	"2"
+	{
+		"display"	"USP"
+		"weapon"	"weapon_usp"
+		"price"		"500"
+		"ammo"		"ammo_45acp"
+		"ammoprice"	"100"
+	}
+	"3"
+	{
+		"display"	"P228 Compact"
+		"weapon"	"weapon_p228"
+		"price"		"600"
+		"ammo"		"ammo_357sig"
+		"ammoprice"	"150"
+	}
+	"4"
+	{
+		"display"	"Deagle"
+		"weapon"	"weapon_deagle"
+		"price"		"650"
+		"ammo"		"ammo_50ae"
+		"ammoprice"	"200"
+	}
+	"5"
+	{
+		"display"	"Fiveseven"
+		"weapon"	"weapon_fiveseven"
+		"price"		"750"
+		"ammo"		"ammo_57mm"
+		"ammoprice"	"150"
+	}
+	"6"
+	{
+		"display"	"Dualies"
+		"weapon"	"weapon_elite"
+		"price"		"800"
+		"ammo"		"ammo_9mm"
+		"ammoprice"	"100"
+	}
+	"7"
+	{
+		"display"	"M3 Shotgun"
+		"weapon"	"weapon_m3"
+		"price"		"1700"
+		"ammo"		"ammo_buckshot"
+		"ammoprice"	"250"
+	}
+	"8"
+	{
+		"display"	"XM1014 Auto-Shotgun"
+		"weapon"	"weapon_xm1014"
+		"price"		"3000"
+		"ammo"		"ammo_buckshot"
+		"ammoprice"	"250"
+	}
+	"9"
+	{
+		"display"	"TMP"
+		"weapon"	"weapon_tmp"
+		"price"		"1250"
+		"ammo"		"ammo_9mm"
+		"ammoprice"	"100"
+	}
+	"10"
+	{
+		"display"	"Mac-10"
+		"weapon"	"weapon_mac10"
+		"price"		"1400"
+		"ammo"		"ammo_45acp"
+		"ammoprice"	"100"
+	}
+	"11"
+	{
+		"display"	"MP5 Navy"
+		"weapon"	"weapon_mp5navy"
+		"price"		"1500"
+		"ammo"		"ammo_9mm"
+		"ammoprice"	"100"
+	}
+	"12"
+	{
+		"display"	"UMP45"
+		"weapon"	"weapon_ump45"
+		"price"		"1700"
+		"ammo"		"ammo_45acp"
+		"ammoprice"	"100"
+	}
+	"13"
+	{
+		"display"	"P90"
+		"weapon"	"weapon_p90"
+		"price"		"2350"
+		"ammo"		"ammo_57mm"
+		"ammoprice"	"150"
+	}
+	"14"
+	{
+		"display"	"Galil"
+		"weapon"	"weapon_galil"
+		"price"		"2000"
+		"ammo"		"ammo_556mm"
+		"ammoprice"	"250"
+	}
+	"15"
+	{
+		"display"	"Famas"
+		"weapon"	"weapon_famas"
+		"price"		"2250"
+		"ammo"		"ammo_556mm"
+		"ammoprice"	"250"
+	}
+	"16"
+	{
+		"display"	"AK-47"
+		"weapon"	"weapon_ak47"
+		"price"		"2500"
+		"ammo"		"ammo_762mm"
+		"ammoprice"	"300"
+	}
+
+	"17"
+	{
+		"display"	"M4A1"
+		"weapon"	"weapon_m4a1"
+		"price"		"3100"
+		"ammo"		"ammo_556mm"
+		"ammoprice"	"250"
+	}
+	"18"
+	{
+		"display"	"SG552 Krieg"
+		"weapon"	"weapon_sg552"
+		"price"		"3500"
+		"ammo"		"ammo_556mm"
+		"ammoprice"	"250"
+	}
+	"19"
+	{
+		"display"	"AUG Bullpup"
+		"weapon"	"weapon_aug"
+		"price"		"3500"
+		"ammo"		"ammo_762mm"
+		"ammoprice"	"300"
+	}
+	"20"
+	{
+		"display"	"Scout"
+		"weapon"	"weapon_scout"
+		"price"		"2750"
+		"ammo"		"ammo_762mm"
+		"ammoprice"	"300"
+	}
+	"21"
+	{
+		"display"	"SG550 Auto-Sniper"
+		"weapon"	"weapon_sg550"
+		"price"		"4200"
+		"ammo"		"ammo_556mm"
+		"ammoprice"	"250"
+	}
+	"22"
+	{
+		"display"	"G3SG1 Auto-Sniper"
+		"weapon"	"weapon_g3sg1"
+		"price"		"5000"
+		"ammo"		"ammo_762mm"
+		"ammoprice"	"300"
+	}
+	"23"
+	{
+		"display"	"AWP"
+		"weapon"	"weapon_awp"
+		"price"		"4750"
+		"ammo"		"ammo_338mag"
+		"ammoprice"	"500"
+	}
+	"24"
+	{
+		"display"	"M249 Machine Gun"
+		"weapon"	"weapon_m249"
+		"price"		"5750"
+		"ammo"		"ammo_556mm_box"
+		"ammoprice"	"600"
+	}
+}

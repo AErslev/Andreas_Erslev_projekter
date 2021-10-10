@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\slow\technicow\th_techni_cow_diffuse_head"
+	"$bumpmap" "models\player\slow\technicow\slow_head"
+	"$phong" "1"
+	"$phongexponent" 100
+	"$phongboost" "1"
+	"$phongfresnelranges" "[5 5 5]"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+ 	"$basetexture" "models/player/techknow/bee/wings"
+        "$nocull" 1
+        "$translucent" "1"
+}

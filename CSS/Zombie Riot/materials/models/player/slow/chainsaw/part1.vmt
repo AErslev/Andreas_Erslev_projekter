@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\slow\chainsaw\part1"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 
+	"$bumpmap" "models/player/slow/chainsaw\part1_normal"
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$envmapcontrast" 1 
+	"$nocull" 1
+ 	"$surfaceprop" 	"metal"
+}

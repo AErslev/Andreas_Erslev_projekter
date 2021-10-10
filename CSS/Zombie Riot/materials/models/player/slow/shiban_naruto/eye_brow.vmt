@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/slow/shiban_naruto/eye_brow"
+	"$translucent" 1
+	"$alphatest" "1"	
+}

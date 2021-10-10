@@ -1,0 +1,234 @@
+"Phrases"
+{
+	"Ban player"
+	{
+		"en"			"Ban player"
+	}
+
+	"Ban reason"
+	{
+		"en"			"Ban reason"
+	}
+	
+	"Permabanned player from server"
+	{
+		"#format"		"{1:s}"
+		"en"			"Permanently banned player \"{1}\" from the server."
+	}
+	
+	"Permabanned player reason from server"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Permanently banned player \"{1}\" from the server (reason: {2})."
+	}
+	
+	"Banned player from server"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"Banned player \"{1}\" for {2} minutes from the server."
+	}
+	
+	"Banned player reason from server"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"			"Banned player \"{1}\" for {2} minutes from the server (reason: {3})."
+	}
+
+	"Permabanned player from team"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Permanently banned player \"{1}\" from team {2}."
+	}
+	
+	"Permabanned player reason from team"
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"Permanently banned player \"{1}\" from team {2} (reason: {3})."
+	}
+
+	"Session banned player from team"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Session banned player \"{1}\" from team {2}."
+	}
+	
+	"Session banned player reason from team"
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"Session banned player \"{1}\" from team {2} (reason: {3})."
+	}
+	
+	"Banned player from team"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"			"Banned player \"{1}\" for {2} minutes from team {3}."
+	}
+	
+	"Banned player reason from team"
+	{
+		"#format"		"{1:s},{2:d},{3:s},{4:s}"
+		"en"			"Banned player \"{1}\" for {2} minutes from team {3} (reason: {4})."
+	}
+
+	"Permabanned player from voice"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Permanently banned player \"{1}\" from using voice chat {2}."
+	}
+	
+	"Permabanned player reason from voice"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Permanently banned player \"{1}\" from using voice chat (reason: {2})."
+	}
+
+	"Session banned player from voice"
+	{
+		"#format"		"{1:s}"
+		"en"			"Session banned player \"{1}\" from using voice chat."
+	}
+	
+	"Session banned player reason from voice"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Session banned player \"{1}\" from using voice chat (reason: {2})."
+	}
+	
+	"Banned player from voice"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"Banned player \"{1}\" for {2} minutes from using voice chat."
+	}
+	
+	"Banned player reason from voice"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"			"Banned player \"{1}\" for {2} minutes from using voice chat (reason: {3})."
+	}
+
+	"You have been banned server"
+	{
+		"en" 			"You have been banned from this server."
+	}
+
+	"You have been banned reason server"
+	{
+		"#format"		"{1:s}"
+		"en" 			"You have been banned from this server for the following reason: {1}"
+	}
+
+	"You have been banned team"
+	{
+		"en" 			"You have been banned from this team."
+	}
+
+	"You have been banned reason team"
+	{
+		"#format"		"{1:s}"
+		"en" 			"You have been banned from this team for the following reason: {1}"
+	}
+
+	"Players matched unban"
+	{
+		"#format"		"{1:d}"
+		"en"			"{1} player(s) have been unbanned with the given filter."
+	}
+
+	"No player matched unban"
+	{
+		"en"			"No ban has been found with the given filter."
+	}
+
+	"No player matched ban"
+	{
+		"en"			"No player has matched the given filter."
+	}
+
+	"No such ban handler"
+	{
+		"en"			"There's no such ban handler."
+	}
+
+	"Player banned"
+	{
+		"#format"		"{1:N}"
+		"en"			"Player {1} has been banned."
+	}
+
+	"Minutes"
+	{
+		"#format"		"{1:d}"
+		"en" 			"{1} minute(s)"
+	}
+
+	"Hours"
+	{
+		"#format"		"{1:d}"
+		"en" 			"{1} hour(s)"
+	}
+
+	"Days"
+	{
+		"#format"		"{1:d}"
+		"en" 			"{1} day(s)"
+	}
+
+	"Months"
+	{
+		"#format"		"{1:d}"
+		"en" 			"{1} month(s)"
+	}
+
+	"Permanent"
+	{
+		"en"			"Permanent"
+	}
+
+	"Session"
+	{
+		"en"			"Session"
+	}
+
+	"GlobalBan"
+	{
+		"en"			"Ban from all servers"
+	}
+
+	"LocalBan"
+	{
+		"en"			"Ban from this server"
+	}
+
+	"BySteamID"
+	{
+		"#format"		"{1:s}"
+		"en" 			"By SteamId ({1})"
+	}
+
+	"ByName"
+	{
+		"#format"		"{1:s}"
+		"en" 			"By Name ({1})"
+	}
+
+	"ByIP"
+	{
+		"#format"		"{1:s}"
+		"en" 			"By IP ({1})"
+	}
+
+	"server"
+	{
+		"en"			"Server ban"
+	}
+
+	"team"
+	{
+		"en"			"Team ban"
+	}
+
+	"voice"
+	{
+		"en"			"Voice ban"
+	}
+}

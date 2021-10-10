@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/fallout_3/alien/slow_alien_hs"
+	"$bumpmap" "models/player/slow/fallout_3/alien/slow_alien_bump"	
+
+	"$translucent" 1
+
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/wesker/slow_belts"
+	"$bumpmap" "models/player/slow/amberlyn/re5/wesker/slow_belts_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 .96 .78]"
+	"$envmapcontrast" .7
+	"$envmapsaturation" .5
+
+}

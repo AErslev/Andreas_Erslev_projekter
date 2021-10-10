@@ -1,0 +1,36 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/player/slow/me2/collector_drone/addons/slow_shield_mask"
+
+	"$texture2" "models/player/slow/me2/collector_drone/addons/slow_shield_fx"
+
+
+	"$additive" 	1
+	"$model" 		1
+	"$nodecal"		1
+	"$nocull"		1
+   	"$slow_var" 	0
+   	"$slow_var2" 	0
+
+
+
+   "Proxies"
+   {
+      "LinearRamp" 
+      {
+         "rate"      		30
+         "resultVar"   		"$slow_var"
+      }
+      "LinearRamp" 
+      {
+         "rate"      		.3
+         "resultVar"   		"$slow_var2"
+      }
+      "TextureTransform"
+      {
+         "rotateVar"      	"$slow_var"
+	   "translateVar"		"$slow_var2"
+         "resultvar"   		"$texture2transform"
+      }
+   }
+}

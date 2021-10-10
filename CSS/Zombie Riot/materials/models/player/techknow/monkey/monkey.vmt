@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"models/player/techknow/monkey/monkey"
+//      "$baseTexture"	"models/player/techknow/monkey/monkey_p"
+	"$surfaceprop" "flesh"
+	"$bumpmap" "models/player/techknow/monkey/monkey_n"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.5 0.5 0.5]"
+
+
+//	"$envmap" "env_cubemap"
+	"$alphatest" "1"
+}

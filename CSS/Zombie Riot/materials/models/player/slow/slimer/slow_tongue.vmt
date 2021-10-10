@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/slimer/slow_slimer"
+	"$bumpmap" "models/player/slow/slimer/slow_slimer_bump"
+
+	"$selfillum" 1
+	"$selfillumtint" "[.05 .05 .05]"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"8"
+	"$phongboost"		"15"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

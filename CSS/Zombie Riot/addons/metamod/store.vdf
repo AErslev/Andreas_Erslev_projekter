@@ -1,0 +1,5 @@
+"Metamod Plugin"
+{
+	"alias"		"store"
+	"file"		"addons/store/bin/store_mm"
+}

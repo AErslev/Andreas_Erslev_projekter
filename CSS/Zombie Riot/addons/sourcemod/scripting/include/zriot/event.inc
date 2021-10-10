@@ -1,0 +1,634 @@
+//Unique_Compile_String: v2//
+
+/**
+ * ====================
+ *	 Zombie Riot
+ *   File: events.inc
+ *   Author: Greyscale
+ * ====================
+ */
+
+new bool:AllowSpawn = false;
+ 
+HookEvents()
+{
+	HookEvent("player_connect", PlayerConnect, EventHookMode_Pre);
+	HookEvent("player_disconnect", PlayerDisconnect, EventHookMode_Pre);
+	HookEvent("round_start", RoundStart);
+	HookEvent("round_freeze_end", RoundFreezeEnd);
+	HookEvent("round_end", RoundEnd);
+	HookEvent("player_team", PlayerTeam_Pre, EventHookMode_Pre);
+	HookEvent("player_team", PlayerTeam_Post, EventHookMode_Post);
+	HookEvent("player_spawn", PlayerSpawn);
+	HookEvent("player_hurt", PlayerHurt);
+	HookEvent("player_death", PlayerDeath);
+	HookEvent("player_jump", PlayerJump);
+}
+
+UnhookEvents()
+{
+	UnhookEvent("player_connect", PlayerConnect, EventHookMode_Pre);
+	UnhookEvent("player_disconnect", PlayerDisconnect, EventHookMode_Pre);
+	UnhookEvent("round_start", RoundStart);
+	UnhookEvent("round_freeze_end", RoundFreezeEnd);
+	UnhookEvent("round_end", RoundEnd);
+	UnhookEvent("player_team", PlayerTeam_Pre, EventHookMode_Pre);
+	UnhookEvent("player_team", PlayerTeam_Post, EventHookMode_Post);
+	UnhookEvent("player_spawn", PlayerSpawn);
+	UnhookEvent("player_hurt", PlayerHurt);
+	UnhookEvent("player_death", PlayerDeath);
+	UnhookEvent("player_jump", PlayerJump);
+}
+
+new bool:pcFire = true;
+public Action:PlayerConnect(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new bool:botquota_silent = GetConVarBool(gCvars[CVAR_BOTQUOTA_SILENT]);
+	if (!botquota_silent)
+		return Plugin_Continue;
+	
+	decl String:address[64];
+	GetEventString(event, "address", address, sizeof(address));
+	
+	if (pcFire && StrEqual(address, "none"))
+	{
+		decl String:pname[64];
+		decl String:networkid[64];
+		
+		GetEventString(event, "name", pname, sizeof(pname));
+		GetEventString(event, "networkid", networkid, sizeof(networkid));
+		new Handle:hPlayerConnect = CreateEvent("player_connect", true);
+		
+		SetEventString(hPlayerConnect, "name", pname);
+		SetEventInt(hPlayerConnect, "index", GetEventInt(event, "index"));
+		SetEventInt(hPlayerConnect, "userid", GetEventInt(event, "userid"));
+		SetEventString(hPlayerConnect, "networkid", networkid);
+		SetEventString(hPlayerConnect, "address", address);
+		
+		pcFire = false;
+		FireEvent(hPlayerConnect, true);
+		pcFire = true;
+		
+		return Plugin_Handled;
+	}
+	
+	return Plugin_Continue;
+}
+
+new bool:pdFire = true;
+public Action:PlayerDisconnect(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new bool:botquota_silent = GetConVarBool(gCvars[CVAR_BOTQUOTA_SILENT]);
+	if (!botquota_silent)
+		return Plugin_Continue;
+	
+	new userid = GetEventInt(event, "userid");
+	new index = GetClientOfUserId(userid);
+	
+	if (!index || !IsClientInGame(index))
+		return Plugin_Continue;
+	
+	if (pdFire && IsFakeClient(index))
+	{
+		decl String:reason[192];
+		decl String:pname[64];
+		decl String:networkid[64];
+		
+		GetEventString(event, "reason", reason, sizeof(reason));
+		GetEventString(event, "name", pname, sizeof(pname));
+		GetEventString(event, "networkid", networkid, sizeof(networkid));
+		
+		new Handle:hPlayerDisconnect = CreateEvent("player_disconnect", true);
+		
+		SetEventInt(hPlayerDisconnect, "userid", userid);
+		SetEventString(hPlayerDisconnect, "reason", reason);
+		SetEventString(hPlayerDisconnect, "name", pname);
+		SetEventString(hPlayerDisconnect, "networkid", networkid);
+		
+		pdFire = false;
+		FireEvent(hPlayerDisconnect, true);
+		pdFire = true;
+		
+		return Plugin_Handled;
+	}
+	
+	return Plugin_Continue;
+}
+
+public Action:RoundStart(Handle:event, const String:name[], bool:dontBroadcast)	
+{
+	UpdateHostname();
+	
+	AllowSpawn = true;
+	
+	ChangeLightStyle();
+	
+	RestartAmbience();
+	
+	ServerCommand("bot_knives_only");
+	
+	ZRiot_PrintToChat(0, "Round objective");
+	
+	decl String:storyline[192];
+	GetDayStoryLine(gDay, storyline, sizeof(storyline));
+	
+	if (storyline[0])
+	{
+		FormatTextString(storyline, sizeof(storyline));
+	
+		PrintToChatAll(storyline);
+	}
+	
+	BeginDay();
+	
+	if (tHUD != INVALID_HANDLE)
+	{
+		CloseHandle(tHUD);
+		tHUD = INVALID_HANDLE;
+	}
+	
+	new bool:hud = GetConVarBool(gCvars[CVAR_HUD]);
+	if (hud)
+	{
+		tHUD = CreateTimer(5.0, HUD, _, TIMER_REPEAT|TIMER_FLAG_NO_MAPCHANGE);
+		
+		UpdateHUDAll();
+	}
+	
+	if (tFreeze != INVALID_HANDLE)
+	{
+		CloseHandle(tFreeze);
+		tFreeze = INVALID_HANDLE;
+	}
+	
+	//NotD Addon
+	if (gDay == 17)
+	{
+		mothercrabIndex = -1;
+		new humanCount = GetHumanCount();
+		if (humanCount == 1)
+			SetConVarInt(g_hBotQuota, 1);
+		else if (humanCount < 5)
+			SetConVarInt(g_hBotQuota, 4);
+		else if (humanCount > 10 && humanCount < 20)
+			SetConVarInt(g_hBotQuota, 6);
+		else if (humanCount > 20)
+			SetConVarInt(g_hBotQuota, 10);
+			
+		for(new i = 1; i <= MaxClients; i++)
+			if(IsClientInGame(i) && IsFakeClient(i) && !IsPlayerAlive(i))
+				CS_RespawnPlayer(i);
+		CreateTimer(1.0, SpawnMothercrab);
+	}
+	
+	CreateTimer(60.0, AllowSpawnTimer);
+}
+
+public Action:AllowSpawnTimer(Handle:timer)
+{
+	AllowSpawn = false;
+}
+
+public Action:RoundFreezeEnd(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	RemoveObjectives();
+	
+	if (tFreeze != INVALID_HANDLE)
+	{
+		CloseHandle(tFreeze);
+		tFreeze = INVALID_HANDLE;
+	}
+	
+	new Float:freeze = GetConVarFloat(gCvars[CVAR_FREEZE]);
+	if (freeze > 0)
+	{
+		FreezeZombies();
+		
+		tFreeze = CreateTimer(freeze, UnfreezeZombies);
+	}   
+}
+
+public Action:RoundEnd(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	ResetZombies(false);
+	ClearTrie(trieDeaths);
+	
+	CreateTimer(0.0, AssignTeamTimer);
+	
+	new CSRoundEndReason:reason = CSRoundEndReason:GetEventInt(event, "reason");
+	
+	if (reason == CSRoundEnd_CTWin || reason == CSRoundEnd_TerroristWin)
+	{
+		new winner = GetEventInt(event, "winner");
+		
+		if (winner == gZombieTeam)
+		{
+			ZombiesWin();
+		}
+		else if (winner == gHumanTeam)
+		{
+			HumansWin();
+		}
+	}
+	else
+	{
+		RoundDraw();
+	}
+
+	if (tHUD != INVALID_HANDLE)
+	{
+		CloseHandle(tHUD);
+		tHUD = INVALID_HANDLE;
+	}
+	
+	if (tFreeze != INVALID_HANDLE)
+	{
+		CloseHandle(tFreeze);
+		tFreeze = INVALID_HANDLE;
+	}
+}
+
+new bool:ptFire = true;
+public Action:PlayerTeam_Pre(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	if (ptFire)
+	{
+		new Handle:hPlayerTeam = CreateEvent("player_team", true);
+		
+		SetEventInt(hPlayerTeam, "userid", GetEventInt(event, "userid"));
+		SetEventInt(hPlayerTeam, "team", GetEventInt(event, "team"));
+		SetEventInt(hPlayerTeam, "oldteam", GetEventInt(event, "oldteam"));
+		SetEventBool(hPlayerTeam, "disconnect", GetEventBool(event, "disconnect"));
+		
+		ptFire = false;
+		FireEvent(hPlayerTeam, true);
+		ptFire = true;
+		
+		return Plugin_Handled;
+	}
+	
+	return Plugin_Continue;
+}
+
+public Action:PlayerTeam_Post(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new bool:disconnect = GetEventBool(event, "disconnect");
+	if (disconnect)
+	{
+		return;
+	}
+	
+	new index = GetClientOfUserId(GetEventInt(event, "userid"));
+	new oldteam = GetEventInt(event, "oldteam");
+	new team = GetEventInt(event, "team");
+	
+	if (team != CS_TEAM_SPECTATOR && oldteam == CS_TEAM_NONE || oldteam == CS_TEAM_SPECTATOR)
+	{
+		CreateTimer(0.0, CheckTeam, index);
+	}
+	
+	if (team == gHumanTeam)
+	{
+		StopZVision(index);
+		SetPlayerFOV(index, DEFAULT_FOV);
+		SetEntityGravity(index, DEFAULT_GRAVITY);
+		
+		if (IsPlayerAlive(index) || tRespawn[index] != INVALID_HANDLE || tHUD == INVALID_HANDLE)
+		{
+			return;
+		}
+		if (AllowSpawn)
+			StartRespawnTimer(index, true);
+	}
+	
+	if (team == 2 && IsFakeClient(index))
+		CS_RespawnPlayer(index);
+}
+
+public Action:CheckTeam(Handle:timer, any:index)
+{
+	if (IsClientConnected(index) && IsClientInGame(index))
+		AssignTeamClient(index, IsPlayerAlive(index));
+}
+
+public Action:PlayerSpawn(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new index = GetClientOfUserId(GetEventInt(event, "userid"));
+	
+	new team = GetClientTeam(index);
+	if (team != CS_TEAM_T && team != CS_TEAM_CT)
+	{
+		return;
+	}
+	
+	gZombieID[index] = -1;
+	
+	if (IsPlayerZombie(index))
+	{
+		RemoveTargeters(index);
+		
+		InitClientDeathCount(index);
+		
+		SetPlayerMoney(index, 0);
+		
+		new bool:noblock = GetConVarBool(gCvars[CVAR_NOBLOCK]);
+		if (noblock)
+		{
+			NoCollide(index, true);
+		}
+		
+		decl String:zombieoverride[4];
+		GetDayZombieOverride(gDay, zombieoverride, sizeof(zombieoverride));
+		
+		new zombieid;
+		
+		if (adtZombies != INVALID_HANDLE && zombieoverride[0])
+		{
+			new size = GetArraySize(adtZombies);
+			if (size)
+			{
+				zombieid = GetRandomInt(0, size - 1);
+				
+				Zombify(index, GetArrayCell(adtZombies, zombieid));			}
+		}
+		else
+		{
+			do
+			{
+				zombieid = GetRandomInt(0, zCount - 1);
+			} while(IsOverrideRequired(zombieid));
+			
+			Zombify(index, zombieid);
+		}
+		
+		new health = GetClientHealth(index);
+		SetEntityHealth(index, health + GetDayHealthBoost(gDay));
+		
+		new Float:fademin = GetDayMinFade(gDay);
+		new Float:fademax = GetDayMaxFade(gDay);
+		
+	
+		SetPlayerMinDist(index, fademin);
+		SetPlayerMaxDist(index, fademax);
+		
+		new knife = GetPlayerWeaponSlot(index, 2);
+		
+		if (knife != -1)
+		{
+			SetEntityRenderMode(knife, RENDER_TRANSALPHA);
+			SetEntityRenderColor(knife, 255, 255, 255, 0);
+		}
+		
+		if (gDay != 4 && gDay != 17 && gDay != 22 && gDay != 23 && gDay != 24 && gDay != 25)
+		{
+			new zombieCount = GetZombieCount();
+				
+			if (zombieCount < 5)
+				return;
+		
+			new String:model[75];
+			
+			//Dont let anymore smokers in. Only one!
+			for (new x = 1; x < maxPlayers; x++)
+			{
+				if (!IsValidEdict(x))
+					continue;
+				
+				GetClientModel(x, model, sizeof(model));
+				if (StrEqual(model, SMOKERMODEL))
+				{
+					PrintToServer("Smoker already exists!");
+					return;
+				}
+			}
+			
+			new randNum;
+			new numMax;
+			new humanCount = GetHumanCount();
+			
+			if (humanCount == 1)
+			{	
+				//numMax = 1;
+				return;
+			}
+			else if (humanCount < 5)
+				numMax = 20;
+			else if (humanCount > 10 && humanCount < 20)
+				numMax = 15;
+			else if (humanCount > 20)
+				numMax = 10;
+			randNum = GetRandomInt(1, numMax);
+			if (randNum == 1)
+			{
+				SetEntityModel(index, SMOKERMODEL);
+				SetEntityHealth(index, 200 + (humanCount * 30));
+			}
+		}
+	}
+	else
+	{
+		if (market)
+		{
+			ZRiot_PrintToChat(index, "!market reminder");
+		}
+		
+		new bool:noblock = GetConVarBool(gCvars[CVAR_NOBLOCK]);
+		if (noblock)
+		{
+			NoCollide(index, false);
+		}
+		
+		SetPlayerMinDist(index, 0.0);
+		SetPlayerMaxDist(index, 0.0);
+		
+		SetPlayerFOV(index, DEFAULT_FOV);
+		SetEntityGravity(index, DEFAULT_GRAVITY);
+		
+		new bool:cashfill = GetConVarBool(gCvars[CVAR_CASHFILL]);
+		if (cashfill)
+		{
+			new cash = GetConVarInt(gCvars[CVAR_CASHAMOUNT]);
+			SetPlayerMoney(index, cash);
+		}
+		
+		if (tZVision[index] != INVALID_HANDLE)
+		{
+			CloseHandle(tZVision[index]);
+			tZVision[index] = INVALID_HANDLE;
+		}
+		
+		ClientCommand(index, "r_screenoverlay \"\"");
+		
+		RemoveTargeters(index);
+		UpdateHUDAll();
+	}
+	
+	if (tRespawn[index] != INVALID_HANDLE)
+	{
+		CloseHandle(tRespawn[index]);
+		tRespawn[index] = INVALID_HANDLE;
+	}
+}
+
+public Action:PlayerHurt(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new index = GetClientOfUserId(GetEventInt(event, "userid"));
+	new attacker = GetClientOfUserId(GetEventInt(event, "attacker"));
+	
+	decl String:weapon[32];
+	GetEventString(event, "weapon", weapon, sizeof(weapon));
+	
+	if (!IsPlayerZombie(index))
+	{
+		return;
+	}
+	
+	if (attacker)
+	{
+		TargetPlayer(attacker, index);
+	}
+	
+	new maxplayers = GetMaxClients();
+	new clients[maxplayers];
+	new numClients = GetClientTargeters(index, clients, maxplayers);
+	
+	UpdateHUD(clients, numClients);
+	
+	if (GetRandomInt(1, 5) == 1)
+	{
+		decl String:sound[64];
+		new randsound = GetRandomInt(1, 6);
+		
+		Format(sound, sizeof(sound), "npc/zombie/zombie_pain%d.wav", randsound);
+		
+		PrecacheSound(sound);
+		EmitSoundToAll(sound, index);
+	}
+	
+	new bool:napalm = GetConVarBool(gCvars[CVAR_NAPALM]);
+	
+	if (napalm && StrEqual(weapon, "hegrenade", false))
+	{
+		new Float:burntime = GetConVarFloat(gCvars[CVAR_NAPALM_TIME]);
+		IgniteEntity(index, burntime);
+	}
+}
+
+public Action:PlayerDeath(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new index = GetClientOfUserId(GetEventInt(event, "userid"));
+	
+	if (tHUD == INVALID_HANDLE)
+	{
+		return;
+	}
+	
+	new bool:respawn = GetDayRespawn(gDay);
+	
+	if (IsPlayerZombie(index))
+	{
+		ExtinguishEntity(index);
+		
+		SetEntProp(index, Prop_Data, "m_takedamage", 2, 1);
+		SetEntProp(index, Prop_Data, "m_fFlags", FL_ONGROUND);
+		
+		decl String:sound[64];
+		
+		new randsound = GetRandomInt(1, 3);
+		Format(sound, sizeof(sound), "npc/zombie/zombie_die%d.wav", randsound);
+		
+		PrecacheSound(sound);
+		EmitSoundToAll(sound, index);
+		
+		new zombiecount = GetLiveZombieCount();
+		new zombiemax = GetConVarInt(gCvars[CVAR_ZOMBIEMAX]);
+		
+		if (respawn || zombiecount > zombiemax)
+		{
+			CreateTimer(0.5, ZombieRespawn, index, TIMER_FLAG_NO_MAPCHANGE);
+		}
+		
+		
+		//NotD Addon
+		new String:model[75];
+		GetClientModel(index, model, sizeof(model));
+		if (!StrEqual(model, SMOKERMODEL)) //Weird check, very hacky.
+		{
+			gZombiesKilled++;
+		}
+		if (StrEqual(model, CRABMODEL) && gDay == 17)
+		{
+			gZombiesKilled--;
+		}
+	
+		if (StrEqual(model, CRABMODEL))
+			CS_RespawnPlayer(index);
+			
+		if (StrEqual(model, MOTHERCRABMODEL))
+			for(new i = 1; i <= MaxClients; i++)
+				if(IsClientInGame(i) && IsFakeClient(i) && IsPlayerAlive(i))
+					ForcePlayerSuicide(i);
+		
+		RemoveTargeters(index);
+		UpdateHUDAll();
+	
+		if (gZombiesKilled >= GetDayCount(gDay) && respawn)
+		{
+			TerminateRound(5.0, CSRoundEnd_CTWin);
+		}
+		if (GetLiveZombieCount() < 0)
+			TerminateRound(5.0, CSRoundEnd_CTWin);
+	}
+	else
+	{
+		ChangeClientDeathCount(index, 1);
+		new deaths_before_zombie = GetDayDeathsBeforeZombie(gDay);
+		
+		if (deaths_before_zombie > 0 && GetClientDeathCount(index) >= deaths_before_zombie && GetLiveHumanCount() > 0)
+		{
+			ZRiot_PrintToChat(index, "You are now a zombie");
+			
+			CreateTimer(0.5, JoinZombie, index);
+		}
+		else
+		{
+			StartRespawnTimer(index, false);
+		}
+		
+		RemoveTargeters(index);
+		UpdateHUDAll();
+		
+		if (GetLiveHumanCount() <= 0 && respawn)
+		{
+			TerminateRound(5.0, CSRoundEnd_TerroristWin);
+		}
+	}
+	
+	new Float:delay = GetConVarFloat(gCvars[CVAR_RAGDOLL_REMOVE]);
+	if (delay > 0.0)
+	{
+		new ragdoll = GetEntPropEnt(index, Prop_Send, "m_hRagdoll");
+		CreateTimer(delay, RemoveRagdoll, EntIndexToEntRef(ragdoll));
+	}
+		
+	if (tZVision[index] != INVALID_HANDLE)
+	{
+		CloseHandle(tZVision[index]);
+		tZVision[index] = INVALID_HANDLE;
+	}
+}
+
+public Action:PlayerJump(Handle:event, const String:name[], bool:dontBroadcast)
+{
+	new index = GetClientOfUserId(GetEventInt(event, "userid"));
+	
+	if (!IsPlayerZombie(index))
+	{
+		return;
+	}
+	
+	new Float:vel[3] = {0.0, 0.0, 0.0};
+	vel[2] = GetZombieJump(gZombieID[index]);
+	
+	SetPlayerVelocity(index, vel);
+}

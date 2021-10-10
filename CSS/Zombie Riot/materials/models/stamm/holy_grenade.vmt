@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models\stamm\holy_grenade"
+$phong 1
+$phongboost 1
+$phongfresnelranges "[ .8 .8 1]"
+$phongexponent 6
+$basemapalphaphongmask 1
+$phongdisablehalflambert 1
+}

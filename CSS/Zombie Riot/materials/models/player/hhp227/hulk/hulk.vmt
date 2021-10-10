@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/hhp227/hulk/hulk"
+	"$bumpmap"	"models/player/hhp227/hulk/hulk_normal.vtf"
+
+	"$selfillum" 1
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

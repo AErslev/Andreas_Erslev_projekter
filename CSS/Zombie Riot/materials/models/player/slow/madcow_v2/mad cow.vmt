@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/slow/madcow_v2/mad cow"
+	"$bumpmap" "models/player/slow/madcow_v2/slow_bump"
+	"$halflambert" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

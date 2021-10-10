@@ -1,0 +1,395 @@
+-------- CONFIG BEGIN --------
+Map=zr_zombietown_v1
+GamePath=/home/tcagame/mesters/31/cstrike
+CommandLine=./srcds_linux -norestart -console -game cstrike -condebug +tv_enable 1 +tv_port 27106 +maxplayers 20 -ip 176.57.128.132 -port 27105 +exec server.cfg -insecure +map zr_zombietown_v1 +fps_max 66 -steam
+SourceModPath=/home/tcagame/mesters/31/cstrike/addons/sourcemod
+GameDirectory=cstrike
+ExtensionVersion=2.3.1
+ExtensionBuild=81:1fc5be1
+Steam_PatchVersion=4014252
+Steam_ClientVersion=4014252
+Steam_ServerVersion=4014252
+Steam_ProductName=cstrike
+Steam_appID=240
+Steam_ServerAppID=232330
+-------- CONFIG END --------
+-------- CONSOLE HISTORY BEGIN --------
+379(19.096959):  L 08/21/2017 - 14:38:44: server_cvar: "bot_quota" "12"
+378(19.094867):  L 08/21/2017 - 14:38:44: server_cvar: "sm_nextmap" "zr_aztec_v1"
+377(19.094306):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_street.bsp'
+376(19.094228):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_house.bsp'
+375(19.094150):  CModelLoader::Map_IsValid:  No such map 'maps/gg_lego_mafia_arena.bsp'
+374(19.094071):  CModelLoader::Map_IsValid:  No such map 'maps/gg_iceworld_neo_css_v2.bsp'
+373(19.093991):  CModelLoader::Map_IsValid:  No such map 'maps/gg_gladiator.bsp'
+372(19.093911):  CModelLoader::Map_IsValid:  No such map 'maps/gg_deathmatch_arena.bsp'
+371(19.093829):  CModelLoader::Map_IsValid:  No such map 'maps/gg_blue_arena.bsp'
+370(19.093729):  CModelLoader::Map_IsValid:  No such map 'maps/gg_alleycat.bsp'
+369(19.088875):  L 08/21/2017 - 14:38:44: "Rip<3><BOT><CT>" joined team "TERRORIST"
+368(19.088079):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_street.bsp'
+367(19.087959):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_house.bsp'
+366(19.087881):  CModelLoader::Map_IsValid:  No such map 'maps/gg_lego_mafia_arena.bsp'
+365(19.087804):  CModelLoader::Map_IsValid:  No such map 'maps/gg_iceworld_neo_css_v2.bsp'
+364(19.087725):  CModelLoader::Map_IsValid:  No such map 'maps/gg_gladiator.bsp'
+363(19.087647):  CModelLoader::Map_IsValid:  No such map 'maps/gg_deathmatch_arena.bsp'
+362(19.087568):  CModelLoader::Map_IsValid:  No such map 'maps/gg_blue_arena.bsp'
+361(19.087486):  CModelLoader::Map_IsValid:  No such map 'maps/gg_alleycat.bsp'
+360(19.086939):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_street.bsp'
+359(19.086861):  CModelLoader::Map_IsValid:  No such map 'maps/gg_simpsons_house.bsp'
+358(19.086783):  CModelLoader::Map_IsValid:  No such map 'maps/gg_lego_mafia_arena.bsp'
+357(19.086703):  CModelLoader::Map_IsValid:  No such map 'maps/gg_iceworld_neo_css_v2.bsp'
+356(19.086615):  CModelLoader::Map_IsValid:  No such map 'maps/gg_gladiator.bsp'
+355(19.086524):  CModelLoader::Map_IsValid:  No such map 'maps/gg_deathmatch_arena.bsp'
+354(19.086428):  CModelLoader::Map_IsValid:  No such map 'maps/gg_blue_arena.bsp'
+353(19.086326):  CModelLoader::Map_IsValid:  No such map 'maps/gg_alleycat.bsp'
+352(19.083882):  L 08/21/2017 - 14:38:44: VAC secure mode disabled.
+351(19.083855):  VAC secure mode disabled.
+350(19.083763):  L 08/21/2017 - 14:38:44: Assigned anonymous gameserver Steam ID [A:1:2370173960:9001].
+349(19.083737):  Assigned anonymous gameserver Steam ID [A:1:2370173960:9001].
+348(19.083723):  L 08/21/2017 - 14:38:44:    Public IP is 176.57.128.132.
+347(19.083696):     Public IP is 176.57.128.132.
+346(19.083681):  L 08/21/2017 - 14:38:44: Connection to Steam servers successful.
+345(19.083649):  Connection to Steam servers successful.
+344(19.083457):  SourceTV broadcast active.
+343(19.082806):  L 08/21/2017 - 14:38:44: "Rip<3><BOT><>" entered the game
+342(19.079505):  Game will not start until both teams have players.
+341(19.077996):  L 08/21/2017 - 14:38:44: "Rip<3><BOT><Unassigned>" joined team "CT"
+340(19.075178):  L 08/21/2017 - 14:38:44: "Rip<3><BOT><>" connected, address "none"
+339(19.069502):  [ZRiot] The game is Humans vs. Zombies, humans must kill all the zombies to reach the next level.
+338(19.059160):  L 08/21/2017 - 14:38:44: World triggered "Round_Start"
+337(19.057553):  L 08/21/2017 - 14:38:44: [SM]   [1] Line 337, c:\Users\zephyrus\OneDrive\Coding\Mixed\VikingCMS\game\scripting\include\EasyHTTP.inc::EasyHTTP_CurlComplete
+336(19.057497):  L 08/21/2017 - 14:38:44: [SM]   [0] curl_get_error_buffer
+335(19.057444):  L 08/21/2017 - 14:38:44: [SM] Call stack trace:
+334(19.057390):  L 08/21/2017 - 14:38:44: [SM] Blaming: vikingcms.smx
+333(19.057324):  L 08/21/2017 - 14:38:44: [SM] Exception reported: Invalid Handle 6820536 (error 3)
+332(19.056961):  Server is hibernating
+331(19.008878):  [ZRiot] Weapon "nvgs" has been restricted.
+330(19.008829):  [ZRiot] Weapon "m249" has been restricted.
+329(19.008776):  [ZRiot] Weapon "smokegrenade" has been restricted.
+328(19.008684):  [ZRiot] Weapon "flashbang" has been restricted.
+327(18.568027):  zBlock: "ammo_57mm_max" forced to 100
+326(18.127358):  zBlock: "ammo_357sig_max" forced to 52
+325(17.686499):  zBlock: "ammo_45acp_max" forced to 100
+324(17.245828):  zBlock: "ammo_buckshot_max" forced to 32
+323(16.805265):  zBlock: "ammo_9mm_max" forced to 120
+322(16.364582):  zBlock: "ammo_338mag_max" forced to 30
+321(15.923942):  zBlock: "ammo_556mm_max" forced to 90
+320(15.483344):  zBlock: "ammo_556mm_box_max" forced to 200
+319(15.042603):  zBlock: "ammo_762mm_max" forced to 90
+318(14.621716):  zBlock: "ammo_50AE_max" forced to 35
+317(14.620525):  L 08/21/2017 - 14:38:40: server_cvar: "mp_roundtime" "5"
+316(14.619130):  Unknown command "sm_store_gifts_minimum"
+315(14.618959):  Unknown command "sm_store_gifts_maximum"
+314(14.618765):  Unknown command "sm_store_gifts_enabled"
+313(14.604929):  Unknown command "mp_backup_round_auto"
+312(14.604746):  Unknown command "mp_backup_round_file_pattern"
+311(14.604639):  Unknown command "mp_backup_round_file_last"
+310(14.604540):  Unknown command "mp_backup_round_file"
+309(14.603765):  Unknown command "sv_hibernate_when_empty"
+308(14.602896):  Error - no profile for '1' exists.
+307(14.602646):  Unknown command "replay_enable"
+306(14.164426):  zBlock: "sv_maxcmdrate" forced to 66
+305(14.162963):  L 08/21/2017 - 14:38:39: server_cvar: "sv_maxcmdrate" "66"
+304(14.162229):  L 08/21/2017 - 14:38:39: server_cvar: "sv_maxcmdrate" "67"
+303(13.723165):  zBlock: "sv_maxupdaterate" forced to 66
+302(13.722052):  L 08/21/2017 - 14:38:39: server_cvar: "sv_maxupdaterate" "66"
+301(13.721255):  L 08/21/2017 - 14:38:39: server_cvar: "sv_maxupdaterate" "67"
+300(13.280201):  zBlock: "sv_client_min_interp_ratio" forced to 1
+299(12.839481):  zBlock: "sv_client_max_interp_ratio" forced to 2
+298(12.401528):  zBlock: "sv_client_cmdrate_difference" forced to 0
+297(12.400567):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots,compspec,startmoney"
+296(12.400483):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots,compspec,startmoney"
+295(12.400273):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots,startmoney"
+294(12.400161):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots,startmoney"
+293(12.399952):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots"
+292(12.399839):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk,bots"
+291(12.399650):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk"
+290(12.399465):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" "alltalk"
+289(12.399113):  L 08/21/2017 - 14:38:38: server_cvar: "sv_tags" ""
+288(11.958185):  zBlock: "sv_nomvp" forced to 1
+287(11.520171):  zBlock: "sv_nonemesis" forced to 1
+286(11.519356):  Unknown command "sv_voicequality"
+285(11.518757):  --------------------------------------------------------
+284(11.518691):  sv_pure value unchanged (current value is 0).
+283(11.518590):  --------------------------------------------------------
+282(11.077539):  zBlock: "sv_allowupload" forced to 0
+281(10.659096):  zBlock: "mp_ignore_round_win_conditions" forced to 0
+280(10.657517):  L 08/21/2017 - 14:38:36: server_cvar: "mp_limitteams" "0"
+279(10.655537):  L 08/21/2017 - 14:38:36: server_cvar: "mp_autoteambalance" "0"
+278(10.655321):  'banned_ip.cfg' not present; not executing.
+277(10.654346):  L 08/21/2017 - 14:38:36: Log file started (file "logs/L0821041.log") (game "/home/tcagame/mesters/31/cstrike") (version "4014252")
+276(10.654294):  Server logging data to file logs/L0821041.log
+275(10.572289):  L 08/21/2017 - 14:38:36: Log file closed.
+274(10.572255):  Server logging enabled.
+273(10.571976):  Unknown command "ns"
+272(10.570699):  L 08/21/2017 - 14:38:36: "SourceTV<2><BOT><Unassigned>" joined team "Spectator"
+271(10.570600):  Invalid counterterrorist spawnpoint at (4469.1,-15.9,-15.9)
+270(10.570563):  Invalid counterterrorist spawnpoint at (4721.2,2.7,2.7)
+269(10.570530):  Invalid counterterrorist spawnpoint at (4576.2,3.1,3.1)
+268(10.570507):  Invalid counterterrorist spawnpoint at (4489.8,-2.3,-2.3)
+267(10.570483):  Invalid counterterrorist spawnpoint at (4324.9,-24.1,-24.1)
+266(10.570460):  Invalid counterterrorist spawnpoint at (4648.0,-11.3,-11.3)
+265(10.570436):  Invalid counterterrorist spawnpoint at (4554.5,-2.4,-2.4)
+264(10.570412):  Invalid counterterrorist spawnpoint at (4427.3,-13.8,-13.8)
+263(10.570383):  Invalid counterterrorist spawnpoint at (4634.6,-0.4,-0.4)
+262(10.570360):  Invalid counterterrorist spawnpoint at (4466.6,-27.8,-27.8)
+261(10.570336):  Invalid counterterrorist spawnpoint at (4336.1,-44.4,-44.4)
+260(10.570311):  Invalid counterterrorist spawnpoint at (4327.4,-47.9,-47.9)
+259(10.570274):  Invalid counterterrorist spawnpoint at (4613.1,-16.1,-16.1)
+258(10.570249):  Invalid counterterrorist spawnpoint at (4437.7,-32.6,-32.6)
+257(10.570225):  Invalid counterterrorist spawnpoint at (4342.4,-33.2,-33.2)
+256(10.570201):  Invalid counterterrorist spawnpoint at (4721.8,15.6,15.6)
+255(10.570177):  Invalid counterterrorist spawnpoint at (4523.0,-5.8,-5.8)
+254(10.570153):  Invalid counterterrorist spawnpoint at (4404.9,-2.5,-2.5)
+253(10.570129):  Invalid counterterrorist spawnpoint at (4623.0,24.4,24.4)
+252(10.570101):  Invalid terrorist spawnpoint at (2825.8,179.6,179.6)
+251(10.570075):  Invalid terrorist spawnpoint at (2558.1,144.7,144.7)
+250(10.570043):  Invalid terrorist spawnpoint at (1180.4,146.0,146.0)
+249(10.570004):  Invalid terrorist spawnpoint at (666.5,111.6,111.6)
+248(10.569979):  Invalid terrorist spawnpoint at (342.6,-10.0,-10.0)
+247(10.569951):  Invalid terrorist spawnpoint at (508.8,46.1,46.1)
+246(10.569892):  Invalid terrorist spawnpoint at (1360.4,166.4,166.4)
+245(10.567743):  L 08/21/2017 - 14:38:36: "SourceTV<2><BOT><>" entered the game
+244(10.563300):  L 08/21/2017 - 14:38:36: "SourceTV<2><BOT><>" connected, address "none"
+243(10.555335):  [TS] Team Names: TERR CT - OnRoundEnd available: yes
+242(10.551782):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/joe_facemap.vtf", check downloads.txt
+241(10.551749):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/joe_facemap.vmt", check downloads.txt
+240(10.551717):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/eyeball_r.vtf", check downloads.txt
+239(10.551685):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/eyeball_l.vtf", check downloads.txt
+238(10.551651):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/dark_eyeball_r.vmt", check downloads.txt
+237(10.551612):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/slow/hl2/resistance_male_fix/dark_eyeball_l.vmt", check downloads.txt
+236(10.551409):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/notdelite/sas_tasas/ct_sas_spec.vtf", check downloads.txt
+235(10.551347):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/notdelite/sas_concrete/ct_sas_spec.vtf", check downloads.txt
+234(10.551300):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/notdelite/sas_black/ct_sas_spec.vtf", check downloads.txt
+233(10.551249):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/notdelite/desert_sas/ct_sas_spec.vtf", check downloads.txt
+232(10.551160):  L 08/21/2017 - 14:38:36: [zombieriot.smx] Invalid file path: "materials/models/player/notdelite/sas_army/ct_sas_spec.vtf", check downloads.txt
+231(10.493986):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,compspec,startmoney,zb_warmode"
+230(10.493878):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,compspec,startmoney,zb_warmode"
+229(10.493605):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,startmoney,zb_warmode"
+228(10.493492):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,startmoney,zb_warmode"
+227(10.493260):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,zb_warmode"
+226(10.493169):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,bots,zb_warmode"
+225(10.492942):  L 08/21/2017 - 14:38:36: server_cvar: "sv_tags" "alltalk,zb_warmode"
+224(10.492292):  
+223(10.492256):  (*9*), 222(10.492218):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+221(10.492099):  
+220(10.492062):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+219(10.491998):  
+218(10.491961):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+217(10.491924):  
+216(10.491888):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+215(10.491851):  
+214(10.491815):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+213(10.491780):  
+212(10.491744):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+211(10.491707):  
+210(10.491663):  KeyValues Error: LoadFromBuffer: missing { in file addons/sourcemod/configs/advertisements.txt
+209(10.464170):  [zBlock] AntiAnti-Flash-and-Smoke Hook Enabled
+208(10.463754):  [zBlock] Hooked Server ConCommand "pause"
+207(10.463723):  [zBlock] Hooked Server ConCommand "tv_record"
+206(10.463623):  Set motd_text from file 'cfg/motd_text.txt'
+205(10.463568):  Set motd from file 'cfg/motd.txt'
+204(10.462572):  Precache of sprites/fireburst ambigious (no extension specified)
+203(10.453651):  Can't init info_ladder
+202(10.453620):  Attempted to create unknown entity type info_ladder!
+201(10.453584):  Can't init info_ladder
+200(10.453512):  Attempted to create unknown entity type info_ladder!
+199(10.326182):  Using map cycle file 'cfg/mapcycle.txt'.
+198(10.326153):  L 08/21/2017 - 14:38:36: Executing dedicated server config file server.cfg
+197(10.326118):  Executing dedicated server config file server.cfg
+196(10.325825):  Unknown command "mp_backup_round_auto"
+195(10.325735):  Unknown command "mp_backup_round_file_pattern"
+194(10.325642):  Unknown command "mp_backup_round_file_last"
+193(10.325545):  Unknown command "mp_backup_round_file"
+192(10.325391):  ConVarRef room_type doesn't point to an existing ConVar
+191(10.322978):  SourceMod Anti-Cheat 0.8.5.2 has been successfully loaded.
+190(9.938593):  Accelerator upload thread terminated. (canceled = false)
+189(9.938544):  Accelerator upload thread finished. (1 uploaded, 0 failed)
+188(9.938450):  L 08/21/2017 - 14:38:35: [CRASH] Accelerator uploaded crash dump: Rate limit exceeded.
+187(9.895681):  zBlock: "sv_client_min_interp_ratio" forced to 1
+186(9.889948):  L 08/21/2017 - 14:38:35: [thc_rpg.smx] [Translations Manager] Successfully loaded all translation files from addons/sourcemod/translations/thc_rpg
+185(9.888167):  [TS] Hooking round end events for game: cstrike
+184(9.886577):  L 08/21/2017 - 14:38:35: server_cvar: "sm_nextmap" "zr_zombietown_v1"
+183(9.885968):  L 08/21/2017 - 14:38:35: [SM] Unable to load plugin "zr_killclip.smx": Native "ZR_IsClientZombie" was not found
+182(9.882025):  L 08/21/2017 - 14:38:35: [SM] Unable to load plugin "gungame.smx": Could not find required plugin "gungame_cfg"
+181(9.878799):  [ZRiot] -----------|         Zombie Riot Loaded         |----------
+180(9.877936):  L 08/21/2017 - 14:38:35: server_cvar: "mp_limitteams" "0"
+179(9.877769):  L 08/21/2017 - 14:38:35: server_cvar: "mp_autoteambalance" "0"
+178(9.874822):  [ZRiot] -----------|         Zombie Riot Loading        |----------
+177(9.864318):  L 08/21/2017 - 14:38:35: [store.smx] Gifts! isn't installed or failed to load. Gifts support will be disabled. Please install Gifts. (http://forums.alliedmods.net/showthread.php?t=175185)
+176(9.838080):  L 08/21/2017 - 14:38:35: [simple-chatprocessor.smx] [SCP] Loading translation file [scp.cstrike.phrases].
+175(9.838016):  L 08/21/2017 - 14:38:35: [simple-chatprocessor.smx] [SCP] Recognized mod [Counter Strike].
+174(9.796141):  L 08/21/2017 - 14:38:35: [SM] Failed to load plugin "smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+173(9.709649):  L 08/21/2017 - 14:38:35: [SM] Failed to load plugin "smac_l4d2_fixes.smx": This module will not work for this mod and should be removed..
+172(9.704478):  L 08/21/2017 - 14:38:35: [GEOIP] GeoIP database info: GEO-106FREE 20170103 Build 1 Copyright (c) 2017 MaxMind 
+171(9.691951):  Accelerator upload thread started.
+170(9.689861):  L 08/21/2017 - 14:38:35: -------- Mapchange to zr_zombietown_v1 --------
+169(9.688759):  L 08/21/2017 - 14:38:35: Started map "zr_zombietown_v1" (CRC "c54d087336fd95e9b7ecb79b41d5cff2")
+168(9.688682):  SOLID_VPHYSICS static prop with no vphysics model! (models/props_buildings/project_destroyedbuildings04_skybox.mdl)
+167(9.688565):  SOLID_VPHYSICS static prop with no vphysics model! (models/props_buildings/project_destroyedbuildings03_skybox.mdl)
+166(9.688388):  SOLID_VPHYSICS static prop with no vphysics model! (models/props_buildings/project_destroyedbuildings01_skybox.mdl)
+165(9.284930):  L 08/21/2017 - 14:38:35: server cvars end
+164(9.284900):  L 08/21/2017 - 14:38:35: "sv_tags" = "zb_warmode"
+163(9.284878):  L 08/21/2017 - 14:38:35: "sv_password" = ""
+162(9.284853):  L 08/21/2017 - 14:38:35: "tv_relaypassword" = ""
+161(9.284830):  L 08/21/2017 - 14:38:35: "tv_password" = ""
+160(9.284807):  L 08/21/2017 - 14:38:35: "host_framerate" = "0"
+159(9.284775):  L 08/21/2017 - 14:38:35: "sv_minupdaterate" = "33"
+158(9.284744):  L 08/21/2017 - 14:38:35: "sv_maxupdaterate" = "66"
+157(9.284722):  L 08/21/2017 - 14:38:35: "sv_minrate" = "15000"
+156(9.284701):  L 08/21/2017 - 14:38:35: "sv_maxrate" = "100000"
+155(9.284677):  L 08/21/2017 - 14:38:35: "tv_enable" = "1"
+154(9.284655):  L 08/21/2017 - 14:38:35: "sv_maxcmdrate" = "66"
+153(9.284634):  L 08/21/2017 - 14:38:35: "sv_mincmdrate" = "33"
+152(9.284612):  L 08/21/2017 - 14:38:35: "sv_voiceenable" = "1"
+151(9.284590):  L 08/21/2017 - 14:38:35: "sv_contact" = "robot@swifthosting.dk"
+150(9.284568):  L 08/21/2017 - 14:38:35: "sv_pausable" = "0"
+149(9.284546):  L 08/21/2017 - 14:38:35: "sv_cheats" = "0"
+148(9.284523):  L 08/21/2017 - 14:38:35: "sv_steamgroup" = ""
+147(9.284499):  L 08/21/2017 - 14:38:35: "sv_vote_quorum_ratio" = "0.6"
+146(9.284476):  L 08/21/2017 - 14:38:35: "sv_nostats" = "0"
+145(9.284454):  L 08/21/2017 - 14:38:35: "sv_enablebunnyhopping" = "0"
+144(9.284432):  L 08/21/2017 - 14:38:35: "sv_enableboost" = "0"
+143(9.284410):  L 08/21/2017 - 14:38:35: "sv_competitive_minspec" = "1"
+142(9.284386):  L 08/21/2017 - 14:38:35: "mp_limitteams" = "1"
+141(9.284354):  L 08/21/2017 - 14:38:35: "mp_c4timer" = "10.000000"
+140(9.284332):  L 08/21/2017 - 14:38:35: "mp_freezetime" = "3"
+139(9.284310):  L 08/21/2017 - 14:38:35: "mp_roundtime" = "8"
+138(9.284288):  L 08/21/2017 - 14:38:35: "mp_startmoney" = "800.000000"
+137(9.284266):  L 08/21/2017 - 14:38:35: "sv_allowminmodels" = "1"
+136(9.284244):  L 08/21/2017 - 14:38:35: "mp_buytime" = "0.250000"
+135(9.284220):  L 08/21/2017 - 14:38:35: "mp_fadetoblack" = "0"
+134(9.284198):  L 08/21/2017 - 14:38:35: "mp_friendlyfire" = "0"
+133(9.284175):  L 08/21/2017 - 14:38:35: "mp_forcecamera" = "0"
+132(9.284139):  L 08/21/2017 - 14:38:35: "sv_stepsize" = "18"
+131(9.284106):  L 08/21/2017 - 14:38:35: "sv_bounce" = "0"
+130(9.284084):  L 08/21/2017 - 14:38:35: "sv_friction" = "4"
+129(9.284061):  L 08/21/2017 - 14:38:35: "sv_rollangle" = "0"
+128(9.284039):  L 08/21/2017 - 14:38:35: "sv_rollspeed" = "200"
+127(9.284014):  L 08/21/2017 - 14:38:35: "sv_footsteps" = "1"
+126(9.283983):  L 08/21/2017 - 14:38:35: "sv_waterfriction" = "1"
+125(9.283961):  L 08/21/2017 - 14:38:35: "sv_wateraccelerate" = "10"
+124(9.283939):  L 08/21/2017 - 14:38:35: "sv_airaccelerate" = "10"
+123(9.283918):  L 08/21/2017 - 14:38:35: "sv_accelerate" = "5"
+122(9.283896):  L 08/21/2017 - 14:38:35: "sv_maxspeed" = "320"
+121(9.283874):  L 08/21/2017 - 14:38:35: "sv_specnoclip" = "1"
+120(9.283851):  L 08/21/2017 - 14:38:35: "sv_specspeed" = "3"
+119(9.283818):  L 08/21/2017 - 14:38:35: "sv_specaccelerate" = "5"
+118(9.283783):  L 08/21/2017 - 14:38:35: "sv_noclipspeed" = "5"
+117(9.283748):  L 08/21/2017 - 14:38:35: "sv_noclipaccelerate" = "5"
+116(9.283715):  L 08/21/2017 - 14:38:35: "sv_stopspeed" = "75"
+115(9.283679):  L 08/21/2017 - 14:38:35: "sv_gravity" = "800"
+114(9.283645):  L 08/21/2017 - 14:38:35: "nextlevel" = ""
+113(9.283623):  L 08/21/2017 - 14:38:35: "mp_fraglimit" = "0"
+112(9.283600):  L 08/21/2017 - 14:38:35: "mp_timelimit" = "0"
+111(9.283576):  L 08/21/2017 - 14:38:35: "mp_scrambleteams_auto_windifference" = "2"
+110(9.283553):  L 08/21/2017 - 14:38:35: "mp_scrambleteams_auto" = "1"
+109(9.283530):  L 08/21/2017 - 14:38:35: "mp_holiday_nogifts" = "0"
+108(9.283497):  L 08/21/2017 - 14:38:35: "mp_match_end_at_timelimit" = "0"
+107(9.283462):  L 08/21/2017 - 14:38:35: "mp_stalemate_enable" = "0"
+106(9.283438):  L 08/21/2017 - 14:38:35: "mp_autoteambalance" = "1"
+105(9.283415):  L 08/21/2017 - 14:38:35: "mp_forceautoteam" = "0"
+104(9.283393):  L 08/21/2017 - 14:38:35: "mp_stalemate_meleeonly" = "0"
+103(9.283371):  L 08/21/2017 - 14:38:35: "mp_disable_respawn_times" = "0"
+102(9.283349):  L 08/21/2017 - 14:38:35: "mp_winlimit" = "0"
+101(9.283327):  L 08/21/2017 - 14:38:35: "mp_maxrounds" = "0"
+100(9.283305):  L 08/21/2017 - 14:38:35: "tf_arena_use_queue" = "1"
+99(9.283283):  L 08/21/2017 - 14:38:35: "mp_tournament" = "0"
+98(9.283261):  L 08/21/2017 - 14:38:35: "mp_respawnwavetime" = "10.0"
+97(9.283238):  L 08/21/2017 - 14:38:35: "sv_alltalk" = "1"
+96(9.283208):  L 08/21/2017 - 14:38:35: "bot_quota" = "10"
+95(9.283183):  L 08/21/2017 - 14:38:35: "mp_hostagepenalty" = "0"
+94(9.283159):  L 08/21/2017 - 14:38:35: "decalfrequency" = "10"
+93(9.283137):  L 08/21/2017 - 14:38:35: "mp_autocrosshair" = "0"
+92(9.283116):  L 08/21/2017 - 14:38:35: "mp_flashlight" = "1"
+91(9.283094):  L 08/21/2017 - 14:38:35: "mp_footsteps" = "1"
+90(9.283072):  L 08/21/2017 - 14:38:35: "mp_forcerespawn" = "1"
+89(9.283050):  L 08/21/2017 - 14:38:35: "mp_weaponstay" = "0"
+88(9.283028):  L 08/21/2017 - 14:38:35: "mp_falldamage" = "1"
+87(9.283006):  L 08/21/2017 - 14:38:35: "mp_teamplay" = "0"
+86(9.282982):  L 08/21/2017 - 14:38:35: "tv_delay" = "30"
+85(9.282954):  L 08/21/2017 - 14:38:35: "sv_maxusrcmdprocessticks" = "24"
+84(9.282925):  L 08/21/2017 - 14:38:35: "metamod_version" = "1.11.0-dev+998V"
+83(9.282901):  L 08/21/2017 - 14:38:35: "zb_status" = "1"
+82(9.282878):  L 08/21/2017 - 14:38:35: "zb_version" = "4.73"
+81(9.282855):  L 08/21/2017 - 14:38:35: "sm_nextmap" = ""
+80(9.282832):  L 08/21/2017 - 14:38:35: "sourcemod_version" = "1.9.0.6039"
+79(9.282807):  L 08/21/2017 - 14:38:35: server cvars start
+78(9.282784):  L 08/21/2017 - 14:38:35: Loading map "zr_zombietown_v1"
+77(9.282758):  L 08/21/2017 - 14:38:35: Log file started (file "logs/L0821040.log") (game "/home/tcagame/mesters/31/cstrike") (version "4014252")
+76(9.282715):  Server logging data to file logs/L0821040.log
+75(9.204168):  L 08/21/2017 - 14:38:34: Log file closed.
+74(9.080659):  L 08/21/2017 - 14:38:34: No account token specified; logging into anonymous game server account.  (Use sv_setsteamaccount to login to a persistent account.)
+73(9.080532):  No account token specified; logging into anonymous game server account.  (Use sv_setsteamaccount to login to a persistent account.)
+72(9.066898):  L 08/21/2017 - 14:38:34: Initializing Steam libraries for INSECURE Internet server.  Authentication and VAC not requested.
+71(9.066790):  Initializing Steam libraries for INSECURE Internet server.  Authentication and VAC not requested.
+70(9.066066):  L 08/21/2017 - 14:38:34: [META] Loaded 1 plugin (1 already loaded)
+69(9.065744):  L 08/21/2017 - 14:38:34: [META] Failed to load plugin addons/store/bin/store_mm: Server doesn't present in whitelist.
+68(8.892823):  L 08/21/2017 - 14:38:34: [META] Failed to load plugin ../cstrike/addons/metamod/bin/server: Failed to get API
+67(8.875392):  Network: IP 176.57.128.132, mode MP, dedicated Yes, ports 27105 SV / 27019 CL
+66(8.875316):  WARNING: Port 27005 was unavailable - bound to port 27019 instead
+65(8.875145):  ConVarRef dev_loadtime_map_start doesn't point to an existing ConVar
+64(8.874737):  [zBlock] Movement Hook Enabled
+63(8.874302):  [zBlock] Map Entities Hook Enabled
+62(8.433272):  changelevel <levelname> : continue game on a new level
+61(8.433181):  L 08/21/2017 - 14:38:34: server_cvar: "sv_competitive_minspec" "1"
+60(8.433081):  L 08/21/2017 - 14:38:34: server_cvar: "sv_tags" "zb_warmode"
+59(7.993238):  Unknown command "sv_hibernate_when_empty"
+58(7.992862):  L 08/21/2017 - 14:38:33: server_cvar: "bot_quota" "10"
+57(7.992669):  Unknown command "replay_enable"
+56(7.552155):  zBlock: "sv_maxcmdrate" forced to 66
+55(7.552117):  L 08/21/2017 - 14:38:33: server_cvar: "sv_maxcmdrate" "66"
+54(7.552064):  L 08/21/2017 - 14:38:33: server_cvar: "sv_maxcmdrate" "67"
+53(7.551920):  L 08/21/2017 - 14:38:33: server_cvar: "sv_mincmdrate" "33"
+52(7.111960):  zBlock: "sv_maxupdaterate" forced to 66
+51(7.111895):  L 08/21/2017 - 14:38:32: server_cvar: "sv_maxupdaterate" "66"
+50(7.111813):  L 08/21/2017 - 14:38:32: server_cvar: "sv_maxupdaterate" "67"
+49(7.111658):  L 08/21/2017 - 14:38:32: server_cvar: "sv_minupdaterate" "33"
+48(7.111542):  L 08/21/2017 - 14:38:32: server_cvar: "sv_maxrate" "100000"
+47(7.111385):  L 08/21/2017 - 14:38:32: server_cvar: "sv_minrate" "15000"
+46(6.670767):  zBlock: "sv_client_min_interp_ratio" forced to 1
+45(6.230127):  zBlock: "sv_client_max_interp_ratio" forced to 2
+44(5.893645):  zBlock: "sv_client_cmdrate_difference" forced to 0
+43(5.893543):  L 08/21/2017 - 14:38:31: server_cvar: "sv_tags" ""
+42(5.893249):  Unknown command "sv_voicequality"
+41(5.893029):  L 08/21/2017 - 14:38:31: server_cvar: "sv_stopspeed" "75"
+40(5.892977):  --------------------------------------------------------
+39(5.892958):  sv_pure value unchanged (current value is 0).
+38(5.892934):  --------------------------------------------------------
+37(5.892794):  L 08/21/2017 - 14:38:31: server_cvar: "sv_contact" "robot@swifthosting.dk"
+36(5.892608):  L 08/21/2017 - 14:38:31: server_cvar: "sv_alltalk" "1"
+35(5.892483):  L 08/21/2017 - 14:38:31: server_cvar: "sv_accelerate" "5"
+34(5.892333):  L 08/21/2017 - 14:38:31: server_cvar: "mp_startmoney" "800.000000"
+33(5.892249):  L 08/21/2017 - 14:38:31: server_cvar: "mp_roundtime" "8"
+32(5.892177):  L 08/21/2017 - 14:38:31: server_cvar: "mp_limitteams" "1"
+31(5.892119):  L 08/21/2017 - 14:38:31: server_cvar: "mp_hostagepenalty" "0"
+30(5.892054):  L 08/21/2017 - 14:38:31: server_cvar: "mp_freezetime" "3"
+29(5.891969):  L 08/21/2017 - 14:38:31: server_cvar: "mp_forcecamera" "0"
+28(5.891890):  L 08/21/2017 - 14:38:31: server_cvar: "mp_flashlight" "1"
+27(5.891849):  L 08/21/2017 - 14:38:31: server_cvar: "mp_falldamage" "1"
+26(5.891786):  L 08/21/2017 - 14:38:31: server_cvar: "mp_c4timer" "10.000000"
+25(5.891730):  L 08/21/2017 - 14:38:31: server_cvar: "mp_buytime" "0.250000"
+24(5.891628):  L 08/21/2017 - 14:38:31: server_cvar: "mp_autocrosshair" "0"
+23(5.891528):  'banned_ip.cfg' not present; not executing.
+22(5.890870):  L 08/21/2017 - 14:38:31: Log file started (file "logs/L0821039.log") (game "/home/tcagame/mesters/31/cstrike") (version "4014252")
+21(5.890823):  Server logging data to file logs/L0821039.log
+20(5.808303):  Server logging enabled.
+19(5.808164):  Unknown command "ns"
+18(5.807920):  maxplayers set to 21 (extra slot was added for SourceTV)
+17(5.807803):  Unknown command "es_load"
+16(5.807547):  Unknown command "r_decal_cullsize"
+15(5.794882):  [zBlock] Net Hook Enabled
+14(5.794824):  zb_crashblock changed now "1"
+13(5.794763):  [zBlock] Hooked ConCommands
+12(5.791723):  [zBlock] Voice Hook Enabled
+11(5.791194):  maxplayers set to 20
+10(5.348798):  [zBlock] Plugin Successfully Loaded!
+9(5.131594):  [zBlock] Hooked Server ConCommand 'alias'
+8(5.131460):  [zBlock] Hooked Server ConCommand 'ent_create'
+7(5.131338):  [zBlock] Hooked Server ConCommand 'ent_fire'
+6(4.687873):  [zBlock] Please remove the zbgamedata.txt file from the addons directory, it is for a different version of the plugin
+5(4.467626):  [zBlock] Game: "Counter-Strike: Source"
+4(4.084943):  [zBlock] Looks like the update page has disappeared, please search for a zBlock update :(
+3(4.026934):  [zBlock] Performing update check
+2(3.627751):  [zBlock] Attempting to load plugin
+1(3.624508):  Unable to load plugin "addons/mattie_eventscripts"
+-------- CONSOLE HISTORY END --------

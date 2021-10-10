@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\hhp227\harry/texture04"
+        "$bumpmap" "models\player\hhp227\harry/normal_texture04"
+	"$normalmapalphaenvmapmask" 1
+	"$translucent" 1
+	"$halflambert" 1
+	"$nodecal" 1
+	"$nocull" 1 
+}

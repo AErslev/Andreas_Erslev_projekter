@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/techknow/angry_emotion/spark"
+
+        "$nocull" "1"
+        "$alphatest" "1"
+        "$selflum" "1"
+
+}

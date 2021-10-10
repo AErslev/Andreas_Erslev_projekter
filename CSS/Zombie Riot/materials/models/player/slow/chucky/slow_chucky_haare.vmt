@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/chucky/slow_chucky_haare"
+	"$alphatest" 1
+
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/slow/hl2/alyx/eyeball_r"
+
+ 	"$phong" "1"
+	"$phongexponent" "70"
+	"$phongboost"	".4"
+	"$phongfresnelranges"	"[1 1 1]"
+}

@@ -1,0 +1,19 @@
+"Games"
+{
+    "cstrike"
+    {
+        "Offsets"
+        {
+            "EyePosition"
+            {
+                "windows"    "128"
+                "linux"        "129"
+            }
+            "Weapon_ShootPosition"
+            {
+                "windows"    "257"
+                "linux"        "258"
+            }
+        }
+    }
+}

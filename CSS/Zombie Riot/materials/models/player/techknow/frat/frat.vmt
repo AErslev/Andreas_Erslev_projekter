@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/frat/frat"
+	"$bumpmap"	"models/player/techknow/frat/frat_n"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	".025"
+	"$phongfresnelranges"	"[1 1 1]"
+}
