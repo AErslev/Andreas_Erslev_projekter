@@ -1,0 +1,79 @@
+"Phrases"
+{
+	"Knife Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Knife{default} kill."
+	}
+	"Backstab Knife Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Backstab Knife{default} kill."
+	}
+	"Taser Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Zeus{default} kill."
+	}
+	"HeGrenade Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Grenade{default} kill."
+	}
+	"Flash Grenade Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Flash{default} kill."
+	}
+	"Smoke Grenade Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Smoke{default} kill."
+	}
+	"Molotov Grenade Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Molotov/Incendiary{default} kill."
+	}
+	"Decoy Grenade Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Decoy{default} kill."
+	}
+	"Headshot Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} You earned {green}{2}{default} credits for {red}Headshot{default}."
+	}
+	"Assist Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en" 		"{1} You earned {green}{2}{default} credits for {red}Assist{default} on a kill."
+	}
+	"MVP Kill"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en" 		"{1} You earned {green}{2}{default} credits for {red}MVP{default} on a kill."
+	}
+	"MVP Kill All"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en" 		"{1} {purple}{2}{default} earned {green}{3}{default} credits for being {red}MVP{default}."
+	}
+	"Plant Creds"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en" 		"{1} You earned {green}{2}{default} credits for planting the C4."
+	}
+	"Defuse Creds"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en" 		"{1} You earned {green}{2}{default} credits for defusing the C4."
+	}
+	"Winner Team"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en" 		"{1} You earned {green}{2}{default} credits for winning this round."
+	}
+	
+}

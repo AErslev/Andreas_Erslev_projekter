@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/monster/grim/skelface"
+		"$bumpmap" "models/player/monster/grim/skelface_normal"
+}

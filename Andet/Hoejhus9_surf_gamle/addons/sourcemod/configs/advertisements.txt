@@ -1,0 +1,77 @@
+﻿// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTGREEN}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{BLUE}WNFA >> {DEFAULT}Vi håber i kan lide vores server. Så derfor håber vi at i vil tilføje den til jeres favoritter! {PURPLE}IP: 176.57.128.132:27015"
+    }
+//    "2"
+//    {
+//        "chat"		"{Blue}WNFA >> {DEFAULT}Man kan købe hatte, skins, trails, og meget mere i {PURPLE} !Store"
+//	}
+    "2"
+    {
+		"chat"		"{Blue}WNFA >> {DEFAULT}Man kan nu bruge jetpack igen! Bind "+jetpack" til en knap i console og køb jetpack i store."
+	}
+    "3"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Tjek vores andre servere ud på {PURPLE} WNFA.eu {DEFAULT}eller skriv {PURPLE}!servers {DEFAULT}i chat!"
+    }
+    "4"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Man kan købe produkter såsom: Admin,VIP og credits {PURPLE} på vores hjemmeside: WNFA.eu"
+    }
+    "5"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Denne server er hosted og sat op af {PURPLE}VectureHosting.com"
+    }
+    "6"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}På serveren modtager du credits. Dem kan du bruge i {PURPLE}!store {DEFAULT}på alle mulige fede ting."
+    }
+    "7"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Føler du dig heldig i dag? Skriv {PURPLE}!lotto og du kan vinde op til 25000 credits!"
+    }
+    "8"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Kunne du tænke dig din egen server? Denne er sat op og hosted af VectureHosting.com!"
+    }
+	"9"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Vi har fået en masse nye servere. Skriv {PURPLE}!servers eller tjek hjemmesiden WNFA.eu {DEFAULT}for at tjeke dem ud i dag!"
+    }
+	"10"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Man kan nu købe Premium for kun 25 kr perm!{PURPLE} Med Premium får du adgang til Premium menu i !store hvor der er et hav af nye ting!"
+    }
+	"11"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Er du i tvivl om hvor dine skins er blevet af?{PURPLE} De gamle skins ligger i Premium Menuen. Køb Premium og få adgang til dem igen uden at købe dem endnu engang!"
+    }
+	"12"
+    {
+        "chat"		"{Blue}WNFA >> {DEFAULT}Skriv !info for at se hvilke admins der er online{PURPLE} og meget mere!"
+    }
+}

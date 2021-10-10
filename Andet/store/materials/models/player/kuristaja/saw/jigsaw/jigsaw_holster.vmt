@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\saw\jigsaw\jigsaw_holster"
+	"$bumpmap"     "models\player\kuristaja\saw\jigsaw\jigsaw_holster_normal"
+	"$nocull" "1"
+	"$no_draw" "0" // Change "0" --> "1" to disable the holster.
+}

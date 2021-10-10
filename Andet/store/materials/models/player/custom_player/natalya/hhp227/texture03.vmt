@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\custom_player\natalya\hhp227\texture03"
+	"$halflambert" 1
+	"$surfaceprop" "flesh"
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\custom_player\natalya\hhp227\texture02"
+        "$bumpmap" "models\player\custom_player\natalya\hhp227\normal_texture02"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" 1
+	"$surfaceprop" "flesh"
+}

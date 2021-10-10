@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/samus/eye_diffuse"
+	$bumpmap "models/player/samus/eye_bump"
+
+	"$phong" "1"
+	"$phongBoost" "5"
+	"$phongExponent" "40"  
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".1"
+}

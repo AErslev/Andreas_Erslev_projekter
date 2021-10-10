@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\FC3_VAAS\t0246"
+    
+                  "$nocull"	1
+"$translucent" 1
+
+	
+}
+
+
+
+

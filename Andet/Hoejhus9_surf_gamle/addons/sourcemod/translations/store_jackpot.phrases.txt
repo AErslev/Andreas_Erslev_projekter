@@ -1,0 +1,73 @@
+"Phrases"
+{
+	"menu_bet_credits"
+	{
+		"en"		"Bet Credits"
+		"de"		"Setzte Credits"
+	}
+    
+    "menu_start_jackpot"
+	{
+		"en"		"Start a Jackpot"
+		"de"		"Starte einen Jackpot"
+	}
+    
+    "error_jackpot_active"
+    {
+		"#format"	"{1:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}All Jackpots are already active"
+		"de"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}Alle Jackpots sind bereits Aktiv"
+	}
+    
+    "error_jackpot_active_single"
+    {
+		"#format"	"{1:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}This Jackpot is already active"
+		"de"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}Dieser Jackpot ist bereits Aktiv"
+    }
+    
+    "not_enough_credits"
+    {
+		"#format"	"{1:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}You don't have enough credits for this Jackpot"
+		"de"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}Deine Credits reichen nicht aus"
+    }
+
+    "jackpot_started"
+    {
+		"#format"	"{1:s}{2:s}{3:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}{2} has started the {darkred}{3}{lightblue} Jackpot - type !jackpot to enter!"
+		"de"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}{2} hat den {darkred}{3}{lightblue} Jackpot gestartet - gebe !jackpot ein um teilzunehmen!"
+    }
+    
+    "jackpot_won"
+    {
+		"#format"	"{1:s}{2:s}{3:i}{4:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}{2} has won {darkred}{3}{lightblue} Credits from the {darkred}{4}{lightblue} Jackpot"
+    }
+    
+    "reward_offline"
+    {
+		"#format"	"{1:s}{2:i}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}You have recieved {darkred}{2}{lightblue} Credits from a Jackpot that ended while you were offline."
+    }
+    
+    "spam"
+    {
+        "#format"	"{1:s}"
+        "en"    "{darkblue}[{lime}{1}{darkblue}] {lightblue}Type {darkred}!jackpot{lightblue} to start a Jackpot!"
+    }
+    
+    "too_many_entrys"
+    {
+		"#format"	"{1:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}You have too many Entrys on this Jackpot"
+    }
+
+    "jackpot_no_longer_active"
+    {
+	
+		"#format"	"{1:s}"
+		"en"		"{darkblue}[{lime}{1}{darkblue}] {lightblue}This Jackpot is no longer active"
+    }
+}

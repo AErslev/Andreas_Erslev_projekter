@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/bones/slow_bones"
+	"$bumpmap" 	"models/player/slow/bones/slow_bones_bump"
+	"$halflambert" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

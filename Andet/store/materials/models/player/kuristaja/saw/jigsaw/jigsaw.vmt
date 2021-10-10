@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\kuristaja\saw\jigsaw\jigsaw"
+	"$bumpmap"     	"models\player\kuristaja\saw\jigsaw\jigsaw_normal"
+
+}

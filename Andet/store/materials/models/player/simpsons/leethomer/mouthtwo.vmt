@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+
+
+{
+	"$baseTexture" "models\player\simpsons\leethomer\mouthtwo"
+	"$translucent" 1
+	"$alphatest" 1
+	"$halflambert" 1
+ }
+

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/cpt_america/shield"
+	"$bumpmap"	 "models/player/techknow/cpt_america/shield_n"
+
+ 	"$phong" "1"
+	"$phongexponent" "11"
+	"$phongboost"	"13"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

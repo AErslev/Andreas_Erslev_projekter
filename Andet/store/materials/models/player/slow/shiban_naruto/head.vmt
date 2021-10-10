@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/slow/shiban_naruto/head"                
+                "$bumpmap" "models/player/slow/shiban_naruto/head_normal"
+	"$nocull" "1"
+	"$normalmapalphaenvmapmask" 1
+}

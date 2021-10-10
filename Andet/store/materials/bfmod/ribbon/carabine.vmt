@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+  "$basetexture" "bfmod/ribbon/carabine"
+  "$translucent" 1
+}

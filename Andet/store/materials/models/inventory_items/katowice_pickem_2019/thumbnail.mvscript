@@ -1,0 +1,8 @@
+"ModelViewerScript"
+{
+	"LoadModel"		"models\inventory_items\katowice_pickem_2019_crystal.mdl"
+	"SetAppWindowSize"		"1204 1163"
+	"SetCameraOrigin"		"7.821486 0.000000 0.176794"
+	"SetCameraAngles"		"82.999947 180.000000 -179.999985"
+	"SetLightAngles"		"-143.187851 -61.355167 2.915709"
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/player/techknow/kratos/kratos_head"
+	"$bumpmap"	"models/player/techknow/kratos/kratos_head_n"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

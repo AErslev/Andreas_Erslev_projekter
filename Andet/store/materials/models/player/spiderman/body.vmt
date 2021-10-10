@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/spiderman/body"
+	"$bumpmap"	"models/player/spiderman/body_n"
+
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.1 .5 5]"
+        "$phongalbedotint" "7"
+
+}
+

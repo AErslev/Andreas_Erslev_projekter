@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\custom_player\hekut\talizorah\tali_sheet"
+	"$bumpmap" "models\player\custom_player\hekut\talizorah\tali_normal"
+	"$surfaceprop" "flesh"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	"$selfillum" 1
+	"$selfillummask" "models\player\custom_player\hekut\talizorah\glow_sheet"
+	
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.2
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[ 1 5 15]"
+	"$phongexponent" "20"
+	"$phongexponenttexture" "models\player\custom_player\hekut\talizorah\tali_phong"
+	"$model" 1
+}
+
+

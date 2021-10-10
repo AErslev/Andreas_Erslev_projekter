@@ -1,0 +1,4966 @@
+"Store"
+{
+	"VIP Menu"
+	{
+		"VIP Backpacks"
+		{
+			"Kukla soap"
+			{
+				"model"	"models/player/attach_nf/cso2/back/miladoll.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Monkey"
+			{
+				"model"	"models/player/attach_nf/cso2/back/monkey.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"radio"
+			{
+				"model"	"models/player/attach_nf/cso2/back/p77.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Rake"
+			{
+				"model"	"models/player/attach_nf/cso2/back/pigback.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Piggy pig"
+			{
+				"model"	"models/player/attach_nf/cso2/back/pigbag.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Shark"
+			{
+				"model"	"models/player/attach_nf/cso2/back/shark.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Shoolbag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/shoolbag.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Santa's sleigh"
+			{
+				"model"	"models/player/attach_nf/cso2/back/sleigh.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Snakeyear"
+			{
+				"model"	"models/player/attach_nf/cso2/back/snakeyear.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Tesla"
+			{
+				"model"	"models/player/attach_nf/cso2/back/tesla.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Turtlebag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/turtlebag.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Turtleshell"
+			{
+				"model"	"models/player/attach_nf/cso2/back/turtleshell.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Fire circle"
+			{
+				"model"	"models/player/attach_nf/cso2/back/twback.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Crane Valve"
+			{
+				"model"	"models/player/attach_nf/cso2/back/valve.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Watercanon"
+			{
+				"model"	"models/player/attach_nf/cso2/back/watercanon.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"White wings"
+			{
+				"model"	"models/player/attach_nf/cso2/back/wing.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Golden wings"
+			{
+				"model"	"models/player/attach_nf/cso2/back/wing_gold.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"witch's Broom"
+			{
+				"model"	"models/player/attach_nf/cso2/back/witchbroom.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Santa's bag"
+			{
+				"model"	"models/player/attach_nf/cso2/back/xmas.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"What a crap green"
+			{
+				"model"	"models/player/attach_nf/cso2/back/zccanon.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			"Backpack Joe"
+			{
+				"model"	"models/shop/nf/back/backpack_joe.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+
+			"Fido The Fire Dog"
+			{
+				"model"	"models/shop/nf/back/fido_the_fire_dog.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+						
+			"Sparky pup"
+			{
+				"model"	"models/shop/nf/back/sparky_pup.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+			
+			"Teddy"
+			{
+				"model"	"models/shop/nf/back/teddy_spine.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "1"
+			}
+		}
+		
+		"VIP Pro Gloves"
+		{
+			"CLOUD9 T gloves"
+			{
+				"model"		"models/weapons/soclan/7/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"HELLRAISERS T gloves"
+			{
+				"model"		"models/weapons/soclan/8/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"LUMINOSITY T Gloves"
+			{
+				"model"		"models/weapons/soclan/9/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"MOUSESPORTS T gloves"
+			{
+				"model"		"models/weapons/soclan/10/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"NAVI T gloves"
+			{
+				"model"	"models/weapons/soclan/1/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"EnVyUS T Gloves"
+			{
+				"model"		"models/weapons/soclan/2/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"VIRTUS.PRO T Gloves"
+			{
+				"model"		"models/weapons/soclan/3/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"FLIPSIDE T Gloves"
+			{
+				"model"		"models/weapons/soclan/4/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"FNATIC T Gloves"
+			{
+				"model"		"models/weapons/soclan/5/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"NIP T Gloves"
+			{
+				"model"		"models/weapons/soclan/6/t_arms.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"CLOUD9 CT Gloves"
+			{
+				"model"		"models/weapons/soclan/7/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"HELLRAISERS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/8/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"LUMINOSITY CT Gloves"
+			{
+				"model"		"models/weapons/soclan/9/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"MOUSESPORTS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/10/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"NAVI CT Gloves"
+			{
+				"model"		"models/weapons/soclan/1/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"EnVyUS CT Gloves"
+			{
+				"model"		"models/weapons/soclan/2/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"VIRTUS.PRO CT Gloves"
+			{
+				"model"		"models/weapons/soclan/3/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"FLIPSIDE CT Gloves"
+			{
+				"model"		"models/weapons/soclan/4/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"FNATIC CT Gloves"
+			{
+				"model"		"models/weapons/soclan/5/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+			"NIP CT Gloves"
+			{
+				"model"		"models/weapons/soclan/6/ct_arms_fbi.mdl"
+				"type"		"Gloves"
+				"flag" "a"
+				"price"		"0"
+			}
+		}		
+		
+		"VIP Tailings"
+		{
+			"The tail fox"
+			{
+				"model"	"models/player/attach_nf/cso2/back/foxtail.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "2"
+			}
+
+			"Raccoon tail"
+			{
+				"model"	"models/player/attach_nf/cso2/back/racoon.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "2"
+			}
+
+			"Horse Ass"
+			{
+				"model"	"models/player/attach_nf/cso2/back/horseyear.mdl"
+				"price" "0"
+				"bonemerge" "1"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "2"
+			}
+		}
+		
+		"VIP Caps"
+		{
+			"Ingrown"
+			{
+				"model"	"models/shop/nf/hats/ingrown.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Lake Monster"
+			{
+				"model"	"models/shop/nf/hats/lake_monster.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"One Eyed"
+			{
+				"model"	"models/shop/nf/hats/one_eyed.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Rodeo Star"
+			{
+				"model"	"models/shop/nf/hats/rodeo_star.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Scout Helmet"
+			{
+				"model"	"models/shop/nf/hats/scout_helmet.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Shredder"
+			{
+				"model"	"models/shop/nf/hats/shredder.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Skull Horns"
+			{
+				"model"	"models/shop/nf/hats/skull_horns.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Skull Horns Blue"
+			{
+				"model"	"models/shop/nf/hats/skull_horns_blue.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Stormtrooper"
+			{
+				"model"	"models/shop/nf/hats/stormtrooper.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"The Ox"
+			{
+				"model"	"models/shop/nf/hats/the_ox.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Vader Helmet"
+			{
+				"model"	"models/shop/nf/hats/vaderhelmet.mdl"
+				"price" "0"
+				"bonemerge" "3"
+				"games" "csgo"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+			
+			"Panda"
+			{
+				"model"	"models/hangover/hats/panda/panda.mdl"
+				"position" "1.0 -1.0 7.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Steel head"
+			{
+				"model"	"models/hangover/hats/ironhead/ironhead.mdl"
+				"position"	"-1.5 0.0 2.5"
+				"angles"	"0.0 -90.0 -15.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Jester Hat (Blue)"
+			{
+				"model"	"models/hangover/hats/jesterhat/jesterhat_blu.mdl"
+				"position"	"0.0 -1.0 6.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Jester Hat (Red)"
+			{
+				"model"	"models/hangover/hats/jesterhat/jesterhat_red.mdl"
+				"position"	"0.0 -1.0 6.5"
+				"angles"	"0.0 0.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Helmet Rocchetta"
+			{
+				"model"	"models/hangover/hats/rocket/rocket.mdl"
+				"position" "1.0 -1.0 7.0"
+				"angles" "0.0 0.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Sam's Hat"
+			{
+				"model"	"models/hangover/hats/samhat/samhat.mdl"
+				"position"	"0.0 0.0 6.5"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Winter hat (Red)"
+			{
+				"model"	"models/hangover/hats/snow_hat/snow_hat.mdl"
+				"position"	"1.5 0.0 6.2"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Winter hat (Blue)"
+			{
+				"model"	"models/hangover/hats/snow_hat/snow_hat_blue.mdl"
+				"position"	"1.5 0.0 6.2"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Lego head"
+			{
+				"model"	"models/hangover/hats/spy/spy_hat.mdl"
+				"position"	"1.7 0.0 2.0"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Rosso squid"
+			{
+				"model"	"models/hangover/hats/squidred/squidred.mdl"
+				"position"	"0.0 0.0 7.0"
+				"angles"	"0.0 -90.0 0.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		
+			"Zombies cap"
+			{
+				"model"	"models/hangover/hats/zombiehead/zombiehead.mdl"
+				"position"	"0.0 0.0 4.0"
+				"angles"	"0.0 -90.0 -8.0"
+				"price" "0"
+				"type" "hat"
+				"flag" "a"
+				"slot" "0"
+			}
+		}
+		
+		"VIP Skins"
+			{
+			"T"
+				{
+					"Duke Nukem"
+					{
+						"model" "models/player/custom_player/kuristaja/duke/dukev3.mdl"
+						"team" "2"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"STREET FIGHTER POISON"
+					{
+						"model" "models/player/custom_player/voikanaa/streetfighter/poison.mdl"
+						"team" "2"
+						"price" "3000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"Zoey"
+					{
+						"model" "models/player/natalya/zoeys/zoey_red.mdl"
+						"team" "2"
+						"price" "4000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+							
+					"Emma"
+					{
+						"model" "models/player/custom_player/kuristaja/cso2/emma/emma.mdl"
+						"team" "2"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+									
+					"Sweet Tooth" 
+					{
+						"model" "models/player/custom_player/kuristaja/sweet_tooth/sweet_tooth.mdl"
+						"team" "2"
+						"price" "6000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"Lara Croft Bikini" 
+					{
+						"model" "models/player/lara/lara.mdl"
+						"team" "2"
+						"price" "8000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"GASAI YONO" 
+					{
+						"model" "models/player/custom_player/voikanaa/mirainikki/gasaiyono.mdl"
+						"team" "2"
+						"price" "10000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					"Prisoner"
+					{
+						"model" "models/player/prisoner/prisoner.mdl"
+						"team" "2"
+						"price" "500"
+						"type" "playerskin"
+						"flag" "a"
+			}
+			"Deathstroke"
+			{
+				"model" "models/player/deathstroke/deathstroke2.mdl"
+				"team" "2"
+				"price" "2000"
+				"type" "playerskin"
+				"flag" "a"
+			}				
+		    "Pink Panther"
+			{
+				"model" "models/player/pink_panther_t/pink_panther_t.mdl"
+				"team" "2"
+				"price" "4000"
+				"type" "playerskin"
+				"flag" "a"
+			}				
+			"Homer devil - Simpsons"
+			{
+				"model" "models/player/homer_t/homer_t.mdl"
+				"team" "2"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Ada"
+			{
+				"model" "models/player/kuristaja/re6/ada/adav2.mdl"
+				"team" "2"
+				"price" "8000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Manden med leen"
+			{
+				"model" "models/player/monster/grim/grim.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Octodad!"
+			{
+				"model" "models/player/kuristaja/octodad/octodad_tuxedo.mdl"
+				"team" "2"
+				"price" "20000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rei"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/rei/rei-plug.mdl"
+				"team" "2"
+				"price" "30000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Asuka"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/asuka/asuka-plug.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Santa"
+			{
+				"model" "models/player/custom_player/legacy/santa/santa.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Sneaking suit!"
+			{
+				"model" "models/player/kuristaja/mgsv/boss/sneaking_suit.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rocket Racoon Green"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_green.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rocket Racoon Red"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_red.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Bunny Girl"
+			{
+				"model" "models/player/custom_player/natalya/hhp227/bunny-girl.mdl"
+				"team" "2"
+				"price" "20000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"L4D2 Ellis"
+			{
+				"model" "models/player/custom_player/kuristaja/l4d2/ellis/ellisv2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Asuka Dressed"
+			{
+				"model" "models/player/custom_player/natalya/evangelion/asuka/asuka-dress-3a.mdl"
+				"team" "2"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"L4D2 Rochelle"
+			{
+				"model" "models/player/kuristaja/l4d2/rochelle/rochellev2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"L4D2 Nick"
+			{
+				"model" "models/player/custom_player/kuristaja/l4d2/nick/nickv2.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Heavy Red"
+			{
+				"model" "models/player/kuristaja/tf2/heavy/heavy_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Scout Red"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/scout/scout_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Medic Red"
+			{
+				"model" "models/player/kuristaja/tf2/medic_red.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Spy Red"
+			{
+				"model" "models/player/kuristaja/tf2/spy/spy_red.mdl"
+				"team" "2"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Fatty"
+			{
+				"model" "models/player/kuristaja/zombies/fatty/fatty.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB GoZombie"
+			{
+				"model" "models/player/kuristaja/zombies/gozombie/gozombie.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Police"
+			{
+				"model" "models/player/kuristaja/zombies/police/police.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Skinny"
+			{
+				"model" "models/player/kuristaja/zombies/skinny/skinny.mdl"
+				"team" "2"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+					"ZB Zpz"
+					{
+						"model" "models/player/kuristaja/zombies/zpz/zpz.mdl"
+						"team" "2"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+				}
+			"CT"
+				{
+
+					"Big Boss"
+					{
+						"model" "models/player/custom_player/kuristaja/big_boss/big_bossv3.mdl"
+						"team" "3"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"CORTANA"
+					{
+						"model" "models/player/custom_player/voikanaa/halo4/cortana.mdl"
+						"team" "3"
+						"price" "3000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"Talizorah"
+					{
+						"model" "models/player/custom_player/hekut/talizorah/talizorah.mdl"
+						"team" "3"
+						"price" "4000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"Choi"
+					{
+						"model" "models/player/custom_player/kuristaja/cso2/choi/choi.mdl"
+						"team" "3"
+						"price" "5000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"Kz2 rifleman"
+					{
+						"model" "models/player/killzone2/kz2_rifleman.mdl"
+						"team" "3"
+						"price" "6000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					
+					"shinji plugsuit"
+					{
+						"model" "models/player/custom_player/natalya/evangelion/shinji/shinji-plug.mdl"
+						"team" "3"
+						"price" "8000"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					"Police"
+					{
+						"model" "models/player/mapeadores/kaem/police/police.mdl"
+						"team" "3"
+						"price" "500"
+						"type" "playerskin"
+						"flag" "a"
+					}
+					"Big Boss"
+					{
+						"model" "models/player/kuristaja/big_boss/big_boss.mdl"
+						"team" "3"
+						"price" "2000"
+						"type" "playerskin"
+						"flag" "a"
+					}		
+			"Blue Panther"
+			{
+				"model" "models/player/pink_panther_ct/pink_panther_ct.mdl"
+				"team" "3"
+				"price" "4000"
+				"type" "playerskin"
+				"flag" "a"
+			}			
+			"Homer - Simpsons"
+			{
+				"model" "models/player/homer_ct/homer_ct.mdl"
+				"team" "3"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "a"				
+			}			
+			"Natalya"
+			{
+				"model" "models/player/natalya/sailor_moon/sailor_moon.mdl"
+				"team" "3"
+				"price" "8000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Spiderman"
+			{
+				"model" "models/player/spiderman/spiderman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Batman"
+			{
+				"model" "models/player/batman/batman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Nanosuit"
+			{
+				"model" "models/player/kuristaja/nanosuit/nanosuit.mdl"
+				"team" "3"
+				"price" "12000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rocket Racoon Blue"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_blue.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rocket Racoon Yellow"
+			{
+				"model" "models/player/custom_player/stenli/rocket_raccoon_yellow.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Heavy Blue"
+			{
+				"model" "models/player/kuristaja/tf2/heavy/heavy_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Scout Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/scout/scout_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Medic Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/medic_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Spy Blue"
+			{
+				"model" "models/player/kuristaja/tf2/spy/spy_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"TF2 Medic Blue"
+			{
+				"model" "models/player/custom_player/kuristaja/tf2/medic_blu.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Samus"
+			{
+				"model" "models/player/samus/samus.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Lightning ffxiii"
+			{
+				"model" "models/player/ffxiii/lightning.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"GTA-V Trevor"
+			{
+				"model" "models/player/gtav/trevor.mdl"
+				"team" "3"
+				"price" "7000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Solidsnake"
+			{
+				"model" "models/player/solidsnake/solidsnake.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Rifleman"
+			{
+				"model" "models/player/killzone2/kz2_rifleman.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Lara Bikini"
+			{
+				"model" "models/player/lara/lara.mdl"
+				"team" "3"
+				"price" "30000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Ekko"
+			{
+				"model" "models/player/custom/ekko/ekko.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Primetime Draven"
+			{
+				"model" "models/player/custom/draven/draven.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Bman"
+			{
+				"model" "models/player/kuristaja/zombies/bman/bman.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Charple"
+			{
+				"model" "models/player/kuristaja/zombies/charple/charple.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Classic"
+			{
+				"model" "models/player/kuristaja/zombies/classic/classic.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"ZB Corpse"
+			{
+				"model" "models/player/kuristaja/zombies/corpse/corpse.mdl"
+				"team" "3"
+				"price" "5000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Zoey Christmas"
+			{
+				"model" "models/player/natalya/zoeys/zoey_christmas.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Neptune"
+			{
+				"model" "models/player/ubneptune/neptune_zise/ubneptune.mdl"
+				"team" "3"
+				"price" "15000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Ada Wong"
+			{
+				"model" "models/player/custom_player/kuristaja/re6/ada/adav5.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Duke"
+			{
+				"model" "models/player/custom_player/kuristaja/duke/dukev3.mdl"
+				"team" "3"
+				"price" "10000"
+				"type" "playerskin"
+				"flag" "a"
+			}
+			"Trager"
+			{
+				"model" "models/player/custom_player/kuristaja/trager/tragerv2.mdl"
+				"team" "3"
+				"price" "6000"
+				"type" "playerskin"
+				"flag" "a"
+			}	
+//				"Renegade Girl"
+//				{
+//						"model" "models/player/natalya/roleplay/renegade-girl-csgo.mdl"
+//						"team" "3"
+//						"price" "10000"
+//						"type" "playerskin"
+//						"flag" "a"
+//					}
+//				}
+//			}
+		}
+		}
+
+		"VIP Wings"
+			{
+				"Premium Nightelf Wings"
+				{
+					"model" "models/shop/perfectworld_wings01_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+       				}
+				"Premium Bloodelf Wings"
+				{
+					"model" "models/shop/perfectworld_wings02_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Fire'n'Ice Wings"
+				{
+					"model" "models/shop/perfectworld_wings03_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Magic Wings"
+				{
+					"model" "models/shop/perfectworld_wings04_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Eagle Wings"
+				{
+					"model" "models/shop/perfectworld_wings05_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Chief Wings"
+				{
+					"model" "models/shop/perfectworld_wings06_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Fairy Wings"
+				{
+					"model" "models/shop/perfectworld_wings07_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Skid Wings"
+				{
+					"model" "models/shop/perfectworld_wings08_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+				"Premium Feather Wings"
+				{
+					"model" "models/shop/perfectworld_wings09_v3.mdl"
+					"position" "-1.500000 -6.500000 -11.500000"
+					"angles" "-65.000000 170.000000 0.000000"
+					"price" "6000"
+					"flag" "a"
+					"type" "hat"
+					"slot" "1"
+				}
+			}
+		"VIP sprays"
+			{
+				"Super Saiyajin 1"
+				{
+					"material"	"materials/decals/un_com/super_saiyajin1.vmt"
+					"price"		"75"
+					"flag" "a"
+					"type"		"spray"
+					}
+		"Super Saiyajin 2"
+		{
+			"material"	"materials/decals/un_com/super_saiyajin2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Super Saiyajin 3"
+		{
+			"material"	"materials/decals/un_com/super_saiyajin3.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"DBZ Fusion"
+		{
+			"material"	"materials/decals/un_com/fusion.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Rapido"
+		{
+			"material"	"materials/decals/un_com/rapido.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Asuna"
+		{
+			"material"	"materials/decals/un_com/asuna.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Kirito"
+		{
+			"material"	"materials/decals/un_com/kirito.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Ayy Lmao"
+		{
+			"material"	"materials/decals/un_com/ayy_lmaofix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Bob Marley"
+		{
+			"material"	"materials/decals/un_com/bob_marley.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"HTTP"
+		{
+			"material"	"materials/decals/un_com/http.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Legalize"
+		{
+			"material"	"materials/decals/un_com/legalizefix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Nicolas Cage GIF"
+		{
+			"material"	"materials/decals/un_com/nicolascagefix2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Pepe Matrix"
+		{
+			"material"	"materials/decals/un_com/pepe_matrixfix2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Scarface"
+		{
+			"material"	"materials/decals/un_com/scarface.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"This Game gave me Cancer"
+		{
+			"material"	"materials/decals/un_com/this_game_gave_me_cancer.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Cloud9"
+		{
+			"material"	"materials/decals/un_com/cloud9fix2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"EnvyUs"
+		{
+			"material"	"materials/decals/un_com/envyus.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Fnatic"
+		{
+			"material"	"materials/decals/un_com/fnaticfix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Mousesports"
+		{
+			"material"	"materials/decals/un_com/mouz.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Ninjas in Pyjamas"
+		{
+			"material"	"materials/decals/un_com/nip.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Penta"
+		{
+			"material"	"materials/decals/un_com/penta.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"TSM"
+		{
+			"material"	"materials/decals/un_com/tsm.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Virtus.Pro"
+		{
+			"material"	"materials/decals/un_com/virtusprofix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Fluttershy 1"
+		{
+			"material"	"materials/decals/mirage2/fluttershy.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Fluttershy 2"
+		{
+			"material"	"materials/decals/mirage2/Flutters.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Rainbow Dash"
+		{
+			"material"	"materials/decals/un_com/rainbowdashfix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Clown"
+		{
+			"material"	"materials/decals/un_com/clown.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Game of Thrones"
+		{
+			"material"	"materials/decals/un_com/got.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Kagetane Hiruko"
+		{
+			"material"	"materials/decals/un_com/kagetanefix.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"King EaZy"
+		{
+			"material"	"materials/decals/un_com/kingeazy.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Money Boy"
+		{
+			"material"	"materials/decals/un_com/moneyboy.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Keyboard"
+		{
+			"material"	"materials/decals/un_com/keyboard.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"AK-Cat"
+		{
+			"material"	"materials/decals/mirage2/akcat_i1f000_ani.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Colored Pedo Bear"
+		{
+			"material"	"materials/decals/mirage2/ColorPedoBear2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Burning Middlefinger"
+		{
+			"material"	"materials/decals/mirage2/Crank_byRB_ani.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Trollface"
+		{
+			"material"	"materials/decals/mirage2/spray_trollface.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Smiley"
+		{
+			"material"	"materials/decals/mirage2/Smile.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Chuck Norris Pokemon Card"
+		{
+			"material"	"materials/decals/mirage2/Chuck_Pokemon_Card.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Gaben Money"
+		{
+			"material"	"materials/decals/mirage2/gabenmoney2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Heart with Wings"
+		{
+			"material"	"materials/decals/mirage2/tribal_heart_shadow.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Ace of Hearts"
+		{
+			"material"	"materials/decals/mirage2/ace_of_hearts.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Awesome Smiley"
+		{
+			"material"	"materials/decals/mirage2/AwesomeSmily22.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Have a Seat"
+		{
+			"material"	"materials/decals/mirage2/Bench2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Blowjob"
+		{
+			"material"	"materials/decals/mirage2/blow_job.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}	
+		"Dark Halo Cat"
+		{
+			"material"	"materials/decals/mirage2/darkhalo-catdevart.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Eric Cartman"
+		{
+			"material"	"materials/decals/mirage2/Eric_Cartman2.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Get of my Nuts"
+		{
+			"material"	"materials/decals/mirage2/Get_of_my_nuts.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Beware of Headshot"
+		{
+			"material"	"materials/decals/mirage2/headshooot.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Headshot Area"
+		{
+			"material"	"materials/decals/mirage2/HeadshotArea.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Homer"
+		{
+			"material"	"materials/decals/mirage2/Homer.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Homer Facepalm"
+		{
+			"material"	"materials/decals/mirage2/homerofacepalm.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"I Headshot You"
+		{
+			"material"	"materials/decals/mirage2/I_headshot_you.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Middlefinger"
+		{
+			"material"	"materials/decals/mirage2/Middlefinger.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"No AWP"
+		{
+			"material"	"materials/decals/mirage2/noawp.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"No Bullshit"
+		{
+			"material"	"materials/decals/mirage2/nobullshit.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Noobs"
+		{
+			"material"	"materials/decals/mirage2/noobs.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"David Pedo Hasselhoff"
+		{
+			"material"	"materials/decals/mirage2/david.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"GIGN"
+		{
+			"material"	"materials/decals/mirage2/gign.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Headshot"
+		{
+			"material"	"materials/decals/mirage2/Headshot.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"T Arctic"
+		{
+			"material"	"materials/decals/mirage2/T_arctic.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Creeper"
+		{
+			"material"	"materials/decals/mirage2/creeperinside.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Noobs everywhere"
+		{
+			"material"	"materials/decals/mirage2/Noobsew.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Awesome Stash"
+		{
+			"material"	"materials/decals/mirage2/Awesome_Stash.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Chuck Norris"
+		{
+			"material"	"materials/decals/mirage2/chucknorrisspray.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Colombo"
+		{
+			"material"	"materials/decals/mirage2/colombo.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Die Noobs"
+		{
+			"material"	"materials/decals/mirage2/die_noobs.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Fuck You"
+		{
+			"material"	"materials/decals/mirage2/fu.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Gay Base"
+		{
+			"material"	"materials/decals/mirage2/gay_base.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Nicolas Cage"
+		{
+			"material"	"materials/decals/mirage2/NIC.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Old Spice"
+		{
+			"material"	"materials/decals/mirage2/oldspice.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Patrick"
+		{
+			"material"	"materials/decals/mirage2/patrick.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Rotweiler"
+		{
+			"material"	"materials/decals/mirage2/rotweiler.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Scarface Cat"
+		{
+			"material"	"materials/decals/mirage2/Scarface_cat.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Shrek"
+		{
+			"material"	"materials/decals/mirage2/shrekspray.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Spongebob"
+		{
+			"material"	"materials/decals/mirage2/Spongebob.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"LOL face"
+		{
+			"material"	"materials/decals/mirage2/lol.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Bible"
+		{
+			"material"	"materials/decals/mirage2/bible.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}	
+		"Mario Smash"
+		{
+			"material"	"materials/decals/mirage2/MarioSmash.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Krusty"
+		{
+			"material"	"materials/decals/mirage2/Krusty_Spray.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Condoms"
+		{
+			"material"	"materials/decals/mirage2/Kondom.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Homer LOL"
+		{
+			"material"	"materials/decals/mirage2/homerolol.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Stick Figure Dancing"
+		{
+			"material"	"materials/decals/mirage2/Hangen.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Electric Shot"
+		{
+			"material"	"materials/decals/mirage2/Electricshot.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Devil"
+		{
+			"material"	"materials/decals/mirage2/Devil.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Cool Banana"
+		{
+			"material"	"materials/decals/mirage2/CoolBanana.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Pepperoni Cat"
+		{
+			"material"	"materials/decals/mirage2/CatPepperoni.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Boo"
+		{
+			"material"	"materials/decals/mirage2/Boo.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Animated Bear"
+		{
+			"material"	"materials/decals/mirage2/animatedbear.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Pikachu"
+		{
+			"material"	"materials/decals/mirage2/Pikachu_Spray.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Powerpuff Girls"
+		{
+			"material"	"materials/decals/mirage2/ppgspray.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Roxy"
+		{
+			"material"	"materials/decals/mirage2/Roxy.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Slasher"
+		{
+			"material"	"materials/decals/mirage2/Slasher.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+		"Smashed"
+		{
+			"material"	"materials/decals/mirage2/Smashed.vmt"
+			"price"		"75"
+					"flag" "a"
+			"type"		"spray"
+		}
+//		"This is Art"
+//		{
+//			"material"	"materials/decals/mirage2/This_Is_Art.vmt"
+//			"price"		"75"
+//					"flag" "a"
+//			"type"		"spray"
+//			}
+//		}
+	}
+	}	
+//	VIP slut
+
+	"Pets"
+	{
+		"Chicken"
+		{
+			"model" 			"models/chicken/chicken.mdl"
+			"position" 			"40.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"idle01"
+			"run" 				"run01"
+			"price" 			"6000"
+			"type" 				"pet"
+		}
+
+		"C4 Bomb"
+		{
+			"model" 			"models/weapons/w_c4_planted.mdl"
+			"position" 			"50.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"idle01"
+			"run" 				"run01"
+			"price" 			"15000"
+			"type" 				"pet"
+		}
+
+		"Battlemask"
+		{
+			"model" 			"models/player/holiday/facemasks/facemask_battlemask.mdl"
+			"position" 			"50.0 0.0 10.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"idle01"
+			"run" 				"run01"
+			"price" 			"7000"
+			"type" 				"pet"
+		}
+
+		"Santahat"
+		{
+			"model" 			"models/player/holiday/santahat.mdl"
+			"position" 			"50.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"idle01"
+			"run" 				"run01"
+			"price" 			"11000"
+			"type" 				"pet"
+		}
+
+		"Chicken Zombie"
+		{
+			"model" 			"models/chicken/chicken_zombie.mdl"
+			"position" 			"40.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"idle01"
+			"run" 				"run01"
+			"price" 			"8000"
+			"type" 				"pet"
+		}
+
+		"Crow"
+		{
+			"model" 			"models/crow.mdl"
+			"position" 			"40.0 0.0 0.0"
+			"angles"			"0.0 0.0 0.0"
+			"idle" 				"Idle01"
+			"run" 				"Run"
+			"unique_id" 		"crow_running"
+			"price" 			"10000"
+			"type" 				"pet"
+		}
+
+		"Crow Flying"
+		{
+			"model" 			"models/crow.mdl"
+			"position" 			"40.0 0.0 60.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"Fly01"
+			"run" 				"Fly01"
+			"unique_id" 		"crow_flying"
+			"price" 			"12000"
+			"type" 				"pet"
+		}
+
+		"Pigeon"
+		{
+			"model"				"models/pigeon.mdl"
+			"position" 			"40.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"Idle01"
+			"run" 				"Run"
+			"unique_id" 		"pigeon_running"
+			"price" 			"14000"
+			"type" 				"pet"
+		}
+
+		"Pigeon Flying"
+		{
+			"model" 			"models/pigeon.mdl"
+			"position" 			"40.0 0.0 60.0"
+			"angles"			"0.0 0.0 0.0"
+			"idle" 				"Fly01"
+			"run" 				"Fly01"
+			"unique_id" 		"pigeon_flying"
+			"price" 			"16000"
+			"type" 				"pet"
+		}
+
+		"Seagull"
+		{
+			"model" 			"models/seagull.mdl"
+			"position" 			"40.0 0.0 0.0"
+			"angles" 			"0.0 0.0 0.0"
+			"idle" 				"Idle01"
+			"run" 				"Run"
+			"unique_id" 		"seagull_running"
+			"price" 			"18000"
+			"type" 				"pet"
+		}
+
+		"Seagull Flying"
+		{
+			"model" 			"models/seagull.mdl"
+			"position" 			"40.0 0.0 60.0"
+			"angles"			"0.0 0.0 0.0"
+			"idle" 				"Fly"
+			"run" 				"Fly"
+			"unique_id" 		"seagull_flying"
+			"price" 			"20000"
+			"type" 				"pet"
+		}
+	}
+	
+	
+	"Gloves"
+	{
+		"C9"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_cloud_9.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Immortals"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_immortalis.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"EnvyUs"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_envyus.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Faze"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_faze.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Dignitas"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_dignitas.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Epsilon"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_epsilon.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Fnatic"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_fnatic.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"G2"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_g2.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Gambit"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_gambit.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"God Sent"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_godsent.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+
+		}
+
+		"Hell Raisers"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_hell_raisers.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"IBP"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_ibp.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Liquid"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_liquid.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Luminosity"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_luminosity.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Mouse"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_mousesports.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"N.I.P"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_n.i.p.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Navi"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_navi.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"TSM"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_tsm.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Renegades"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_renegades.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"SK Gaming"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_sk_gaming.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Team X"
+		{
+			"model"				"models/weapons/eminem/ct_arms_idf_team_x.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Fbi Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_fbi.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Gign Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_gign.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Gsg9 Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_gsg9.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Idf Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_idf.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Sas Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_sas.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"St6 Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_st6.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Swat Paintball"
+		{
+			"model"				"models/weapons/paintball/ct_arms_swat.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Anarchist Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_anarchist.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Balkan Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_balkan.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Leet Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_leet.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Phoenix Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_phoenix.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}
+
+		"Pirate Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_pirate.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}	
+
+		"Professional Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_professional.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}	
+
+		"Separatist Paintball"
+		{
+			"model"				"models/weapons/paintball/t_arms_separatist.mdl"
+            "price" 			"1000"
+            "team"				"0"
+            "type"				"arms"
+            "unique_id" 		"gloves_c9"
+		}		
+	}
+	
+	"Tracers"
+	{
+		"Blue"
+		{
+			"color" 			"0 0 125"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Blue Violet"
+		{
+			"color" 			"138 43 226"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Cyan"
+		{
+			"color" 			"0 255 125"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Fire Brick"
+		{
+			"color" 			"178 34 34"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Fuschia"
+		{
+			"color" 			"125 0 125"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Gray"
+		{
+			"color" 			"240 240 240"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Green"
+		{
+			"color" 			"0 125 0"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Hunter Green"
+		{
+			"color" 			"35 142 35"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Lawn Green"
+		{
+			"color" 			"124 122 0"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+
+		"Olive Brown"
+		{
+			"color" 			"128 125 165"
+			"price" 			"400"
+			"type" 				"tracer"
+		}
+		
+		"Orange"
+		{
+			"color" 			"125 77 0"
+			"price" 			"400"
+			"type" 				"tracer"
+		}	
+	}
+	
+
+	"Effects"
+	{
+		"Spawn effects"
+		{
+			"Explosion"
+			{
+				"Particle" 		"c4_train_ground_effect"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Yellow confetti"
+			{
+				"Particle" 		"firework_crate_explosion_01"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Blue-Green confetti"
+			{
+				"Particle" 		"confetti_A_omni"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Violet confetti"
+			{
+				"Particle" 		"confetti_B_omni"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Multicolored confetti"
+			{
+				"Particle" 		"confetti_C_omni"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Balloons"
+			{
+				"Particle" 		"confetti_balloons"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Feathers"
+			{
+				"Particle" 		"chicken_gone"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Green feathers"
+			{
+				"Particle" 		"chicken_gone_zombie"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Storm"
+			{
+				"Particle" 		"1123"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Magic aura"
+			{
+				"Particle" 		"2"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Weapon confetti"
+			{
+				"Particle" 		"weapon_confetti_omni"	
+				"price" 		"1000"
+				"type" 			"spawn_effect"
+				"Duration" 		"1.5"
+			}
+		}
+
+		"Kill effects"
+		{
+			"Doctor"
+			{
+				"Particle" 		"doctor_scream_v2"	
+				"price" 		"1000"
+				"type" 			"kill_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Flash explode"
+			{
+				"Particle" 		"flash_explode_v2"	
+				"price" 		"1000"
+				"type" 			"kill_effect"
+				"Duration" 		"1.5"
+			}
+
+			"He explode"
+			{
+				"Particle" 		"he_explode_v2"	
+				"price" 		"1000"
+				"type" 			"kill_effect"
+				"Duration" 		"1.5"
+			}
+
+			"Heal"
+			{
+				"Particle" 		"2_heal_d"	
+				"price" 		"1000"
+				"type" 			"kill_effect"
+				"Duration" 		"1.5"
+			}
+		}
+
+		"Jetpack"
+		{
+			"price" "5000"
+			"type" "jetpack"
+		}
+	}
+	
+	"Accessories"
+	{
+		"Backpacks"
+		{
+			"Monster"
+			{
+				"model"			"models/player/attach_nf/cso2/back/albert.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+
+			"Flags"
+			{
+				"model"			"models/player/attach_nf/cso2/back/chnact.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+
+			"The Chinese character"
+			{
+				"model"			"models/player/attach_nf/cso2/back/chnback.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+
+			"Hammer wooden"
+			{
+				"model"			"models/player/attach_nf/cso2/back/chuseok.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"iron Hammer"
+			{
+				"model"			"models/player/attach_nf/cso2/back/hammer.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Piano"
+			{
+				"model"			"models/player/attach_nf/cso2/back/keyboard.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"snowboard Lisa"
+			{
+				"model"			"models/player/attach_nf/cso2/back/lisaboard.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Doll Lisa"
+			{
+				"model"			"models/player/attach_nf/cso2/back/lisadoll.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Flammable Favor"
+			{
+				"model"			"models/shop/nf/back/flammable_favor.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+
+			"Flammable Favor Blue"
+			{
+				"model"			"models/shop/nf/back/flammable_favor_blue.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"balloon"
+			{
+				"model"			"models/player/attach_nf/cso2/back/lpg.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"snowboard dear"
+			{
+				"model"			"models/player/attach_nf/cso2/back/milaboard.mdl"
+				"price" 		"3200"
+				"bonemerge" 	"1"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+		}
+
+		"Caps"
+		{
+			"Capones Capper"
+			{
+				"model"			"models/shop/nf/hats/capones_capper.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Captain Phasma"
+			{
+				"model"			"models/shop/nf/hats/captain_phasma.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Cosmonaut Helmet"
+			{
+				"model"			"models/shop/nf/hats/cosmonaut_helmet.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Daedrichelmet"
+			{
+				"model"			"models/shop/nf/hats/daedrichelmet.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Helmet Knight"
+			{
+				"model"			"models/shop/nf/hats/helmet_knight.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Helmet Knight Blue"
+			{
+				"model"			"models/shop/nf/hats/helmet_knight_blue.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Horse"
+			{
+				"model"			"models/shop/nf/hats/horse.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Horse B"
+			{
+				"model"			"models/shop/nf/hats/horse_b.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Horse C"
+			{
+				"model"			"models/shop/nf/hats/horse_c.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Husk"
+			{
+				"model"			"models/shop/nf/hats/husk.mdl"
+				"price" 		"1000"
+				"bonemerge" 	"3"
+				"games" 		"csgo"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Zoibyerg"
+			{
+				"model"			"models/hangover/hats/zoiberg/zoiberg.mdl"
+				"position" 		"1.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Ku Klux Klan"
+			{
+				"model"			"models/hangover/hats/klandress/klandress.mdl"
+				"position" 		"1.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Welding mask"
+			{
+				"model"			"models/hangover/hats/moltar/moltar.mdl"
+				"position" 		"1.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Pumpkin"
+			{
+				"model"			"models/hangover/hats/pyro/pyro_attendant.mdl"
+				"position"		"0.0 -1.3 3.0"
+				"angles"		"15.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Earflaps"
+			{
+				"model"			"models/hangover/hats/ushanka/ushanka.mdl"
+				"position" 		"1.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Kote"
+			{
+				"model"			"models/hangover/hats/genki_cat/genki_cat.mdl"
+				"position"		"0.0 -1.0 4.0"
+				"angles"		"0.0 0.0 0.0"
+				"price" 		"1000"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		}
+	
+		"Hats"
+		{
+			"Spartan Helmet"
+			{
+				"model"			"models/spartahelm/spartahelm.mdl"
+				"position" 		"0.0 -2.2 -68.4"
+				"angles" 		"0.0 0.0 0.0"
+				"price"			"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Ironman"
+			{
+				"model"			"models/fo3_ironman_mask.mdl"
+				"position" 		"1.0 -4.6 -2.0"
+				"angles" 		"0.0 -90.0 -20.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"V Mask"
+			{
+				"model"			"models/v/mask.mdl"
+				"position" 		"0.0 -5.2 -65.2"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Pika Hat"
+			{
+				"model"			"models/pikahat/pikahat.mdl"
+				"position"		"0.0 -2.2 -68.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Mudkip Hat"
+			{
+				"model"			"models/mudhatk/mudhatk.mdl"
+				"position" 		"0.0 -2.2 -68.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Super Saiyan"
+			{
+				"model"			"models/anime_patron/animepatr.mdl"
+				"position" 		"0.0 -2.2 -68.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Sentry"
+			{
+				"model"			"models/sentry_hat/sentryha.mdl"
+				"position" 		"0.0 -1.7 -68.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Pedo Bear"
+			{
+				"model"			"models/pedobear/pedobearf.mdl"
+				"position" 		"0.0 -1.7 -70.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+		
+			"Antlers"
+			{
+				"model"			"models/sam/antlers.mdl"
+				"position" 		"0.0 0.0 2.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Car Tire"
+			{
+				"model"			"models/props_vehicles/tire001c_car.mdl"
+				"position" 		"0.0 -10.0 0.0"
+				"angles" 		"90.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Watermelon"
+			{
+				"model"			"models/props_junk/watermelon01.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Traffic Cone"
+			{
+				"model"			"models/props_junk/trafficcone001a.mdl"
+				"position" 		"0.0 -1.0 20.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Metal Bucket"
+			{
+				"model"			"models/props_junk/metalbucket01a.mdl"
+				"position" 		"0.0 0.0 -8.0"
+				"angles" 		"180.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Terracotta"
+			{
+				"model"			"models/props_junk/terracotta01.mdl"
+				"position" 		"0.0 3.0 -10.0"
+				"angles" 		"180.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Baseball Cap"
+			{
+				"model"			"models/props/cs_office/snowman_hat.mdl"
+				"position" 		"0.0 0.0 7.0"
+				"angles" 		"0.0 -90.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Coffee Mug"
+			{
+				"model"			"models/props/cs_office/coffee_mug.mdl"
+				"position" 		"0.0 0.0 9.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price"			"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"I <3 Turtles"
+			{
+				"model"			"models/props/de_tides/vending_hat.mdl"
+				"position" 		"1.8 0.0 4.0"
+				"angles" 		"0.0 -90.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Astronaut helmet"
+			{
+				"model"			"models/astronauthelmet/astronauthelmet.mdl"
+				"position" 		"0.0 0.0 -5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Viking helmet"
+			{
+				"model"			"models/vikinghelmet/vikinghelmet.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Fedora"
+			{
+				"model"			"models/gmod_tower/fedorahat.mdl"
+				"position" 		"0.0 -1.5 8.5"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"KFC Bucket"
+			{
+				"model"			"models/gmod_tower/kfcbucket.mdl"
+				"position" 		"0.0 -1.0 3.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Cake Hat"
+			{
+				"model"			"models/cakehat/cakehat.mdl"
+				"position" 		"0.0 -1.0 3.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Santa Hat"
+			{
+				"model"			"models/santahat/santahat.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Dunce Hat"
+			{
+				"model"			"models/duncehat/duncehat.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Sombrero"
+			{
+				"model"			"models/gmod_tower/sombrero.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Cat Ears"
+			{
+				"model"			"models/gmod_tower/catears.mdl"
+				"position" 		"0.0 -3.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Afro"
+			{
+				"model"			"models/gmod_tower/afro.mdl"
+				"position" 		"0.0 -3.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Andross Mask"
+			{
+				"model"			"models/gmod_tower/androssmask.mdl"
+				"position" 		"0.0 2.0 0.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Drink Cap"
+			{
+				"model"			"models/gmod_tower/drinkcap.mdl"
+				"position" 		"0.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Headcrab Hat"
+			{
+				"model"			"models/gmod_tower/headcrabhat.mdl"
+				"position" 		"0.0 -3.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Majorasmask"
+			{
+				"model"			"models/gmod_tower/majorasmask.mdl"
+				"position" 		"0.0 0.5 0.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Toromask"
+			{
+				"model"			"models/gmod_tower/toromask.mdl"
+				"position" 		"0.0 -1.0 4.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Top Hat"
+			{
+				"model"			"models/gmod_tower/tophat.mdl"
+				"position" 		"0.0 -1.7 4.5"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Witch Hat"
+			{
+				"model"			"models/gmod_tower/witchhat.mdl"
+				"position" 		"0.0 0.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Toeto Hat"
+			{
+				"model"			"models/gmod_tower/toetohat.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Party Hat"
+			{
+				"model"			"models/gmod_tower/partyhat.mdl"
+				"position" 		"1.0 -1.0 7.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Seuss Hat"
+			{
+				"model"			"models/gmod_tower/seusshat.mdl"
+				"position" 		"0.0 -1.0 6.0"
+				"angles"		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Link Hat"
+			{
+				"model"			"models/gmod_tower/linkhat.mdl"
+				"position" 		"0.0 -5.0 4.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+			
+			"Midna Hat"
+			{
+				"model"			"models/gmod_tower/midnahat.mdl"
+				"position" 		"0.0 0.0 0.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Bear Hat"
+			{
+				"model"			"models/gmod_tower/bear.mdl"
+				"position" 		"0.0 -2.5 0.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Doge Hat"
+			{
+				"model"			"models/gmod_tower/doge.mdl"
+				"position" 		"0.0 -2.5 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Finn Hat"
+			{
+				"model"			"models/gmod_tower/finn.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Jake The Dog Hat"
+			{
+				"model"			"models/gmod_tower/jake_the_dog.mdl"
+				"position" 		"0.0 2.5 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"John Cena Hat"
+			{
+				"model"			"models/gmod_tower/john_cena.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Patrick Hat"
+			{
+				"model"			"models/gmod_tower/patrick.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Poop Hat"
+			{
+				"model"			"models/gmod_tower/poop.mdl"
+				"position" 		"0.0 -2.5 10.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Princess Bubblegum Hat"
+			{
+				"model"			"models/gmod_tower/princess_bubblegum.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Psyduck Hat"
+			{
+				"model"			"models/gmod_tower/psyduck.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Sans Hat"
+			{
+				"model"			"models/gmod_tower/sans.mdl"
+				"position" 		"0.0 -2.5 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Servo Hat"
+			{
+				"model"			"models/gmod_tower/servo_bot.mdl"
+				"position" 		"0.0 -2.5 0.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot" 			"0"
+			}
+
+			"Spongebob Hat"
+			{
+				"model"			"models/gmod_tower/sponge_bob.mdl"
+				"position" 		"0.0 0.0 5.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"600"
+				"type" 			"hat"
+				"slot"			"0"
+			}
+		}
+
+		"Masks"
+		{
+			"Porcelain Doll"
+			{
+				"model"			"models/player/holiday/facemasks/porcelain_doll.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Zombie Fortune"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_zombie_fortune_plastic.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Wolf"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_wolf.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Tiki"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tiki.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Spy"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_spy_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Soldier"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_soldier_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Sniper"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_sniper_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Scout"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_scout_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Pyro"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_pyro_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Medic"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_medic_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Heavy"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_heavy_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Engineer"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_engi_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Demoman"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_tf2_demo_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Skull"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_skull.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Skull (Gold)"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_skull_gold.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Sheep"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_sheep_model.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Sheep (Gold)"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_sheep_gold.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Sheep (Bloody)"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_sheep_bloody.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Samurai"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_samurai.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Pumpkin"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_pumpkin.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Porcelain Doll Kabuki"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_porcelain_doll_kabuki.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Hoxton"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_hoxton.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Devil"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_devil_plastic.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Dallas"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_dallas.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Chicken"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_chicken.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Chains"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_chains.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Bunny"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_bunny.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Bunny (Gold)"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_bunny.mdl"
+				"attachment" 	"facemask"
+				"price" 		"300"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Boar"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_boar.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Anaglyph"
+			{
+				"model"			"models/player/holiday/facemasks/facemask_anaglyph.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+
+			"Evil Clown"
+			{
+				"model"			"models/player/holiday/facemasks/evil_clown.mdl"
+				"attachment" 	"facemask"
+				"price" 		"600"
+				"type" 			"hat"
+				"games" 		"csgo"
+				"slot" 			"3"
+			}
+		}
+
+		"Glasses"
+		{
+			"3D Glasses"
+			{
+				"model"			"models/gmod_tower/3dglasses.mdl"
+				"position" 		"0.0 0.5 2.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"400"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Aviators"
+			{
+				"model"			"models/gmod_tower/aviators.mdl"
+				"position" 		"0.0 0.5 2.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"400"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Star Glasses"
+			{
+				"model"			"models/gmod_tower/starglasses.mdl"
+				"position" 		"0.0 0.5 2.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"400"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+			
+			"Kliener Glasses"
+			{
+				"model"			"models/gmod_tower/klienerglasses.mdl"
+				"position" 		"0.0 0.5 2.0"
+				"angles" 		"0.0 0.0 0.0"
+				"price" 		"400"
+				"type" 			"hat"
+				"slot" 			"1"
+			}
+		}
+	}
+	
+	"Player Skins"
+	{
+		"T"
+		{
+			"Clonetrooper"
+			{
+				"model" 		"models/player/starwars/clonetrooper/clonetrooper_fix.mdl"
+				"team" 			"2"
+				"price" 		"4000"
+				"type" 			"playerskin"
+			}
+
+			"Barry Burton"
+			{
+				"model" 		"models/player/custom_player/kuristaja/barry/barryv3.mdl"
+				"team" 			"2"
+				"price"			"6000"
+				"type" 			"playerskin"
+			}
+
+			"Mila"
+			{
+				"model" 		"models/player/custom_player/kuristaja/cso2/mila/mila.mdl"
+				"team" 			"2"
+				"price" 		"8000"
+				"type" 			"playerskin"
+			}
+
+			"Arctic"
+			{
+				"model" 		"models/player/custom_player/kuristaja/cso2/arctic/arctic.mdl"
+				"team" 			"2"
+				"price" 		"9000"
+				"type" 			"playerskin"
+			}
+
+			"Leet"
+			{
+				"model" 		"models/player/custom_player/kuristaja/cso2/leet/leet.mdl"
+				"team" 			"2"
+				"price" 		"10000"
+				"type" 			"playerskin"
+			}
+
+			"TOMB RAIDER"
+			{
+				"model" 		"models/player/custom_player/voikanaa/tru/lara.mdl"
+				"team" 			"2"
+				"price" 		"11000"
+				"type" 			"playerskin"
+			}
+
+			"Reinakousaka (Red)"
+			{
+				"model" 		"models/player/custom_player/caleon1/reinakousaka/reina_red.mdl"
+				"team" 			"2"
+				"price" 		"12000"
+				"type" 			"playerskin"
+			}
+		}
+		
+		"CT"
+		{
+			"Venom Snake"
+			{
+				"model" 		"models/player/custom_player/kuristaja/mgsv/boss/sneaking_suit.mdl"
+				"team" 			"3"
+				"price" 		"4000"
+				"type" 			"playerskin"
+			}
+
+			"Shadow Company"
+			{
+				"model" 		"models/player/custom_player/voikanaa/mw2/shadowcompany.mdl"
+				"team" 			"3"
+				"price" 		"6000"
+				"type" 			"playerskin"
+			}
+
+			"Lisa"
+			{
+				"model" 		"models/player/custom_player/kuristaja/cso2/lisa/lisa.mdl"
+				"team" 			"3"
+				"price" 		"8000"
+				"type" 			"playerskin"
+			}
+
+			"NKpolice"
+			{
+				"model" 		"models/player/custom_player/caleon1/nkpolice/nkpolice.mdl"
+				"team" 			"3"
+				"price" 		"10000"
+				"type" 			"playerskin"
+			}
+
+			"JILL"
+			{
+				"model" 		"models/player/custom_player/voikanaa/rehd/jill.mdl"
+				"team" 			"3"
+				"price" 		"11000"
+				"type" 			"playerskin"
+			}
+
+			"Reinakousaka (Blue)"
+			{
+				"model" 		"models/player/custom_player/caleon1/reinakousaka/reina_blue.mdl"
+				"team" 			"3"
+				"price" 		"12000"
+				"type" 			"playerskin"
+			}
+		}
+	}	
+
+	"Trails"
+	{
+		"8Bit Mushroom"
+		{
+			"material" 			"materials/sprites/store/trails/8bitmushroom.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"8Bit Pow"
+		{
+			"material" 			"materials/sprites/store/trails/8bitpow.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Airforce"
+		{
+			"material" 			"materials/sprites/store/trails/airforce.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Airforce 2"
+		{
+			"material" 			"materials/sprites/store/trails/airforce2.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Apple"
+		{
+			"material" 			"materials/sprites/store/trails/apple.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Arrow Rainbow"
+		{
+			"material" 			"materials/sprites/store/trails/arrowrainbow.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Arrows"
+		{
+			"material" 			"materials/sprites/store/trails/arrows.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Assasin"
+		{
+			"material" 			"materials/sprites/store/trails/assasin.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+		
+		"Awesome"
+		{
+			"material" 			"materials/sprites/store/trails/awesome.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Awesome Sad"
+		{
+			"material" 			"materials/sprites/store/trails/awesome_sad.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Awesome Face"
+		{
+			"material" 			"materials/sprites/store/trails/awesomeface.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Babyand"
+		{
+			"material" 			"materials/sprites/store/trails/babyand.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Banknote"
+		{
+			"material" 			"materials/sprites/store/trails/banknote.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Barcalona"
+		{
+			"material" 			"materials/sprites/store/trails/barcalona.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Batman"
+		{
+			"material" 			"materials/sprites/store/trails/batman.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Battlefield"
+		{
+			"material" 			"materials/sprites/store/trails/battlefield.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Beer Mug"
+		{
+			"material" 			"materials/sprites/store/trails/beermug.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Biohazard"
+		{
+			"material" 			"materials/sprites/store/trails/biohazard.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Blade"
+		{
+			"material" 			"materials/sprites/store/trails/blade.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Blue Lightning"
+		{
+			"material" 			"materials/sprites/store/trails/bluelightning.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"BMW Logo"
+		{
+			"material" 			"materials/sprites/store/trails/bmwlogo.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Bom Bomb"
+		{
+			"material" 			"materials/sprites/store/trails/bombomb.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Boo"
+		{
+			"material" 			"materials/sprites/store/trails/boo.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Bullet Bill"
+		{
+			"material" 			"materials/sprites/store/trails/bulletbill.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Bullets"
+		{
+			"material" 			"materials/sprites/store/trails/bullets.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Canada Flag"
+		{
+			"material" 			"materials/sprites/store/trails/canadaflag.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Candies"
+		{
+			"material" 			"materials/sprites/store/trails/candies.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+
+		"Ccole"
+		{
+			"material" 			"materials/sprites/store/trails/ccole.vmt"
+			"price" 			"1000"
+			"color" 			"255 255 255 255"
+			"type" 				"trail"
+		}
+	}
+	
+	"Grenade Trails"
+	{
+		"Thin Beam"
+		{
+			"material" 			"materials/sprites/combineball_trail_black_1.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+		}
+		
+		"Medium Beam"
+		{
+			"material" 			"materials/sprites/orangelight1.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+		}
+		
+		"Large Beam"
+		{
+			"material" 			"materials/sprites/spotlight.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color"				"255 0 255 255"
+		}
+		
+		"Red Laserbeam"
+		{
+			"material" 			"materials/sprites/laserbeam.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 0 255"
+			"unique_id" 		"grenadetrail_laserbeam_red"
+		}
+		
+		"Blue Laserbeam"
+		{
+			"material" 			"materials/sprites/laserbeam.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"0 0 255 255"
+			"unique_id" 		"grenadetrail_laserbeam_blue"
+		}
+
+		"Crystal beam"
+		{
+			"material" 			"materials/sprites/crystal_beam1.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+		}
+
+		"Halo"
+		{
+			"material" 			"materials/sprites/halo01.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+		}
+
+		"Blue laser"
+		{
+			"material" 			"materials/sprites/bluelaser1.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"0 0 255 255"
+		}
+
+		"Laser"
+		{
+			"material" 			"materials/sprites/laser.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+
+		}
+
+		"Physbeam"
+		{
+			"material" 			"materials/sprites/physbeam.vmt"
+			"price" 			"200"
+			"type" 				"grenadetrail"
+			"color" 			"255 0 255 255"
+		}
+	}
+	
+	"Grenade Skins"
+	{
+		"HE Grenade"
+		{
+			"Orange"
+			{
+				"model" 		"models/props/cs_italy/orange.mdl"
+				"grenade" 		"hegrenade"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+
+			"Elephant"
+			{
+				"model" 		"models/props_fairgrounds/elephant.mdl"
+				"grenade" 		"hegrenade"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+		}
+		
+		"Flashbang"
+		{	
+			"Banana"
+			{
+				"model" 		"models/props/cs_italy/bananna.mdl"
+				"grenade"		"flashbang"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+
+			"Water bottle"
+			{
+				"model" 		"models/props/cs_office/water_bottle.mdl"
+				"grenade" 		"flashbang"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+		}
+		
+		"Smokegrenade"
+		{
+			"Watermelon"
+			{
+				"model" 		"models/props_junk/watermelon01.mdl"
+				"grenade" 		"smokegrenade"
+				"price"			"220"
+				"type" 			"grenadeskin"
+			}
+
+			"Bananna"
+			{
+				"model" 		"models/props/cs_italy/bananna.mdl"
+				"grenade" 		"smokegrenade"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+		}
+		
+		"Decoygrenade"
+		{
+			"Giraffe"
+			{
+				"model" 		"models/props_fairgrounds/giraffe.mdl"
+				"grenade" 		"decoy"
+				"price" 		"220"
+				"type" 			"grenadeskin"
+			}
+		}
+	}
+
+	"Chat stuff"
+	{
+		"Name Tags"
+		{
+			"Noob"
+			{
+				"tag" 			"{darkred}[{white}Noob{darkred}] {teamcolor} "
+				"price" 		"500"
+				"type" 			"nametag"
+			}
+
+			"Bhopper"
+			{
+				"tag" 			"{darkred}[{lightred}Bhopper{darkred}] {teamcolor} "
+				"price" 		"1000"
+				"type" 			"nametag"
+			}
+
+			"MG-King"
+			{
+				"tag" 			"{white}[{blue}MG-King{white}] {teamcolor} "
+				"price" 		"1500"
+				"type" 			"nametag"
+			}
+
+			"Surfer"
+			{
+				"tag" 			"{darkred}[{lime}Surfer{darkred}] {teamcolor} "
+				"price" 		"2000"
+				"type" 			"nametag"
+			}
+
+			"The Camper"
+			{
+				"tag" 			"{darkred}[{blue}The Camper{white}] {teamcolor} "
+				"price" 		"2500"
+				"type" 			"nametag"
+			}
+
+			"Hacker"
+			{
+				"tag" 			"{white}[{olive}Hacker{white}] {teamcolor} "
+				"price" 		"3000"
+				"type" 			"nametag"
+			}
+
+			"Cheater"
+			{
+				"tag" 			"{white}[{darkred}Cheater{white}] {teamcolor} "
+				"price" 		"3500"
+				"type" 			"nametag"
+			}
+
+			"Veteran"
+			{
+				"tag" 			"{blue}[{white}Veteran{blue}] {teamcolor} "
+				"price" 		"4000"
+				"type" 			"nametag"
+			}
+
+			"Legendary"
+			{
+				"tag" 			"{blue}[{orange}Legendary{blue}] {teamcolor} "
+				"price" 		"4500"
+				"type" 			"nametag"
+			}
+
+			"Master"
+			{
+				"tag" 			"{white}[{darkred}Master{white}] {teamcolor} "
+				"price" 		"5000"
+				"type" 			"nametag"
+			}
+
+			"Challenger"
+			{
+				"tag" 			"{orange}[{blue}Challenger{orange}] {teamcolor} "
+				"price" 		"5500"
+				"type" 			"nametag"
+			}
+
+			"Star"
+			{
+				"tag" 			"{orange}[{yellow}Star{orange}] {teamcolor} "
+				"price" 		"6000"
+				"type" 			"nametag"
+			}
+
+			"Anonymous"
+			{
+				"tag" 			"{darkred}[{white}Anonymous{darkred}] {teamcolor} "
+				"price" 		"6500"
+				"type" 			"nametag"
+			}
+
+			"Elite"
+			{
+				"tag" 			"{darkred}[{gray}Elite{darkred}] {teamcolor} "
+				"price" 		"7000"
+				"type" 			"nametag"
+			}
+
+			"Richkid"
+			{
+				"tag" 			"{lime}[{green}Rich{olive}kid{lime}] {teamcolor} "
+				"price" 		"7500"
+				"type" 			"nametag"
+			}
+
+			"Best"
+			{
+				"tag" 			"{white}[{purple}Best{white}] {teamcolor} "
+				"price" 		"8000"
+				"type" 			"nametag"
+			}
+
+			"Masterchief"
+			{
+				"tag" 			"{orange}[{darkred}Masterchief{blue}] {teamcolor} "
+				"price" 		"8500"
+				"type" 			"nametag"
+			}
+
+			"Unreal"
+			{
+				"tag" 			"{blue}[{white}Unreal{lime}] {teamcolor} "
+				"price" 		"9000"
+				"type" 			"nametag"
+			}
+
+			"Master survivor"
+			{
+				"tag" 			"{orange}[{blue}master survivor{yellow}] {teamcolor} "
+				"price" 		"9500"
+				"type" 			"nametag"
+			}
+
+			"Twisted master"
+			{
+				"tag" 			"{yellow}[{gray}Twisted master{darkred}] {teamcolor} "
+				"price" 		"10000"
+				"type" 			"nametag"
+			}
+		}
+		
+		"Name Colors"
+		{
+			"Gray"
+			{
+				"color" 		"{gray}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Green"
+			{
+				"color" 		"{green}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Light Red"
+			{
+				"color" 		"{lightred}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Lime"
+			{
+				"color" 		"{lime}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Olive Green"
+			{
+				"color" 		"{olive}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Orange"
+			{
+				"color" 		"{orange}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+			
+			"White"
+			{
+				"color" 		"{white}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+
+			"Yellow"
+			{
+				"color" 		"{yellow}"
+				"price" 		"100"
+				"type" 			"namecolor"
+			}
+			
+			"Blue"
+			{
+				"color" 		"{blue}"
+				"price" 		"200"
+				"type" 			"namecolor"
+			}
+
+			"Dark Red"
+			{
+				"color" 		"{darkred}"
+				"price" 		"200"
+				"type" 			"namecolor"
+			}
+
+			"Purple"
+			{
+				"color" 		"{purple}"
+				"price" 		"200"
+				"type" 			"namecolor"
+			}
+
+		}
+		
+		"Message Colors"
+		{
+			"Gray"
+			{
+				"color" 		"{gray}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Green"
+			{
+				"color" 		"{green}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Light Red"
+			{
+				"color" 		"{lightred}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Lime"
+			{
+				"color" 		"{lime}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Olive Green"
+			{
+				"color" 		"{olive}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Orange"
+			{
+				"color" 		"{orange}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"White"
+			{
+				"color" 		"{white}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+
+			"Yellow"
+			{
+				"color" 		"{yellow}"
+				"price" 		"120"
+				"type" 			"msgcolor"
+			}
+			"Blue"
+			{
+				"color" 		"{blue}"
+				"price"			"240"
+				"type" 			"msgcolor"
+			}
+
+			"Dark Red"
+			{
+				"color" 		"{darkred}"
+				"price" 		"240"
+				"type" 			"msgcolor"
+			}
+			
+			"Purple"
+			{
+				"color" 		"{purple}"
+				"price" 		"240"
+				"type" 			"msgcolor"
+			}
+		}
+
+		"Admin Nametags"
+		{
+			"Admin Blue/Red"
+			{
+				"tag" 			"{red}[{blue}Admin{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag"			"b"
+			}
+
+			"Admin Red/purple"
+			{
+				"tag" 			"{purple}[{darkred}Admin{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin White/Red"
+			{
+				"tag" 			"{red}[{white}Admin{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin Green/Blue"
+			{
+				"tag" 			"{blue}[{lime}Admin{blue}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin Purple/White"
+			{
+				"tag" 			"{white}[{purple}Admin{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin White/Purple"
+			{
+				"tag" 			"{purple}[{white}Admin{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin Blue/White"
+			{
+				"tag" 			"{blue}[{white}Admin{blue}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+
+			"Admin White/Blue"
+			{
+				"tag" 			"{white}[{blue}Admin{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"b"
+			}
+		}
+
+		"Owner/Head-Admin Nametags"
+		{
+			"Owner Blue/Red"
+			{
+				"tag" 			"{red}[{blue}Owner{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner Red/purple"
+			{
+				"tag" 			"{purple}[{darkred}Owner{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner White/Red"
+			{
+				"tag" 			"{red}[{white}Owner{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner Green/Blue"
+			{
+				"tag" 			"{blue}[{lime}Owner{blue}]{teamcolor} "
+				"price" 		"0"
+				"type"			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner Purple/White"
+			{
+				"tag" 			"{white}[{purple}Owner{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner White/Purple"
+			{
+				"tag" 			"{purple}[{white}Owner{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner Blue/White"
+			{
+				"tag" 			"{blue}[{white}Owner{blue}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Owner White/Blue"
+			{
+				"tag" 			"{white}[{blue}Owner{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin Blue/Red"
+			{
+				"tag" 			"{red}[{blue}Head-Admin{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin Red/purple"
+			{
+				"tag" 			"{purple}[{darkred}Head-Admin{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin White/Red"
+			{
+				"tag" 			"{red}[{white}Head-Admin{red}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin Green/Blue"
+			{
+				"tag" 			"{blue}[{lime}Head-Admin{blue}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin Purple/White"
+			{
+				"tag" 			"{white}[{purple}Head-Admin{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin White/Purple"
+			{
+				"tag" 			"{purple}[{white}Head-Admin{purple}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin Blue/White"
+			{
+				"tag" 			"{blue}[{white}Head-Admin{blue}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+
+			"Head-Admin White/Blue"
+			{
+				"tag" 			"{white}[{blue}Head-Admin{white}]{teamcolor} "
+				"price" 		"0"
+				"type" 			"nametag"
+				"flag" 			"z"
+			}
+		}
+	}
+
+	"Miscellaneous"
+	{
+		"Paintball"
+		{
+			"price" "3500"
+			"type" "paintball"
+			"Decals"
+			{
+				"cyan"
+				{
+					"material"   "paintball/pb_cyan.vmt"
+				}
+				"green"
+				{
+					"material"   "paintball/pb_green.vmt"
+				}
+				"pink"
+				{
+					"material"   "paintball/pb_pink.vmt"
+				}
+				"orange"
+				{
+					"material"   "paintball/pb_orange.vmt"
+				}
+				"yellow"
+				{
+					"material"   "paintball/pb_yellow.vmt"
+				}
+				"babyblue2"
+				{
+					"material"   "paintball/pb_babyblue2.vmt"
+				}
+				"black"
+				{
+					"material"   "paintball/pb_black.vmt"
+				}
+				"blue2"
+				{
+					"material"   "paintball/pb_blue2.vmt"
+				}
+				"brown"
+				{
+					"material"   "paintball/pb_brown.vmt"
+				}
+				"darkgreen"
+				{
+					"material"   "paintball/pb_dark_green.vmt"
+				}
+				"goldenrod"
+				{
+					"material"   "paintball/pb_goldenrod.vmt"
+				}
+				"medslateblue"
+				{
+					"material"   "paintball/pb_medslateblue.vmt"
+				}
+				"olive"
+				{
+					"material"   "paintball/pb_olive.vmt"
+				}
+				"red2"
+				{
+					"material"   "paintball/pb_red2.vmt"
+				}
+				"redorange"
+				{
+					"material"   "paintball/pb_red_orange.vmt"
+				}
+				"violet"
+				{
+					"material"   "paintball/pb_violet.vmt"
+				}
+				"white2"
+				{
+					"material"   "paintball/pb_white2.vmt"
+				}
+			}
+		}
+	}
+}

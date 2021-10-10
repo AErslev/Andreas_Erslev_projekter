@@ -1,0 +1,67 @@
+﻿"Phrases"
+{
+	"Player count must be bigger than or equal to 0 (0 for everyone)."
+	{
+		"tr"		"Player count, sıfırdan büyük yada eşit olmalı. (Herkes için 0)"
+	}
+
+	"sm_cfmrandomize <player count|optional>"
+	{
+		"tr"		"sm_cfmrandomize <player count|istenirse>"
+	}
+
+	"sm_cfmrandomize to use the value at sm_chooseforme.cfg."
+	{
+		"tr"		"Sadece sm_cfmrandomize yazarsanız sm_chooseforme.cfg'deki değer kullanılır."
+	}
+
+	"Choosen player count is bigger then online player count."
+	{
+		"tr"		"Seçilen oyuncu adedi, online oyuncu adedinden fazla."
+	}
+
+	"Distributing everybody to teams."
+	{
+		"tr"		"Herkes takımlara dağıtılıyor."
+	}
+
+	"Teams are selected. GG, GL, HF."
+	{
+		"tr"		"Takımlar seçildi. GG, GL, HF."
+	}
+
+	"Usage: sm_cfmswap <name>."
+	{
+		"tr"		"Kullanım: sm_cfmswap <isim>."
+	}
+
+	"Can't swap a spec."
+	{
+		"tr"		"Spec olan kişinin takımı değiştirilemez."
+	}
+
+	"has swapped to CT."
+	{
+		"tr"		"{1}, CT'ye geçti."
+	}
+
+	"has swapped to T."
+	{
+		"tr"		"{1}, T'ye geçti."
+	}
+
+	"Usage: sm_cfmspec <name>."
+	{
+		"tr"		"Kullanım: sm_cfmspec <isim>."
+	}
+
+	"has swapped to Spec."
+	{
+		"tr"		"{1}, Spec'e geçti."
+	}
+
+	"Select Player:"
+	{
+		"tr"		"Oyuncu Seç:"
+	}
+}

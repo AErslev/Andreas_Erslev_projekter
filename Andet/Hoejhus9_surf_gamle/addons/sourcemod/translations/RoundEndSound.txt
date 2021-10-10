@@ -1,0 +1,28 @@
+﻿"Phrases"
+{
+	"Announce Message"
+	{
+		"#format"		"{1:c},{2:c},{3:c},{4:c}"
+		"en"			"Type {1}!res {2}or {3}/res {4}to turn on/off round end sounds"
+		"ru"			"Наберите в чате {1}!res {2}или {3}/res{4}, чтобы вкл/выкл музыку в конце раунда"
+		"pl"      		"Wpisz {1}!res {2}lub {3}/res {4} by włączyć/wyłączyć dźwięki na koniec rundy"
+	}
+	"Cookie Round End Sound"
+	{
+		"en"			"Round End Sound"
+		"ru"			"Музыка в Конце Раунда"
+		"pl"      		"Dźwięki na koniec rundy"
+	}
+	"Res On"
+	{
+		"en"			"You will now hear round end sounds"
+		"ru"			"Теперь вы будете слушать музыку в конце раунда"
+		"pl"      		"Teraz będziesz słyszał muzykę na koniec rundy"
+	}
+	"Res Off"
+	{
+		"en"			"You won't now hear round end sounds"
+		"ru"			"Теперь вы не будете слушать музыку в конце раунда"
+		"pl"      		"Teraz nie będziesz słyszał muzyki na koniec rundy"
+	}
+}

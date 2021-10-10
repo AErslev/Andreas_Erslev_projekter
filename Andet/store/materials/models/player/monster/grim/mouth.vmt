@@ -1,0 +1,7 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/player/monster/grim/mouth"
+		"$bumpmap" "models/player/monster/grim/mouth_normal"
+	"$model" 1
+	"$halflambert" 1
+}
