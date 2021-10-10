@@ -1,0 +1,7 @@
+Vi har valgt at lave en hjemmeside.
+
+Hjemmesiden kan tilgås, ved at åbne zip filen og åbne index.html filen. Det er bedst at bruge Chrome / FireFox / Safari. 
+Nogle ting vil ikke virke, med mindre du har net. Dog kan det meste af siden tilgås uden net.
+
+Hjemmesiden kan også tilgås via linket: https://vecturehosting.com/astro/index.html - der kan dog være server besvær. 
+Siden ser også lidt anderledes ud. Det er fordi serveren tolker hjemmesiden lidt anderledes.
