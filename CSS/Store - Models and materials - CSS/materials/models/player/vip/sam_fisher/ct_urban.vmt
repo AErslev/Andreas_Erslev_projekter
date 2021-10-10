@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/vip/sam_fisher/ct_urban"
+        "$bumpmap" "models/player/vip/sam_fisher/ct_urban_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "flesh"
+}
+

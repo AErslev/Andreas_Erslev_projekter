@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/slow/spawn/slow_eyes"
+
+	"$model" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0 1 0]" 
+	"$envmapcontrast" 0
+	"$envmapsaturation" 1
+}
+

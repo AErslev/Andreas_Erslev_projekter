@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\devil_jin\body"
+
+"$bumpmap" 		"models\player\stenli\devil_jin\body_n"
+	
+
+
+
+	
+"$phong" "1"
+        
+	"$phongexponent" "4"	
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.1 .2 .25]"
+
+
+	
+}
+
+
+
+

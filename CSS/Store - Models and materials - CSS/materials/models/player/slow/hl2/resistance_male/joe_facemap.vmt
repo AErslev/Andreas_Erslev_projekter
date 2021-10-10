@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/slow/hl2/resistance_male/joe_facemap"
+	"$halflambert" 1
+}

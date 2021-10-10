@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+
+	"$baseTexture" "models/player/kirby/vip/kirby_urban"
+        	"$bumpmap" "models/player/kirby/vip/kirby_urban_normal"
+	"$phong" "1"
+	"$phongexponent" 	"0"
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[0 0.2 1]"
+
+	
+}
+

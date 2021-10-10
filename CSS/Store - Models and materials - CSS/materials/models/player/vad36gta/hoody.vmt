@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\vad36gta/hoody"
+	"$bumpmap" "models\player\vad36gta/hoody_n" 
+
+	"$selfillum" 1
+	"$selfillumtint" "[1 0 0]"
+
+ 	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	".15"
+}
+
+

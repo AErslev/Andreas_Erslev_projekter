@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/aot/tyson/slow_tyson_skin"
+	"$bumpmap" "models/player/slow/aot/tyson/slow_tyson_skin_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 0
+	"$envmaptint" "[.3 .3 .3]" 
+	"$envmapcontrast" .8
+	"$envmapsaturation" .85
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/DE_NUKE/NUKE_METALDOOR_01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c-1464_1394_106"
+	}
+}

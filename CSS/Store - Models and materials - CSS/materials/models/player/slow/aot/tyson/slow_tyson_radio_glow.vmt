@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/aot/tyson/slow_tyson_radio_glow"
+
+	"$selfillum" 1
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" .7
+			"texturescrollangle" 180
+		}
+	}
+}

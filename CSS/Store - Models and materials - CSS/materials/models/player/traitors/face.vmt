@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\traitors\face"
+  	"$bumpmap" "models\player/traitors\face_norm"
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\slow\spiegelkugel\slow_spiegelkugel_plastik"
+	"$bumpmap"	"models\props\slow\spiegelkugel\slow_spiegelkugel_plastik_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost"	".7"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+
+}

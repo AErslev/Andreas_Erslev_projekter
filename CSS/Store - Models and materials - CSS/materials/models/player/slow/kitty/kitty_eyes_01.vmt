@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/player/slow/kitty/kitty_eyes_01"
+	"$halflambert" 1
+}

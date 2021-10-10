@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/hannah_montana/slow_hair"
+	"$bumpmap" "models/player/slow/hannah_montana/slow_hair_bump"
+
+	"$translucent" 1
+//	"$alphatest" 1
+	"$nocull" 1
+}

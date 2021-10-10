@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/slow/gmod/stay_puft/slow_body"
+	"$bumpmap" "models/slow/gmod/stay_puft/slow_body_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" .85
+	"$envmapsaturation" .6
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\hhp227\serah\skin_diffuse"
+	$bumpmap "models\player\hhp227\serah\skin_bump"
+	
+	$nocull	1
+	$halflambert 1
+	
+	$phong 1
+	$phongexponent 5
+	$phongboost .7
+	$phongfresnelranges "[0.15 0.5 1.0]"
+	
+	$rimlight 1
+	$rimlightexponent 15
+	$rimlightboost .5
+}
+//This is Serah's left arm.

@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$baseTexture"               "models\player\hhp227\serah/pupil"
+	"$bumpmap "models\player\hhp227\serah\eye_bump""
+}

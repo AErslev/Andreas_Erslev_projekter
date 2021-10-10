@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/slow/plasmascheibe/slow_plasmascheibe_4"
+	"$selfillum" 1
+
+	"$envmap" "models/props/slow/plasmascheibe/slow_plasmascheibe_spec"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+
+
+}

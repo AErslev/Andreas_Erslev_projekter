@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/reaper/slow_face"
+	"$bumpmap" "models/player/slow/reaper/slow_face_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[.15 .5 1]"
+
+}

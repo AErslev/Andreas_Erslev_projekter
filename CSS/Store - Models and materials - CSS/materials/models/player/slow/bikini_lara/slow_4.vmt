@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/bikini_lara/slow_4"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/bikini_lara/slow_4"
+	"$envmaptint" "[.85 .85 .85]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" .7
+}
+

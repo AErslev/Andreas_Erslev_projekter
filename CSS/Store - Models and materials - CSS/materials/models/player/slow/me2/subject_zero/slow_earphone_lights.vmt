@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/me2/subject_zero/slow_earphone_lights"
+
+	"$selfillum" 1
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar 		"$baseTextureTransform"
+			texturescrollrate 	".22"
+			texturescrollangle 	"180"
+		}
+	}
+}

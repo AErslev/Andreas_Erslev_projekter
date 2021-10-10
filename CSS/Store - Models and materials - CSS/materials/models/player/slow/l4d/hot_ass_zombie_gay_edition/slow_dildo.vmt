@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/l4d/hot_ass_zombie_gay_edition/slow_dildo"
+
+
+$phong 1
+$phongboost .35
+$phongexponent 1
+$phongtint "[1 1 1]"
+$phongfresnelranges "[1 1 1]"
+}

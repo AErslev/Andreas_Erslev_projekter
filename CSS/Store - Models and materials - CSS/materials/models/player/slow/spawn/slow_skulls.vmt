@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/spawn/slow_addons"
+	"$bumpmap" "models/player/slow/spawn/slow_addons_bump"
+
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/knifelemon/black_whiteman/slow_ironman_head"
+	"$bumpmap" "models/player/knifelemon/black_whiteman/slow_ironman_head_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.53 .2 .25]" 
+	"$envmapcontrast" .55
+	"$envmapsaturation" 0.9
+
+	"$nocull" 1
+}
+

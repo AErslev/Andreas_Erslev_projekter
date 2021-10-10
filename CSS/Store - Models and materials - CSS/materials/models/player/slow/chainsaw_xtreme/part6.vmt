@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/chainsaw_xtreme/part6"
+	"$bumpmap"	"models/player/slow/chainsaw_xtreme/slow_gesicht_bump"
+	"$halflambert" 1
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"0.1"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

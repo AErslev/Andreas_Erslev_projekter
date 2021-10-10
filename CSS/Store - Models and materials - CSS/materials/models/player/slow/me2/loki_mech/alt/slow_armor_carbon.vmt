@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/me2/loki_mech/alt/slow_loki_carbon"
+	"$bumpmap" 		"models/player/slow/me2/loki_mech/alt/slow_loki_carbon_bump"
+
+
+
+	"$phong" 				"1"
+	"$phongexponent"			"10"
+	"$phongboost"			"45"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+
+}

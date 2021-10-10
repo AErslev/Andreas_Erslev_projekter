@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+ 	"$basetexture" "models/player/techknow/ut-cat/cat_head"
+        "$nocull" 1
+	"$bumpmap"	"models/player/techknow/ut-cat/cat_head_n"
+	"$halflambert" 1
+}

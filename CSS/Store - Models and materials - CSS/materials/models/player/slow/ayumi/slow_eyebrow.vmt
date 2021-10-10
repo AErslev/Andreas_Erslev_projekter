@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/ayumi/slow_eyebrow"
+
+	"$nocull" 1
+	"$translucent" 1
+	"$halflambert" 1
+}

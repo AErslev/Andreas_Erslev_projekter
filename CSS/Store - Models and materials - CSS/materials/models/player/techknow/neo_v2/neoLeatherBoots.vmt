@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/techknow/neo_v2/neoLeatherBoots"
+        "$bumpmap"     "models/player/techknow/neo_v2/neoLeatherBoots_n"
+        "$model" 1
+        
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/player/slow/chucky/slow_zombie_doll"
+	"$bumpmap"	"models/player/slow/chucky/slow_chucky_bump"
+
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"2.6"
+	"$phongfresnelranges"	"[1 1 1]"
+}

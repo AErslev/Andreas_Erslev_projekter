@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\t_leet\t_leet"
+	"$bumpmap" "models/player/t_leet/t_leet_normal"
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	"1.6"
+	"$phongfresnelranges"	"[1 .5 .5]"
+}

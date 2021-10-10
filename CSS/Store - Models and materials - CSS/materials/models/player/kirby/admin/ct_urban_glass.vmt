@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/kirby/admin/kirby_urban_glass"
+	
+
+// Specularity
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" "models/player/kirby/admin/kirby_urban_glass_spec"
+
+
+// Transparency
+	"$translucent" 1
+	
+	
+}

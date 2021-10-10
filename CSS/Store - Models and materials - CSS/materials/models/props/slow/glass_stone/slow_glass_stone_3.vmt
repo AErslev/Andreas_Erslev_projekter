@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/slow/glass_stone/slow_glass_stone_3"
+	"$bumpmap"	"models/props/slow/glass_stone/slow_glass_stone_3_bump"
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"10"
+	"$phongfresnelranges"	"[1 1 1]"
+}

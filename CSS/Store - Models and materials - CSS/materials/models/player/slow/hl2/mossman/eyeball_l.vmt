@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/slow/hl2/mossman/eyeball_l"
+
+ 	"$phong" "1"
+	"$phongexponent" "70"
+	"$phongboost"	".4"
+	"$phongfresnelranges"	"[1 1 1]"
+}

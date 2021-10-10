@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"Models/Combine_soldier/combinesoldiersheet"
+
+ 	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost"	"0.1"
+	"$phongfresnelranges"	"[1 .5 .5]"
+}

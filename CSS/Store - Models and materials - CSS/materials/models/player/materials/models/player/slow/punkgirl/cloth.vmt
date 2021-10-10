@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\slow/punkgirl/cloth"
+//	"$selfillum" 1
+	"$halflambert" 1
+}

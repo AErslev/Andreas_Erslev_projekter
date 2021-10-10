@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/aragorn/slow_cape"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	".01"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

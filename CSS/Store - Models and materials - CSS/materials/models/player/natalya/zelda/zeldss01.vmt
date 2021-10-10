@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+        "$baseTexture" "models\player\natalya\zelda\zeldSS01"
+        "$bumpmap" "models\player\natalya\zelda\zeldss01_normal"
+        "$nocull" 1
+        "$halflambert" 1
+        "$nodecal" "1"
+        "$model" "1"
+    "$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 0.3
+    "$envmapsaturation" 0.3
+    "$envmaptint"			"[.25 .25 .25]"
+}

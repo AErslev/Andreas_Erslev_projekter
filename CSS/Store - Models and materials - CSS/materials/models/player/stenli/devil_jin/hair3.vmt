@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\devil_jin\Hair3"
+
+	
+"$nocull"	1
+"$translucent" 1
+
+
+}
+
+
+
+

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models/player/admin/xmas_grinch/t_phoenix"
+	"$nodecal" 0
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/zero_suit/slow_hair_2"
+	"$bumpmap"	"models/player/slow/zero_suit/slow_hair_2_bump"
+}

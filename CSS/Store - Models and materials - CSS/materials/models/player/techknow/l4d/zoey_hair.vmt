@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/player/techknow/l4d/zoey_hair"
+        "$translucent" "1"
+        "$nocull" "1"
+}

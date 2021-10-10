@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\notdelite\sas_tasas\ct_sas"
+        "$envmap" 			"env_cubemap"
+        "$bumpmap" "models/player/notdelite/sas_tasas/ct_sas_normal"
+	
+        "$phong" 		"1"
+	"$phongboost" 		"1"
+	"$phongfresnelranges" 	"[1 1 1]"
+	"$phongexponent" 	"10"
+	"$phongalbedotint" 	"1"
+        "$phongexponenttexture" "models\player\notdelite\sas_tasas\ct_sas_normal"
+// 	"$halflambert" "1"
+
+}

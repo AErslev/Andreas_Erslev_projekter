@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\techknow\miku\miku2"
+	"$halflambert" 1
+	"$nocull" 1
+	"$nodecal" 1
+}

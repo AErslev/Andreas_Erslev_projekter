@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/traitors/gear"
+        "$bumpmap" "models/player/traitors/gear_normal"
+}
+

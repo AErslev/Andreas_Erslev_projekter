@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\girl_cowboy\fringe"
+
+	
+"$nocull"	1
+"$translucent" 1
+
+
+}
+
+
+
+

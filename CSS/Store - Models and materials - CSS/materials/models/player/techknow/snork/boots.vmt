@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/player/techknow/snork/snork"
+	"$bumpmap" 		"models/player/techknow/snork/snork_bump"
+
+	"$phong" 		"1"
+	"$phongboost" 		"0.01"
+	"$phongexponent" 		"3.5"
+	"$phongtint" 		"[1 1 1]"
+	"$phongfresnelranges" 	"[.25 .5 1]"
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/witch_king/slow_mask"
+	"$bumpmap"	"models/player/slow/amberlyn/lotr/witch_king/slow_mask_bump"
+
+	"$nocull" 1
+	"$alphatest" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"8"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

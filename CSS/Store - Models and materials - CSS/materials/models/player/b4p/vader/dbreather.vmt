@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/b4p/vader/dbreather"
+    "$model" 1
+}

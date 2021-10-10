@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/slow/vip/eyeball_r"
+
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[.3 .3 .3]"
+    "$envmapsaturation" 0.4
+    "$envmapcontrast" 1 
+
+}

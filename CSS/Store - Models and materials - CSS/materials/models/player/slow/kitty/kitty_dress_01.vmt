@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture"	"models/player/slow/kitty/kitty_dress_01"
+	"$bumpmap" "models/player/slow/kitty/kitty_dress_01_normal"
+	"$translucent" 1
+	"$halflambert" 1
+	"$nocull" 1
+}

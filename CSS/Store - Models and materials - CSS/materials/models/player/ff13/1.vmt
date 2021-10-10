@@ -1,0 +1,8 @@
+"Vertexlitgeneric"
+{
+	"$baseTexture" "models\player\ff13\1"
+
+        "$model" "1"
+         $nocull 1
+
+}

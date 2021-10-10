@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/frodo/slow_skin"
+	"$bumpmap" "models/player/slow/amberlyn/lotr/frodo/slow_skin_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" .65
+	"$envmapsaturation" 0.75
+}

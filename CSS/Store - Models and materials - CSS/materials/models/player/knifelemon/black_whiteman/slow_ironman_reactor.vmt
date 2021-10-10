@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/knifelemon/black_whiteman/slow_ironman_reactor"
+	"$bumpmap"	"models/player/knifelemon/black_whiteman/slow_ironman_reactor_bump"
+
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"0.15"
+	"$phongfresnelranges"	"[1 1 1]"
+}
+
+

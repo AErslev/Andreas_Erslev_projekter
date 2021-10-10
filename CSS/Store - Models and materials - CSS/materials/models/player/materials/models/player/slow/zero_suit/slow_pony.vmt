@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/zero_suit/slow_pony"
+	"$bumpmap"	"models/player/slow/zero_suit/slow_pony_bump"
+
+	"$translucent" 1
+}

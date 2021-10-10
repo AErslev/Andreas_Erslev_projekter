@@ -1,0 +1,24 @@
+"EyeRefract"
+{
+	"$Iris"               	"models/slow/gmod/stay_puft//slow_iris"
+	"$AmbientOcclTexture" 	"models/slow/gmod/stay_puft//slow_eye_extra"
+	"$Envmap"             	"models/slow/gmod/stay_puft//slow_eye_cubemap"
+	"$CorneaTexture"      	"models/slow/gmod/stay_puft//slow_eye_bump"
+
+	"$EyeballRadius" 		"1.75"
+	"$AmbientOcclColor" 	"[.9 .93 1]"
+	"$Dilation" 		"0.6"
+	"$ParallaxStrength" 	"0.175"
+	"$CorneaBumpStrength" 	"1.4"
+
+	"$halflambert" 		"1"
+	"$nodecal" 			"1"
+
+	"$RaytraceSphere" 	"1"				
+	"$SphereTexkillCombo" 	"1"
+
+}
+
+
+
+

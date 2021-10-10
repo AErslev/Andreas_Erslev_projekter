@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/spawn/slow_armor_metal"
+	"$bumpmap" "models/player/slow/spawn/slow_armor_metal_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 0 0]" 
+	"$envmapcontrast" .25
+	"$envmapsaturation" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

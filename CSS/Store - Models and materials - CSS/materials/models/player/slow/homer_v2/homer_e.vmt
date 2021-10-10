@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\slow\homer_v2\homer_e"
+	"$halflambert" 1
+}

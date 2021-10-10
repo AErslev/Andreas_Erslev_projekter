@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/sm_galaxy/chain_chomp/slow_teeth"
+
+ 	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"0.25"
+	"$phongfresnelranges"	"[1 .5 .5]"
+}

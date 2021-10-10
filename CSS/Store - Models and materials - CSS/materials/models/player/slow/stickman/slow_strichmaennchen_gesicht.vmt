@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/stickman/slow_strichmaennchen_gesicht"
+	"$translucent" 1
+}

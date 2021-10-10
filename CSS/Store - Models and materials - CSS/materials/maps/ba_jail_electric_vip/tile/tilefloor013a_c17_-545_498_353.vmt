@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/TILE/TILEFLOOR013A_C17.vmt"
+	"replace"
+	{
+		"LightmappedGeneric_DX9"
+		{
+			"$envmap"		"maps/ba_jail_electric_vip/c-545_498_353"
+		}
+	}
+}

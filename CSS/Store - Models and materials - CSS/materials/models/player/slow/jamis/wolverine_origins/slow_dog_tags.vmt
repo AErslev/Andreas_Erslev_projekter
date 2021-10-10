@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/jamis/wolverine_origins/slow_dog_tags"
+	"$bumpmap"		"models/player/slow/jamis/wolverine_origins/slow_dog_tags_bump"
+
+	"$nocull" 1
+	"$alphatest" 1
+
+ 	"$phong" 			"1"
+	"$phongexponent"		"5"
+	"$phongtint"		"[.8 .9 1]"
+	"$phongboost"		"20"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+
+	"$envmap" 			"env_cubemap"
+	"$envmaptint" 		"[.2 .2 .2]"
+}

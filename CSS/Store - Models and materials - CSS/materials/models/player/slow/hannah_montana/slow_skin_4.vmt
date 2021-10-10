@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/hannah_montana/slow_skin_4"
+
+ 	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[.05 .25 1]"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/player/slow/kitty/kitty_french_maid_03"
+	"$bumpmap" "models/player/slow/kitty/kitty_french_maid_03_normal" 
+	"$alphatest" 1
+	"$nocull" 1
+	"$halflambert" 1
+}

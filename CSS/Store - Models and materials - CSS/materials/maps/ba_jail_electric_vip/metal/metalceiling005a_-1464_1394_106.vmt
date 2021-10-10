@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALCEILING005A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c-1464_1394_106"
+	}
+}

@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/stormtrooper/slow_stormtrooper_technix"
+	"$bumpmap"	"models/player/slow/stormtrooper/slow_stormtrooper_technix_bump"
+
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"0.5"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+
+	"$selfillum" 1
+	"$selfillumtint"  "[1 .1 .1]"
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+	 "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 1.20
+     	}
+}

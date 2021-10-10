@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+
+{
+    "$basetexture" "models/player/slow/carrier/eyeball_l"
+	"$selfillum" 1
+ 	"$surfaceprop" 	"bloodyflesh"
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+	 "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 4.00
+     	}
+	}
+}

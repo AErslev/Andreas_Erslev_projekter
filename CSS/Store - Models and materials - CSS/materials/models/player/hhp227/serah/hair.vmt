@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\hhp227\serah\hair_diffuse"
+	$bumpmap "models\player\hhp227\serah\hair_bump"
+	
+	$translucent 0
+	$alphatest 1
+	$nocull	1
+	$halflambert 1
+	
+	// $phong 1
+	// $phongexponent 1
+	// $phongboost 1
+	// $phongfresnelranges "[0.5 0.7 1.0]"	
+	
+	$phong 1
+	$phongexponent 5
+	$phongboost 2
+	$phongfresnelranges "[1 1.5 2]"
+	$phongtint "[.5 .25 .25]"
+	
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 5
+
+}

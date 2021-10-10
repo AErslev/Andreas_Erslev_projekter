@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/techknow/neo_v2/Face"
+        "$bumpmap"     "models/player/techknow/neo_v2/Face_n"
+        "$model" 1
+}

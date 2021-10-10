@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\captain_bbb\captain_bbb_body"
+	"$bumpmap"     "models\player\kuristaja\captain_bbb\captain_bbb_normal"
+	"$lightwarptexture" "models\player\kuristaja\captain_bbb\captain_bbb_lightwarp"
+	"$halflambert" 1
+	"$no_draw" "0" // Change "0" --> "1" to disable the cape.
+}

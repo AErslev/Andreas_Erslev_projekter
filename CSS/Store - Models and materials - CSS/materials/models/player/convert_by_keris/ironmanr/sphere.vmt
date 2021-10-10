@@ -1,0 +1,26 @@
+"UnlitGeneric"
+//"Modulate"
+{
+	"$baseTexture" "Models/player/convert_by_keris/ironmanR/sphere"
+	"$nocull" "1"	
+	"$additive" "1"
+	"$translucent" "1"
+	"$model" "1"
+	"$selfillum" 1
+        "$surfaceprop" 	"glass"
+	
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 1
+			"texturescrollangle" -80
+		}
+
+
+	}
+
+}
+

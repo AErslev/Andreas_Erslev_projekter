@@ -1,0 +1,23 @@
+"UnlitGeneric"
+//"Modulate"
+{
+	"$baseTexture" "Models/player/convert_by_keris/ironmanR/flame"	
+	"$additive" "1"
+	"$model" "1"
+	"$selfillum" 1
+	
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 7
+			"texturescrollangle" -270
+		}
+
+
+	}
+
+}
+

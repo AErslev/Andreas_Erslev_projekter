@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/techknow/p_panther/pink_panther"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+	"$phongexponent" "20"
+	"$phongboost"	"3"
+	"$model" "1"
+ 	"$surfaceprop" 	"carpet"
+
+}

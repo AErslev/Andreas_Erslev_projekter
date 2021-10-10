@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+
+$basetexture "models/pil/zoeys/original_v2/zoey_head"
+$compress "models/pil/zoeys/original_v2/zoey_head_compress"
+$stretch "models/pil/zoeys/original_v2/zoey_head_compress"
+$bumpmap "models/pil/zoeys/original_v2/zoey_head_normal"
+$phong 1
+$phongboost 1
+$phongexponent 5
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.5 .85 30]"
+$nodecal 1
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/player/techknow/r2d2/r2d2"
+	"$bumpmap"	"models/player/techknow/r2d2/r2d2_n"
+ 	"$phong" "1"
+	"$phongexponent" "6.5"
+	"$phongboost"	".4"
+	"$phongfresnelranges"	"[1 1 1]"
+}

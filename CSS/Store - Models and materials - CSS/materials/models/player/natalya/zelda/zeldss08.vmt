@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+        "$basetexture" "models\player\natalya\zelda\zeldss08"
+        "$bumpmap" "models\player\natalya\zelda\zeldss08_normal"
+        "$nocull" 1
+        "$alphatest" 1
+        "$halflambert" 1
+        "$nodecal" "1"
+        "$model" "1"
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        "$phong" "1"
+//        "$phongexponent" 33
+        "$phongboost"        "2"
+        "$phongfresnelranges"        "[0.04 0.4 0.4]"
+}

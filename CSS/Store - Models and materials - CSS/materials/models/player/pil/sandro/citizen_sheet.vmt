@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/pil/sandro/citizen_sheet"
+	"$halflambert" 1
+}

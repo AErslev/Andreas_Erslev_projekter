@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/vin_diesel/slow_eye"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.55 .55 .55]" 
+	"$envmapcontrast" .85
+	"$envmapsaturation" 0.75
+}

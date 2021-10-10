@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/player/ssbender/gigncss"
+        "$bumpmap" "models/player/ssbender/gigncss_normal"
+ 	"$surfaceprop" 	"carpet"
+//      "$bumpscale" "1.5"
+	"$halflambert" "1"
+//	"$nodecal" "1"
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+//	"$phongexponenttexture" "models/player/ssbender/articcss"
+	"$phongboost"	"8"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

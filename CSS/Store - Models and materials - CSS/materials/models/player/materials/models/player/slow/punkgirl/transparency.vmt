@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\slow/punkgirl/transparency"
+//	"$baseTexture" "models\player\slow/punkgirl/bhairc1"
+	"$translucent" 1
+	"$halflambert" 1
+}

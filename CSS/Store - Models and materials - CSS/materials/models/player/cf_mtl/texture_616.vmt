@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/cf_mtl/texture_616"
+	"$vertexalpha" "1"
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/gimli/slow_hair"
+	"$bumpmap"  "models/player/slow/amberlyn/lotr/gimli/slow_hair_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"10"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

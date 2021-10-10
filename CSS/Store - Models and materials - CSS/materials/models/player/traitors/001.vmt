@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\traitors\001"	
+
+	 "$bumpmap" "models/player/traitors\001_n"
+}

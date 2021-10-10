@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/cf_mtl/texture_72"
+               "$bumpmap" "models/player/cf_mtl/texture_72_normal"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/custom/donbas"
+	"$decal" 1
+	"$decalscale" 0.750
+	"$translucent" 1
+}

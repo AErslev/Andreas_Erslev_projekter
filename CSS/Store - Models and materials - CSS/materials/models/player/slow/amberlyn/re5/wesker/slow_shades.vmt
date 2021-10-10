@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/wesker/slow_shades"
+	"$bumpmap" "models/player/slow/amberlyn/re5/wesker/slow_shades_bump"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"25"
+	"$phongboost"		"15"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+
+
+}

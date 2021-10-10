@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/risen/titan/slow_head"
+	"$bumpmap" "models/player/slow/risen/titan/slow_head_bump"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"5"
+	"$phongboost"		"15"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

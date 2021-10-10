@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\props\slow\disco_sofa/slow_sofa"
+
+
+ 	"$phong" "1"
+	"$phongexponent" "175"
+	"$phongboost"	"0.45"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

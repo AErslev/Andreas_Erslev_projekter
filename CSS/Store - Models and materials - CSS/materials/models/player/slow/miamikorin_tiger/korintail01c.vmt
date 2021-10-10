@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player/slow/miamikorin_tiger/korintail01c"
+	"$halflambert" 1
+	"$model" 1
+
+//	"$selfillum" 1
+//	"$nodecal" "1"
+//	"$selfillum" 1
+//	"$normalmapalphaenvmapmask"
+//	"$bumpmap" "models\emilyprocter/bikini01n"
+}

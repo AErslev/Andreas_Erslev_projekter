@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/slow/me2/collector_drone/addons/slow_eyes_controlled_glow"
+
+	"$additive" 	1
+	"$model" 		1
+	"$nodecal"		1
+}

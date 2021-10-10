@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\sausage_man\sausage_face"
+	"$no_draw" "0" // Change "0" --> "1" to disable the eyes.
+}

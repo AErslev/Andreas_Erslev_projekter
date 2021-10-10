@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/gamearmy/vip8_ct/ct_gign_glass"
+	
+
+// Specularity
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" "models/player/gamearmy/vip8_ct/ct_gign_glass_spec"
+
+
+// Transparency
+	"$translucent" 1
+	"$nocull" 1
+
+	
+	
+}

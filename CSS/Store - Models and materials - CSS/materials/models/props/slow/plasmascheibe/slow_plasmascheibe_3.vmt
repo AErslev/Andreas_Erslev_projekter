@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/slow/plasmascheibe/slow_plasmascheibe_1"
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 1 1]"
+}

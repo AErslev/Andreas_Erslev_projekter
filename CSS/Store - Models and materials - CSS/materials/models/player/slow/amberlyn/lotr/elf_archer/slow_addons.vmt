@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/elf_archer/slow_addons"
+	"$bumpmap" "models/player/slow/amberlyn/lotr/elf_archer/slow_addons_bump"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\devil_jin\niz"
+"$bumpmap" 		"models\player\stenli\devil_jin\niz_n"
+	
+
+	"$phong" "1"
+	"$phongexponent" "4"	
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[.05 .25 1]"
+}
+
+
+
+

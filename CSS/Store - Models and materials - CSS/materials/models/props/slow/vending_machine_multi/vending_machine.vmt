@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\slow\vending_machine_multi\vending_machine"
+	"$bumpmap" "models\props\slow\vending_machine_multi\vending_machine_normal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\slow\vending_machine_multi\vending_machine_ref"
+
+}

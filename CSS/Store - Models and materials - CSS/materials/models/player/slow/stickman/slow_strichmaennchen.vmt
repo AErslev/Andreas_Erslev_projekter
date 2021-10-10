@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/stickman/slow_strichmaennchen"
+
+ 	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 1 1]"
+}

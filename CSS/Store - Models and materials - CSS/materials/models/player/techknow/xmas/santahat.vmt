@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/player/techknow/xmas/santahat"
+	"$bumpmap" "Models/player/techknow/xmas/santahat_n"
+	"$surfaceprop" "flesh" 
+	"$phong" "1"
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$nocull" 1
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/tomb_raider/slow_tomb_raider_2"
+	"$bumpmap" "models/player/slow/tomb_raider/slow_tomb_raider_bump"
+
+	"$phong" 				"1"
+	"$phongexponent"			"3"
+	"$phongboost"			"5"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+}

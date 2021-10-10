@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/majini_minigun/slow_minigun"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"3"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

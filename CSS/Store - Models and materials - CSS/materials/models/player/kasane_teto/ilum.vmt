@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$baseTexture"	"models\player\Kasane_Teto\ilum"
+
+	"$selfillum"	1
+	"$nocull"		1
+	"$model"		1
+}

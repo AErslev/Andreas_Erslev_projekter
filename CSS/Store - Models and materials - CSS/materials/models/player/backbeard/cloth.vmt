@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\player\Backbeard\cloth"
+	"$bumpmap"	"models\player\Backbeard\cloth_normal"
+
+	"$phong"			1
+	"$phongexponent"		5
+	"$phongboost"		0.3
+	"$phongfresnelranges"	"[0.4 1 5]"
+	"$lightwarptexture"		"models\player\Backbeard\lightwarp"
+
+	"$halflambert"	0
+	"$nocull"		1
+	"$model"		1
+}

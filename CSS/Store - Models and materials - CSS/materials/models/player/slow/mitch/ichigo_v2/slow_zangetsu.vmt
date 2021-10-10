@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\slow\mitch\ichigo_v2/slow_zangetsu"
+	"$bumpmap"	"models\player\slow\mitch\ichigo_v2\slow_zangetsu_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.2
+}

@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/knifelemon/black_whiteman/slow_ironman_eyes"
+
+	"$model" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.7 .7 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.9
+}

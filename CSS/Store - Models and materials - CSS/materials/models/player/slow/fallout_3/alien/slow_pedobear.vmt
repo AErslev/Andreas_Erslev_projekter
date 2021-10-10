@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/fallout_3/alien/slow_pedobear"
+
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/fallout_3/alien/slow_pedobear"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

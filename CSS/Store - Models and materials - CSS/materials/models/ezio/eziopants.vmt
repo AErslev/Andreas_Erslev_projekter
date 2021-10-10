@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\ezio/EzioPants"
+	"$bumpmap" "models\ezio/EzioPants_n"
+}

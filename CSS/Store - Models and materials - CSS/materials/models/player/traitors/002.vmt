@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\traitors\002"
+	 "$bumpmap" "models/player/traitors\002_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 
+// 	"$halflambert" "1"
+}

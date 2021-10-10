@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\bad_santa\santa_D"
+	"$bumpmap" "models\player\bad_santa/santa_D_n"
+        "$halflambert" 1
+}

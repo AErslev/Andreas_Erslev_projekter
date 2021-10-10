@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\traitors\pockets_r"
+  	"$bumpmap" "models\player/traitors\pockets_r_norm"
+}

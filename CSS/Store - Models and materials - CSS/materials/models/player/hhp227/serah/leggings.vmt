@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\hhp227\serah\shirtskirt_diffuse"
+	$bumpmap "models\player\hhp227\serah\shirtskirt_bump"
+	
+	$nocull	0
+	$halflambert 1
+	
+	$phong 1
+	$phongexponent 10
+	$phongboost .5
+	$phongfresnelranges "[0.15 0.5 .75]"
+	
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0
+}

@@ -1,0 +1,12 @@
+"Refract"
+{
+	"$model" 1
+ 	"$refractamount" "0"
+ 	"$bluramount" "0.5"
+	"$REFRACTTINT" "{255 255 255}"
+	"$REFRACTTINTtexture" "overlays/anonymous/anonym_2015_ctwin"
+	"$scale" "[1 1]"
+	"$additive" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

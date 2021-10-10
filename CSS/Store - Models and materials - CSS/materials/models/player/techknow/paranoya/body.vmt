@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/paranoya/body"
+	"$bumpmap" "models/player/techknow/paranoya/body_n"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponenttexture" "models/player/techknow/paranoya/body_n"
+	"$phongboost"	".65"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+}

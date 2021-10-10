@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/techknow/angry_emotion/angry_emotion"
+	"$bumpmap"     "models/player/techknow/angry_emotion/angry_emotion_n"
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+}

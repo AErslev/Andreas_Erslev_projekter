@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\techknow\miku\hilight"
+	"$translucent" 1
+	"$halflambert" 1
+}

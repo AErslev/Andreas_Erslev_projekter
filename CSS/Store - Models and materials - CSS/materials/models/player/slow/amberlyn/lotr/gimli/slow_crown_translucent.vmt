@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/gimli/slow_face"
+	"$bumpmap"  "models/player/slow/amberlyn/lotr/gimli/slow_face_bump"
+
+	"$alphatest" 1
+	"$nocull" 1
+
+}

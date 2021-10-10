@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player/slow/miamikorin_tiger/haircf"
+//	"$baseTexture" "Models/Mossman/mossman_hair"
+	"$translucent" 1
+	"$halflambert" 1
+	"$nodecal" 1
+}
+
+
+

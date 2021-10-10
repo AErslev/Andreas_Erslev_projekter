@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/reaper/slow_face"
+	"$bumpmap" "models/player/slow/reaper/slow_face_bump"
+
+	"$alphatest" 1
+	"$nocull" 1
+}

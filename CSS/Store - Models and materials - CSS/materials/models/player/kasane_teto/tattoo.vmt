@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$baseTexture"	"models\player\Kasane_Teto\Tattoo"
+
+	"$nodecal"	1
+	"$translucent"	1
+	"$model"		1
+}

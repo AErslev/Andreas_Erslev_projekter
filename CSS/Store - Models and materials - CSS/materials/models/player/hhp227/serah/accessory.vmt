@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\hhp227\serah\shirtskirt_diffuse"
+	$bumpmap "models\player\hhp227\serah\shirtskirt_bump"
+	
+	$nocull	0
+	$halflambert 0
+	
+	$phong 1
+	$phongexponent 10
+	$phongboost .5
+	$phongfresnelranges "[.15 .5 1.0]"
+}
+//This is used for Serah's bracelet and hair tie.
+//It is also used for the bows on the back of her dress.

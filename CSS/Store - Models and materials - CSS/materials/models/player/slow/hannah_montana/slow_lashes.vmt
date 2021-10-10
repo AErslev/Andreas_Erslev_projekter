@@ -1,0 +1,7 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/player/slow/hannah_montana/slow_lashes"
+
+	"$nocull" 1
+	"$translucent" 1
+}

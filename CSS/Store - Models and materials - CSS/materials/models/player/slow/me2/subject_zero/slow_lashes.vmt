@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/me2/subject_zero/slow_lashes"
+
+	"$translucent" 1
+	"$nocull" 1
+}

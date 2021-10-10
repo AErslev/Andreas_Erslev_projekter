@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\slow/punkgirl/glass_C"
+	
+
+// Specularity
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" "models\player\slow/punkgirl/glass_S"
+
+
+// Transparency
+	"$translucent" 1
+	
+	
+}

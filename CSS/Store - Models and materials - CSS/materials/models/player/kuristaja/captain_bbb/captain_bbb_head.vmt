@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\captain_bbb\captain_bbb_head"
+	"$bumpmap"     "models\player\kuristaja\captain_bbb\captain_bbb_normal"
+	"$lightwarptexture" "models\player\kuristaja\captain_bbb\captain_bbb_lightwarp"
+	"$halflambert" 1
+}

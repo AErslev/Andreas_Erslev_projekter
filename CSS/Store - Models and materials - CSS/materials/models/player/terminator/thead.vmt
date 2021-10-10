@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/terminator/THEAD" 
+	"$envmapmask" "Models/player\terminator/THEAD_n"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$surfaceprop" "flesh"
+}

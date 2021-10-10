@@ -1,0 +1,6 @@
+"Vertexlitgeneric"
+{
+	"$baseTexture" "models\player\ff13 2\c001_07"
+        "$model" "1"
+	"$translucent" 1
+}

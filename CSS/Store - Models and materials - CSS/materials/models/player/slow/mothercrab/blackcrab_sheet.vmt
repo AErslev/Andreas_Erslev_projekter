@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/slow/mothercrab/blackcrab_sheet"
+	"$bumpmap" "models/player/slow/mothercrab/blackcrab_sheet_normal"
+	"$selfillum" 1
+}

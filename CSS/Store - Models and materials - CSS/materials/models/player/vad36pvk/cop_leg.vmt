@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\vad36pvk/cop_leg"
+	"$bumpmap" "models\player\vad36pvk/cop_leg_n"
+	"$phong" "1"
+//	"$phongexponent" "7"
+//	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.1 0.2 6]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"										
+	"$rimlightexponent" ""							
+	"$rimlightboost" "0.1"
+}

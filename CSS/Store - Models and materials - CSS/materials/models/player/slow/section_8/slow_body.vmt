@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/section_8/slow_body"
+	"$bumpmap" "models/player/slow/section_8/slow_body_bump"
+
+	"$selfillum" 1
+//	"$selfillumtint" "[1 .65 .5]"
+
+	"$phong" 				"1"
+	"$phongexponent"			"5"
+	"$phongboost"			"45"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+}

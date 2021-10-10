@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/custom/scsp_logo_1"
+	"$decal" 1
+	"$decalscale" 0.250
+	"$translucent" 1
+}

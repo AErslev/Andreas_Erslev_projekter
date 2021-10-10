@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\stenli\devil_jin\ntxr061"
+
+	
+"$nocull"	1
+"$translucent" 1
+
+
+}
+
+
+
+

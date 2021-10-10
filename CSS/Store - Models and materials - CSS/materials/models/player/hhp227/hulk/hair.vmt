@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/hhp227/hulk/hair"
+	"$translucent" 1
+	"$halflambert" 1
+	"$nocull" 1 
+}

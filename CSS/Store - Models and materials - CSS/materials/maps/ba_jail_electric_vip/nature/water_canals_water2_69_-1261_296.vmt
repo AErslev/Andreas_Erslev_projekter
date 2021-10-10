@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/NATURE/WATER_CANALS_WATER2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c69_-1261_296"
+		"Proxies"
+		{
+		}
+	}
+}

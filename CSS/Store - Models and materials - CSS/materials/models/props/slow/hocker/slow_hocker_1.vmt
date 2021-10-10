@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/props/slow/hocker/slow_hocker_1"
+
+
+ 	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"0.45"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

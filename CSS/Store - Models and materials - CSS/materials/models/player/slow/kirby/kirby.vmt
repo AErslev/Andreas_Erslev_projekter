@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/kirby/kirby"
+	"$bumpmap"	"models/player/slow/kirby/bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost"	".4"
+	"$phongfresnelranges"	"[1 1 1]"
+}

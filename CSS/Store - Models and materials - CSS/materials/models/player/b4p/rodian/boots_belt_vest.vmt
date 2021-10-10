@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/b4p/rodian/boots_belt_vest"
+    "$model" 1
+}

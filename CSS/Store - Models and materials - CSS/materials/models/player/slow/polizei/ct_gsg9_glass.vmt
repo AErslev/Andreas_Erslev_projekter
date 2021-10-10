@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/slow/polizei/ct_gsg9_glass"
+	
+
+// Specularity
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" "models/player/slow/polizei/ct_gsg9_glass_spec"
+
+
+// Transparency
+	"$translucent" 1
+	"$nocull" 1
+
+	
+	
+}
+

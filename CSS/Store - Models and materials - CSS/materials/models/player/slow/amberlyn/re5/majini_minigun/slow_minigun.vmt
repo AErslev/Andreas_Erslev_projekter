@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/majini_minigun/slow_minigun"
+	"$bumpmap" "models/player/slow/amberlyn/re5/majini_minigun/slow_minigun_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.65 .65 .65]"
+	"$envmapcontrast" .85
+	"$envmapsaturation" .65
+}

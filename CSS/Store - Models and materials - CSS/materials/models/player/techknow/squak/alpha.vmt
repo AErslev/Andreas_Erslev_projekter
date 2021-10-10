@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+ 	"$basetexture" "models/player/techknow/squak/alpha"
+        "$nocull" 1
+        "$translucent" "1"
+}

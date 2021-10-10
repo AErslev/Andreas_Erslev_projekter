@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\hhp227\harry/texture06"
+	"$translucent" 1
+	"$halflambert" 1
+	"$nodecal" 1
+	"$nocull" 1 
+}

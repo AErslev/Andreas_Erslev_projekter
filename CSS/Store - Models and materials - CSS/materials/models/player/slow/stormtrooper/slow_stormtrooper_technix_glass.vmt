@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/stormtrooper/slow_stormtrooper_technix_glass"
+	"$bumpmap" "models/player/slow/stormtrooper/slow_stormtrooper_technix_glass_bump"
+	"$translucent" 1
+
+	"$envmap" "env_cubemap" 
+	"$envmaptint" "[.6 .6 0.8]" 
+	"$envmapcontrast" 0.3
+	"$envmapsaturation" .6
+	"$normalmapalphaenvmapmask" 1 
+}

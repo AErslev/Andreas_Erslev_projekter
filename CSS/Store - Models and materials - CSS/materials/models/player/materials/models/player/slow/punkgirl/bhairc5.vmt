@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\slow/punkgirl/bhairc1"
+	"$halflambert" 1
+	"$nodecal" 1
+}

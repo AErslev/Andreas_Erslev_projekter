@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/player/vip/sam_fisher/vip_sam_head"
+	"$bumpmap" "models/player/vip/sam_fisher/vip_sam_head_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "flesh"
+}

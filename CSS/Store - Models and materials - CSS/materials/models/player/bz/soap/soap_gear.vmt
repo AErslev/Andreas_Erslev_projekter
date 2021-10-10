@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/bz/soap/soap_gear"
+	"$bumpmap" "models/player/bz/soap/soap_gear_n"
+ 	"$phong" "1"
+	"$phongexponent" "4.8"
+	"$phongboost"	"1.05"
+	"$phongfresnelranges"	"[.15 .45 1]"
+}

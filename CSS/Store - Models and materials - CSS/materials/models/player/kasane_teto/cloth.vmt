@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\player\Kasane_Teto\cloth"
+	"$bumpmap"	"models\player\Kasane_Teto\cloth_normal"
+
+	"$phong"			1
+	"$phongexponent"		2
+	"$phongboost"		0.5
+	"$phongfresnelranges"	"[0.2 0.5 1]"
+	"$lightwarptexture"		"models\player\Kasane_Teto/lightwarp"
+
+	"$halflambert"	0
+	"$nocull"		1
+	"$model"		1
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/re5/dog/slow_dog_crap"
+	"$bumpmap" "models/player/slow/amberlyn/re5/dog/slow_dog_crap_bump"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"10"
+	"$phongboost"		"15"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/techknow/renamon/renamon"
+	"$bumpmap"	"models/player/techknow/renamon/renamon_n"
+
+        "$halflambert" 1
+        "$model" 1
+
+        "$phong" "1"
+        "$phongexponenttexture" "models/player/techknow/renamon/renamon_exp"
+        "$phongboost" "6"
+        "$phongfresnelranges" "[0.05 0.5 1]"
+}

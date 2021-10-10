@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/traitors/forearms"
+        "$bumpmap" "models/player/traitors/forearms_normal"
+}
+

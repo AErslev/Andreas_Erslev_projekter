@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\player\techknow\pirate-cap\captian_01"
+        //"$nocull" 1
+        "$bumpmap" "models\player\techknow\pirate-cap\captian_n"
+
+ 	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	".08"
+	"$phongfresnelranges"	"[1 1 1]"
+}

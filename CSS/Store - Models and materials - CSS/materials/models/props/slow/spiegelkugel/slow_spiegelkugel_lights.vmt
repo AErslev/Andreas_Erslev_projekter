@@ -1,0 +1,25 @@
+UnLitGeneric
+{
+	"$basetexture"	"models\props\slow\spiegelkugel\slow_spiegelkugel_lights"
+	"$translucent" 1
+	"$model" 1
+	"$nocull" "1"
+
+	"$envmap" "models\props\slow\spiegelkugel\slow_spiegelkugel_effect_spec"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 5
+
+	"$envmaptransform" "center 1 1 scale 2 2 rotate 0 translate 0 0"
+
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" 		"$basetexture"
+	 "animatedtextureframenumvar" 	"$frame"
+         "animatedtextureframerate" 	"5.00"
+     	}
+	}
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\hhp227\serah\dress_diffuse"
+	$bumpmap "models\player\hhp227\serah\dress_bump"
+	
+	$translucent 1
+	$alphatest 1
+	$nocull	1
+	$halflambert 1
+	
+	$phong 1
+	$phongexponent 5
+	$phongboost .5
+	$phongfresnelranges "[0.15 0.5 1.0]"
+}
+//This is the left side of Serah's outer dress. 
+//It includes the left half of the frills on her skirt.

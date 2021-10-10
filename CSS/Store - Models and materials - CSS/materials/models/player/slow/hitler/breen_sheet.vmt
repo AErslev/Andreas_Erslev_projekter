@@ -1,0 +1,6 @@
+// envmaptint_fix
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/slow/hitler/breen_sheet"
+        "$bumpmap" "models/player/slow/hitler/breen_sheet_normal"
+}

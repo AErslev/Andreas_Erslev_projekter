@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\glados_potato\potatos_vmodel"
+
+	"$model" 1
+	"$additive" 1
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	"3"
+			"sinemin"		".2"
+			"sinemax"	"1"
+		}
+	}
+
+}

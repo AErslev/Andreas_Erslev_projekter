@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/gandalf/slow_face"
+	"$bumpmap"  "models/player/slow/amberlyn/lotr/gandalf/slow_face_bump"
+
+	"$translucent" 1
+}

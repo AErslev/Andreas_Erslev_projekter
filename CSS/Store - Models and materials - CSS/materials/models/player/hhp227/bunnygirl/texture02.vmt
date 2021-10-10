@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$baseTexture" "models\player\hhp227\bunnygirl/texture02"
+        "$bumpmap" "models\player\hhp227\bunnygirl/normal_texture02"
+	"$envmap" "models/player/hhp227/bunnygirl/soria-env"
+	"$envmapcontrast" 1.1
+	"$envmapsaturation" 0
+}

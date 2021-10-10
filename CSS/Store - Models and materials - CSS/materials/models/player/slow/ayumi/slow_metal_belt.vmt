@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/ayumi/slow_body"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/ayumi/slow_spec_mask"
+	"$envmaptint" "[.75 .75 .9]" 
+	"$envmapcontrast" .5
+	"$envmapsaturation" .55
+}

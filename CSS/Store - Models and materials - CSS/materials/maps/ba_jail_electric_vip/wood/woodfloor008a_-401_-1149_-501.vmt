@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WOOD/WOODFLOOR008A.vmt"
+	"replace"
+	{
+		"LightmappedGeneric_DX9"
+		{
+			"$envmap"		"maps/ba_jail_electric_vip/c-401_-1149_-501"
+		}
+	}
+}

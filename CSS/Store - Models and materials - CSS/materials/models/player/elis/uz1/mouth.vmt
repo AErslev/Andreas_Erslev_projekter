@@ -1,0 +1,7 @@
+"Teeth"
+{
+	"$basetexture" "models/player/elis/uz1/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

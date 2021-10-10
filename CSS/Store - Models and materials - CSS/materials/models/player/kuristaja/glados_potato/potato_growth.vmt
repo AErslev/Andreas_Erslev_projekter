@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\kuristaja\glados_potato\potato_growth"
+	"$bumpmap" 	"models\player\kuristaja\glados_potato\potato_growth_normal"
+	"$detail"	"models\player\kuristaja\glados_potato\detail3"
+	"$detailscale" 	"30"
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/hannah_montana/slow_face"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/hannah_montana/slow_face"
+	"$envmaptint" "[.9 1 .95]" 
+	"$envmapcontrast" .65
+	"$envmapsaturation" 1
+
+}

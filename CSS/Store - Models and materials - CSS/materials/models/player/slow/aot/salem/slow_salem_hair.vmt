@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/aot/salem/slow_salem_hair"
+	"$bumpmap" "models/player/slow/aot/salem/slow_salem_hair_bump"
+
+	"$translucent" 1
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.35 .35 .35]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" .65
+}

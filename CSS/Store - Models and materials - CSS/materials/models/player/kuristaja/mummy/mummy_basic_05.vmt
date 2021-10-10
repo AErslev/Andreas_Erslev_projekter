@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\player\kuristaja\mummy\mummy_basic_05"
+        	"$bumpmap" "models\player\kuristaja\mummy\mummy_basic_05_normal"
+       	"$selfillum" 1
+}

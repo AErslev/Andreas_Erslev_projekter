@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/slow/stormtrooper/helmet"
+	"$bumpmap"	"models/player/slow/stormtrooper/helmet_bump"
+
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/Traitors/pockets"
+        "$bumpmap" "models/player/Traitors/pockets_norm"
+}
+

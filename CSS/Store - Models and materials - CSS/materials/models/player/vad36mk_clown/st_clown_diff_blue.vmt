@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\vad36mk_clown/ST_Clown_Diff_blue"
+
+
+	"$bumpmap" "models\player\vad36mk_clown/body_bump"
+        "$model" 1
+	"$nodecal" 1
+	"$halflambert" 1
+	"$phong" "1"
+
+	"$phongexponenttexture" "models\player\vad36mk_clown/body_bump"
+
+$phongboost 1
+
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.5 .85 30]"
+}

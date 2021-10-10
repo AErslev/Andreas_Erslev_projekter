@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+"$BaseTexture" "models/pil/zoeys/original_v2/green_iris" 
+"$Iris" "models/pil/zoeys/original_v2/green_iris" 
+
+
+//$CorneaTexture "Engine/eye-cornea" 
+$halflambert 1
+$nodecal 1
+
+
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\slow\vending_machine_multi_sf\vending_machine"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\slow\vending_machine_multi_sf\vending_machine_ref"
+
+}

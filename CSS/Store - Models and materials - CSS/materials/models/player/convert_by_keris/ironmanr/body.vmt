@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/player/convert_by_keris/ironmanR/body"
+	"$bumpmap" "Models/player/convert_by_keris/ironmanR/body_n"
+	"$halflambert" 1
+	"$surfaceprop" "metal_barrel" 
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongalbedotint" "1"
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$nocull" 1
+}

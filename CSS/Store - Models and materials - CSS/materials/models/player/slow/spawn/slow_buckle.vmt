@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/spawn/slow_buckle"
+
+ 	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"15"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

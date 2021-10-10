@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\BanePack\banemask10"
+  	"$bumpmap" "models\player/BanePack\banemask10_normal"
+}

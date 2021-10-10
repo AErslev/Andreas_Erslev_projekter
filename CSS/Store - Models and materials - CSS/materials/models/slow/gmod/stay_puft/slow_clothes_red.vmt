@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/slow/gmod/stay_puft/slow_body"
+	"$bumpmap" "models/slow/gmod/stay_puft/slow_body_bump"
+
+ 	"$phong" "1"
+	"$phongtint" "[1 0 0]" 
+	"$phongexponent" "2"
+	"$phongboost"	".65"
+	"$phongfresnelranges"	"[.1 .25 .4]"
+
+}

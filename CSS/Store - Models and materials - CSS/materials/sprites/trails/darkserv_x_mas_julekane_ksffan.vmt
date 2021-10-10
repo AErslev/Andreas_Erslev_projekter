@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/trails/darkserv_x_mas_julekane_ksffan"
+	
+	"$additive" 0
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

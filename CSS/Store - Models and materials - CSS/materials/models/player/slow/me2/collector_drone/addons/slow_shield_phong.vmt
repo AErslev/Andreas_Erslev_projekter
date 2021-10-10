@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture"			"models/player/slow/me2/collector_drone/slow_shader"
+	"$bumpmap"				"models/player/slow/me2/collector_drone/addons/slow_shield_phong_bump"
+
+
+	"$additive"				"1"
+
+
+	"$phong" 			"1"
+	"$phongexponent" 		"1"
+	"$phongboost"		"2"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+}

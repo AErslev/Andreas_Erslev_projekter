@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/slow/gmod/stay_puft/slow_body"
+	"$bumpmap" "models/slow/gmod/stay_puft/slow_body_bump"
+}

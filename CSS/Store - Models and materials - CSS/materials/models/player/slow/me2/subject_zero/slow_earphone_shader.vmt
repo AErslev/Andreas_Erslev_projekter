@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/me2/subject_zero/slow_shader"
+	"$bumpmap" "models/player/slow/me2/subject_zero/slow_head_bump"
+
+	"$additive" 1
+
+	"$envmap" 				"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint" 			"[.7 .6 .4]" 
+	"$envmapcontrast" 		.85
+	"$envmapsaturation" 		.9
+}
+

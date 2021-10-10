@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/sauron/slow_helmet"
+	"$bumpmap" "models/player/slow/amberlyn/lotr/sauron/slow_helmet_bump"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"20"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

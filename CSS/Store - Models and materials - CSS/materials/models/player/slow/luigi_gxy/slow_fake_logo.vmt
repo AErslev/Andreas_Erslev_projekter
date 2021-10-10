@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"effects\black"
+	"$additive" 1
+}

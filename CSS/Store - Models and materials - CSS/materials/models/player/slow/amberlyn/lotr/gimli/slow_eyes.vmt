@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/gimli/slow_face"
+	"$bumpmap"  "models/player/slow/amberlyn/lotr/gimli/slow_face_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" .45
+	"$envmapsaturation" 0.75
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/slow/jamis/wolverine_origins/slow_clothing"
+	"$bumpmap"		"models/player/slow/jamis/wolverine_origins/slow_clothing_bump"
+
+ 	"$phong" 			"1"
+//	"$phongexponent"		"7"
+	"$phongexponenttexture"	"models/player/slow/jamis/wolverine_origins/slow_clothing_exp"
+	"$phongalbedotint"	"1"
+	"$phongboost"		"50"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+
+	"$rimlight" 		"1"
+//	"$rimmask"			"1"
+	"$rimlightexponent" 	"5"	
+	"$rimlightboost" 		".5"
+
+
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player/slow/miamikorin_tiger/haircb"
+	"$halflambert" 1
+	"$nodecal" 1
+}
+
+
+

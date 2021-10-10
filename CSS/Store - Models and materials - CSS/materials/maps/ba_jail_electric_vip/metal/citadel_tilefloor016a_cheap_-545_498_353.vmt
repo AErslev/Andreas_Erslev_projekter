@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/CITADEL_TILEFLOOR016A_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c-545_498_353"
+	}
+}

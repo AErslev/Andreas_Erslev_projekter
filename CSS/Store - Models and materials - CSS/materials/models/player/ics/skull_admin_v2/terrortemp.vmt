@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+      "$baseTexture" "models/player/ics/skull_admin_v2/terrortemp"
+      "$bumpmap" "models/player/ics/skull_admin_v2/terrortemp_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1 	
+      "$nodecal" 0
+
+}

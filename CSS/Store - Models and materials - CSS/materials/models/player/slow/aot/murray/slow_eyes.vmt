@@ -1,0 +1,10 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/player/slow/aot/murray/slow_skin"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/aot/murray/slow_skin"
+	"$envmaptint" "[.8 .8 .8]" 
+	"$envmapcontrast" .5
+	"$envmapsaturation" 1
+}

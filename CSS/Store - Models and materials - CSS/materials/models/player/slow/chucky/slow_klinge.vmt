@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/chucky/slow_klinge"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 0.12
+}

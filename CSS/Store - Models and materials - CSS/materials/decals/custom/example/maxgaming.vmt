@@ -1,0 +1,6 @@
+"lightmappedgeneric" {
+    "$basetexture" "decals\custom\example\maxgaming"
+    "$decal" 1
+    "$decalscale" 0.095
+    "$translucent" 1
+}

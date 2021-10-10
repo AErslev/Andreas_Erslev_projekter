@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\wcfan\santahat\santahat"
+	"$model" 1
+	"$envmapmode" 1
+	"$translucent" 1
+	"$nocull" 1
+}

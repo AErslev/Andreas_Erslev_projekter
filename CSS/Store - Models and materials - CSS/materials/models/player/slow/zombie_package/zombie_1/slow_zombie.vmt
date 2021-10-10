@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/zombie_package/zombie_1/slow_zombie"
+	"$bumpmap" "models/player/slow/zombie_package/zombie_1/slow_zombie_bump"
+
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[.15 .45 1]"
+}

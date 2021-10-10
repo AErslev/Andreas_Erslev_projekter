@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\slow/punkgirl/rucksackb_c"
+//	"$bumpmap" "models\player\slow/punkgirl/rucksackb_n"
+//	"$selfillum" 1
+}

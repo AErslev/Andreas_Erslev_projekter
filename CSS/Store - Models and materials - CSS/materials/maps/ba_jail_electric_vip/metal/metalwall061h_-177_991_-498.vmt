@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALWALL061H.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c-177_991_-498"
+	}
+}

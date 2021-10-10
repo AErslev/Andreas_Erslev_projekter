@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+    	"$baseTexture" "models/player/slow/b4p_c3po_remake/c3po_face"
+        "$bumpmap" "models/player/slow/b4p_c3po_remake/slow_bump2"
+	"$halflambert" 1
+	"$surfaceprop" "metal_barrel" 
+
+	"$envmap" "models/player/slow/b4p_c3po_remake/slow_specmap" 
+	"$envmaptint" "[.7 .7 0.5]" 
+	"$envmapcontrast" 0.08
+	"$envmapsaturation" 1
+	"$normalmapalphaenvmapmask" 1 
+}

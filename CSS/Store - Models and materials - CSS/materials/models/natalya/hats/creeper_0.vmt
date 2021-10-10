@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\natalya\hats\creeper_0"
+	"$nocull"	"1"
+}

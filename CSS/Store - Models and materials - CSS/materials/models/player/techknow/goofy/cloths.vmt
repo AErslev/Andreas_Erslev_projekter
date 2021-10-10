@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/techknow/goofy/goofy"
+	"$bumpmap" "models/player/techknow/goofy/goofy_n"
+	"$halflambert" 1
+}

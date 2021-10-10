@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/elf_archer/slow_addons"
+	"$bumpmap" "models/player/slow/amberlyn/lotr/elf_archer/slow_addons_bump"
+
+	"$nocull" 1
+	"$alphatest" 1
+}

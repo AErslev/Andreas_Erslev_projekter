@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/b4p_c3po_remake/slow_augen"
+	"$halflambert" 1
+	"$selfillum" 1
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+	 "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 2.50
+     	}
+}
+

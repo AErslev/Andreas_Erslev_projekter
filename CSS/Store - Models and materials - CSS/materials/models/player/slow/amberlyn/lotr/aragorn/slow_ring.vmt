@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/aragorn/slow_face"
+	"$bumpmap"	"models/player/slow/amberlyn/lotr/aragorn/slow_face_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"55"
+	"$phongfresnelranges"	"[.15 .5 1]"
+
+}

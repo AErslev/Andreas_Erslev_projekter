@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+   "$basetexture"   "models\player\sam\light"
+	"$model"	"1"
+	"$translucent"	"1"
+	"$alphatest"	"1"
+	"$selfillum"	"1"	
+} 

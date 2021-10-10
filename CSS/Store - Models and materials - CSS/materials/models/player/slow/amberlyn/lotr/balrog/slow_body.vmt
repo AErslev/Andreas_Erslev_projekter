@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/amberlyn/lotr/balrog/slow_body"
+	"$bumpmap" "models/player/slow/amberlyn/lotr/balrog/slow_body_bump"
+
+	"$selfillum" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "6"
+	"$phongboost"	"10"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

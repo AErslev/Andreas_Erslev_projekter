@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/reaper/slow_face"
+	"$bumpmap" "models/player/slow/reaper/slow_face_bump"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.7 .7 .7]" 
+	"$envmapcontrast" .75
+	"$envmapsaturation" 1
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/slow/chainsaw_xtreme/part1"
+	"$bumpmap" "models/player/slow/chainsaw_xtreme/slow_chainsaw_bump"
+	"$nocull" 1
+	"$halflambert" 1
+
+	"$envmap" "models/player/slow/chainsaw_xtreme/slow_specmap" 
+	"$envmaptint" "[1 1 0.7]" 
+	"$envmapcontrast" 0.1
+	"$envmapsaturation" 1
+	"$normalmapalphaenvmapmask" 1 
+}

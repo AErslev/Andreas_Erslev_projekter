@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\player\techknow\clownprince\clownprince"
+	"$bumpmap" "models\player\techknow\clownprince\clownprince_n"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "flesh"
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "0"
+	"$phongexponenttexture" "models/$phong/$phong_sheet"
+	"$phongboost"	"9"
+	"$phongfresnelranges"	"[0.04 0.4 1]"
+
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/OFFGARAGEDR.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/ba_jail_electric_vip/c-79_-488_296"
+	}
+}

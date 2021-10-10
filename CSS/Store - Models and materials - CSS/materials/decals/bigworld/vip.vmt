@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+  {
+  "$basetexture" "decals\bigworld\vip"
+  "$decal" 1
+  "$decalscale" 0.34
+  "$translucent" 1
+  }

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+$baseTexture "models/pil/zoeys/original_v2/zoey_hair"
+$translucent 1
+$nocull 1
+}

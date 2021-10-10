@@ -1,0 +1,13 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/player/slow/hannah_montana/slow_dress"
+
+	"$translucent" 1
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/slow/hannah_montana/slow_dress"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" .8
+	"$envmapsaturation" 1.25
+
+}

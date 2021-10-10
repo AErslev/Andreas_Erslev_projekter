@@ -1,0 +1,22 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player/slow/miamikorin_tiger/bikini02c"
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+	 "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 15.00
+     	}
+	}
+}
+	"$bumpmap" "models\player/slow/miamikorin_tiger/bikini01n"
+//	"$bumpmap" "Models/headcrab_classic/headcrabsheet_normal"
+	"$normalmapalphaenvmapmask"
+//	"$envmap" "env_cubemap"
+//	"$envmapcontrast" 0
+	"$selfillum" 1
+	"$model" 1
+}

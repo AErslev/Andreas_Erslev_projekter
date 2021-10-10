@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/player/b4p/imperial/mouth_eyes"
+    "$model" 1
+}
