@@ -1,0 +1,41 @@
+.application select {
+   background: transparent;
+   background: url(http://www.boba.com/store/skin/frontend/default/bobafamily/assets/images/icons/dropdown-arrow.png) no-repeat right ;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 1;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+.application {
+  border-style: solid;
+  border-width: 1 px;
+  border-color: #cccccc;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  }   
+
+.background {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #ccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  background-image: url('http://cdn.desktopwallpapers4.me/wallpapers/abstract/1920x1080/2/10435-colorful-cross-pattern-1920x1080-abstract-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.space {
+  padding-bottom: 70px;
+}
