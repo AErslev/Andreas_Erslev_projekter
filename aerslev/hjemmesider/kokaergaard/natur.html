@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page Title -->
+    <title>Naturen</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
+	<link rel="stylesheet" href="assets/css/topknap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+	<!-- Stylesheets -->
+
+	<link href="galleri/common-css/bootstrap.css" rel="stylesheet">
+
+	<link href="galleri/common-css/ionicons.css" rel="stylesheet">
+
+	<link href="galleri/common-css/fluidbox.min.css" rel="stylesheet">
+
+	<link href="galleri/01-cv-portfolio/css/styles.css" rel="stylesheet">
+
+	<link href="galleri/01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Preloader Starts -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+	<a id="button"></a>
+    <!-- Preloader End -->
+
+   <!-- Header Area Starts -->
+	<header class="header-area header-area2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/images/logo2.png" alt="logo" style="width: 150px"></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="custom-navbar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="main-menu main-menu2">
+                        <ul>
+                            <li class="active"><a href="index.html">Forside</a></li>
+                            <li><a href="omos.html">om os</a></li>
+							<li><a href="gaardsbutik.html">gårdbutikken</a></li>
+                            <li><a href="dyr.html">dyrene</a></li>
+                            <li><a href="natur.html">frugtplantagen</a></li>
+							<li><a href="#">aviser</a>
+								<ul class="sub-menu">
+                                    <li><a href="https://www.ugeavisen-kolding.dk/kolding/Sygdom-blev-begyndelsen-paa-et-nyt-eventyr/artikel/340379">ugeavisen-kolding</a></li>
+                                    <li><a href="nyheder.html">aktuelt</a></li>
+									<li><a href="nyheder.html">links</a></li>
+									<li><a href="avis.html">avis</a></li>
+                                </ul>
+							</li>
+							<li><a href="#">Mere</a>
+								<ul class="sub-menu">
+                                    <li><a href="galleri.html">galleri</a></li>
+                                    <li><a href="nyheder.html">aktuelt</a></li>
+									<li><a href="nyheder.html">links</a></li>
+                                </ul>
+							</li>
+							<li>------------------------------</li>
+							<li><a href="kontakt.html">kontakt os</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Banner Area Starts -->
+    <section class="banner-area banner-area2 contact-bg text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><i>Naturen på Kokærgård</i></h1>
+                    <p class="pt-2"><i>Se den skønne natur på Kokærgård</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Area End -->
+
+	<section class="portfolio-section">
+		<div class="container">
+			<div class="portfolioFilter clearfix">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Hils på naturen</h3>
+						<h6 class="font-lite-black">Klik på enten skoven, frugtplangen <br> eller brændesalg og rul ned<br> for at læse mere</h6>
+					</div>
+					<div class="col-md-4">
+						<a href="#"  onclick="$('#gemttekst1').show(); return false;" data-filter=".skoven">SKOVEN
+						<img src="assets/images/kylling2.jpg" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="#"  onclick="$('#gemttekst2').show(); return false;"  data-filter=".frugtplangen">FRUGTPLANTAGEN
+						<img src="assets/images/kanin2.jpg" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="#"  onclick="$('#gemttekst3').show(); return false;"  data-filter=".brændesalg">BRÆNDESALG
+						<img src="assets/images/kylling2.jpg" class="img-fluid" alt=""></a>
+					</div>
+				</div>
+			</div><!-- portfolioFilter -->
+		</div><!-- container -->
+	</section>
+
+	<!-- kaniner -->
+	<section class="portfolio-section section">
+		<div class="portfolioContainer">
+			<!-- skoven -->
+			<div class="skoven" style="display: none;" id="gemttekst1">
+				<!-- kokærgårds historie -->
+				<section class="welcome-area">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kylling2.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-text mt-5 mt-md-0">
+									<h3><span class="style-change">Kokærgårds</span> historie</h3>
+									<p>I det lille område, Kokær, sydvest for Christiansfeld, ligger Kokærgård (Kokjærgaard), som oprindeligt var en firlænget gård. </p>
+									<p>Gårdens ejere har gennem tiden favnet bredt – lige fra herremænd til særlige. </p>
+									<p>Den første slægt, der kendes, var Dinesenslægten fra 1600-tallet, men gården menes at være endnu ældre. Dinesenslægten regnedes for herremænd, da de havde begravelsesplads inde i kirken.</p>
+									<p>Efter de dårlige økonomiske tider fra 1813 blev der solgt jord fra den store gård, og i 1822 købte fodermester, Hans Peter Petersen, gården på tvangsauktion. ”Hans Peter” var især kendt for sin nærighed. Stalddrengen blev bl.a. sat til at smøre vognhjulene med snegle for at spare fedt. Hans Peter var ligeledes kendt for altid at gå med høj hat og stok samt bruge møgvognen til både arbejds- og stadskørsel. </p>
+									<p>Datteren, Cathrine Marie Petersen, ombyggede gården i 1884 efter inspiration fra godset, Gisselfeld, så gårdens stuehus fremstod herskabeligt med takkede gavle. </p>
+									<p>Gården sælges i 1891 til Kr. Jensen, hvorefter svigersønnen, Joh. Schultz, i 1911 købte gården, inden Skjalm Winther, som var gift med Eva, i 1929 købte gården. </p>
+									<p>Efterfølgende flyttede datteren, Birgit, og hendes mand, Hans Nymand, ind på malkekvægsejendommen. De driver de 90 ha agerjord samt almindeligt skovbrug i den tilhørende skov. </p>
+									<p>Sønnen, Claus Nymand, overtog gården, men solgte den senere til jordfordeling. Herefter var der 11,50 ha agerjord og 18,50 ha blandet løvskov til gården. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="food-area section-padding">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="section-top">
+									<h3><span class="style-change">Vores</span> <br>vision</h3>
+									<p class="pt-3">tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst  tekst tekst tekst  tekst tekst tekst  tekst </p>
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kkgamle.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- skoven -->
+			<!-- frugtplangen -->
+			<div class="frugtplangen" style="display: none;" id="gemttekst2">
+				<!-- kokærgårds historie -->
+				<section class="welcome-area">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kanin2.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-text mt-5 mt-md-0">
+									<h3><span class="style-change">Kokærgårds</span> historie</h3>
+									<p>I det lille område, Kokær, sydvest for Christiansfeld, ligger Kokærgård (Kokjærgaard), som oprindeligt var en firlænget gård. </p>
+									<p>Gårdens ejere har gennem tiden favnet bredt – lige fra herremænd til særlige. </p>
+									<p>Den første slægt, der kendes, var Dinesenslægten fra 1600-tallet, men gården menes at være endnu ældre. Dinesenslægten regnedes for herremænd, da de havde begravelsesplads inde i kirken.</p>
+									<p>Efter de dårlige økonomiske tider fra 1813 blev der solgt jord fra den store gård, og i 1822 købte fodermester, Hans Peter Petersen, gården på tvangsauktion. ”Hans Peter” var især kendt for sin nærighed. Stalddrengen blev bl.a. sat til at smøre vognhjulene med snegle for at spare fedt. Hans Peter var ligeledes kendt for altid at gå med høj hat og stok samt bruge møgvognen til både arbejds- og stadskørsel. </p>
+									<p>Datteren, Cathrine Marie Petersen, ombyggede gården i 1884 efter inspiration fra godset, Gisselfeld, så gårdens stuehus fremstod herskabeligt med takkede gavle. </p>
+									<p>Gården sælges i 1891 til Kr. Jensen, hvorefter svigersønnen, Joh. Schultz, i 1911 købte gården, inden Skjalm Winther, som var gift med Eva, i 1929 købte gården. </p>
+									<p>Efterfølgende flyttede datteren, Birgit, og hendes mand, Hans Nymand, ind på malkekvægsejendommen. De driver de 90 ha agerjord samt almindeligt skovbrug i den tilhørende skov. </p>
+									<p>Sønnen, Claus Nymand, overtog gården, men solgte den senere til jordfordeling. Herefter var der 11,50 ha agerjord og 18,50 ha blandet løvskov til gården. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- kokærgårds historie -->
+
+				<!-- vision -->
+				<section class="food-area section-padding">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="section-top">
+									<h3><span class="style-change">Vores</span> <br>vision</h3>
+									<p class="pt-3">tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst  tekst tekst tekst  tekst tekst tekst  tekst </p>
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kkgamle.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- vision -->
+			</div>
+			<!-- frugtplangen -->
+			<!-- brændesalg -->
+			<div class="brændesalg" style="display: none;" id="gemttekst3">
+				<!-- kokærgårds historie -->
+				<section class="welcome-area">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kanin2.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-text mt-5 mt-md-0">
+									<h3><span class="style-change">Kokærgårds</span> historie</h3>
+									<p>I det lille område, Kokær, sydvest for Christiansfeld, ligger Kokærgård (Kokjærgaard), som oprindeligt var en firlænget gård. </p>
+									<p>Gårdens ejere har gennem tiden favnet bredt – lige fra herremænd til særlige. </p>
+									<p>Den første slægt, der kendes, var Dinesenslægten fra 1600-tallet, men gården menes at være endnu ældre. Dinesenslægten regnedes for herremænd, da de havde begravelsesplads inde i kirken.</p>
+									<p>Efter de dårlige økonomiske tider fra 1813 blev der solgt jord fra den store gård, og i 1822 købte fodermester, Hans Peter Petersen, gården på tvangsauktion. ”Hans Peter” var især kendt for sin nærighed. Stalddrengen blev bl.a. sat til at smøre vognhjulene med snegle for at spare fedt. Hans Peter var ligeledes kendt for altid at gå med høj hat og stok samt bruge møgvognen til både arbejds- og stadskørsel. </p>
+									<p>Datteren, Cathrine Marie Petersen, ombyggede gården i 1884 efter inspiration fra godset, Gisselfeld, så gårdens stuehus fremstod herskabeligt med takkede gavle. </p>
+									<p>Gården sælges i 1891 til Kr. Jensen, hvorefter svigersønnen, Joh. Schultz, i 1911 købte gården, inden Skjalm Winther, som var gift med Eva, i 1929 købte gården. </p>
+									<p>Efterfølgende flyttede datteren, Birgit, og hendes mand, Hans Nymand, ind på malkekvægsejendommen. De driver de 90 ha agerjord samt almindeligt skovbrug i den tilhørende skov. </p>
+									<p>Sønnen, Claus Nymand, overtog gården, men solgte den senere til jordfordeling. Herefter var der 11,50 ha agerjord og 18,50 ha blandet løvskov til gården. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- kokærgårds historie -->
+
+				<!-- vision -->
+				<section class="food-area section-padding">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="section-top">
+									<h3><span class="style-change">Vores</span> <br>vision</h3>
+									<p class="pt-3">tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst  tekst tekst tekst  tekst tekst tekst  tekst </p>
+								</div>
+							</div>
+							<div class="col-md-6 align-self-center">
+								<div class="welcome-img">
+									<img src="assets/images/kkgamle.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- vision -->
+			</div>
+			<!-- brændesalg -->
+		</div><!-- portfolioContainer -->
+	</section><!-- portfolio-section -->
+
+    <!-- Footer Area Starts -->
+    <footer class="footer-area">
+        <div class="footer-widget section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-widget single-widget2 my-5 my-md-0">
+                            <h5 class="mb-4">Kontakt os</h5>
+                            <div class="d-flex">
+                                <div class="into-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+								<br>
+                                <div class="info-text">
+                                    <p>Kokærvej 90, 6070 Christiansfeld <br>Kokærgård v/ Jørn Nissen</p>
+                                </div>
+                            </div>
+							<br>
+                            <div class="d-flex">
+                                <div class="into-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="info-text">
+                                    <p>(+45)27624632</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-widget single-widget2 my-5 my-md-0">
+                            <h5 class="mb-4">-------</h5>
+                            <div class="d-flex">
+                                <div class="into-icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                <div class="info-text">
+                                    <p>kokærgård@kokærgåd.dk <br>Jornnissen59@gmail.com</p>
+                                </div>
+                            </div>
+							<br>
+							<div class="d-flex">
+                                <div class="into-icon">
+                                    <i class="fa fa-book"></i>
+                                </div>
+                                <div class="info-text">
+                                    <a href="https://www.adgangforalle.dk/" target="_blank">Læs højt - klik her</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-widget single-widget3">
+                            <h5 class="mb-4">åbningstider</h5>
+                            <p>Monday ...................... Closed</p>
+                            <p>Tue-Fri .............. 10 am - 12 pm</p>
+                            <p>Sat-Sun ............... 8 am - 11 pm</p>
+                            <p>Holidays ............. 10 am - 12 pm</p>
+                        </div>
+                    </div>
+					 <div class="col-md-6">
+                        <div class="single-widget single-widget3">
+							<center>
+								<h5 class="mb-4">Betalingsmetoder:<img src="assets/images/footer/mobilepay.png" alt="logo" style="width: 150px"><img src="assets/images/footer/danske-kroner.png" alt="logo" style="width: 125px"></a></h5>
+							</center>
+						</div>
+                    </div>
+					<div class="col-md-6">
+                        <div class="single-widget single-widget3">
+							<center>
+								<h5 class="mb-4">Følg os:<a href="https://www.facebook.com/kokaergaard/?__tn__=%2Cd%2CP-R&eid=ARBF9RjVwDLuHWv8KpN4mWmrij1F1w_38qGXFWonTGPohpzvyyBI6j0EGKHi1BspxFzbIytf_wN1-yKG"><img src="assets/images/footer/facebook.png" alt="logo" style="width: 175px"><img src="assets/images/footer/instagram.png" alt="logo" style="width: 100px"></a></h5>
+							</center>
+						</div>
+                    </div>
+					<div class="col-md-4">
+                        <div class="single-widget single-widget1">
+							<div class="logo-area">
+								<div class="p-item p-item-2 kyllinger">
+									<a class="img" href="assets/images/footer/Logo_EU_FVM_LDP_vandret.jpg" data-fluidbox>
+										<img src="assets/images/footer/Logo_EU_FVM_LDP_vandret.jpg" alt="logo" style="width: 175px"> - </a>
+									<a class="img" href="assets/images/footer/Logo_EU_FVM_LDP_vandret.jpg" data-fluidbox>
+										<img src="assets/images/footer/zoomgray.png" alt="logo" style="width: 50px"></a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-widget single-widget1">
+							<div class="logo-area">
+								<div class="logo-area">
+									<a href="https://okologi.dk/">
+										<img src="assets/images/footer/oekologi.png" alt="logo" style="width: 175px"><p></p>
+									</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-widget single-widget1">
+							<div class="logo-area">
+								<img src="assets/images/footer/kontrolrapport.png" alt="logo" style="width: 175px">
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6">
+                        <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="social-icons">
+                            <ul>
+                                <li class="no-margin">Follow Us</li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+
+    <!-- Javascript -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <script src="assets/js/vendor/owl-carousel.min.js"></script>
+    <script src="assets/js/vendor/jquery.datetimepicker.full.min.js"></script>
+    <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I"></script>
+    <script src="assets/js/vendor/gmaps.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/topknap.js"></script>
+
+	<script src="galleri/common-js/jquery-3.2.1.min.js"></script>
+
+	<script src="galleri/common-js/tether.min.js"></script>
+
+	<script src="galleri/common-js/bootstrap.js"></script>
+
+	<script src="galleri/common-js/isotope.pkgd.min.js"></script>
+
+	<script src="galleri/common-js/jquery.waypoints.min.js"></script>
+
+	<script src="galleri/common-js/progressbar.min.js"></script>
+
+	<script src="galleri/common-js/jquery.fluidbox.min.js"></script>
+
+	<script src="galleri/common-js/scripts.js"></script>
+
+	<script>
+	$(document).ready(
+		function(){
+			$("#aktiver").click(toggle);
+		}
+	);
+
+	function toggle() {
+	$("#text").toggle();
+	}
+
+	toggle();
+	</script>
+</body>
+</html>

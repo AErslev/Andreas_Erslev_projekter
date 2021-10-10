@@ -1,0 +1,407 @@
+Simulator report for opg7
+Sun May 03 12:30:45 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 198 nodes    ;
+; Simulation Coverage         ;      78.28 % ;
+; Total Number of Transitions ; 1271         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                                                  ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                                                ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                                             ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                                                   ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                                                    ;               ;
+; Vector input source                                                                        ; C:/Users/andre/Aarhus universitet/Gustav Nørgaard Knudsen - Samarbejde/DSD 28/Journal 4/7/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                                                     ; On            ;
+; Check outputs                                                                              ; Off                                                                                                    ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                                                     ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                                                     ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                                                     ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                                                     ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                                                    ; Off           ;
+; Detect glitches                                                                            ; Off                                                                                                    ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                                                    ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                                                    ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                                                    ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                                                    ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                                                     ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                                             ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                                                    ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                                                    ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                                                   ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      78.28 % ;
+; Total nodes checked                                 ; 198          ;
+; Total output ports checked                          ; 198          ;
+; Total output ports with complete 1/0-value coverage ; 155          ;
+; Total output ports with no 1/0-value coverage       ; 43           ;
+; Total output ports with no 1-value coverage         ; 43           ;
+; Total output ports with no 0-value coverage         ; 43           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                          ;
++-----------------------------------------+-----------------------------------------+------------------+
+; Node Name                               ; Output Port Name                        ; Output Port Type ;
++-----------------------------------------+-----------------------------------------+------------------+
+; |code_lock_err|present_state.idle       ; |code_lock_err|present_state.idle       ; regout           ;
+; |code_lock_err|present_state.eva_code_1 ; |code_lock_err|present_state.eva_code_1 ; regout           ;
+; |code_lock_err|present_state.eva_code_2 ; |code_lock_err|present_state.eva_code_2 ; regout           ;
+; |code_lock_err|present_state.get_code_2 ; |code_lock_err|present_state.get_code_2 ; regout           ;
+; |code_lock_err|present_state.go_idle    ; |code_lock_err|present_state.go_idle    ; regout           ;
+; |code_lock_err|present_state.unlock     ; |code_lock_err|present_state.unlock     ; regout           ;
+; |code_lock_err|present_state.W_pin      ; |code_lock_err|present_state.W_pin      ; regout           ;
+; |code_lock_err|code_lock_next_state~0   ; |code_lock_err|code_lock_next_state~0   ; out0             ;
+; |code_lock_err|code_lock_next_state~1   ; |code_lock_err|code_lock_next_state~1   ; out0             ;
+; |code_lock_err|next_state~0             ; |code_lock_err|next_state~0             ; out              ;
+; |code_lock_err|next_state~1             ; |code_lock_err|next_state~1             ; out              ;
+; |code_lock_err|next_state~2             ; |code_lock_err|next_state~2             ; out              ;
+; |code_lock_err|next_state~3             ; |code_lock_err|next_state~3             ; out              ;
+; |code_lock_err|next_state~4             ; |code_lock_err|next_state~4             ; out              ;
+; |code_lock_err|next_state~5             ; |code_lock_err|next_state~5             ; out              ;
+; |code_lock_err|next_state~6             ; |code_lock_err|next_state~6             ; out              ;
+; |code_lock_err|next_state~7             ; |code_lock_err|next_state~7             ; out              ;
+; |code_lock_err|next_state~8             ; |code_lock_err|next_state~8             ; out              ;
+; |code_lock_err|next_state~9             ; |code_lock_err|next_state~9             ; out              ;
+; |code_lock_err|next_state~10            ; |code_lock_err|next_state~10            ; out              ;
+; |code_lock_err|next_state~11            ; |code_lock_err|next_state~11            ; out              ;
+; |code_lock_err|next_state~12            ; |code_lock_err|next_state~12            ; out              ;
+; |code_lock_err|next_state~13            ; |code_lock_err|next_state~13            ; out              ;
+; |code_lock_err|next_state~14            ; |code_lock_err|next_state~14            ; out              ;
+; |code_lock_err|next_state~15            ; |code_lock_err|next_state~15            ; out              ;
+; |code_lock_err|err_event~0              ; |code_lock_err|err_event~0              ; out              ;
+; |code_lock_err|next_state~16            ; |code_lock_err|next_state~16            ; out              ;
+; |code_lock_err|next_state~17            ; |code_lock_err|next_state~17            ; out              ;
+; |code_lock_err|next_state~18            ; |code_lock_err|next_state~18            ; out              ;
+; |code_lock_err|next_state~19            ; |code_lock_err|next_state~19            ; out              ;
+; |code_lock_err|next_state~20            ; |code_lock_err|next_state~20            ; out              ;
+; |code_lock_err|next_state~21            ; |code_lock_err|next_state~21            ; out              ;
+; |code_lock_err|next_state~22            ; |code_lock_err|next_state~22            ; out              ;
+; |code_lock_err|code_lock_next_state~2   ; |code_lock_err|code_lock_next_state~2   ; out0             ;
+; |code_lock_err|code_lock_next_state~3   ; |code_lock_err|code_lock_next_state~3   ; out0             ;
+; |code_lock_err|next_state~24            ; |code_lock_err|next_state~24            ; out              ;
+; |code_lock_err|next_state~25            ; |code_lock_err|next_state~25            ; out              ;
+; |code_lock_err|next_state~26            ; |code_lock_err|next_state~26            ; out              ;
+; |code_lock_err|next_state~27            ; |code_lock_err|next_state~27            ; out              ;
+; |code_lock_err|next_state~28            ; |code_lock_err|next_state~28            ; out              ;
+; |code_lock_err|next_state~29            ; |code_lock_err|next_state~29            ; out              ;
+; |code_lock_err|next_state~30            ; |code_lock_err|next_state~30            ; out              ;
+; |code_lock_err|next_state~31            ; |code_lock_err|next_state~31            ; out              ;
+; |code_lock_err|next_state~32            ; |code_lock_err|next_state~32            ; out              ;
+; |code_lock_err|next_state~33            ; |code_lock_err|next_state~33            ; out              ;
+; |code_lock_err|next_state~34            ; |code_lock_err|next_state~34            ; out              ;
+; |code_lock_err|next_state~35            ; |code_lock_err|next_state~35            ; out              ;
+; |code_lock_err|next_state~36            ; |code_lock_err|next_state~36            ; out              ;
+; |code_lock_err|next_state~37            ; |code_lock_err|next_state~37            ; out              ;
+; |code_lock_err|next_state~38            ; |code_lock_err|next_state~38            ; out              ;
+; |code_lock_err|next_state~39            ; |code_lock_err|next_state~39            ; out              ;
+; |code_lock_err|err_event~1              ; |code_lock_err|err_event~1              ; out              ;
+; |code_lock_err|next_state~40            ; |code_lock_err|next_state~40            ; out              ;
+; |code_lock_err|next_state~41            ; |code_lock_err|next_state~41            ; out              ;
+; |code_lock_err|next_state~42            ; |code_lock_err|next_state~42            ; out              ;
+; |code_lock_err|next_state~43            ; |code_lock_err|next_state~43            ; out              ;
+; |code_lock_err|next_state~44            ; |code_lock_err|next_state~44            ; out              ;
+; |code_lock_err|next_state~45            ; |code_lock_err|next_state~45            ; out              ;
+; |code_lock_err|next_state~46            ; |code_lock_err|next_state~46            ; out              ;
+; |code_lock_err|next_state~47            ; |code_lock_err|next_state~47            ; out              ;
+; |code_lock_err|code_lock_next_state~4   ; |code_lock_err|code_lock_next_state~4   ; out0             ;
+; |code_lock_err|next_state~48            ; |code_lock_err|next_state~48            ; out              ;
+; |code_lock_err|next_state~49            ; |code_lock_err|next_state~49            ; out              ;
+; |code_lock_err|next_state~50            ; |code_lock_err|next_state~50            ; out              ;
+; |code_lock_err|next_state~51            ; |code_lock_err|next_state~51            ; out              ;
+; |code_lock_err|next_state~52            ; |code_lock_err|next_state~52            ; out              ;
+; |code_lock_err|next_state~53            ; |code_lock_err|next_state~53            ; out              ;
+; |code_lock_err|next_state~54            ; |code_lock_err|next_state~54            ; out              ;
+; |code_lock_err|next_state~55            ; |code_lock_err|next_state~55            ; out              ;
+; |code_lock_err|next_state~56            ; |code_lock_err|next_state~56            ; out              ;
+; |code_lock_err|next_state~57            ; |code_lock_err|next_state~57            ; out              ;
+; |code_lock_err|present_state.P_lock     ; |code_lock_err|present_state.P_lock     ; regout           ;
+; |code_lock_err|wc_present.Err_0         ; |code_lock_err|wc_present.Err_0         ; regout           ;
+; |code_lock_err|wc_present.Err_1         ; |code_lock_err|wc_present.Err_1         ; regout           ;
+; |code_lock_err|wc_present.Err_2         ; |code_lock_err|wc_present.Err_2         ; regout           ;
+; |code_lock_err|wc_next~0                ; |code_lock_err|wc_next~0                ; out              ;
+; |code_lock_err|wc_next~1                ; |code_lock_err|wc_next~1                ; out              ;
+; |code_lock_err|wc_next~2                ; |code_lock_err|wc_next~2                ; out              ;
+; |code_lock_err|wc_next~3                ; |code_lock_err|wc_next~3                ; out              ;
+; |code_lock_err|wc_next~4                ; |code_lock_err|wc_next~4                ; out              ;
+; |code_lock_err|wc_next~5                ; |code_lock_err|wc_next~5                ; out              ;
+; |code_lock_err|wc_next~6                ; |code_lock_err|wc_next~6                ; out              ;
+; |code_lock_err|wc_present.Err_3         ; |code_lock_err|wc_present.Err_3         ; regout           ;
+; |code_lock_err|clk                      ; |code_lock_err|clk                      ; out              ;
+; |code_lock_err|reset                    ; |code_lock_err|reset                    ; out              ;
+; |code_lock_err|enter                    ; |code_lock_err|enter                    ; out              ;
+; |code_lock_err|pin[0]                   ; |code_lock_err|pin[0]                   ; out              ;
+; |code_lock_err|pin[1]                   ; |code_lock_err|pin[1]                   ; out              ;
+; |code_lock_err|pin[2]                   ; |code_lock_err|pin[2]                   ; out              ;
+; |code_lock_err|pin[3]                   ; |code_lock_err|pin[3]                   ; out              ;
+; |code_lock_err|lock                     ; |code_lock_err|lock                     ; pin_out          ;
+; |code_lock_err|wc_present~0             ; |code_lock_err|wc_present~0             ; out0             ;
+; |code_lock_err|wc_present~1             ; |code_lock_err|wc_present~1             ; out0             ;
+; |code_lock_err|present_state~0          ; |code_lock_err|present_state~0          ; out0             ;
+; |code_lock_err|present_state~1          ; |code_lock_err|present_state~1          ; out0             ;
+; |code_lock_err|wc_present.Err_0~0       ; |code_lock_err|wc_present.Err_0~0       ; out0             ;
+; |code_lock_err|wc_next~8                ; |code_lock_err|wc_next~8                ; out0             ;
+; |code_lock_err|wc_next~10               ; |code_lock_err|wc_next~10               ; out0             ;
+; |code_lock_err|wc_next~12               ; |code_lock_err|wc_next~12               ; out0             ;
+; |code_lock_err|failed                   ; |code_lock_err|failed                   ; out0             ;
+; |code_lock_err|wc_present~5             ; |code_lock_err|wc_present~5             ; out0             ;
+; |code_lock_err|wc_present~9             ; |code_lock_err|wc_present~9             ; out0             ;
+; |code_lock_err|next_state~59            ; |code_lock_err|next_state~59            ; out0             ;
+; |code_lock_err|next_state~61            ; |code_lock_err|next_state~61            ; out0             ;
+; |code_lock_err|next_state~63            ; |code_lock_err|next_state~63            ; out0             ;
+; |code_lock_err|next_state~65            ; |code_lock_err|next_state~65            ; out0             ;
+; |code_lock_err|next_state~67            ; |code_lock_err|next_state~67            ; out0             ;
+; |code_lock_err|lock~0                   ; |code_lock_err|lock~0                   ; out0             ;
+; |code_lock_err|next_state~69            ; |code_lock_err|next_state~69            ; out0             ;
+; |code_lock_err|next_state~71            ; |code_lock_err|next_state~71            ; out0             ;
+; |code_lock_err|present_state~5          ; |code_lock_err|present_state~5          ; out0             ;
+; |code_lock_err|present_state~9          ; |code_lock_err|present_state~9          ; out0             ;
+; |code_lock_err|Selector0~0              ; |code_lock_err|Selector0~0              ; out0             ;
+; |code_lock_err|Selector0~2              ; |code_lock_err|Selector0~2              ; out0             ;
+; |code_lock_err|Selector1~0              ; |code_lock_err|Selector1~0              ; out0             ;
+; |code_lock_err|Selector1~4              ; |code_lock_err|Selector1~4              ; out0             ;
+; |code_lock_err|Selector1~7              ; |code_lock_err|Selector1~7              ; out0             ;
+; |code_lock_err|Selector1~8              ; |code_lock_err|Selector1~8              ; out0             ;
+; |code_lock_err|Selector2~0              ; |code_lock_err|Selector2~0              ; out0             ;
+; |code_lock_err|Selector2~3              ; |code_lock_err|Selector2~3              ; out0             ;
+; |code_lock_err|Selector2~7              ; |code_lock_err|Selector2~7              ; out0             ;
+; |code_lock_err|Selector2~8              ; |code_lock_err|Selector2~8              ; out0             ;
+; |code_lock_err|Selector3~0              ; |code_lock_err|Selector3~0              ; out0             ;
+; |code_lock_err|Selector3~5              ; |code_lock_err|Selector3~5              ; out0             ;
+; |code_lock_err|Selector3~6              ; |code_lock_err|Selector3~6              ; out0             ;
+; |code_lock_err|Selector4~0              ; |code_lock_err|Selector4~0              ; out0             ;
+; |code_lock_err|Selector4~5              ; |code_lock_err|Selector4~5              ; out0             ;
+; |code_lock_err|Selector4~6              ; |code_lock_err|Selector4~6              ; out0             ;
+; |code_lock_err|Selector4~7              ; |code_lock_err|Selector4~7              ; out0             ;
+; |code_lock_err|Selector5~0              ; |code_lock_err|Selector5~0              ; out0             ;
+; |code_lock_err|Selector5~1              ; |code_lock_err|Selector5~1              ; out0             ;
+; |code_lock_err|Selector5~3              ; |code_lock_err|Selector5~3              ; out0             ;
+; |code_lock_err|Selector5~4              ; |code_lock_err|Selector5~4              ; out0             ;
+; |code_lock_err|Selector6~0              ; |code_lock_err|Selector6~0              ; out0             ;
+; |code_lock_err|Selector6~1              ; |code_lock_err|Selector6~1              ; out0             ;
+; |code_lock_err|Selector6~4              ; |code_lock_err|Selector6~4              ; out0             ;
+; |code_lock_err|Selector6~5              ; |code_lock_err|Selector6~5              ; out0             ;
+; |code_lock_err|Selector7~0              ; |code_lock_err|Selector7~0              ; out0             ;
+; |code_lock_err|Selector7~3              ; |code_lock_err|Selector7~3              ; out0             ;
+; |code_lock_err|Selector7~4              ; |code_lock_err|Selector7~4              ; out0             ;
+; |code_lock_err|Selector7~7              ; |code_lock_err|Selector7~7              ; out0             ;
+; |code_lock_err|Selector8~0              ; |code_lock_err|Selector8~0              ; out0             ;
+; |code_lock_err|Selector8~2              ; |code_lock_err|Selector8~2              ; out0             ;
+; |code_lock_err|Selector9~0              ; |code_lock_err|Selector9~0              ; out              ;
+; |code_lock_err|Selector10~0             ; |code_lock_err|Selector10~0             ; out0             ;
+; |code_lock_err|Selector10~3             ; |code_lock_err|Selector10~3             ; out0             ;
+; |code_lock_err|Selector10~4             ; |code_lock_err|Selector10~4             ; out0             ;
+; |code_lock_err|Selector11~0             ; |code_lock_err|Selector11~0             ; out0             ;
+; |code_lock_err|Selector11~2             ; |code_lock_err|Selector11~2             ; out0             ;
+; |code_lock_err|Selector11~3             ; |code_lock_err|Selector11~3             ; out0             ;
+; |code_lock_err|Selector12~0             ; |code_lock_err|Selector12~0             ; out0             ;
+; |code_lock_err|Selector12~1             ; |code_lock_err|Selector12~1             ; out0             ;
+; |code_lock_err|Selector12~3             ; |code_lock_err|Selector12~3             ; out0             ;
+; |code_lock_err|Equal0~0                 ; |code_lock_err|Equal0~0                 ; out0             ;
+; |code_lock_err|Equal1~0                 ; |code_lock_err|Equal1~0                 ; out0             ;
++-----------------------------------------+-----------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |code_lock_err|next_state~23 ; |code_lock_err|next_state~23 ; out              ;
+; |code_lock_err|Selector0~1   ; |code_lock_err|Selector0~1   ; out0             ;
+; |code_lock_err|Selector1~1   ; |code_lock_err|Selector1~1   ; out0             ;
+; |code_lock_err|Selector1~2   ; |code_lock_err|Selector1~2   ; out0             ;
+; |code_lock_err|Selector1~3   ; |code_lock_err|Selector1~3   ; out0             ;
+; |code_lock_err|Selector1~5   ; |code_lock_err|Selector1~5   ; out0             ;
+; |code_lock_err|Selector1~6   ; |code_lock_err|Selector1~6   ; out0             ;
+; |code_lock_err|Selector2~1   ; |code_lock_err|Selector2~1   ; out0             ;
+; |code_lock_err|Selector2~2   ; |code_lock_err|Selector2~2   ; out0             ;
+; |code_lock_err|Selector2~4   ; |code_lock_err|Selector2~4   ; out0             ;
+; |code_lock_err|Selector2~5   ; |code_lock_err|Selector2~5   ; out0             ;
+; |code_lock_err|Selector2~6   ; |code_lock_err|Selector2~6   ; out0             ;
+; |code_lock_err|Selector3~1   ; |code_lock_err|Selector3~1   ; out0             ;
+; |code_lock_err|Selector3~2   ; |code_lock_err|Selector3~2   ; out0             ;
+; |code_lock_err|Selector3~3   ; |code_lock_err|Selector3~3   ; out0             ;
+; |code_lock_err|Selector3~4   ; |code_lock_err|Selector3~4   ; out0             ;
+; |code_lock_err|Selector3~7   ; |code_lock_err|Selector3~7   ; out0             ;
+; |code_lock_err|Selector4~1   ; |code_lock_err|Selector4~1   ; out0             ;
+; |code_lock_err|Selector4~2   ; |code_lock_err|Selector4~2   ; out0             ;
+; |code_lock_err|Selector4~3   ; |code_lock_err|Selector4~3   ; out0             ;
+; |code_lock_err|Selector4~4   ; |code_lock_err|Selector4~4   ; out0             ;
+; |code_lock_err|Selector5~2   ; |code_lock_err|Selector5~2   ; out0             ;
+; |code_lock_err|Selector5~5   ; |code_lock_err|Selector5~5   ; out0             ;
+; |code_lock_err|Selector5~6   ; |code_lock_err|Selector5~6   ; out0             ;
+; |code_lock_err|Selector5~7   ; |code_lock_err|Selector5~7   ; out0             ;
+; |code_lock_err|Selector6~2   ; |code_lock_err|Selector6~2   ; out0             ;
+; |code_lock_err|Selector6~3   ; |code_lock_err|Selector6~3   ; out0             ;
+; |code_lock_err|Selector6~6   ; |code_lock_err|Selector6~6   ; out0             ;
+; |code_lock_err|Selector6~7   ; |code_lock_err|Selector6~7   ; out0             ;
+; |code_lock_err|Selector7~1   ; |code_lock_err|Selector7~1   ; out0             ;
+; |code_lock_err|Selector7~2   ; |code_lock_err|Selector7~2   ; out0             ;
+; |code_lock_err|Selector7~5   ; |code_lock_err|Selector7~5   ; out0             ;
+; |code_lock_err|Selector7~6   ; |code_lock_err|Selector7~6   ; out0             ;
+; |code_lock_err|Selector8~1   ; |code_lock_err|Selector8~1   ; out0             ;
+; |code_lock_err|Selector8~3   ; |code_lock_err|Selector8~3   ; out0             ;
+; |code_lock_err|Selector8~4   ; |code_lock_err|Selector8~4   ; out0             ;
+; |code_lock_err|Selector8~5   ; |code_lock_err|Selector8~5   ; out0             ;
+; |code_lock_err|Selector8~6   ; |code_lock_err|Selector8~6   ; out0             ;
+; |code_lock_err|Selector10~1  ; |code_lock_err|Selector10~1  ; out0             ;
+; |code_lock_err|Selector10~2  ; |code_lock_err|Selector10~2  ; out0             ;
+; |code_lock_err|Selector11~1  ; |code_lock_err|Selector11~1  ; out0             ;
+; |code_lock_err|Selector11~4  ; |code_lock_err|Selector11~4  ; out0             ;
+; |code_lock_err|Selector12~2  ; |code_lock_err|Selector12~2  ; out0             ;
++------------------------------+------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |code_lock_err|next_state~23 ; |code_lock_err|next_state~23 ; out              ;
+; |code_lock_err|Selector0~1   ; |code_lock_err|Selector0~1   ; out0             ;
+; |code_lock_err|Selector1~1   ; |code_lock_err|Selector1~1   ; out0             ;
+; |code_lock_err|Selector1~2   ; |code_lock_err|Selector1~2   ; out0             ;
+; |code_lock_err|Selector1~3   ; |code_lock_err|Selector1~3   ; out0             ;
+; |code_lock_err|Selector1~5   ; |code_lock_err|Selector1~5   ; out0             ;
+; |code_lock_err|Selector1~6   ; |code_lock_err|Selector1~6   ; out0             ;
+; |code_lock_err|Selector2~1   ; |code_lock_err|Selector2~1   ; out0             ;
+; |code_lock_err|Selector2~2   ; |code_lock_err|Selector2~2   ; out0             ;
+; |code_lock_err|Selector2~4   ; |code_lock_err|Selector2~4   ; out0             ;
+; |code_lock_err|Selector2~5   ; |code_lock_err|Selector2~5   ; out0             ;
+; |code_lock_err|Selector2~6   ; |code_lock_err|Selector2~6   ; out0             ;
+; |code_lock_err|Selector3~1   ; |code_lock_err|Selector3~1   ; out0             ;
+; |code_lock_err|Selector3~2   ; |code_lock_err|Selector3~2   ; out0             ;
+; |code_lock_err|Selector3~3   ; |code_lock_err|Selector3~3   ; out0             ;
+; |code_lock_err|Selector3~4   ; |code_lock_err|Selector3~4   ; out0             ;
+; |code_lock_err|Selector3~7   ; |code_lock_err|Selector3~7   ; out0             ;
+; |code_lock_err|Selector4~1   ; |code_lock_err|Selector4~1   ; out0             ;
+; |code_lock_err|Selector4~2   ; |code_lock_err|Selector4~2   ; out0             ;
+; |code_lock_err|Selector4~3   ; |code_lock_err|Selector4~3   ; out0             ;
+; |code_lock_err|Selector4~4   ; |code_lock_err|Selector4~4   ; out0             ;
+; |code_lock_err|Selector5~2   ; |code_lock_err|Selector5~2   ; out0             ;
+; |code_lock_err|Selector5~5   ; |code_lock_err|Selector5~5   ; out0             ;
+; |code_lock_err|Selector5~6   ; |code_lock_err|Selector5~6   ; out0             ;
+; |code_lock_err|Selector5~7   ; |code_lock_err|Selector5~7   ; out0             ;
+; |code_lock_err|Selector6~2   ; |code_lock_err|Selector6~2   ; out0             ;
+; |code_lock_err|Selector6~3   ; |code_lock_err|Selector6~3   ; out0             ;
+; |code_lock_err|Selector6~6   ; |code_lock_err|Selector6~6   ; out0             ;
+; |code_lock_err|Selector6~7   ; |code_lock_err|Selector6~7   ; out0             ;
+; |code_lock_err|Selector7~1   ; |code_lock_err|Selector7~1   ; out0             ;
+; |code_lock_err|Selector7~2   ; |code_lock_err|Selector7~2   ; out0             ;
+; |code_lock_err|Selector7~5   ; |code_lock_err|Selector7~5   ; out0             ;
+; |code_lock_err|Selector7~6   ; |code_lock_err|Selector7~6   ; out0             ;
+; |code_lock_err|Selector8~1   ; |code_lock_err|Selector8~1   ; out0             ;
+; |code_lock_err|Selector8~3   ; |code_lock_err|Selector8~3   ; out0             ;
+; |code_lock_err|Selector8~4   ; |code_lock_err|Selector8~4   ; out0             ;
+; |code_lock_err|Selector8~5   ; |code_lock_err|Selector8~5   ; out0             ;
+; |code_lock_err|Selector8~6   ; |code_lock_err|Selector8~6   ; out0             ;
+; |code_lock_err|Selector10~1  ; |code_lock_err|Selector10~1  ; out0             ;
+; |code_lock_err|Selector10~2  ; |code_lock_err|Selector10~2  ; out0             ;
+; |code_lock_err|Selector11~1  ; |code_lock_err|Selector11~1  ; out0             ;
+; |code_lock_err|Selector11~4  ; |code_lock_err|Selector11~4  ; out0             ;
+; |code_lock_err|Selector12~2  ; |code_lock_err|Selector12~2  ; out0             ;
++------------------------------+------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun May 03 12:30:44 2020
+Info: Command: quartus_sim --simulation_results_format=VWF opg7 -c opg7
+Info (324025): Using vector source file "C:/Users/andre/Aarhus universitet/Gustav Nørgaard Knudsen - Samarbejde/DSD 28/Journal 4/7/Waveform.vwf"
+Warning (328016): Wrong node type and/or width for node "|code_lock_err|wc_present" in vector source file. Node in design is of type Enum and of width 1, but node in vector source file is of type 9-Level and of width 1.
+Warning (328018): Signal name "|code_lock_err|wc_present" changed to enum type
+Warning (328016): Wrong node type and/or width for node "|code_lock_err|present_state" in vector source file. Node in design is of type Enum and of width 1, but node in vector source file is of type 9-Level and of width 1.
+Warning (328018): Signal name "|code_lock_err|present_state" changed to enum type
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      78.28 %
+Info (328052): Number of transitions in simulation is 1271
+Info (324045): Vector file opg7.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4449 megabytes
+    Info: Processing ended: Sun May 03 12:30:45 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

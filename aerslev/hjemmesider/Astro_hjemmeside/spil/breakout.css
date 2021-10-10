@@ -1,0 +1,10 @@
+ .body {
+   background-image: url('https://wallpapersite.com/images/wallpapers/sun-1920x1200-hd-4k-11296.jpg');
+   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+canvas { background: #eee; }
