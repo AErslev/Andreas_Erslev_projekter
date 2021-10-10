@@ -1,6 +1,0 @@
-
-State Machine - |mee_moo_tester|mee_moo:u1|present_state
-Name present_state.active1 present_state.init present_state.idle 
-present_state.idle 0 0 0 
-present_state.init 0 1 1 
-present_state.active1 1 0 1 
