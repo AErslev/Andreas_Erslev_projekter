@@ -1,0 +1,6 @@
+Map Name: mg_office_coursee_2011
+Player slots: 64, CT only
+Map Author: cP
+HDR-Lightning: No, but vertixal multi-lightning system added
+Map Secrets: 4
+Frames Per Second: 230

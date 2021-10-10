@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"Not Allowed"
+	{
+		"en"			"Scoping is not allowed!"
+		"de"			"Verwenden des Zielfernrohrs ist nicht erlaubt!"
+	}
+	"Noscope enabled"
+	{
+		"en"			"AWP No Scoping is ENABLED!"
+	}
+
+	"Noscope disabled"
+	{
+		"en"			"AWP No Scoping is DISABLED!"
+	}
+}

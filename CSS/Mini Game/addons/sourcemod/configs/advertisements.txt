@@ -1,0 +1,50 @@
+﻿// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN} Kunne du godt tænke dig din egen server? Tjek VectureHosting.com ud!"
+	}
+	"2"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN} Hos vecturehosting kan du få Minecraft, Counter-stirke og G-mod servere!"
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN} Live support det meste af dagen! Både på TS3 og på chat!"
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN}For at læse reglerne på serveren skriv {RED}!motd{CYAN} i chat."
+	}
+	"5"
+	{
+		"type"		"S"
+		"text"		"{GREEN}[VectureHosting.com]{CYAN}Vil du gerne have{RED} Admin / VIP? {CYAN}Tjek vores hjemmeside {RED}gaming.vecturehosting.com{CYAN} ud nu!"
+	}
+}
