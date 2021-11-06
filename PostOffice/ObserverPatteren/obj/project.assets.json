@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Skrivebord\\Mega\\Skole\\SemsterFire\\SWD\\PostOffice\\ObserverPatteren\\ObserverPatteren.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\Chromaviso\\PostOffice\\ObserverPatteren\\ObserverPatteren.csproj",
       "projectName": "ObserverPatteren",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Skrivebord\\Mega\\Skole\\SemsterFire\\SWD\\PostOffice\\ObserverPatteren\\ObserverPatteren.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\Chromaviso\\PostOffice\\ObserverPatteren\\ObserverPatteren.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Skrivebord\\Mega\\Skole\\SemsterFire\\SWD\\PostOffice\\ObserverPatteren\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\Chromaviso\\PostOffice\\ObserverPatteren\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
